@@ -56,7 +56,7 @@ mpiexec -n 10 dispel4py mpi dispel4py.examples.graph_testing.pipeline_test -i 20
 --allow-run-as-root --oversubscribe
 
 ```
-5. It seems that astropy and python 3.10 has a problem with `astropy.io.votable import parse_single_table` and the `Logger`. See bellow: 
+5. It seems that astropy 6.0.0 and python 3.10 has a problem with `astropy.io.votable import parse_single_table` and the `Logger`. See bellow: 
 
 ```
   File "<frozen importlib._bootstrap_external>", line 883, in exec_module
@@ -69,6 +69,8 @@ mpiexec -n 10 dispel4py mpi dispel4py.examples.graph_testing.pipeline_test -i 20
     log._set_defaults()
 AttributeError: 'Logger' object has no attribute '_set_defaults'
 ```
+
+Fix:  Comment Line 113 of `XXXX/python3.10/site-packages/astropy/logger.py` --> `#log._set_defaults`. This should solve the issue
 
 ## Running with a Script
 
