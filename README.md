@@ -6,7 +6,7 @@ This repository has a collection of different dispel4py workflows - tested with 
 
 You need to have previously installed our latest [dispel4py](https://github.com/StreamingFlow/d4py/tree/main) (Python 3.10+).
 
-Follow the instruction detailed [here](https://github.com/StreamingFlow/d4py/tree/main) to install dispel4py - either with a Conda enviroment or with Docker container .
+Follow the instruction detailed [here](https://github.com/StreamingFlow/d4py/tree/main#installation) to install dispel4py - either with a Conda enviroment or with [Docker container](https://github.com/StreamingFlow/d4py/tree/main#docker).
 
 ## Known Issues
 
