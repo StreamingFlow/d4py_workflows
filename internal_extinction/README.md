@@ -21,6 +21,17 @@ $ pip install ujson
 $ pip install coloredlogs
 ``` 
 
+## Using Docker Container
+
+Alternative you can follow [this instructions](https://github.com/StreamingFlow/d4py/tree/main#docker) to build a docker image and run dispel4py and this workflow within a docker container.
+
+Once you are inside the docker container, you will have to clone this repository, and enter to the d4py_workflows directory. See bellow:
+```
+https://github.com/StreamingFlow/d4py_workflows.git
+cd d4py_workflows
+```
+
+
 ## Known Issues
 
 It seems that astropy 6.0.0 and python 3.10 has a problem with `astropy.io.votable import parse_single_table` and the `Logger`. See bellow: 
