@@ -44,7 +44,7 @@ conda install -c conda-forge mpi4py mpich
 pip install mpi4py
 ```
 
-3. For the mpi mapping, we need to indicate **twice** the number of processes, using twice the -n flag -- one at te beginning and one at the end --:
+3. For the mpi mapping, we need to indicate **twice** the number of processes, using twice the -n flag (one at te beginning and one at the end ):
 
 ```
 mpiexec -n 10 dispel4py mpi dispel4py.examples.graph_testing.pipeline_test -i 20 -n 10
@@ -55,6 +55,7 @@ mpiexec -n 10 dispel4py mpi dispel4py.examples.graph_testing.pipeline_test -i 20
 ```
 --allow-run-as-root --oversubscribe
 ```
+
 5. It seems that astropy 6.0.0 and python 3.10 has a problem with `astropy.io.votable import parse_single_table` and the `Logger`. See bellow: 
 
 ```
