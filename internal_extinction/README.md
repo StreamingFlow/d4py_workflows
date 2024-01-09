@@ -23,40 +23,7 @@ $ pip install coloredlogs
 
 ## Known Issues
 
-
-1. Multiprocessing mappings (multi, dyn_multi, dyn_auto_multi) do not seem to work properly in MacOS (M1 chip).See bellow:
-
-
-```
-File "/Users/...../anaconda3/envs/py310/lib/python3.10/multiprocessing/spawn.py", line 126, in _main
-    self = reduction.pickle.load(from_parent)
-AttributeError: 'TestProducer' object has no attribute 'simple_logger'
-```
-
-In order to fix that, we recommend to use our [Docker image](https://github.com/StreamingFlow/d4py/tree/main) to create a container.
-
-2. You might have to use the following command to install mpi in your MacOS laptop:
-```
-conda install -c conda-forge mpi4py mpich
-```
-   In Linux enviroments to install mpi you can use:
-```
-pip install mpi4py
-```
-
-3. For the mpi mapping, we need to indicate **twice** the number of processes, using twice the -n flag (one at te beginning and one at the end ):
-
-```
-mpiexec -n 10 dispel4py mpi dispel4py.examples.graph_testing.pipeline_test -i 20 -n 10
-```
-
-4. In some enviroments, you might need these flags for the mpi mapping:
-
-```
---allow-run-as-root --oversubscribe
-```
-
-5. It seems that astropy 6.0.0 and python 3.10 has a problem with `astropy.io.votable import parse_single_table` and the `Logger`. See bellow: 
+It seems that astropy 6.0.0 and python 3.10 has a problem with `astropy.io.votable import parse_single_table` and the `Logger`. See bellow: 
 
 ```
   File "<frozen importlib._bootstrap_external>", line 883, in exec_module
