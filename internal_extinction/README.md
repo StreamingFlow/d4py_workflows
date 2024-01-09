@@ -27,7 +27,7 @@ Alternative you can follow [this instructions](https://github.com/StreamingFlow/
 
 Once you are inside the docker container, you will have to clone this repository, and enter to the d4py_workflows directory. See bellow:
 ```
-https://github.com/StreamingFlow/d4py_workflows.git
+git clone https://github.com/StreamingFlow/d4py_workflows.git
 cd d4py_workflows
 ```
 Using our Docker  image, we can ensure that all the mappings described [bellow](https://github.com/StreamingFlow/d4py_workflows/tree/main/internal_extinction#run-the-workflow-with-different-mappings) work for this workflow.
