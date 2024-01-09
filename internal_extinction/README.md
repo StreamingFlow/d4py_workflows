@@ -54,7 +54,6 @@ mpiexec -n 10 dispel4py mpi dispel4py.examples.graph_testing.pipeline_test -i 20
 
 ```
 --allow-run-as-root --oversubscribe
-
 ```
 5. It seems that astropy 6.0.0 and python 3.10 has a problem with `astropy.io.votable import parse_single_table` and the `Logger`. See bellow: 
 
@@ -134,7 +133,7 @@ python -m dispel4py.new.processor dyn_multi int_ext_graph.py -d '{"read" : [ {"i
 OR
 ```shell
 dispel4py dyn_multi int_ext_graph.py -d '{"read" : [ {"input" : "coordinates.txt"} ]}' -n 10
-
+```
 
 #### Dynamic Multi Autoscaling mapping 
 ```shell
@@ -146,6 +145,8 @@ dispel4py dyn_auto_multi int_ext_graph.py -d '{"read" : [ {"input" : "coordinate
 ```
 
 ### Redis mappings
+
+Remember, you need to have installed both, redis server and redis client. 
 
 #### Dynamic Redis mapping
 
