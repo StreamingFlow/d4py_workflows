@@ -9,7 +9,7 @@
 Activate the conda python 3.10+ enviroment. If you had not created one, follow the [README instructions](https://github.com/StreamingFlow/d4py/tree/main).
 
 ```
-conda activate py310
+conda activate d4py_env
 ```
 
 To run the this workflow, first you need to install:
