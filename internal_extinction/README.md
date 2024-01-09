@@ -24,7 +24,7 @@ $ pip install coloredlogs
 ## Known Issues
 
 
-1. Multiprocessing (multi) does not seem to work properly in MacOS (M1 chip).See bellow:
+1. Multiprocessing mappings (multi, dyn_multi, dyn_auto_multi) do not seem to work properly in MacOS (M1 chip).See bellow:
 
 
 ```
@@ -70,7 +70,7 @@ mpiexec -n 10 dispel4py mpi dispel4py.examples.graph_testing.pipeline_test -i 20
 AttributeError: 'Logger' object has no attribute '_set_defaults'
 ```
 
-Fix:  Comment Line 113 of `XXXX/python3.10/site-packages/astropy/logger.py` --> `#log._set_defaults`. This should solve the issue
+Fix:  Comment Line 113 of `XXXX/python3.10/site-packages/astropy/logger.py` --> `#log._set_defaults`. This should solve the issue.
 
 ## Running with a Script
 
@@ -92,18 +92,28 @@ dispel4py simple int_ext_graph.py -d '{"read" : [ {"input" : "coordinates.txt"} 
 The ‘coordinates.txt’ file is the workflow's input data with the coordinates of the galaxies.
 
 
-### Fixed MPI mapping
+### (Fixed) MPI mapping
 ```shell
 mpiexec -n 10 dispel4py mpi int_ext_graph.py -d '{"read" : [ {"input" : "coordinates.txt"} ]}' -n 10
 ```
+OR
+
+```shell
+mpiexec -n 10 --allow-run-as-root --oversubscribe dispel4py mpi int_ext_graph.py -d '{"read" : [ {"input" : "coordinates.txt"} ]}' -n 10
+```
+OR
 
 ```shell
 mpiexec -n 10 python -m dispel4py.new.processor dispel4py.new.mpi_process int_ext_graph.py -d '{"read" : [ {"input" : "coordinates.txt"} ]}' -n 10
 ```
+ Flag '-n' specify the number of processes. In the case of MPI mapping we need to indicate twice this '-n' flag.
 
-### Multi mappings
+### Multi mappings 
 
-#### Fixed Multi mapping
+Remember, these mapping (multi, dyn_multi, dyn_auto_multi) do not seem to work properly in MacOS (M1 chip). We recommend in this case to use our [Docker image](https://github.com/StreamingFlow/d4py/tree/main) to create a container.
+
+
+#### (Fixed) Multi mapping
 
 ```shell
 python -m dispel4py.new.processor multi int_ext_graph.py -d '{"read" : [ {"input" : "coordinates.txt"} ]}' -n 10
@@ -115,7 +125,7 @@ OR
 dispel4py multi int_ext_graph.py -d '{"read" : [ {"input" : "coordinates.txt"} ]}' -n 10
 ```
 
- Parameter '-n' specify the number of processes.
+ Flag '-n' specify the number of processes.
 
 #### Dynamic Multi mapping 
 ```shell
