@@ -42,22 +42,6 @@ mpiexec -n 10 dispel4py mpi dispel4py.examples.graph_testing.pipeline_test -i 20
 --allow-run-as-root --oversubscribe
 ```
 
-5. It seems that astropy 6.0.0 and python 3.10 has a problem with `astropy.io.votable import parse_single_table` and the `Logger`. See bellow: 
-
-```
-  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
-  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
-  File "/home/user/d4py_workflows/internal_extinction/int_ext_graph.py", line 38, in <module>
-    from astropy.io.votable import parse_single_table
-  File "/home/user/venv/lib/python3.10/site-packages/astropy/__init__.py", line 174, in <module>
-    log = _init_log()
-  File "/home/user/venv/lib/python3.10/site-packages/astropy/logger.py", line 113, in _init_log
-    log._set_defaults()
-AttributeError: 'Logger' object has no attribute '_set_defaults'
-```
-
-Fix:  Comment Line 113 of `XXXX/python3.10/site-packages/astropy/logger.py` --> `#log._set_defaults`. This should solve the issue.
-
 ## Worflow Collection
 
 ### Astrophysics: Internal Extinction of Galaxies*
