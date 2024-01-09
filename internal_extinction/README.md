@@ -50,9 +50,6 @@ AttributeError: 'Logger' object has no attribute '_set_defaults'
 
 Fix:  Comment Line 113 of `XXXX/python3.10/site-packages/astropy/logger.py` --> `#log._set_defaults`. This should solve the issue.
 
-## Running with a Script
-
-Check [run_int.sh](./run_int.sh); [run_init_moni.sh](./run_init_moni.sh); and [run_int_skew.sh](./run_int_skew.sh)
 
 ## Run the workflow with different mappings
 
@@ -184,3 +181,7 @@ OR
 ```shell
 dispel4py hybrid_redis int_ext_graph.py -d '{"read" : [ {"input" : "coordinates.txt"} ]}' -n 10
 ```
+
+## Running with a Script
+
+Check [run_int.sh](./run_int.sh); [run_init_moni.sh](./run_init_moni.sh); and [run_int_skew.sh](./run_int_skew.sh)
