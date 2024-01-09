@@ -1,0 +1,721 @@
+multi : running with 4 processors
+RUN ARGS: 
+Namespace(attr=None, data='{"read" : [ {"input" : "cp_coordinates_100.txt"} ]}', file=None, iter=1, module='int_ext_graph.py', num=4, provenance=None, simple=False, target='multi')
+==========
+Processes: {'read4': range(0, 1), 'GetVOTable5': range(1, 2), 'FilterColumns6': range(2, 3), 'InternalExtinction7': range(3, 4)}
+read4 (rank 0): Processed 1 iteration.
+GetVOTable5 (rank 1): Processed 100 iterations.
+FilterColumns6 (rank 2): Processed 100 iterations.
+WARNING: W06: None:39:4: W06: Invalid UCD 'POS_EQ_RA_MAIN': Unknown word 'POS_EQ_RA_MAIN' [astropy.io.votable.tree]
+WARNING: W06: None:42:4: W06: Invalid UCD 'POS_EQ_DEC_MAIN': Unknown word 'POS_EQ_DEC_MAIN' [astropy.io.votable.tree]
+WARNING: W06: None:48:4: W06: Invalid UCD 'ID_MAIN': Unknown word 'ID_MAIN' [astropy.io.votable.tree]
+WARNING: W50: None:63:4: W50: Invalid unit string 'log(0.1arcmin)' [astropy.io.votable.tree]
+WARNING: W06: None:39:4: W06: Invalid UCD 'POS_EQ_RA_MAIN': Unknown word 'POS_EQ_RA_MAIN' [astropy.io.votable.tree]
+InternalExtinction7 (rank 3): Processed 100 iterations.
+NEW ELAPSED TIME: 40.22608
+NEW ELAPSED TOTAL CPU TIME: 120.61182
+---------------------------------
+multi : running with 8 processors
+RUN ARGS: 
+Namespace(attr=None, data='{"read" : [ {"input" : "cp_coordinates_100.txt"} ]}', file=None, iter=1, module='int_ext_graph.py', num=8, provenance=None, simple=False, target='multi')
+==========
+Processes: {'read4': range(0, 1), 'GetVOTable5': range(1, 3), 'FilterColumns6': range(3, 5), 'InternalExtinction7': range(5, 7)}
+read4 (rank 0): Processed 1 iteration.
+GetVOTable5 (rank 1): Processed 50 iterations.
+GetVOTable5 (rank 2): Processed 50 iterations.
+FilterColumns6 (rank 4): Processed 50 iterations.
+WARNING: W06: None:39:4: W06: Invalid UCD 'POS_EQ_RA_MAIN': Unknown word 'POS_EQ_RA_MAIN' [astropy.io.votable.tree]
+WARNING: W06: None:42:4: W06: Invalid UCD 'POS_EQ_DEC_MAIN': Unknown word 'POS_EQ_DEC_MAIN' [astropy.io.votable.tree]
+WARNING: W06: None:48:4: W06: Invalid UCD 'ID_MAIN': Unknown word 'ID_MAIN' [astropy.io.votable.tree]
+WARNING: W50: None:63:4: W50: Invalid unit string 'log(0.1arcmin)' [astropy.io.votable.tree]
+WARNING: W06: None:39:4: W06: Invalid UCD 'POS_EQ_RA_MAIN': Unknown word 'POS_EQ_RA_MAIN' [astropy.io.votable.tree]
+InternalExtinction7 (rank 6): Processed 50 iterations.
+FilterColumns6 (rank 3): Processed 50 iterations.
+InternalExtinction7 (rank 5): Processed 50 iterations.
+WARNING: W06: None:39:4: W06: Invalid UCD 'POS_EQ_RA_MAIN': Unknown word 'POS_EQ_RA_MAIN' [astropy.io.votable.tree]
+WARNING: W06: None:42:4: W06: Invalid UCD 'POS_EQ_DEC_MAIN': Unknown word 'POS_EQ_DEC_MAIN' [astropy.io.votable.tree]
+WARNING: W06: None:48:4: W06: Invalid UCD 'ID_MAIN': Unknown word 'ID_MAIN' [astropy.io.votable.tree]
+WARNING: W50: None:63:4: W50: Invalid unit string 'log(0.1arcmin)' [astropy.io.votable.tree]
+WARNING: W06: None:39:4: W06: Invalid UCD 'POS_EQ_RA_MAIN': Unknown word 'POS_EQ_RA_MAIN' [astropy.io.votable.tree]
+NEW ELAPSED TIME: 13.48586
+NEW ELAPSED TOTAL CPU TIME: 80.44158
+---------------------------------
+multi : running with 12 processors
+RUN ARGS: 
+Namespace(attr=None, data='{"read" : [ {"input" : "cp_coordinates_100.txt"} ]}', file=None, iter=1, module='int_ext_graph.py', num=12, provenance=None, simple=False, target='multi')
+==========
+Processes: {'read4': range(0, 1), 'GetVOTable5': range(1, 4), 'FilterColumns6': range(4, 7), 'InternalExtinction7': range(7, 10)}
+read4 (rank 0): Processed 1 iteration.
+GetVOTable5 (rank 2): Processed 33 iterations.
+GetVOTable5 (rank 3): Processed 33 iterations.
+GetVOTable5 (rank 1): Processed 34 iterations.
+FilterColumns6 (rank 6): Processed 33 iterations.
+WARNING: W06: None:39:4: W06: Invalid UCD 'POS_EQ_RA_MAIN': Unknown word 'POS_EQ_RA_MAIN' [astropy.io.votable.tree]
+WARNING: W06: None:42:4: W06: Invalid UCD 'POS_EQ_DEC_MAIN': Unknown word 'POS_EQ_DEC_MAIN' [astropy.io.votable.tree]
+WARNING: W06: None:48:4: W06: Invalid UCD 'ID_MAIN': Unknown word 'ID_MAIN' [astropy.io.votable.tree]
+WARNING: W50: None:63:4: W50: Invalid unit string 'log(0.1arcmin)' [astropy.io.votable.tree]
+WARNING: W06: None:39:4: W06: Invalid UCD 'POS_EQ_RA_MAIN': Unknown word 'POS_EQ_RA_MAIN' [astropy.io.votable.tree]
+FilterColumns6 (rank 5): Processed 33 iterations.
+WARNING: W06: None:39:4: W06: Invalid UCD 'POS_EQ_RA_MAIN': Unknown word 'POS_EQ_RA_MAIN' [astropy.io.votable.tree]
+WARNING: W06: None:42:4: W06: Invalid UCD 'POS_EQ_DEC_MAIN': Unknown word 'POS_EQ_DEC_MAIN' [astropy.io.votable.tree]
+WARNING: W06: None:48:4: W06: Invalid UCD 'ID_MAIN': Unknown word 'ID_MAIN' [astropy.io.votable.tree]
+WARNING: W50: None:63:4: W50: Invalid unit string 'log(0.1arcmin)' [astropy.io.votable.tree]
+WARNING: W06: None:39:4: W06: Invalid UCD 'POS_EQ_RA_MAIN': Unknown word 'POS_EQ_RA_MAIN' [astropy.io.votable.tree]
+FilterColumns6 (rank 4): Processed 34 iterations.
+WARNING: W06: None:39:4: W06: Invalid UCD 'POS_EQ_RA_MAIN': Unknown word 'POS_EQ_RA_MAIN' [astropy.io.votable.tree]
+WARNING: W06: None:42:4: W06: Invalid UCD 'POS_EQ_DEC_MAIN': Unknown word 'POS_EQ_DEC_MAIN' [astropy.io.votable.tree]
+WARNING: W06: None:48:4: W06: Invalid UCD 'ID_MAIN': Unknown word 'ID_MAIN' [astropy.io.votable.tree]
+WARNING: W50: None:63:4: W50: Invalid unit string 'log(0.1arcmin)' [astropy.io.votable.tree]
+WARNING: W06: None:39:4: W06: Invalid UCD 'POS_EQ_RA_MAIN': Unknown word 'POS_EQ_RA_MAIN' [astropy.io.votable.tree]
+InternalExtinction7 (rank 8): Processed 33 iterations.
+InternalExtinction7 (rank 7): Processed 34 iterations.
+InternalExtinction7 (rank 9): Processed 33 iterations.
+NEW ELAPSED TIME: 8.99490
+NEW ELAPSED TOTAL CPU TIME: 80.17255
+---------------------------------
+multi : running with 16 processors
+RUN ARGS: 
+Namespace(attr=None, data='{"read" : [ {"input" : "cp_coordinates_100.txt"} ]}', file=None, iter=1, module='int_ext_graph.py', num=16, provenance=None, simple=False, target='multi')
+==========
+Processes: {'read4': range(0, 1), 'GetVOTable5': range(1, 6), 'FilterColumns6': range(6, 11), 'InternalExtinction7': range(11, 16)}
+read4 (rank 0): Processed 1 iteration.
+GetVOTable5 (rank 3): Processed 20 iterations.
+GetVOTable5 (rank 2): Processed 20 iterations.
+GetVOTable5 (rank 5): Processed 20 iterations.
+GetVOTable5 (rank 1): Processed 20 iterations.
+GetVOTable5 (rank 4): Processed 20 iterations.
+FilterColumns6 (rank 6): Processed 20 iterations.
+FilterColumns6 (rank 7): Processed 20 iterations.
+WARNING: W06: None:39:4: W06: Invalid UCD 'POS_EQ_RA_MAIN': Unknown word 'POS_EQ_RA_MAIN' [astropy.io.votable.tree]
+WARNING: W06: None:42:4: W06: Invalid UCD 'POS_EQ_DEC_MAIN': Unknown word 'POS_EQ_DEC_MAIN' [astropy.io.votable.tree]
+WARNING: W06: None:48:4: W06: Invalid UCD 'ID_MAIN': Unknown word 'ID_MAIN' [astropy.io.votable.tree]
+WARNING: W50: None:63:4: W50: Invalid unit string 'log(0.1arcmin)' [astropy.io.votable.tree]
+WARNING: W06: None:39:4: W06: Invalid UCD 'POS_EQ_RA_MAIN': Unknown word 'POS_EQ_RA_MAIN' [astropy.io.votable.tree]
+FilterColumns6 (rank 10): Processed 20 iterations.
+WARNING: W06: None:39:4: W06: Invalid UCD 'POS_EQ_RA_MAIN': Unknown word 'POS_EQ_RA_MAIN' [astropy.io.votable.tree]
+WARNING: W06: None:42:4: W06: Invalid UCD 'POS_EQ_DEC_MAIN': Unknown word 'POS_EQ_DEC_MAIN' [astropy.io.votable.tree]
+WARNING: W06: None:48:4: W06: Invalid UCD 'ID_MAIN': Unknown word 'ID_MAIN' [astropy.io.votable.tree]
+WARNING: W50: None:63:4: W50: Invalid unit string 'log(0.1arcmin)' [astropy.io.votable.tree]
+WARNING: W06: None:39:4: W06: Invalid UCD 'POS_EQ_RA_MAIN': Unknown word 'POS_EQ_RA_MAIN' [astropy.io.votable.tree]
+WARNING: W06: None:39:4: W06: Invalid UCD 'POS_EQ_RA_MAIN': Unknown word 'POS_EQ_RA_MAIN' [astropy.io.votable.tree]
+WARNING: W06: None:42:4: W06: Invalid UCD 'POS_EQ_DEC_MAIN': Unknown word 'POS_EQ_DEC_MAIN' [astropy.io.votable.tree]
+WARNING: W06: None:48:4: W06: Invalid UCD 'ID_MAIN': Unknown word 'ID_MAIN' [astropy.io.votable.tree]
+WARNING: W50: None:63:4: W50: Invalid unit string 'log(0.1arcmin)' [astropy.io.votable.tree]
+WARNING: W06: None:39:4: W06: Invalid UCD 'POS_EQ_RA_MAIN': Unknown word 'POS_EQ_RA_MAIN' [astropy.io.votable.tree]
+FilterColumns6 (rank 9): Processed 20 iterations.
+WARNING: W06: None:39:4: W06: Invalid UCD 'POS_EQ_RA_MAIN': Unknown word 'POS_EQ_RA_MAIN' [astropy.io.votable.tree]
+WARNING: W06: None:42:4: W06: Invalid UCD 'POS_EQ_DEC_MAIN': Unknown word 'POS_EQ_DEC_MAIN' [astropy.io.votable.tree]
+WARNING: W06: None:48:4: W06: Invalid UCD 'ID_MAIN': Unknown word 'ID_MAIN' [astropy.io.votable.tree]
+WARNING: W50: None:63:4: W50: Invalid unit string 'log(0.1arcmin)' [astropy.io.votable.tree]
+WARNING: W06: None:39:4: W06: Invalid UCD 'POS_EQ_RA_MAIN': Unknown word 'POS_EQ_RA_MAIN' [astropy.io.votable.tree]
+InternalExtinction7 (rank 14): Processed 20 iterations.
+InternalExtinction7 (rank 13): Processed 20 iterations.
+InternalExtinction7 (rank 11): Processed 20 iterations.
+InternalExtinction7 (rank 15): Processed 20 iterations.
+InternalExtinction7 (rank 12): Processed 20 iterations.
+FilterColumns6 (rank 8): Processed 20 iterations.
+WARNING: W06: None:39:4: W06: Invalid UCD 'POS_EQ_RA_MAIN': Unknown word 'POS_EQ_RA_MAIN' [astropy.io.votable.tree]
+WARNING: W06: None:42:4: W06: Invalid UCD 'POS_EQ_DEC_MAIN': Unknown word 'POS_EQ_DEC_MAIN' [astropy.io.votable.tree]
+WARNING: W06: None:48:4: W06: Invalid UCD 'ID_MAIN': Unknown word 'ID_MAIN' [astropy.io.votable.tree]
+WARNING: W50: None:63:4: W50: Invalid unit string 'log(0.1arcmin)' [astropy.io.votable.tree]
+WARNING: W06: None:39:4: W06: Invalid UCD 'POS_EQ_RA_MAIN': Unknown word 'POS_EQ_RA_MAIN' [astropy.io.votable.tree]
+NEW ELAPSED TIME: 5.15387
+NEW ELAPSED TOTAL CPU TIME: 76.16959
+---------------------------------
+dyn_multi : running with 4 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data='{"read" : [ {"input" : "cp_coordinates_100.txt"} ]}', file=None, iter=1, module='int_ext_graph.py', num=4, provenance=None, target='dyn_multi')
+==========
+Starting 3 workers communicating
+NEW ELAPSED TIME: 10.95213
+NEW ELAPSED TOTAL CPU TIME: 32.76025
+---------------------------------
+dyn_multi : running with 8 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data='{"read" : [ {"input" : "cp_coordinates_100.txt"} ]}', file=None, iter=1, module='int_ext_graph.py', num=8, provenance=None, target='dyn_multi')
+==========
+Starting 7 workers communicating
+NEW ELAPSED TIME: 6.35416
+NEW ELAPSED TOTAL CPU TIME: 43.74621
+---------------------------------
+dyn_multi : running with 12 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data='{"read" : [ {"input" : "cp_coordinates_100.txt"} ]}', file=None, iter=1, module='int_ext_graph.py', num=12, provenance=None, target='dyn_multi')
+==========
+Starting 11 workers communicating
+NEW ELAPSED TIME: 4.86691
+NEW ELAPSED TOTAL CPU TIME: 51.92929
+---------------------------------
+dyn_multi : running with 16 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data='{"read" : [ {"input" : "cp_coordinates_100.txt"} ]}', file=None, iter=1, module='int_ext_graph.py', num=16, provenance=None, target='dyn_multi')
+==========
+Starting 15 workers communicating
+NEW ELAPSED TIME: 4.50643
+NEW ELAPSED TOTAL CPU TIME: 65.56951
+---------------------------------
+dyn_auto_multi : running with 4 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data='{"read" : [ {"input" : "cp_coordinates_100.txt"} ]}', file=None, iter=1, module='int_ext_graph.py', num=4, provenance=None, queue_threshold=10, target='dyn_auto_multi')
+==========
+NEW ELAPSED TIME: 9.50412
+NEW ELAPSED TOTAL CPU TIME: 24.76993
+---------------------------------
+dyn_auto_multi : running with 8 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data='{"read" : [ {"input" : "cp_coordinates_100.txt"} ]}', file=None, iter=1, module='int_ext_graph.py', num=8, provenance=None, queue_threshold=10, target='dyn_auto_multi')
+==========
+NEW ELAPSED TIME: 6.97246
+NEW ELAPSED TOTAL CPU TIME: 27.74632
+---------------------------------
+dyn_auto_multi : running with 12 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data='{"read" : [ {"input" : "cp_coordinates_100.txt"} ]}', file=None, iter=1, module='int_ext_graph.py', num=12, provenance=None, queue_threshold=10, target='dyn_auto_multi')
+==========
+NEW ELAPSED TIME: 6.20368
+NEW ELAPSED TOTAL CPU TIME: 32.21103
+---------------------------------
+dyn_auto_multi : running with 16 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data='{"read" : [ {"input" : "cp_coordinates_100.txt"} ]}', file=None, iter=1, module='int_ext_graph.py', num=16, provenance=None, queue_threshold=10, target='dyn_auto_multi')
+==========
+NEW ELAPSED TIME: 4.53469
+NEW ELAPSED TOTAL CPU TIME: 30.40731
+---------------------------------
+dyn_redis : running with 4 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data='{"read" : [ {"input" : "cp_coordinates_100.txt"} ]}', file=None, iter=1, module='int_ext_graph.py', num=4, provenance=None, target='dyn_redis')
+==========
+Starting 3 workers communicating
+NEW ELAPSED TIME: 11.10371
+NEW ELAPSED TOTAL CPU TIME: 33.20289
+---------------------------------
+dyn_redis : running with 8 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data='{"read" : [ {"input" : "cp_coordinates_100.txt"} ]}', file=None, iter=1, module='int_ext_graph.py', num=8, provenance=None, target='dyn_redis')
+==========
+Starting 7 workers communicating
+NEW ELAPSED TIME: 7.18924
+NEW ELAPSED TOTAL CPU TIME: 49.54209
+---------------------------------
+dyn_redis : running with 12 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data='{"read" : [ {"input" : "cp_coordinates_100.txt"} ]}', file=None, iter=1, module='int_ext_graph.py', num=12, provenance=None, target='dyn_redis')
+==========
+Starting 11 workers communicating
+NEW ELAPSED TIME: 5.93299
+NEW ELAPSED TOTAL CPU TIME: 63.84679
+---------------------------------
+dyn_redis : running with 16 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data='{"read" : [ {"input" : "cp_coordinates_100.txt"} ]}', file=None, iter=1, module='int_ext_graph.py', num=16, provenance=None, target='dyn_redis')
+==========
+Starting 15 workers communicating
+NEW ELAPSED TIME: 5.65277
+NEW ELAPSED TOTAL CPU TIME: 81.91697
+---------------------------------
+dyn_auto_redis : running with 4 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data='{"read" : [ {"input" : "cp_coordinates_100.txt"} ]}', file=None, idle_time=1000, iter=1, module='int_ext_graph.py', num=4, provenance=None, target='dyn_auto_redis')
+==========
+NEW ELAPSED TIME: 10.78931
+NEW ELAPSED TOTAL CPU TIME: 27.69059
+---------------------------------
+dyn_auto_redis : running with 8 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data='{"read" : [ {"input" : "cp_coordinates_100.txt"} ]}', file=None, idle_time=1000, iter=1, module='int_ext_graph.py', num=8, provenance=None, target='dyn_auto_redis')
+==========
+NEW ELAPSED TIME: 7.51791
+NEW ELAPSED TOTAL CPU TIME: 45.80893
+---------------------------------
+dyn_auto_redis : running with 12 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data='{"read" : [ {"input" : "cp_coordinates_100.txt"} ]}', file=None, idle_time=1000, iter=1, module='int_ext_graph.py', num=12, provenance=None, target='dyn_auto_redis')
+==========
+NEW ELAPSED TIME: 6.04109
+NEW ELAPSED TOTAL CPU TIME: 55.86265
+---------------------------------
+dyn_auto_redis : running with 16 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data='{"read" : [ {"input" : "cp_coordinates_100.txt"} ]}', file=None, idle_time=1000, iter=1, module='int_ext_graph.py', num=16, provenance=None, target='dyn_auto_redis')
+==========
+NEW ELAPSED TIME: 5.60936
+NEW ELAPSED TOTAL CPU TIME: 69.78186
+---------------------------------
+hybrid_redis : running with 4 processors
+RUN ARGS: 
+Namespace(attr=None, data='{"read" : [ {"input" : "cp_coordinates_100.txt"} ]}', file=None, iter=1, module='int_ext_graph.py', num=4, provenance=None, redis_ip='localhost', redis_port=6379, target='hybrid_redis')
+==========
+Starting 4 workers communicating
+process:0 for instance:None redis connection created.
+Output collected from InternalExtinction7: [9, '3.15941', '5.5053', 'Sbc', 0.4300000071525574, 4.0, 0.67182693439576] in process 0
+Output collected from InternalExtinction7: [14, '4.72170', '10.5941', 'E-SO', 0.10999999940395355, -10.0, -0.0] in process 0
+Output collected from InternalExtinction7: [16, '5.39700', '1.1655', 'Sbc', 0.3100000023841858, 4.0, 0.49292975344222084] in process 0
+Output collected from InternalExtinction7: [19, '6.06754', '14.2368', 'SO-a', 0.8700000047683716, -10.0, -0.0] in process 0
+Output collected from InternalExtinction7: [21, '6.39800', '17.3937', 'Sbc', 0.23999999463558197, 4.0, 0.3852259863845283] in process 0
+Output collected from InternalExtinction7: [23, '7.43341', '21.4762', 'Sbc', 0.5600000023841858, 4.0, 0.85652557579807] in process 0
+Output collected from InternalExtinction7: [26, '7.97020', '37.6786', 'SBc', 0.10000000149011612, 6.0, 0.17775648310424885] in process 0
+Output collected from InternalExtinction7: [29, '8.70445', '28.4105', 'SBc', 0.699999988079071, 6.0, 1.197131036828203] in process 0
+Output collected from InternalExtinction7: [39, '13.67845', '21.5228', 'Sbc', 0.4000000059604645, 4.0, 0.6278206361705575] in process 0
+Output collected from InternalExtinction7: [42, '16.07829', '18.6962', '', 0.6100000143051147, -10.0, -0.0] in process 0
+Output collected from InternalExtinction7: [48, '19.21566', '23.1528', 'Sbc', 0.2199999988079071, 4.0, 0.3540339014900796] in process 0
+Output collected from InternalExtinction7: [52, '22.52170', '29.7760', 'E', 0.20000000298023224, -5.0, -0.0] in process 0
+Output collected from InternalExtinction7: [54, '23.39254', '12.5855', 'Irr', 0.11999999731779099, -10.0, -0.0] in process 0
+Output collected from InternalExtinction7: [61, '25.61354', '26.1429', 'SO', 0.07000000029802322, -10.0, -0.0] in process 0
+Output collected from InternalExtinction7: [66, '29.75133', '86.6738', 'Sbc', 0.10000000149011612, 4.0, 0.16326809298949874] in process 0
+Output collected from InternalExtinction7: [12, '3.99000', '14.0752', 'Sbc', 0.5299999713897705, 4.0, 0.8148019597382885] in process 0
+Output collected from InternalExtinction7: [75, '29.28037', '11.5292', 'Sbc', 0.20999999344348907, 4.0, 0.3383705231997727] in process 0
+Output collected from InternalExtinction7: [78, '29.53529', '2.0643', 'Sc', 0.5699999928474426, 6.0, 0.9851861702884421] in process 0
+Output collected from InternalExtinction7: [81, '30.03729', '12.6561', 'Sbc', 0.6000000238418579, 4.0, 0.9112764745215657] in process 0
+Output collected from InternalExtinction7: [86, '31.36116', '31.1753', 'SBb', 0.14000000059604645, 3.0, 0.20760922400347018] in process 0
+Output collected from InternalExtinction7: [92, '32.47779', '29.5117', 'SO', 0.15000000596046448, -10.0, -0.0] in process 0
+Output collected from InternalExtinction7: [93, '32.86375', '11.8359', 'E-SO', 0.10999999940395355, -10.0, -0.0] in process 0
+Output collected from InternalExtinction7: [100, '36.12170', '1.8410', 'Sc', 0.05000000074505806, 6.0, 0.08907644284589472] in process 0
+TERMINATED: stateless process:0 ends now
+process:2 for instance:None redis connection created.
+Output collected from InternalExtinction7: [3, '0.84108', '30.7821', 'Sc', 0.2199999988079071, 6.0, 0.3887767670410619] in process 2
+Output collected from InternalExtinction7: [1, '0.77345', '-1.9143', 'SBbc', 0.3499999940395355, 4.0, 0.5533987734977625] in process 2
+Output collected from InternalExtinction7: [18, '5.97291', '28.3333', 'Sb', 0.23999999463558197, 3.0, 0.3491253151284701] in process 2
+Output collected from InternalExtinction7: [22, '6.89745', '8.8773', 'Sbc', 0.4099999964237213, 4.0, 0.6425443634519403] in process 2
+Output collected from InternalExtinction7: [25, '7.74200', '10.2083', 'SO', 0.0, -10.0, -0.0] in process 2
+Output collected from InternalExtinction7: [28, '8.53200', '44.1452', 'Scd', 0.07999999821186066, 7.0, 0.14514115615356118] in process 2
+Output collected from InternalExtinction7: [31, '9.68041', '41.9972', 'SBd', 0.3199999928474426, 8.0, 0.5847686044476902] in process 2
+Output collected from InternalExtinction7: [35, '12.77541', '44.7162', 'Sbc', 0.1899999976158142, 4.0, 0.30691171713680027] in process 2
+Output collected from InternalExtinction7: [2, '0.83487', '29.7972', 'SBc', 0.15000000596046448, 6.0, 0.26600839090866996] in process 2
+Output collected from InternalExtinction7: [41, '14.59733', '36.7306', 'SBc', 0.15000000596046448, 6.0, 0.26600839090866996] in process 2
+Output collected from InternalExtinction7: [45, '16.84337', '16.6845', 'Sm', 0.14000000059604645, 9.0, 0.2588838422139228] in process 2
+Output collected from InternalExtinction7: [49, '19.53712', '11.3817', 'SBc', 0.18000000715255737, 6.0, 0.3187400118424081] in process 2
+Output collected from InternalExtinction7: [6, '2.22791', '23.8174', 'Sb', 0.36000001430511475, 3.0, 0.5106596040582758] in process 2
+Output collected from InternalExtinction7: [55, '23.79362', '21.9017', 'Sbc', 0.10000000149011612, 4.0, 0.16326809298949874] in process 2
+Output collected from InternalExtinction7: [59, '24.58750', '7.5341', 'Sc', 0.10000000149011612, 6.0, 0.17775648310424885] in process 2
+Output collected from InternalExtinction7: [64, '26.70625', '24.4652', 'Sbc', 0.46000000834465027, 4.0, 0.7153303992316394] in process 2
+Output collected from InternalExtinction7: [68, '28.30500', '4.1955', 'SBa', 0.05000000074505806, 1.0, 0.04812524009809457] in process 2
+Output collected from InternalExtinction7: [71, '28.81554', '10.0140', 'Sc', 0.8199999928474426, 6.0, 1.3868317066011417] in process 2
+Output collected from InternalExtinction7: [76, '29.36170', '17.2207', '', 0.1599999964237213, -10.0, -0.0] in process 2
+Output collected from InternalExtinction7: [85, '30.83441', '22.0414', 'Irr', 0.019999999552965164, -10.0, -0.0] in process 2
+Output collected from InternalExtinction7: [90, '32.23733', '26.0355', 'Sc', 0.23999999463558197, 6.0, 0.42367319109190177] in process 2
+Output collected from InternalExtinction7: [95, '33.83587', '22.0064', 'Sc', 0.9700000286102295, 6.0, 1.6145713393253787] in process 2
+Output collected from InternalExtinction7: [99, '35.60204', '5.8463', 'E', 0.2800000011920929, -5.0, -0.0] in process 2
+TERMINATED: stateless process:2 ends now
+process:1 for instance:None redis connection created.
+Output collected from InternalExtinction7: [4, '0.99487', '20.7524', 'Sbc', 0.6100000143051147, 4.0, 0.9248035473382993] in process 1
+Output collected from InternalExtinction7: [5, '1.97625', '20.4123', 'SO-a', 0.3700000047683716, -10.0, -0.0] in process 1
+Output collected from InternalExtinction7: [7, '2.77662', '2.6780', 'Sbc', 0.17000000178813934, 4.0, 0.2752802198603724] in process 1
+Output collected from InternalExtinction7: [8, '3.03766', '12.0455', 'Sc', 0.46000000834465027, 6.0, 0.8013611173505675] in process 1
+Output collected from InternalExtinction7: [10, '3.25308', '39.2458', 'SBc', 0.30000001192092896, 6.0, 0.5278447600556332] in process 1
+Output collected from InternalExtinction7: [36, '12.86150', '40.7256', 'Sb', 0.10000000149011612, 3.0, 0.149371739984602] in process 1
+Output collected from InternalExtinction7: [40, '13.70575', '10.5376', 'SO', 0.5699999928474426, -10.0, -0.0] in process 1
+Output collected from InternalExtinction7: [44, '16.64833', '10.5216', 'Sbc', 0.20000000298023224, 4.0, 0.32266297310396386] in process 1
+Output collected from InternalExtinction7: [46, '17.55179', '22.9555', 'E', 0.30000001192092896, -5.0, -0.0] in process 1
+Output collected from InternalExtinction7: [50, '21.59791', '6.2780', 'SBm', 0.10000000149011612, 9.0, 0.1850045650471881] in process 1
+Output collected from InternalExtinction7: [56, '24.00054', '0.6635', 'SBb', 0.18000000715255737, 3.0, 0.26493168206480683] in process 1
+Output collected from InternalExtinction7: [58, '24.63029', '28.7230', 'Sc', 0.7400000095367432, 6.0, 1.261042828528713] in process 1
+Output collected from InternalExtinction7: [63, '26.17258', '4.8905', 'Sbc', 0.5600000023841858, 4.0, 0.85652557579807] in process 1
+Output collected from InternalExtinction7: [67, '28.30912', '22.7213', 'Sc', 0.1599999964237213, 6.0, 0.28360443243894906] in process 1
+Output collected from InternalExtinction7: [70, '28.71937', '28.5432', '', 0.20999999344348907, -10.0, -0.0] in process 1
+Output collected from InternalExtinction7: [74, '29.33020', '28.5899', 'E-SO', 0.10999999940395355, -10.0, -0.0] in process 1
+Output collected from InternalExtinction7: [77, '29.40079', '16.7727', 'Sc', 0.17000000178813934, 6.0, 0.30118174337598125] in process 1
+Output collected from InternalExtinction7: [82, '30.13670', '32.4680', 'Sc', 0.20000000298023224, 6.0, 0.35379823431492485] in process 1
+Output collected from InternalExtinction7: [87, '31.40554', '6.7721', 'Sbc', 0.46000000834465027, 4.0, 0.7153303992316394] in process 1
+Output collected from InternalExtinction7: [91, '32.30912', '25.5706', 'S?', 0.23999999463558197, -10.0, -0.0] in process 1
+Output collected from InternalExtinction7: [98, '35.38491', '31.0430', 'SBm', 0.23999999463558197, 9.0, 0.4432317110101339] in process 1
+TERMINATED: stateless process:1 ends now
+process:3 for instance:None redis connection created.
+Output collected from InternalExtinction7: [13, '4.06195', '10.3320', 'SO', 0.18000000715255737, -10.0, -0.0] in process 3
+Output collected from InternalExtinction7: [15, '5.27725', '26.5133', 'Sbc', 0.4399999976158142, 4.0, 0.6863846603760695] in process 3
+Output collected from InternalExtinction7: [17, '5.83791', '1.8465', 'Sbc', 0.12999999523162842, 4.0, 0.21151528722315363] in process 3
+Output collected from InternalExtinction7: [20, '6.24525', '43.6625', 'E', 0.029999999329447746, -5.0, -0.0] in process 3
+Output collected from InternalExtinction7: [24, '7.72816', '5.6216', 'E', 0.2800000011920929, -5.0, -0.0] in process 3
+Output collected from InternalExtinction7: [30, '9.41616', '10.3581', 'Sc', 0.07999999821186066, 6.0, 0.14233401338171267] in process 3
+Output collected from InternalExtinction7: [32, '10.74145', '27.2533', 'E-SO', 0.11999999731779099, -10.0, -0.0] in process 3
+Output collected from InternalExtinction7: [34, '11.70950', '26.4748', 'Irr', 0.4399999976158142, -10.0, -0.0] in process 3
+Output collected from InternalExtinction7: [37, '13.52087', '30.3455', 'Sbc', 0.4099999964237213, 4.0, 0.6425443634519403] in process 3
+Output collected from InternalExtinction7: [43, '16.48295', '4.0905', 'E-SO', 0.09000000357627869, -10.0, -0.0] in process 3
+Output collected from InternalExtinction7: [47, '19.05270', '25.1916', '', 0.20999999344348907, -10.0, -0.0] in process 3
+Output collected from InternalExtinction7: [51, '21.99337', '32.9911', 'Sbc', 0.3700000047683716, 4.0, 0.5833260054914123] in process 3
+Output collected from InternalExtinction7: [53, '22.69391', '21.4400', 'SBc', 0.05999999865889549, 6.0, 0.10684514409224342] in process 3
+Output collected from InternalExtinction7: [57, '24.45104', '2.2909', 'E-SO', 0.07999999821186066, -10.0, -0.0] in process 3
+Output collected from InternalExtinction7: [62, '26.14787', '37.6961', 'Sbc', 0.17000000178813934, 4.0, 0.2752802198603724] in process 3
+Output collected from InternalExtinction7: [65, '26.72195', '33.3899', 'Sbc', 0.10000000149011612, 4.0, 0.16326809298949874] in process 3
+Output collected from InternalExtinction7: [69, '28.42595', '29.9337', 'SBbc', 0.029999999329447746, 4.0, 0.04935876414082858] in process 3
+Output collected from InternalExtinction7: [73, '28.92229', '23.0725', 'Sbc', 0.09000000357627869, 4.0, 0.14710763759401096] in process 3
+Output collected from InternalExtinction7: [79, '29.57958', '20.9621', 'E', 0.03999999910593033, -5.0, -0.0] in process 3
+Output collected from InternalExtinction7: [84, '30.62925', '11.0932', 'Sc', 0.10999999940395355, 6.0, 0.19544216382099072] in process 3
+Output collected from InternalExtinction7: [88, '31.61400', '27.0330', 'Sc', 0.3400000035762787, 6.0, 0.5968347899763652] in process 3
+Output collected from InternalExtinction7: [94, '33.39137', '25.8549', 'Sc', 0.41999998688697815, 6.0, 0.7336165559781104] in process 3
+Output collected from InternalExtinction7: [97, '35.27670', '23.6007', 'Sb', 0.03999999910593033, 3.0, 0.06037487141301266] in process 3
+TERMINATED: stateless process:3 ends now
+NEW ELAPSED TIME: 16.16228
+NEW ELAPSED TOTAL CPU TIME: 64.33266
+Begin to clean redis stream keys...
+---------------------------------
+hybrid_redis : running with 8 processors
+RUN ARGS: 
+Namespace(attr=None, data='{"read" : [ {"input" : "cp_coordinates_100.txt"} ]}', file=None, iter=1, module='int_ext_graph.py', num=8, provenance=None, redis_ip='localhost', redis_port=6379, target='hybrid_redis')
+==========
+Starting 8 workers communicating
+process:3 for instance:None redis connection created.
+TERMINATED: stateless process:3 ends now
+process:4 for instance:None redis connection created.
+Output collected from InternalExtinction7: [1, '0.77345', '-1.9143', 'SBbc', 0.3499999940395355, 4.0, 0.5533987734977625] in process 4
+Output collected from InternalExtinction7: [22, '6.89745', '8.8773', 'Sbc', 0.4099999964237213, 4.0, 0.6425443634519403] in process 4
+Output collected from InternalExtinction7: [30, '9.41616', '10.3581', 'Sc', 0.07999999821186066, 6.0, 0.14233401338171267] in process 4
+Output collected from InternalExtinction7: [34, '11.70950', '26.4748', 'Irr', 0.4399999976158142, -10.0, -0.0] in process 4
+Output collected from InternalExtinction7: [39, '13.67845', '21.5228', 'Sbc', 0.4000000059604645, 4.0, 0.6278206361705575] in process 4
+Output collected from InternalExtinction7: [41, '14.59733', '36.7306', 'SBc', 0.15000000596046448, 6.0, 0.26600839090866996] in process 4
+Output collected from InternalExtinction7: [45, '16.84337', '16.6845', 'Sm', 0.14000000059604645, 9.0, 0.2588838422139228] in process 4
+Output collected from InternalExtinction7: [50, '21.59791', '6.2780', 'SBm', 0.10000000149011612, 9.0, 0.1850045650471881] in process 4
+Output collected from InternalExtinction7: [53, '22.69391', '21.4400', 'SBc', 0.05999999865889549, 6.0, 0.10684514409224342] in process 4
+Output collected from InternalExtinction7: [58, '24.63029', '28.7230', 'Sc', 0.7400000095367432, 6.0, 1.261042828528713] in process 4
+Output collected from InternalExtinction7: [66, '29.75133', '86.6738', 'Sbc', 0.10000000149011612, 4.0, 0.16326809298949874] in process 4
+Output collected from InternalExtinction7: [65, '26.72195', '33.3899', 'Sbc', 0.10000000149011612, 4.0, 0.16326809298949874] in process 4
+Output collected from InternalExtinction7: [68, '28.30500', '4.1955', 'SBa', 0.05000000074505806, 1.0, 0.04812524009809457] in process 4
+Output collected from InternalExtinction7: [71, '28.81554', '10.0140', 'Sc', 0.8199999928474426, 6.0, 1.3868317066011417] in process 4
+Output collected from InternalExtinction7: [73, '28.92229', '23.0725', 'Sbc', 0.09000000357627869, 4.0, 0.14710763759401096] in process 4
+Output collected from InternalExtinction7: [77, '29.40079', '16.7727', 'Sc', 0.17000000178813934, 6.0, 0.30118174337598125] in process 4
+Output collected from InternalExtinction7: [81, '30.03729', '12.6561', 'Sbc', 0.6000000238418579, 4.0, 0.9112764745215657] in process 4
+Output collected from InternalExtinction7: [92, '32.47779', '29.5117', 'SO', 0.15000000596046448, -10.0, -0.0] in process 4
+Output collected from InternalExtinction7: [91, '32.30912', '25.5706', 'S?', 0.23999999463558197, -10.0, -0.0] in process 4
+Output collected from InternalExtinction7: [97, '35.27670', '23.6007', 'Sb', 0.03999999910593033, 3.0, 0.06037487141301266] in process 4
+Output collected from InternalExtinction7: [100, '36.12170', '1.8410', 'Sc', 0.05000000074505806, 6.0, 0.08907644284589472] in process 4
+TERMINATED: stateless process:4 ends now
+process:1 for instance:None redis connection created.
+Output collected from InternalExtinction7: [15, '5.27725', '26.5133', 'Sbc', 0.4399999976158142, 4.0, 0.6863846603760695] in process 1
+Output collected from InternalExtinction7: [18, '5.97291', '28.3333', 'Sb', 0.23999999463558197, 3.0, 0.3491253151284701] in process 1
+Output collected from InternalExtinction7: [19, '6.06754', '14.2368', 'SO-a', 0.8700000047683716, -10.0, -0.0] in process 1
+Output collected from InternalExtinction7: [21, '6.39800', '17.3937', 'Sbc', 0.23999999463558197, 4.0, 0.3852259863845283] in process 1
+Output collected from InternalExtinction7: [26, '7.97020', '37.6786', 'SBc', 0.10000000149011612, 6.0, 0.17775648310424885] in process 1
+Output collected from InternalExtinction7: [31, '9.68041', '41.9972', 'SBd', 0.3199999928474426, 8.0, 0.5847686044476902] in process 1
+Output collected from InternalExtinction7: [35, '12.77541', '44.7162', 'Sbc', 0.1899999976158142, 4.0, 0.30691171713680027] in process 1
+Output collected from InternalExtinction7: [40, '13.70575', '10.5376', 'SO', 0.5699999928474426, -10.0, -0.0] in process 1
+Output collected from InternalExtinction7: [46, '17.55179', '22.9555', 'E', 0.30000001192092896, -5.0, -0.0] in process 1
+Output collected from InternalExtinction7: [48, '19.21566', '23.1528', 'Sbc', 0.2199999988079071, 4.0, 0.3540339014900796] in process 1
+Output collected from InternalExtinction7: [52, '22.52170', '29.7760', 'E', 0.20000000298023224, -5.0, -0.0] in process 1
+Output collected from InternalExtinction7: [55, '23.79362', '21.9017', 'Sbc', 0.10000000149011612, 4.0, 0.16326809298949874] in process 1
+TERMINATED: stateless process:1 ends now
+process:2 for instance:None redis connection created.
+TERMINATED: stateless process:2 ends now
+process:0 for instance:None redis connection created.
+Output collected from InternalExtinction7: [24, '7.72816', '5.6216', 'E', 0.2800000011920929, -5.0, -0.0] in process 0
+Output collected from InternalExtinction7: [32, '10.74145', '27.2533', 'E-SO', 0.11999999731779099, -10.0, -0.0] in process 0
+Output collected from InternalExtinction7: [5, '1.97625', '20.4123', 'SO-a', 0.3700000047683716, -10.0, -0.0] in process 0
+Output collected from InternalExtinction7: [84, '30.62925', '11.0932', 'Sc', 0.10999999940395355, 6.0, 0.19544216382099072] in process 0
+Output collected from InternalExtinction7: [86, '31.36116', '31.1753', 'SBb', 0.14000000059604645, 3.0, 0.20760922400347018] in process 0
+Output collected from InternalExtinction7: [94, '33.39137', '25.8549', 'Sc', 0.41999998688697815, 6.0, 0.7336165559781104] in process 0
+Output collected from InternalExtinction7: [99, '35.60204', '5.8463', 'E', 0.2800000011920929, -5.0, -0.0] in process 0
+Output collected from InternalExtinction7: [6, '2.22791', '23.8174', 'Sb', 0.36000001430511475, 3.0, 0.5106596040582758] in process 0
+TERMINATED: stateless process:0 ends now
+process:6 for instance:None redis connection created.
+TERMINATED: stateless process:6 ends now
+process:5 for instance:None redis connection created.
+Output collected from InternalExtinction7: [3, '0.84108', '30.7821', 'Sc', 0.2199999988079071, 6.0, 0.3887767670410619] in process 5
+Output collected from InternalExtinction7: [8, '3.03766', '12.0455', 'Sc', 0.46000000834465027, 6.0, 0.8013611173505675] in process 5
+Output collected from InternalExtinction7: [7, '2.77662', '2.6780', 'Sbc', 0.17000000178813934, 4.0, 0.2752802198603724] in process 5
+Output collected from InternalExtinction7: [9, '3.15941', '5.5053', 'Sbc', 0.4300000071525574, 4.0, 0.67182693439576] in process 5
+Output collected from InternalExtinction7: [10, '3.25308', '39.2458', 'SBc', 0.30000001192092896, 6.0, 0.5278447600556332] in process 5
+Output collected from InternalExtinction7: [13, '4.06195', '10.3320', 'SO', 0.18000000715255737, -10.0, -0.0] in process 5
+Output collected from InternalExtinction7: [14, '4.72170', '10.5941', 'E-SO', 0.10999999940395355, -10.0, -0.0] in process 5
+Output collected from InternalExtinction7: [20, '6.24525', '43.6625', 'E', 0.029999999329447746, -5.0, -0.0] in process 5
+Output collected from InternalExtinction7: [28, '8.53200', '44.1452', 'Scd', 0.07999999821186066, 7.0, 0.14514115615356118] in process 5
+Output collected from InternalExtinction7: [37, '13.52087', '30.3455', 'Sbc', 0.4099999964237213, 4.0, 0.6425443634519403] in process 5
+Output collected from InternalExtinction7: [44, '16.64833', '10.5216', 'Sbc', 0.20000000298023224, 4.0, 0.32266297310396386] in process 5
+Output collected from InternalExtinction7: [51, '21.99337', '32.9911', 'Sbc', 0.3700000047683716, 4.0, 0.5833260054914123] in process 5
+Output collected from InternalExtinction7: [56, '24.00054', '0.6635', 'SBb', 0.18000000715255737, 3.0, 0.26493168206480683] in process 5
+Output collected from InternalExtinction7: [61, '25.61354', '26.1429', 'SO', 0.07000000029802322, -10.0, -0.0] in process 5
+Output collected from InternalExtinction7: [64, '26.70625', '24.4652', 'Sbc', 0.46000000834465027, 4.0, 0.7153303992316394] in process 5
+Output collected from InternalExtinction7: [69, '28.42595', '29.9337', 'SBbc', 0.029999999329447746, 4.0, 0.04935876414082858] in process 5
+Output collected from InternalExtinction7: [74, '29.33020', '28.5899', 'E-SO', 0.10999999940395355, -10.0, -0.0] in process 5
+Output collected from InternalExtinction7: [78, '29.53529', '2.0643', 'Sc', 0.5699999928474426, 6.0, 0.9851861702884421] in process 5
+Output collected from InternalExtinction7: [85, '30.83441', '22.0414', 'Irr', 0.019999999552965164, -10.0, -0.0] in process 5
+Output collected from InternalExtinction7: [90, '32.23733', '26.0355', 'Sc', 0.23999999463558197, 6.0, 0.42367319109190177] in process 5
+Output collected from InternalExtinction7: [95, '33.83587', '22.0064', 'Sc', 0.9700000286102295, 6.0, 1.6145713393253787] in process 5
+Output collected from InternalExtinction7: [36, '12.86150', '40.7256', 'Sb', 0.10000000149011612, 3.0, 0.149371739984602] in process 5
+TERMINATED: stateless process:5 ends now
+process:7 for instance:None redis connection created.
+Output collected from InternalExtinction7: [12, '3.99000', '14.0752', 'Sbc', 0.5299999713897705, 4.0, 0.8148019597382885] in process 7
+Output collected from InternalExtinction7: [16, '5.39700', '1.1655', 'Sbc', 0.3100000023841858, 4.0, 0.49292975344222084] in process 7
+Output collected from InternalExtinction7: [17, '5.83791', '1.8465', 'Sbc', 0.12999999523162842, 4.0, 0.21151528722315363] in process 7
+Output collected from InternalExtinction7: [23, '7.43341', '21.4762', 'Sbc', 0.5600000023841858, 4.0, 0.85652557579807] in process 7
+Output collected from InternalExtinction7: [25, '7.74200', '10.2083', 'SO', 0.0, -10.0, -0.0] in process 7
+Output collected from InternalExtinction7: [29, '8.70445', '28.4105', 'SBc', 0.699999988079071, 6.0, 1.197131036828203] in process 7
+Output collected from InternalExtinction7: [42, '16.07829', '18.6962', '', 0.6100000143051147, -10.0, -0.0] in process 7
+Output collected from InternalExtinction7: [43, '16.48295', '4.0905', 'E-SO', 0.09000000357627869, -10.0, -0.0] in process 7
+Output collected from InternalExtinction7: [47, '19.05270', '25.1916', '', 0.20999999344348907, -10.0, -0.0] in process 7
+Output collected from InternalExtinction7: [49, '19.53712', '11.3817', 'SBc', 0.18000000715255737, 6.0, 0.3187400118424081] in process 7
+Output collected from InternalExtinction7: [54, '23.39254', '12.5855', 'Irr', 0.11999999731779099, -10.0, -0.0] in process 7
+Output collected from InternalExtinction7: [57, '24.45104', '2.2909', 'E-SO', 0.07999999821186066, -10.0, -0.0] in process 7
+Output collected from InternalExtinction7: [59, '24.58750', '7.5341', 'Sc', 0.10000000149011612, 6.0, 0.17775648310424885] in process 7
+Output collected from InternalExtinction7: [63, '26.17258', '4.8905', 'Sbc', 0.5600000023841858, 4.0, 0.85652557579807] in process 7
+Output collected from InternalExtinction7: [67, '28.30912', '22.7213', 'Sc', 0.1599999964237213, 6.0, 0.28360443243894906] in process 7
+Output collected from InternalExtinction7: [70, '28.71937', '28.5432', '', 0.20999999344348907, -10.0, -0.0] in process 7
+Output collected from InternalExtinction7: [75, '29.28037', '11.5292', 'Sbc', 0.20999999344348907, 4.0, 0.3383705231997727] in process 7
+Output collected from InternalExtinction7: [76, '29.36170', '17.2207', '', 0.1599999964237213, -10.0, -0.0] in process 7
+Output collected from InternalExtinction7: [2, '0.83487', '29.7972', 'SBc', 0.15000000596046448, 6.0, 0.26600839090866996] in process 7
+Output collected from InternalExtinction7: [4, '0.99487', '20.7524', 'Sbc', 0.6100000143051147, 4.0, 0.9248035473382993] in process 7
+Output collected from InternalExtinction7: [79, '29.57958', '20.9621', 'E', 0.03999999910593033, -5.0, -0.0] in process 7
+Output collected from InternalExtinction7: [82, '30.13670', '32.4680', 'Sc', 0.20000000298023224, 6.0, 0.35379823431492485] in process 7
+Output collected from InternalExtinction7: [88, '31.61400', '27.0330', 'Sc', 0.3400000035762787, 6.0, 0.5968347899763652] in process 7
+Output collected from InternalExtinction7: [93, '32.86375', '11.8359', 'E-SO', 0.10999999940395355, -10.0, -0.0] in process 7
+Output collected from InternalExtinction7: [87, '31.40554', '6.7721', 'Sbc', 0.46000000834465027, 4.0, 0.7153303992316394] in process 7
+Output collected from InternalExtinction7: [98, '35.38491', '31.0430', 'SBm', 0.23999999463558197, 9.0, 0.4432317110101339] in process 7
+Output collected from InternalExtinction7: [62, '26.14787', '37.6961', 'Sbc', 0.17000000178813934, 4.0, 0.2752802198603724] in process 7
+TERMINATED: stateless process:7 ends now
+NEW ELAPSED TIME: 13.74597
+NEW ELAPSED TOTAL CPU TIME: 109.01484
+Begin to clean redis stream keys...
+---------------------------------
+hybrid_redis : running with 12 processors
+RUN ARGS: 
+Namespace(attr=None, data='{"read" : [ {"input" : "cp_coordinates_100.txt"} ]}', file=None, iter=1, module='int_ext_graph.py', num=12, provenance=None, redis_ip='localhost', redis_port=6379, target='hybrid_redis')
+==========
+Starting 12 workers communicating
+process:4 for instance:None redis connection created.
+Output collected from InternalExtinction7: [3, '0.84108', '30.7821', 'Sc', 0.2199999988079071, 6.0, 0.3887767670410619] in process 4
+Output collected from InternalExtinction7: [9, '3.15941', '5.5053', 'Sbc', 0.4300000071525574, 4.0, 0.67182693439576] in process 4
+Output collected from InternalExtinction7: [14, '4.72170', '10.5941', 'E-SO', 0.10999999940395355, -10.0, -0.0] in process 4
+Output collected from InternalExtinction7: [17, '5.83791', '1.8465', 'Sbc', 0.12999999523162842, 4.0, 0.21151528722315363] in process 4
+Output collected from InternalExtinction7: [18, '5.97291', '28.3333', 'Sb', 0.23999999463558197, 3.0, 0.3491253151284701] in process 4
+Output collected from InternalExtinction7: [22, '6.89745', '8.8773', 'Sbc', 0.4099999964237213, 4.0, 0.6425443634519403] in process 4
+Output collected from InternalExtinction7: [23, '7.43341', '21.4762', 'Sbc', 0.5600000023841858, 4.0, 0.85652557579807] in process 4
+Output collected from InternalExtinction7: [7, '2.77662', '2.6780', 'Sbc', 0.17000000178813934, 4.0, 0.2752802198603724] in process 4
+Output collected from InternalExtinction7: [92, '32.47779', '29.5117', 'SO', 0.15000000596046448, -10.0, -0.0] in process 4
+Output collected from InternalExtinction7: [94, '33.39137', '25.8549', 'Sc', 0.41999998688697815, 6.0, 0.7336165559781104] in process 4
+TERMINATED: stateless process:4 ends now
+process:3 for instance:None redis connection created.
+TERMINATED: stateless process:3 ends now
+process:0 for instance:None redis connection created.
+TERMINATED: stateless process:0 ends now
+process:2 for instance:None redis connection created.
+Output collected from InternalExtinction7: [13, '4.06195', '10.3320', 'SO', 0.18000000715255737, -10.0, -0.0] in process 2
+Output collected from InternalExtinction7: [12, '3.99000', '14.0752', 'Sbc', 0.5299999713897705, 4.0, 0.8148019597382885] in process 2
+Output collected from InternalExtinction7: [16, '5.39700', '1.1655', 'Sbc', 0.3100000023841858, 4.0, 0.49292975344222084] in process 2
+Output collected from InternalExtinction7: [19, '6.06754', '14.2368', 'SO-a', 0.8700000047683716, -10.0, -0.0] in process 2
+Output collected from InternalExtinction7: [30, '9.41616', '10.3581', 'Sc', 0.07999999821186066, 6.0, 0.14233401338171267] in process 2
+Output collected from InternalExtinction7: [32, '10.74145', '27.2533', 'E-SO', 0.11999999731779099, -10.0, -0.0] in process 2
+Output collected from InternalExtinction7: [35, '12.77541', '44.7162', 'Sbc', 0.1899999976158142, 4.0, 0.30691171713680027] in process 2
+Output collected from InternalExtinction7: [36, '12.86150', '40.7256', 'Sb', 0.10000000149011612, 3.0, 0.149371739984602] in process 2
+Output collected from InternalExtinction7: [40, '13.70575', '10.5376', 'SO', 0.5699999928474426, -10.0, -0.0] in process 2
+Output collected from InternalExtinction7: [46, '17.55179', '22.9555', 'E', 0.30000001192092896, -5.0, -0.0] in process 2
+Output collected from InternalExtinction7: [47, '19.05270', '25.1916', '', 0.20999999344348907, -10.0, -0.0] in process 2
+Output collected from InternalExtinction7: [50, '21.59791', '6.2780', 'SBm', 0.10000000149011612, 9.0, 0.1850045650471881] in process 2
+Output collected from InternalExtinction7: [57, '24.45104', '2.2909', 'E-SO', 0.07999999821186066, -10.0, -0.0] in process 2
+Output collected from InternalExtinction7: [100, '36.12170', '1.8410', 'Sc', 0.05000000074505806, 6.0, 0.08907644284589472] in process 2
+TERMINATED: stateless process:2 ends now
+process:7 for instance:None redis connection created.
+Output collected from InternalExtinction7: [2, '0.83487', '29.7972', 'SBc', 0.15000000596046448, 6.0, 0.26600839090866996] in process 7
+Output collected from InternalExtinction7: [6, '2.22791', '23.8174', 'Sb', 0.36000001430511475, 3.0, 0.5106596040582758] in process 7
+Output collected from InternalExtinction7: [4, '0.99487', '20.7524', 'Sbc', 0.6100000143051147, 4.0, 0.9248035473382993] in process 7
+Output collected from InternalExtinction7: [1, '0.77345', '-1.9143', 'SBbc', 0.3499999940395355, 4.0, 0.5533987734977625] in process 7
+Output collected from InternalExtinction7: [8, '3.03766', '12.0455', 'Sc', 0.46000000834465027, 6.0, 0.8013611173505675] in process 7
+Output collected from InternalExtinction7: [15, '5.27725', '26.5133', 'Sbc', 0.4399999976158142, 4.0, 0.6863846603760695] in process 7
+Output collected from InternalExtinction7: [21, '6.39800', '17.3937', 'Sbc', 0.23999999463558197, 4.0, 0.3852259863845283] in process 7
+Output collected from InternalExtinction7: [20, '6.24525', '43.6625', 'E', 0.029999999329447746, -5.0, -0.0] in process 7
+Output collected from InternalExtinction7: [24, '7.72816', '5.6216', 'E', 0.2800000011920929, -5.0, -0.0] in process 7
+Output collected from InternalExtinction7: [26, '7.97020', '37.6786', 'SBc', 0.10000000149011612, 6.0, 0.17775648310424885] in process 7
+Output collected from InternalExtinction7: [25, '7.74200', '10.2083', 'SO', 0.0, -10.0, -0.0] in process 7
+Output collected from InternalExtinction7: [29, '8.70445', '28.4105', 'SBc', 0.699999988079071, 6.0, 1.197131036828203] in process 7
+Output collected from InternalExtinction7: [31, '9.68041', '41.9972', 'SBd', 0.3199999928474426, 8.0, 0.5847686044476902] in process 7
+Output collected from InternalExtinction7: [34, '11.70950', '26.4748', 'Irr', 0.4399999976158142, -10.0, -0.0] in process 7
+Output collected from InternalExtinction7: [5, '1.97625', '20.4123', 'SO-a', 0.3700000047683716, -10.0, -0.0] in process 7
+Output collected from InternalExtinction7: [39, '13.67845', '21.5228', 'Sbc', 0.4000000059604645, 4.0, 0.6278206361705575] in process 7
+Output collected from InternalExtinction7: [44, '16.64833', '10.5216', 'Sbc', 0.20000000298023224, 4.0, 0.32266297310396386] in process 7
+Output collected from InternalExtinction7: [49, '19.53712', '11.3817', 'SBc', 0.18000000715255737, 6.0, 0.3187400118424081] in process 7
+Output collected from InternalExtinction7: [52, '22.52170', '29.7760', 'E', 0.20000000298023224, -5.0, -0.0] in process 7
+Output collected from InternalExtinction7: [56, '24.00054', '0.6635', 'SBb', 0.18000000715255737, 3.0, 0.26493168206480683] in process 7
+Output collected from InternalExtinction7: [61, '25.61354', '26.1429', 'SO', 0.07000000029802322, -10.0, -0.0] in process 7
+Output collected from InternalExtinction7: [59, '24.58750', '7.5341', 'Sc', 0.10000000149011612, 6.0, 0.17775648310424885] in process 7
+Output collected from InternalExtinction7: [70, '28.71937', '28.5432', '', 0.20999999344348907, -10.0, -0.0] in process 7
+Output collected from InternalExtinction7: [71, '28.81554', '10.0140', 'Sc', 0.8199999928474426, 6.0, 1.3868317066011417] in process 7
+Output collected from InternalExtinction7: [73, '28.92229', '23.0725', 'Sbc', 0.09000000357627869, 4.0, 0.14710763759401096] in process 7
+Output collected from InternalExtinction7: [78, '29.53529', '2.0643', 'Sc', 0.5699999928474426, 6.0, 0.9851861702884421] in process 7
+Output collected from InternalExtinction7: [81, '30.03729', '12.6561', 'Sbc', 0.6000000238418579, 4.0, 0.9112764745215657] in process 7
+Output collected from InternalExtinction7: [84, '30.62925', '11.0932', 'Sc', 0.10999999940395355, 6.0, 0.19544216382099072] in process 7
+Output collected from InternalExtinction7: [88, '31.61400', '27.0330', 'Sc', 0.3400000035762787, 6.0, 0.5968347899763652] in process 7
+Output collected from InternalExtinction7: [91, '32.30912', '25.5706', 'S?', 0.23999999463558197, -10.0, -0.0] in process 7
+Output collected from InternalExtinction7: [97, '35.27670', '23.6007', 'Sb', 0.03999999910593033, 3.0, 0.06037487141301266] in process 7
+Output collected from InternalExtinction7: [28, '8.53200', '44.1452', 'Scd', 0.07999999821186066, 7.0, 0.14514115615356118] in process 7
+TERMINATED: stateless process:7 ends now
+process:9 for instance:None redis connection created.
+TERMINATED: stateless process:9 ends now
+process:10 for instance:None redis connection created.
+TERMINATED: stateless process:10 ends now
+process:11 for instance:None redis connection created.
+Output collected from InternalExtinction7: [41, '14.59733', '36.7306', 'SBc', 0.15000000596046448, 6.0, 0.26600839090866996] in process 11
+Output collected from InternalExtinction7: [43, '16.48295', '4.0905', 'E-SO', 0.09000000357627869, -10.0, -0.0] in process 11
+Output collected from InternalExtinction7: [45, '16.84337', '16.6845', 'Sm', 0.14000000059604645, 9.0, 0.2588838422139228] in process 11
+Output collected from InternalExtinction7: [55, '23.79362', '21.9017', 'Sbc', 0.10000000149011612, 4.0, 0.16326809298949874] in process 11
+Output collected from InternalExtinction7: [54, '23.39254', '12.5855', 'Irr', 0.11999999731779099, -10.0, -0.0] in process 11
+Output collected from InternalExtinction7: [62, '26.14787', '37.6961', 'Sbc', 0.17000000178813934, 4.0, 0.2752802198603724] in process 11
+Output collected from InternalExtinction7: [67, '28.30912', '22.7213', 'Sc', 0.1599999964237213, 6.0, 0.28360443243894906] in process 11
+Output collected from InternalExtinction7: [69, '28.42595', '29.9337', 'SBbc', 0.029999999329447746, 4.0, 0.04935876414082858] in process 11
+Output collected from InternalExtinction7: [75, '29.28037', '11.5292', 'Sbc', 0.20999999344348907, 4.0, 0.3383705231997727] in process 11
+TERMINATED: stateless process:11 ends now
+process:1 for instance:None redis connection created.
+Output collected from InternalExtinction7: [42, '16.07829', '18.6962', '', 0.6100000143051147, -10.0, -0.0] in process 1
+Output collected from InternalExtinction7: [53, '22.69391', '21.4400', 'SBc', 0.05999999865889549, 6.0, 0.10684514409224342] in process 1
+Output collected from InternalExtinction7: [51, '21.99337', '32.9911', 'Sbc', 0.3700000047683716, 4.0, 0.5833260054914123] in process 1
+Output collected from InternalExtinction7: [65, '26.72195', '33.3899', 'Sbc', 0.10000000149011612, 4.0, 0.16326809298949874] in process 1
+Output collected from InternalExtinction7: [66, '29.75133', '86.6738', 'Sbc', 0.10000000149011612, 4.0, 0.16326809298949874] in process 1
+Output collected from InternalExtinction7: [68, '28.30500', '4.1955', 'SBa', 0.05000000074505806, 1.0, 0.04812524009809457] in process 1
+Output collected from InternalExtinction7: [77, '29.40079', '16.7727', 'Sc', 0.17000000178813934, 6.0, 0.30118174337598125] in process 1
+Output collected from InternalExtinction7: [74, '29.33020', '28.5899', 'E-SO', 0.10999999940395355, -10.0, -0.0] in process 1
+Output collected from InternalExtinction7: [82, '30.13670', '32.4680', 'Sc', 0.20000000298023224, 6.0, 0.35379823431492485] in process 1
+Output collected from InternalExtinction7: [76, '29.36170', '17.2207', '', 0.1599999964237213, -10.0, -0.0] in process 1
+Output collected from InternalExtinction7: [87, '31.40554', '6.7721', 'Sbc', 0.46000000834465027, 4.0, 0.7153303992316394] in process 1
+Output collected from InternalExtinction7: [90, '32.23733', '26.0355', 'Sc', 0.23999999463558197, 6.0, 0.42367319109190177] in process 1
+Output collected from InternalExtinction7: [93, '32.86375', '11.8359', 'E-SO', 0.10999999940395355, -10.0, -0.0] in process 1
+Output collected from InternalExtinction7: [99, '35.60204', '5.8463', 'E', 0.2800000011920929, -5.0, -0.0] in process 1
+Output collected from InternalExtinction7: [63, '26.17258', '4.8905', 'Sbc', 0.5600000023841858, 4.0, 0.85652557579807] in process 1
+TERMINATED: stateless process:1 ends now
+process:6 for instance:None redis connection created.
+Output collected from InternalExtinction7: [64, '26.70625', '24.4652', 'Sbc', 0.46000000834465027, 4.0, 0.7153303992316394] in process 6
+Output collected from InternalExtinction7: [86, '31.36116', '31.1753', 'SBb', 0.14000000059604645, 3.0, 0.20760922400347018] in process 6
+Output collected from InternalExtinction7: [10, '3.25308', '39.2458', 'SBc', 0.30000001192092896, 6.0, 0.5278447600556332] in process 6
+Output collected from InternalExtinction7: [95, '33.83587', '22.0064', 'Sc', 0.9700000286102295, 6.0, 1.6145713393253787] in process 6
+TERMINATED: stateless process:6 ends now
+process:5 for instance:None redis connection created.
+TERMINATED: stateless process:5 ends now
+process:8 for instance:None redis connection created.
+Output collected from InternalExtinction7: [37, '13.52087', '30.3455', 'Sbc', 0.4099999964237213, 4.0, 0.6425443634519403] in process 8
+Output collected from InternalExtinction7: [48, '19.21566', '23.1528', 'Sbc', 0.2199999988079071, 4.0, 0.3540339014900796] in process 8
+Output collected from InternalExtinction7: [58, '24.63029', '28.7230', 'Sc', 0.7400000095367432, 6.0, 1.261042828528713] in process 8
+Output collected from InternalExtinction7: [79, '29.57958', '20.9621', 'E', 0.03999999910593033, -5.0, -0.0] in process 8
+Output collected from InternalExtinction7: [85, '30.83441', '22.0414', 'Irr', 0.019999999552965164, -10.0, -0.0] in process 8
+Output collected from InternalExtinction7: [98, '35.38491', '31.0430', 'SBm', 0.23999999463558197, 9.0, 0.4432317110101339] in process 8
+TERMINATED: stateless process:8 ends now
+NEW ELAPSED TIME: 13.40003
+NEW ELAPSED TOTAL CPU TIME: 152.34568
+Begin to clean redis stream keys...
+---------------------------------
+hybrid_redis : running with 16 processors
+RUN ARGS: 
+Namespace(attr=None, data='{"read" : [ {"input" : "cp_coordinates_100.txt"} ]}', file=None, iter=1, module='int_ext_graph.py', num=16, provenance=None, redis_ip='localhost', redis_port=6379, target='hybrid_redis')
+==========
+Starting 16 workers communicating
+process:1 for instance:None redis connection created.
+Output collected from InternalExtinction7: [18, '5.97291', '28.3333', 'Sb', 0.23999999463558197, 3.0, 0.3491253151284701] in process 1
+TERMINATED: stateless process:1 ends now
+process:13 for instance:None redis connection created.
+Output collected from InternalExtinction7: [16, '5.39700', '1.1655', 'Sbc', 0.3100000023841858, 4.0, 0.49292975344222084] in process 13
+Output collected from InternalExtinction7: [21, '6.39800', '17.3937', 'Sbc', 0.23999999463558197, 4.0, 0.3852259863845283] in process 13
+Output collected from InternalExtinction7: [42, '16.07829', '18.6962', '', 0.6100000143051147, -10.0, -0.0] in process 13
+Output collected from InternalExtinction7: [48, '19.21566', '23.1528', 'Sbc', 0.2199999988079071, 4.0, 0.3540339014900796] in process 13
+Output collected from InternalExtinction7: [61, '25.61354', '26.1429', 'SO', 0.07000000029802322, -10.0, -0.0] in process 13
+Output collected from InternalExtinction7: [66, '29.75133', '86.6738', 'Sbc', 0.10000000149011612, 4.0, 0.16326809298949874] in process 13
+Output collected from InternalExtinction7: [78, '29.53529', '2.0643', 'Sc', 0.5699999928474426, 6.0, 0.9851861702884421] in process 13
+Output collected from InternalExtinction7: [81, '30.03729', '12.6561', 'Sbc', 0.6000000238418579, 4.0, 0.9112764745215657] in process 13
+Output collected from InternalExtinction7: [74, '29.33020', '28.5899', 'E-SO', 0.10999999940395355, -10.0, -0.0] in process 13
+Output collected from InternalExtinction7: [93, '32.86375', '11.8359', 'E-SO', 0.10999999940395355, -10.0, -0.0] in process 13
+Output collected from InternalExtinction7: [98, '35.38491', '31.0430', 'SBm', 0.23999999463558197, 9.0, 0.4432317110101339] in process 13
+TERMINATED: stateless process:13 ends now
+process:0 for instance:None redis connection created.
+TERMINATED: stateless process:0 ends now
+process:4 for instance:None redis connection created.
+TERMINATED: stateless process:4 ends now
+process:5 for instance:None redis connection created.
+Output collected from InternalExtinction7: [23, '7.43341', '21.4762', 'Sbc', 0.5600000023841858, 4.0, 0.85652557579807] in process 5
+Output collected from InternalExtinction7: [30, '9.41616', '10.3581', 'Sc', 0.07999999821186066, 6.0, 0.14233401338171267] in process 5
+Output collected from InternalExtinction7: [26, '7.97020', '37.6786', 'SBc', 0.10000000149011612, 6.0, 0.17775648310424885] in process 5
+Output collected from InternalExtinction7: [25, '7.74200', '10.2083', 'SO', 0.0, -10.0, -0.0] in process 5
+Output collected from InternalExtinction7: [31, '9.68041', '41.9972', 'SBd', 0.3199999928474426, 8.0, 0.5847686044476902] in process 5
+Output collected from InternalExtinction7: [35, '12.77541', '44.7162', 'Sbc', 0.1899999976158142, 4.0, 0.30691171713680027] in process 5
+Output collected from InternalExtinction7: [37, '13.52087', '30.3455', 'Sbc', 0.4099999964237213, 4.0, 0.6425443634519403] in process 5
+Output collected from InternalExtinction7: [45, '16.84337', '16.6845', 'Sm', 0.14000000059604645, 9.0, 0.2588838422139228] in process 5
+Output collected from InternalExtinction7: [41, '14.59733', '36.7306', 'SBc', 0.15000000596046448, 6.0, 0.26600839090866996] in process 5
+Output collected from InternalExtinction7: [44, '16.64833', '10.5216', 'Sbc', 0.20000000298023224, 4.0, 0.32266297310396386] in process 5
+Output collected from InternalExtinction7: [53, '22.69391', '21.4400', 'SBc', 0.05999999865889549, 6.0, 0.10684514409224342] in process 5
+Output collected from InternalExtinction7: [52, '22.52170', '29.7760', 'E', 0.20000000298023224, -5.0, -0.0] in process 5
+Output collected from InternalExtinction7: [65, '26.72195', '33.3899', 'Sbc', 0.10000000149011612, 4.0, 0.16326809298949874] in process 5
+Output collected from InternalExtinction7: [68, '28.30500', '4.1955', 'SBa', 0.05000000074505806, 1.0, 0.04812524009809457] in process 5
+Output collected from InternalExtinction7: [82, '30.13670', '32.4680', 'Sc', 0.20000000298023224, 6.0, 0.35379823431492485] in process 5
+Output collected from InternalExtinction7: [91, '32.30912', '25.5706', 'S?', 0.23999999463558197, -10.0, -0.0] in process 5
+Output collected from InternalExtinction7: [87, '31.40554', '6.7721', 'Sbc', 0.46000000834465027, 4.0, 0.7153303992316394] in process 5
+Output collected from InternalExtinction7: [97, '35.27670', '23.6007', 'Sb', 0.03999999910593033, 3.0, 0.06037487141301266] in process 5
+Output collected from InternalExtinction7: [15, '5.27725', '26.5133', 'Sbc', 0.4399999976158142, 4.0, 0.6863846603760695] in process 5
+TERMINATED: stateless process:5 ends now
+process:8 for instance:None redis connection created.
+Output collected from InternalExtinction7: [100, '36.12170', '1.8410', 'Sc', 0.05000000074505806, 6.0, 0.08907644284589472] in process 8
+TERMINATED: stateless process:8 ends now
+process:15 for instance:None redis connection created.
+TERMINATED: stateless process:15 ends now
+process:14 for instance:None redis connection created.
+TERMINATED: stateless process:14 ends now
+process:9 for instance:None redis connection created.
+TERMINATED: stateless process:9 ends now
+process:10 for instance:None redis connection created.
+TERMINATED: stateless process:10 ends now
+process:12 for instance:None redis connection created.
+TERMINATED: stateless process:12 ends now
+process:11 for instance:None redis connection created.
+Output collected from InternalExtinction7: [13, '4.06195', '10.3320', 'SO', 0.18000000715255737, -10.0, -0.0] in process 11
+Output collected from InternalExtinction7: [8, '3.03766', '12.0455', 'Sc', 0.46000000834465027, 6.0, 0.8013611173505675] in process 11
+Output collected from InternalExtinction7: [10, '3.25308', '39.2458', 'SBc', 0.30000001192092896, 6.0, 0.5278447600556332] in process 11
+Output collected from InternalExtinction7: [24, '7.72816', '5.6216', 'E', 0.2800000011920929, -5.0, -0.0] in process 11
+Output collected from InternalExtinction7: [19, '6.06754', '14.2368', 'SO-a', 0.8700000047683716, -10.0, -0.0] in process 11
+Output collected from InternalExtinction7: [20, '6.24525', '43.6625', 'E', 0.029999999329447746, -5.0, -0.0] in process 11
+Output collected from InternalExtinction7: [32, '10.74145', '27.2533', 'E-SO', 0.11999999731779099, -10.0, -0.0] in process 11
+Output collected from InternalExtinction7: [34, '11.70950', '26.4748', 'Irr', 0.4399999976158142, -10.0, -0.0] in process 11
+Output collected from InternalExtinction7: [36, '12.86150', '40.7256', 'Sb', 0.10000000149011612, 3.0, 0.149371739984602] in process 11
+Output collected from InternalExtinction7: [39, '13.67845', '21.5228', 'Sbc', 0.4000000059604645, 4.0, 0.6278206361705575] in process 11
+Output collected from InternalExtinction7: [43, '16.48295', '4.0905', 'E-SO', 0.09000000357627869, -10.0, -0.0] in process 11
+Output collected from InternalExtinction7: [46, '17.55179', '22.9555', 'E', 0.30000001192092896, -5.0, -0.0] in process 11
+Output collected from InternalExtinction7: [49, '19.53712', '11.3817', 'SBc', 0.18000000715255737, 6.0, 0.3187400118424081] in process 11
+Output collected from InternalExtinction7: [51, '21.99337', '32.9911', 'Sbc', 0.3700000047683716, 4.0, 0.5833260054914123] in process 11
+Output collected from InternalExtinction7: [57, '24.45104', '2.2909', 'E-SO', 0.07999999821186066, -10.0, -0.0] in process 11
+Output collected from InternalExtinction7: [59, '24.58750', '7.5341', 'Sc', 0.10000000149011612, 6.0, 0.17775648310424885] in process 11
+Output collected from InternalExtinction7: [64, '26.70625', '24.4652', 'Sbc', 0.46000000834465027, 4.0, 0.7153303992316394] in process 11
+Output collected from InternalExtinction7: [86, '31.36116', '31.1753', 'SBb', 0.14000000059604645, 3.0, 0.20760922400347018] in process 11
+Output collected from InternalExtinction7: [76, '29.36170', '17.2207', '', 0.1599999964237213, -10.0, -0.0] in process 11
+Output collected from InternalExtinction7: [95, '33.83587', '22.0064', 'Sc', 0.9700000286102295, 6.0, 1.6145713393253787] in process 11
+Output collected from InternalExtinction7: [7, '2.77662', '2.6780', 'Sbc', 0.17000000178813934, 4.0, 0.2752802198603724] in process 11
+Output collected from InternalExtinction7: [14, '4.72170', '10.5941', 'E-SO', 0.10999999940395355, -10.0, -0.0] in process 11
+TERMINATED: stateless process:11 ends now
+process:3 for instance:None redis connection created.
+Output collected from InternalExtinction7: [1, '0.77345', '-1.9143', 'SBbc', 0.3499999940395355, 4.0, 0.5533987734977625] in process 3
+Output collected from InternalExtinction7: [55, '23.79362', '21.9017', 'Sbc', 0.10000000149011612, 4.0, 0.16326809298949874] in process 3
+Output collected from InternalExtinction7: [56, '24.00054', '0.6635', 'SBb', 0.18000000715255737, 3.0, 0.26493168206480683] in process 3
+Output collected from InternalExtinction7: [84, '30.62925', '11.0932', 'Sc', 0.10999999940395355, 6.0, 0.19544216382099072] in process 3
+Output collected from InternalExtinction7: [77, '29.40079', '16.7727', 'Sc', 0.17000000178813934, 6.0, 0.30118174337598125] in process 3
+Output collected from InternalExtinction7: [88, '31.61400', '27.0330', 'Sc', 0.3400000035762787, 6.0, 0.5968347899763652] in process 3
+Output collected from InternalExtinction7: [90, '32.23733', '26.0355', 'Sc', 0.23999999463558197, 6.0, 0.42367319109190177] in process 3
+Output collected from InternalExtinction7: [2, '0.83487', '29.7972', 'SBc', 0.15000000596046448, 6.0, 0.26600839090866996] in process 3
+Output collected from InternalExtinction7: [6, '2.22791', '23.8174', 'Sb', 0.36000001430511475, 3.0, 0.5106596040582758] in process 3
+TERMINATED: stateless process:3 ends now
+process:2 for instance:None redis connection created.
+Output collected from InternalExtinction7: [62, '26.14787', '37.6961', 'Sbc', 0.17000000178813934, 4.0, 0.2752802198603724] in process 2
+Output collected from InternalExtinction7: [58, '24.63029', '28.7230', 'Sc', 0.7400000095367432, 6.0, 1.261042828528713] in process 2
+Output collected from InternalExtinction7: [69, '28.42595', '29.9337', 'SBbc', 0.029999999329447746, 4.0, 0.04935876414082858] in process 2
+Output collected from InternalExtinction7: [70, '28.71937', '28.5432', '', 0.20999999344348907, -10.0, -0.0] in process 2
+Output collected from InternalExtinction7: [92, '32.47779', '29.5117', 'SO', 0.15000000596046448, -10.0, -0.0] in process 2
+Output collected from InternalExtinction7: [75, '29.28037', '11.5292', 'Sbc', 0.20999999344348907, 4.0, 0.3383705231997727] in process 2
+Output collected from InternalExtinction7: [71, '28.81554', '10.0140', 'Sc', 0.8199999928474426, 6.0, 1.3868317066011417] in process 2
+Output collected from InternalExtinction7: [12, '3.99000', '14.0752', 'Sbc', 0.5299999713897705, 4.0, 0.8148019597382885] in process 2
+Output collected from InternalExtinction7: [99, '35.60204', '5.8463', 'E', 0.2800000011920929, -5.0, -0.0] in process 2
+TERMINATED: stateless process:2 ends now
+process:6 for instance:None redis connection created.
+TERMINATED: stateless process:6 ends now
+process:7 for instance:None redis connection created.
+Output collected from InternalExtinction7: [17, '5.83791', '1.8465', 'Sbc', 0.12999999523162842, 4.0, 0.21151528722315363] in process 7
+Output collected from InternalExtinction7: [4, '0.99487', '20.7524', 'Sbc', 0.6100000143051147, 4.0, 0.9248035473382993] in process 7
+Output collected from InternalExtinction7: [29, '8.70445', '28.4105', 'SBc', 0.699999988079071, 6.0, 1.197131036828203] in process 7
+Output collected from InternalExtinction7: [22, '6.89745', '8.8773', 'Sbc', 0.4099999964237213, 4.0, 0.6425443634519403] in process 7
+Output collected from InternalExtinction7: [28, '8.53200', '44.1452', 'Scd', 0.07999999821186066, 7.0, 0.14514115615356118] in process 7
+Output collected from InternalExtinction7: [40, '13.70575', '10.5376', 'SO', 0.5699999928474426, -10.0, -0.0] in process 7
+Output collected from InternalExtinction7: [3, '0.84108', '30.7821', 'Sc', 0.2199999988079071, 6.0, 0.3887767670410619] in process 7
+Output collected from InternalExtinction7: [47, '19.05270', '25.1916', '', 0.20999999344348907, -10.0, -0.0] in process 7
+Output collected from InternalExtinction7: [50, '21.59791', '6.2780', 'SBm', 0.10000000149011612, 9.0, 0.1850045650471881] in process 7
+Output collected from InternalExtinction7: [54, '23.39254', '12.5855', 'Irr', 0.11999999731779099, -10.0, -0.0] in process 7
+Output collected from InternalExtinction7: [9, '3.15941', '5.5053', 'Sbc', 0.4300000071525574, 4.0, 0.67182693439576] in process 7
+Output collected from InternalExtinction7: [63, '26.17258', '4.8905', 'Sbc', 0.5600000023841858, 4.0, 0.85652557579807] in process 7
+Output collected from InternalExtinction7: [67, '28.30912', '22.7213', 'Sc', 0.1599999964237213, 6.0, 0.28360443243894906] in process 7
+Output collected from InternalExtinction7: [79, '29.57958', '20.9621', 'E', 0.03999999910593033, -5.0, -0.0] in process 7
+Output collected from InternalExtinction7: [85, '30.83441', '22.0414', 'Irr', 0.019999999552965164, -10.0, -0.0] in process 7
+Output collected from InternalExtinction7: [94, '33.39137', '25.8549', 'Sc', 0.41999998688697815, 6.0, 0.7336165559781104] in process 7
+Output collected from InternalExtinction7: [73, '28.92229', '23.0725', 'Sbc', 0.09000000357627869, 4.0, 0.14710763759401096] in process 7
+Output collected from InternalExtinction7: [5, '1.97625', '20.4123', 'SO-a', 0.3700000047683716, -10.0, -0.0] in process 7
+TERMINATED: stateless process:7 ends now
+NEW ELAPSED TIME: 19.05224
+NEW ELAPSED TOTAL CPU TIME: 298.56678
+Begin to clean redis stream keys...
+---------------------------------
+Experiments for 100 completed!

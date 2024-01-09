@@ -1,0 +1,1588 @@
+dyn_multi : running with 4 processors
+Traceback (most recent call last):
+  File "/home/ll2419/miniconda3/envs/py37_d4p_auto_1/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/ll2419/miniconda3/envs/py37_d4p_auto_1/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/ll2419/miniconda3/envs/py37_d4p_auto_1/lib/python3.7/site-packages/dispel4py-1.4.0-py3.7.egg/dispel4py/new/processor.py", line 884, in <module>
+    main()
+  File "/home/ll2419/miniconda3/envs/py37_d4p_auto_1/lib/python3.7/site-packages/dispel4py-1.4.0-py3.7.egg/dispel4py/new/processor.py", line 876, in main
+    errormsg = process(graph, inputs=inputs, args=args)
+  File "/home/ll2419/miniconda3/envs/py37_d4p_auto_1/lib/python3.7/site-packages/dispel4py-1.4.0-py3.7.egg/dispel4py/new/new_hybrid_redis.py", line 391, in process
+    raise "Process number less than minial requirement of graph"
+TypeError: exceptions must derive from BaseException
+RUN ARGS: 
+Namespace(attr=None, data='{"read":[{"input":"Articles_cleaned.csv"}]}', file=None, iter=1, module='analysis_sentiment.py', num=4, provenance=None, redis_ip='localhost', redis_port=6379, target='hybrid_redis')
+==========
+Begin to clean redis stream keys...
+---------------------------------
+dyn_multi : running with 8 processors
+RUN ARGS: 
+Namespace(attr=None, data='{"read":[{"input":"Articles_cleaned.csv"}]}', file=None, iter=1, module='analysis_sentiment.py', num=8, provenance=None, redis_ip='localhost', redis_port=6379, target='hybrid_redis')
+==========
+Starting 8 workers communicating
+process:2 for instance:GlobalHappyState21_0 redis connection created.
+METHOD:SWN3 - top:0----> state = KARACHI, score = 0.3333333333333333, total_articles = 1
+METHOD:SWN3 - top:0----> state = NEW YORK, score = -0.2631578947368421, total_articles = 2
+METHOD:SWN3 - top:1----> state = KARACHI, score = 0.3333333333333333, total_articles = 2
+METHOD:SWN3 - top:0----> state = NEW YORK, score = -0.2631578947368421, total_articles = 3
+METHOD:SWN3 - top:1----> state = KARACHI, score = 0.8472222222222221, total_articles = 3
+METHOD:SWN3 - top:0----> state = NEW YORK, score = 0.018893387314439958, total_articles = 4
+METHOD:SWN3 - top:1----> state = KARACHI, score = 0.8472222222222221, total_articles = 4
+METHOD:SWN3 - top:0----> state = NEW YORK, score = 0.018893387314439958, total_articles = 5
+METHOD:SWN3 - top:1----> state = KARACHI, score = 1.222222222222222, total_articles = 5
+METHOD:SWN3 - top:0----> state = NEW YORK, score = 0.02172144161308251, total_articles = 6
+METHOD:SWN3 - top:1----> state = KARACHI, score = 1.222222222222222, total_articles = 6
+METHOD:SWN3 - top:0----> state = NEW YORK, score = 0.3228578052494462, total_articles = 7
+METHOD:SWN3 - top:1----> state = KARACHI, score = 1.222222222222222, total_articles = 7
+METHOD:SWN3 - top:0----> state = NEW YORK, score = 0.3228578052494462, total_articles = 8
+METHOD:SWN3 - top:1----> state = LAHORE, score = 0.375, total_articles = 8
+METHOD:SWN3 - top:2----> state = KARACHI, score = 1.222222222222222, total_articles = 8
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 9
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 0.5936476270261101, total_articles = 9
+METHOD:SWN3 - top:2----> state = KARACHI, score = 1.222222222222222, total_articles = 9
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 10
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 0.5936476270261101, total_articles = 10
+METHOD:SWN3 - top:2----> state = KARACHI, score = 1.2556816816816816, total_articles = 10
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 11
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 0.9098240976143454, total_articles = 11
+METHOD:SWN3 - top:2----> state = KARACHI, score = 1.2556816816816816, total_articles = 11
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 12
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 1.1723240976143454, total_articles = 12
+METHOD:SWN3 - top:2----> state = KARACHI, score = 1.2556816816816816, total_articles = 12
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 13
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 1.1723240976143454, total_articles = 13
+METHOD:SWN3 - top:2----> state = KARACHI, score = 1.5838066816816816, total_articles = 13
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 14
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 1.4486398870880297, total_articles = 14
+METHOD:SWN3 - top:2----> state = KARACHI, score = 1.5838066816816816, total_articles = 14
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 15
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 1.4486398870880297, total_articles = 15
+METHOD:SWN3 - top:2----> state = KARACHI, score = 1.8838066816816816, total_articles = 15
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 16
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 1.688223220421363, total_articles = 16
+METHOD:SWN3 - top:2----> state = KARACHI, score = 1.8838066816816816, total_articles = 16
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 17
+METHOD:SWN3 - top:1----> state = KARACHI, score = 1.8838066816816816, total_articles = 17
+METHOD:SWN3 - top:2----> state = NEW YORK, score = 2.1073408674801866, total_articles = 17
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 18
+METHOD:SWN3 - top:1----> state = KARACHI, score = 1.8838066816816816, total_articles = 18
+METHOD:SWN3 - top:2----> state = NEW YORK, score = 2.3651533674801866, total_articles = 18
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 19
+METHOD:SWN3 - top:1----> state = KARACHI, score = 1.8838066816816816, total_articles = 19
+METHOD:SWN3 - top:2----> state = NEW YORK, score = 2.6447586306380813, total_articles = 19
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 20
+METHOD:SWN3 - top:1----> state = KARACHI, score = 1.8838066816816816, total_articles = 20
+METHOD:SWN3 - top:2----> state = NEW YORK, score = 2.9497586306380814, total_articles = 20
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 21
+METHOD:SWN3 - top:1----> state = KARACHI, score = 1.8838066816816816, total_articles = 21
+METHOD:SWN3 - top:2----> state = NEW YORK, score = 3.157239449052404, total_articles = 21
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 22
+METHOD:SWN3 - top:1----> state = KARACHI, score = 1.8838066816816816, total_articles = 22
+METHOD:SWN3 - top:2----> state = NEW YORK, score = 3.437644854457809, total_articles = 22
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 23
+METHOD:SWN3 - top:1----> state = KARACHI, score = 2.1566183063315414, total_articles = 23
+METHOD:SWN3 - top:2----> state = NEW YORK, score = 3.437644854457809, total_articles = 23
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 24
+METHOD:SWN3 - top:1----> state = KARACHI, score = 2.4066183063315414, total_articles = 24
+METHOD:SWN3 - top:2----> state = NEW YORK, score = 3.437644854457809, total_articles = 24
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 25
+METHOD:SWN3 - top:1----> state = KARACHI, score = 2.8441183063315414, total_articles = 25
+METHOD:SWN3 - top:2----> state = NEW YORK, score = 3.437644854457809, total_articles = 25
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 26
+METHOD:SWN3 - top:1----> state = KARACHI, score = 2.8441183063315414, total_articles = 26
+METHOD:SWN3 - top:2----> state = NEW YORK, score = 3.510238022159672, total_articles = 26
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 27
+METHOD:SWN3 - top:1----> state = KARACHI, score = 3.0316183063315414, total_articles = 27
+METHOD:SWN3 - top:2----> state = NEW YORK, score = 3.510238022159672, total_articles = 27
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 28
+METHOD:SWN3 - top:1----> state = KARACHI, score = 3.239951639664875, total_articles = 28
+METHOD:SWN3 - top:2----> state = NEW YORK, score = 3.510238022159672, total_articles = 28
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 29
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 3.510238022159672, total_articles = 29
+METHOD:SWN3 - top:2----> state = KARACHI, score = 3.5688990080859275, total_articles = 29
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 30
+METHOD:SWN3 - top:1----> state = KARACHI, score = 3.5688990080859275, total_articles = 30
+METHOD:SWN3 - top:2----> state = NEW YORK, score = 3.725939520150172, total_articles = 30
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 31
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 3.725939520150172, total_articles = 31
+METHOD:SWN3 - top:2----> state = KARACHI, score = 4.4438990080859275, total_articles = 31
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 32
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 3.725939520150172, total_articles = 32
+METHOD:SWN3 - top:2----> state = KARACHI, score = 4.7251490080859275, total_articles = 32
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 33
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 3.989828409039061, total_articles = 33
+METHOD:SWN3 - top:2----> state = KARACHI, score = 4.7251490080859275, total_articles = 33
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 34
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 3.989828409039061, total_articles = 34
+METHOD:SWN3 - top:2----> state = KARACHI, score = 5.058482341419261, total_articles = 34
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 35
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 4.311256980467633, total_articles = 35
+METHOD:SWN3 - top:2----> state = KARACHI, score = 5.058482341419261, total_articles = 35
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 36
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 4.587772131982784, total_articles = 36
+METHOD:SWN3 - top:2----> state = KARACHI, score = 5.058482341419261, total_articles = 36
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 37
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 4.962772131982784, total_articles = 37
+METHOD:SWN3 - top:2----> state = KARACHI, score = 5.058482341419261, total_articles = 37
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 38
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.058482341419261, total_articles = 38
+METHOD:SWN3 - top:2----> state = NEW YORK, score = 5.250272131982784, total_articles = 38
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 39
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.058482341419261, total_articles = 39
+METHOD:SWN3 - top:2----> state = NEW YORK, score = 5.5538435605542125, total_articles = 39
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 40
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.058482341419261, total_articles = 40
+METHOD:SWN3 - top:2----> state = NEW YORK, score = 5.727281060554213, total_articles = 40
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 41
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.221676785863705, total_articles = 41
+METHOD:SWN3 - top:2----> state = NEW YORK, score = 5.727281060554213, total_articles = 41
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 42
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.489533928720848, total_articles = 42
+METHOD:SWN3 - top:2----> state = NEW YORK, score = 5.727281060554213, total_articles = 42
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 43
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.708283928720848, total_articles = 43
+METHOD:SWN3 - top:2----> state = NEW YORK, score = 5.727281060554213, total_articles = 43
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 44
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 5.727281060554213, total_articles = 44
+METHOD:SWN3 - top:2----> state = KARACHI, score = 5.895783928720848, total_articles = 44
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 45
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 5.748114393887547, total_articles = 45
+METHOD:SWN3 - top:2----> state = KARACHI, score = 5.895783928720848, total_articles = 45
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 46
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.895783928720848, total_articles = 46
+METHOD:SWN3 - top:2----> state = NEW YORK, score = 6.069542965316118, total_articles = 46
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 47
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 6.069542965316118, total_articles = 47
+METHOD:SWN3 - top:2----> state = KARACHI, score = 6.191238474175394, total_articles = 47
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 48
+METHOD:SWN3 - top:1----> state = KARACHI, score = 6.191238474175394, total_articles = 48
+METHOD:SWN3 - top:2----> state = NEW YORK, score = 6.390971536744689, total_articles = 48
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 49
+METHOD:SWN3 - top:1----> state = KARACHI, score = 6.191238474175394, total_articles = 49
+METHOD:SWN3 - top:2----> state = NEW YORK, score = 6.785708378849952, total_articles = 49
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.375, total_articles = 50
+METHOD:SWN3 - top:1----> state = KARACHI, score = 6.191238474175394, total_articles = 50
+METHOD:SWN3 - top:2----> state = NEW YORK, score = 6.9302040388956865, total_articles = 50
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 51
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 6.273140464095652, total_articles = 51
+METHOD:SWN3 - top:2----> state = NEW YORK, score = 6.9302040388956865, total_articles = 51
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 52
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 6.564807130762319, total_articles = 52
+METHOD:SWN3 - top:2----> state = NEW YORK, score = 6.9302040388956865, total_articles = 52
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 53
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 6.7909976069527955, total_articles = 53
+METHOD:SWN3 - top:2----> state = NEW YORK, score = 6.9302040388956865, total_articles = 53
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 54
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 6.9302040388956865, total_articles = 54
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 7.056176178381366, total_articles = 54
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 55
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 6.9302040388956865, total_articles = 55
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 7.274926178381366, total_articles = 55
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 56
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 6.9302040388956865, total_articles = 56
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 7.431176178381366, total_articles = 56
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 57
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 6.9302040388956865, total_articles = 57
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 7.806176178381366, total_articles = 57
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 58
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 6.9302040388956865, total_articles = 58
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 8.118676178381367, total_articles = 58
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 59
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 6.9302040388956865, total_articles = 59
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 8.406870622825812, total_articles = 59
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 60
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 6.9302040388956865, total_articles = 60
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 8.677703956159146, total_articles = 60
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 61
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 6.9302040388956865, total_articles = 61
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 9.04587824503452, total_articles = 61
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 62
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 7.141742500434148, total_articles = 62
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 9.04587824503452, total_articles = 62
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 63
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 7.141742500434148, total_articles = 63
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 9.1080806259869, total_articles = 63
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 64
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 7.141742500434148, total_articles = 64
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 9.3424556259869, total_articles = 64
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 65
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 7.141742500434148, total_articles = 65
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 9.714381551912826, total_articles = 65
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 66
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 7.141742500434148, total_articles = 66
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 10.04771488524616, total_articles = 66
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 67
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 7.141742500434148, total_articles = 67
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 10.417907192938468, total_articles = 67
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 68
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 7.141742500434148, total_articles = 68
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 10.699210611741886, total_articles = 68
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 69
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 7.141742500434148, total_articles = 69
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 11.006502278408552, total_articles = 69
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 70
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 7.141742500434148, total_articles = 70
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 11.27979639605561, total_articles = 70
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 71
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 7.141742500434148, total_articles = 71
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 11.515907507166721, total_articles = 71
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 72
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 7.141742500434148, total_articles = 72
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 11.560178340500055, total_articles = 72
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 73
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 7.141742500434148, total_articles = 73
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 12.060178340500055, total_articles = 73
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 74
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 7.141742500434148, total_articles = 74
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 12.470892626214342, total_articles = 74
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 75
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 7.141742500434148, total_articles = 75
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 12.845892626214342, total_articles = 75
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 76
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 7.141742500434148, total_articles = 76
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 13.177414365344777, total_articles = 76
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 77
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 7.141742500434148, total_articles = 77
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 13.51670007963049, total_articles = 77
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 78
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 7.141742500434148, total_articles = 78
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 13.89170007963049, total_articles = 78
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 79
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 7.141742500434148, total_articles = 79
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 13.946988541168952, total_articles = 79
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 80
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 7.141742500434148, total_articles = 80
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 13.992127430057842, total_articles = 80
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 81
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 7.141742500434148, total_articles = 81
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 14.144995395425807, total_articles = 81
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 82
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 7.4223797553361095, total_articles = 82
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 14.144995395425807, total_articles = 82
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 83
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 7.4223797553361095, total_articles = 83
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 14.519995395425807, total_articles = 83
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 84
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 7.4223797553361095, total_articles = 84
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 15.019995395425807, total_articles = 84
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 85
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 7.4223797553361095, total_articles = 85
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 15.457495395425807, total_articles = 85
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 86
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 7.4223797553361095, total_articles = 86
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 15.738745395425807, total_articles = 86
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 87
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 7.4223797553361095, total_articles = 87
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 16.11374539542581, total_articles = 87
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 88
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 7.4223797553361095, total_articles = 88
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 16.194231349688938, total_articles = 88
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 89
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 7.701791520041992, total_articles = 89
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 16.194231349688938, total_articles = 89
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 90
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 7.701791520041992, total_articles = 90
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 16.43034246080005, total_articles = 90
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 91
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 7.701791520041992, total_articles = 91
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 16.87617579413338, total_articles = 91
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 92
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 7.701791520041992, total_articles = 92
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 17.148903066860655, total_articles = 92
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 93
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 7.701791520041992, total_articles = 93
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 17.555153066860655, total_articles = 93
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 94
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 7.701791520041992, total_articles = 94
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 17.916264177971765, total_articles = 94
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 95
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 7.701791520041992, total_articles = 95
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 18.249597511305097, total_articles = 95
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 96
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 7.953984502498132, total_articles = 96
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 18.249597511305097, total_articles = 96
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 97
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 7.953984502498132, total_articles = 97
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 18.478764177971765, total_articles = 97
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 98
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 7.953984502498132, total_articles = 98
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 18.74543084463843, total_articles = 98
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 99
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 8.228984502498133, total_articles = 99
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 18.74543084463843, total_articles = 99
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 100
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 8.52660355011718, total_articles = 100
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 18.74543084463843, total_articles = 100
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 101
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 8.52660355011718, total_articles = 101
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 19.12043084463843, total_articles = 101
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 102
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 8.855550918538233, total_articles = 102
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 19.12043084463843, total_articles = 102
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 103
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 8.855550918538233, total_articles = 103
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 19.43293084463843, total_articles = 103
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 104
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 8.855550918538233, total_articles = 104
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 19.741441482936303, total_articles = 104
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 105
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 8.855550918538233, total_articles = 105
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 20.00483434007916, total_articles = 105
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 106
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 8.914445149307463, total_articles = 106
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 20.00483434007916, total_articles = 106
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 107
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 9.125983610845925, total_articles = 107
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 20.00483434007916, total_articles = 107
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 108
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 9.47122170608402, total_articles = 108
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 20.00483434007916, total_articles = 108
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 109
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 9.47122170608402, total_articles = 109
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 20.048259664754486, total_articles = 109
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 110
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 9.72122170608402, total_articles = 110
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 20.048259664754486, total_articles = 110
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 111
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 9.72122170608402, total_articles = 111
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 20.33397395046877, total_articles = 111
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 112
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.00247170608402, total_articles = 112
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 20.33397395046877, total_articles = 112
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 113
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.00247170608402, total_articles = 113
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 20.61175172824655, total_articles = 113
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 114
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 114
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 20.61175172824655, total_articles = 114
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 115
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 115
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 20.82008506157988, total_articles = 115
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 116
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 116
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 21.09508506157988, total_articles = 116
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 117
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 117
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 21.341238907733725, total_articles = 117
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 118
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 118
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 21.610469676964495, total_articles = 118
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 119
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 119
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 21.910469676964496, total_articles = 119
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 120
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 120
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 22.045859287354105, total_articles = 120
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 121
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 121
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 22.303212228530576, total_articles = 121
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 122
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 122
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 22.596962228530575, total_articles = 122
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 123
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 123
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 22.66839079995915, total_articles = 123
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 124
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 124
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 23.13714079995915, total_articles = 124
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 125
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 125
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 23.226426514244864, total_articles = 125
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 126
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 126
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 23.476426514244864, total_articles = 126
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 127
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 127
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 23.807676514244864, total_articles = 127
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 128
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 128
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 24.138926514244865, total_articles = 128
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 129
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 129
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 24.357676514244865, total_articles = 129
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 130
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 130
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 24.44696222853058, total_articles = 130
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 131
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 131
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 24.69696222853058, total_articles = 131
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 132
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 132
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 24.77821222853058, total_articles = 132
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 133
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 133
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 25.003212228530582, total_articles = 133
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 134
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 134
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 25.471962228530582, total_articles = 134
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 135
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 135
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 25.561247942816298, total_articles = 135
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 136
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 136
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 25.811247942816298, total_articles = 136
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 137
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 137
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 26.137140799959155, total_articles = 137
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 138
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 138
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 26.468390799959156, total_articles = 138
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 139
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 139
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 26.700533657102014, total_articles = 139
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 140
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 140
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 26.950533657102014, total_articles = 140
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 141
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 141
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 27.281783657102014, total_articles = 141
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 142
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 142
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 27.481783657102017, total_articles = 142
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 143
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 143
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 27.631783657102016, total_articles = 143
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 144
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 144
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 27.944283657102016, total_articles = 144
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 145
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 145
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 28.381783657102016, total_articles = 145
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 146
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 146
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 28.631783657102016, total_articles = 146
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 147
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 147
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 28.913033657102016, total_articles = 147
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 148
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 148
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 29.27667002073838, total_articles = 148
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 149
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 149
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 29.30528113184949, total_articles = 149
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 150
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 150
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 29.64903113184949, total_articles = 150
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 151
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 151
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 29.707002146342244, total_articles = 151
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 152
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 152
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 29.720921504011603, total_articles = 152
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 153
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 153
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 29.98534458093468, total_articles = 153
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 154
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 154
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 30.48534458093468, total_articles = 154
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 155
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 155
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 30.702958337548438, total_articles = 155
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 156
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 156
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 31.077958337548438, total_articles = 156
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 157
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 157
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 31.45990278199288, total_articles = 157
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 158
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 158
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 31.68906944865955, total_articles = 158
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 159
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 159
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 31.97813194865955, total_articles = 159
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 160
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 160
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 32.103066901721, total_articles = 160
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 161
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 161
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 32.478066901721, total_articles = 161
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 162
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 162
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 32.803066901721, total_articles = 162
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 163
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 163
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 33.05769653135063, total_articles = 163
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 164
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 164
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 33.403850377504476, total_articles = 164
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 165
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 165
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 33.620517044171145, total_articles = 165
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 166
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 166
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 33.870517044171145, total_articles = 166
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 167
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 167
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 34.02051704417114, total_articles = 167
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 168
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 168
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 34.28787815528226, total_articles = 168
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 169
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 169
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 34.60037815528226, total_articles = 169
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 170
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 170
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 34.775378155282255, total_articles = 170
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 171
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 171
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 34.95037815528225, total_articles = 171
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 172
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 172
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 35.03668767909178, total_articles = 172
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 173
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 173
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 35.35399537139947, total_articles = 173
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 174
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 174
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 35.5812680986722, total_articles = 174
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 175
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 175
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 35.69585143200553, total_articles = 175
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 176
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 176
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 36.19585143200553, total_articles = 176
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 177
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 177
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 36.24364554965259, total_articles = 177
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 178
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 178
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 36.42864554965259, total_articles = 178
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 179
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 179
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 36.67864554965259, total_articles = 179
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 180
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 180
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 36.67864554965259, total_articles = 180
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 181
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 181
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 36.67864554965259, total_articles = 181
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 182
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 182
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 36.67864554965259, total_articles = 182
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 183
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 183
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 36.67864554965259, total_articles = 183
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 184
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 184
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 36.67864554965259, total_articles = 184
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 185
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 185
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 36.67864554965259, total_articles = 185
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 186
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 186
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 36.67864554965259, total_articles = 186process:0 for instance:None redis connection created.
+Total articles found 2470
+TERMINATED: stateless process:0 ends now
+process:1 for instance:None redis connection created.
+TERMINATED: stateless process:1 ends now
+process:7 for instance:HappyState14_0 redis connection created.
+TERMINATED: stateful process:7 for instance:HappyState14_0 ends now
+process:6 for instance:GlobalHappyState15_0 redis connection created.
+METHOD:AFINN - top:0----> state = KARACHI, score = 0, total_articles = 1
+TERMINATED: stateful process:6 for instance:GlobalHappyState15_0 ends now
+process:4 for instance:HappyState20_1 redis connection created.
+TERMINATED: stateful process:4 for instance:HappyState20_1 ends now
+process:5 for instance:HappyState20_0 redis connection created.
+TERMINATED: stateful process:5 for instance:HappyState20_0 ends now
+process:3 for instance:HappyState20_2 redis connection created.
+TERMINATED: stateful process:3 for instance:HappyState20_2 ends now
+
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 187
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 187
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 36.67864554965259, total_articles = 187
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 188
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 188
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 36.67864554965259, total_articles = 188
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 189
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 189
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 36.67864554965259, total_articles = 189
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 190
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 190
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 36.67864554965259, total_articles = 190
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 191
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 191
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 36.67864554965259, total_articles = 191
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 192
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 192
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 36.67864554965259, total_articles = 192
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 193
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 193
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 36.67864554965259, total_articles = 193
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 194
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 194
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 36.67864554965259, total_articles = 194
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 195
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 195
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 36.67864554965259, total_articles = 195
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 196
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 196
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 36.67864554965259, total_articles = 196
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 197
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 197
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 36.67864554965259, total_articles = 197
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 198
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 198
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 36.67864554965259, total_articles = 198
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 199
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 199
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 36.67864554965259, total_articles = 199
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 200
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 200
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 36.67864554965259, total_articles = 200
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 201
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 201
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 36.67864554965259, total_articles = 201
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 202
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 202
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 36.67864554965259, total_articles = 202
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 203
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 203
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 36.67864554965259, total_articles = 203
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 204
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 204
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 36.67864554965259, total_articles = 204
+METHOD:SWN3 - top:0----> state = KARACHI, score = 6.191238474175394, total_articles = 205
+METHOD:SWN3 - top:1----> state = NEW YORK, score = 10.003513372750685, total_articles = 205
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 36.67864554965259, total_articles = 205
+TERMINATED: stateful process:2 for instance:GlobalHappyState21_0 ends now
+ELAPSED TIME(minus 10 second(s) for AUTO_TERMINATE): 82.47609114646912
+Begin to clean redis stream keys...
+---------------------------------
+dyn_multi : running with 12 processors
+RUN ARGS: 
+Namespace(attr=None, data='{"read":[{"input":"Articles_cleaned.csv"}]}', file=None, iter=1, module='analysis_sentiment.py', num=12, provenance=None, redis_ip='localhost', redis_port=6379, target='hybrid_redis')
+==========
+Starting 12 workers communicating
+process:6 for instance:GlobalHappyState21_0 redis connection created.
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 0.875, total_articles = 1
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 1.1607142857142856, total_articles = 2
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 1.2238095238095235, total_articles = 3
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 1.5363095238095235, total_articles = 4
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 2.0613095238095234, total_articles = 5
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 2.3113095238095234, total_articles = 6
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 2.6613095238095235, total_articles = 7
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 2.719642857142857, total_articles = 8
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 2.969642857142857, total_articles = 9
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 3.235267857142857, total_articles = 10
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 3.2898541666666663, total_articles = 11
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 3.6648541666666663, total_articles = 12
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 3.823708333333333, total_articles = 13
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 4.125016025641025, total_articles = 14
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 4.4444604700854695, total_articles = 15
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 4.869460470085469, total_articles = 16
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 5.294460470085469, total_articles = 17
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 5.4789842796092785, total_articles = 18
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 5.7914842796092785, total_articles = 19
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 6.083150946275945, total_articles = 20
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 6.129579517704516, total_articles = 21
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 6.348329517704516, total_articles = 22
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 6.723329517704516, total_articles = 23
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 6.9495199938949925, total_articles = 24
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 7.3245199938949925, total_articles = 25
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 7.6370199938949925, total_articles = 26
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 7.907853327228326, total_articles = 27
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 8.130075549450547, total_articles = 28
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 8.461444282770369, total_articles = 29
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 8.786444282770368, total_articles = 30
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 8.817902054558328, total_articles = 31
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 9.052277054558328, total_articles = 32
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 9.342455625986899, total_articles = 33
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 9.714381551912824, total_articles = 34
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 9.776881551912824, total_articles = 35
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 10.147073859605133, total_articles = 36
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 10.397073859605133, total_articles = 37
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 10.49536445789573, total_articles = 38
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 10.549210611741884, total_articles = 39
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 10.924210611741884, total_articles = 40
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 11.160321722852995, total_articles = 41
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 11.217613389519661, total_articles = 42
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 11.386740840500053, total_articles = 43
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 11.886740840500053, total_articles = 44
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 12.285178340500053, total_articles = 45
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 12.660178340500053, total_articles = 46
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 13.07089262621434, total_articles = 47
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 13.410178340500053, total_articles = 48
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 13.741700079630489, total_articles = 49
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 14.116700079630489, total_articles = 50
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 14.144995395425806, total_articles = 51
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 14.519995395425806, total_articles = 52
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 15.019995395425806, total_articles = 53
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 15.457495395425806, total_articles = 54
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 15.738745395425806, total_articles = 55
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 16.113745395425806, total_articles = 56
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 16.194231349688934, total_articles = 57
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 16.430342460800045, total_articles = 58
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 16.703069733527318, total_articles = 59
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 17.03640306686065, total_articles = 60
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 17.44265306686065, total_articles = 61
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 17.888486400193983, total_articles = 62
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 18.249597511305094, total_articles = 63
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 18.47876417797176, total_articles = 64
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 18.745430844638427, total_articles = 65
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 19.057930844638427, total_articles = 66
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 19.432930844638427, total_articles = 67
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 19.696323701781285, total_articles = 68
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 20.004834340079157, total_articles = 69
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 20.03040252189734, total_articles = 70
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 20.30818029967512, total_articles = 71
+METHOD:SWN3 - top:0----> state = ISLAMABAD, score = 20.611751728246546, total_articles = 72
+METHOD:SWN3 - top:0----> state = HONG KONG, score = -0.125, total_articles = 73
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 20.611751728246546, total_articles = 73
+METHOD:SWN3 - top:0----> state = HONG KONG, score = -0.125, total_articles = 74
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 20.666238907733725, total_articles = 74
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 0.0625, total_articles = 75
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 20.666238907733725, total_articles = 75
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 0.0625, total_articles = 76
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 20.941238907733723, total_articles = 76
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 0.0625, total_articles = 77
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 21.241238907733724, total_articles = 77
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 0.07723214285714286, total_articles = 78
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 21.241238907733724, total_articles = 78
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 0.07723214285714286, total_articles = 79
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 21.641238907733722, total_articles = 79
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 0.44723214285714286, total_articles = 80
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 21.641238907733722, total_articles = 80
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 0.44723214285714286, total_articles = 81
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 21.910469676964492, total_articles = 81
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 0.6840742481203007, total_articles = 82
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 21.910469676964492, total_articles = 82
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 0.8326394655116051, total_articles = 83
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 21.910469676964492, total_articles = 83
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 0.8326394655116051, total_articles = 84
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 21.99639404671239, total_articles = 84
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 1.111048556420696, total_articles = 85
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 21.99639404671239, total_articles = 85
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 1.111048556420696, total_articles = 86
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 22.128212228530572, total_articles = 86
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 1.154798556420696, total_articles = 87
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 22.128212228530572, total_articles = 87
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 1.154798556420696, total_articles = 88
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 22.596962228530572, total_articles = 88
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 1.3978199028903182, total_articles = 89
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 22.596962228530572, total_articles = 89
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 1.3978199028903182, total_articles = 90
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 22.811247942816287, total_articles = 90
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 1.3978199028903182, total_articles = 91
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 23.137140799959145, total_articles = 91
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 1.3978199028903182, total_articles = 92
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 23.22642651424486, total_articles = 92
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 1.3978199028903182, total_articles = 93
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 23.55767651424486, total_articles = 93
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 1.3978199028903182, total_articles = 94
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 23.80767651424486, total_articles = 94
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 1.3978199028903182, total_articles = 95
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 24.13892651424486, total_articles = 95
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 1.4247715548419702, total_articles = 96
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 24.13892651424486, total_articles = 96
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 1.4247715548419702, total_articles = 97
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 24.228212228530577, total_articles = 97
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 1.4247715548419702, total_articles = 98
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 24.696962228530577, total_articles = 98
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 1.4837315143739638, total_articles = 99
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 24.696962228530577, total_articles = 99
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 1.4837315143739638, total_articles = 100
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 24.921962228530578, total_articles = 100
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 1.4837315143739638, total_articles = 101
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 25.25321222853058, total_articles = 101
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 1.4837315143739638, total_articles = 102
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 25.47196222853058, total_articles = 102
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 1.4837315143739638, total_articles = 103
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 25.704105085673437, total_articles = 103
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 1.4837315143739638, total_articles = 104
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 25.811247942816294, total_articles = 104
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 1.4837315143739638, total_articles = 105
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 26.142497942816295, total_articles = 105
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 1.4837315143739638, total_articles = 106
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 26.611247942816295, total_articles = 106
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 1.4837315143739638, total_articles = 107
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 26.718390799959153, total_articles = 107
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 1.4837315143739638, total_articles = 108
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 26.95053365710201, total_articles = 108
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 1.4837315143739638, total_articles = 109
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 27.03178365710201, total_articles = 109
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 1.6105780073714435, total_articles = 110
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 27.03178365710201, total_articles = 110
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 1.6105780073714435, total_articles = 111
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 27.256783657102012, total_articles = 111
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 1.8735988407047768, total_articles = 112
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 27.256783657102012, total_articles = 112
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 2.1332142253201614, total_articles = 113
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 27.256783657102012, total_articles = 113
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 2.1332142253201614, total_articles = 114
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 27.481783657102014, total_articles = 114
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 2.511503699004372, total_articles = 115
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 27.481783657102014, total_articles = 115
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 2.511503699004372, total_articles = 116
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 27.631783657102012, total_articles = 116
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 2.511503699004372, total_articles = 117
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 28.069283657102012, total_articles = 117
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 2.511503699004372, total_articles = 118
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 28.381783657102012, total_articles = 118
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 2.7800222175228906, total_articles = 119
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 28.381783657102012, total_articles = 119
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 2.7800222175228906, total_articles = 120
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 28.631783657102012, total_articles = 120
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 2.7800222175228906, total_articles = 121
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 28.913033657102012, total_articles = 121
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 2.8425222175228906, total_articles = 122
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 28.913033657102012, total_articles = 122
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 2.8425222175228906, total_articles = 123
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 28.941644768213123, total_articles = 123
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 2.8425222175228906, total_articles = 124
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 29.305281131849487, total_articles = 124
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 2.8425222175228906, total_articles = 125
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 29.649031131849487, total_articles = 125
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 2.8425222175228906, total_articles = 126
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 29.70700214634224, total_articles = 126
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 2.8425222175228906, total_articles = 127
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 29.906271626861724, total_articles = 127
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 2.8425222175228906, total_articles = 128
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 29.985344580934676, total_articles = 128
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 2.8425222175228906, total_articles = 129
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 30.485344580934676, total_articles = 129
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 2.8425222175228906, total_articles = 130
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 30.679789025379122, total_articles = 130
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 2.8425222175228906, total_articles = 131
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 30.82052976611986, total_articles = 131
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 2.8425222175228906, total_articles = 132
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 31.077958337548434, total_articles = 132
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 2.8425222175228906, total_articles = 133
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 31.459902781992877, total_articles = 133
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 2.8425222175228906, total_articles = 134
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 31.689069448659545, total_articles = 134
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 2.8425222175228906, total_articles = 135
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 31.978131948659545, total_articles = 135
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 2.8425222175228906, total_articles = 136
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 32.11563194865954, total_articles = 136
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 2.977033087088108, total_articles = 137
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 32.11563194865954, total_articles = 137
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.291688259501901, total_articles = 138
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 32.11563194865954, total_articles = 138
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.5694660372796787, total_articles = 139
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 32.11563194865954, total_articles = 139
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.5694660372796787, total_articles = 140
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 32.13282880648289, total_articles = 140
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.5694660372796787, total_articles = 141
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 32.457828806482894, total_articles = 141
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.5694660372796787, total_articles = 142
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 32.80306690172099, total_articles = 142
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.5694660372796787, total_articles = 143
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 33.149220747874836, total_articles = 143
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.5694660372796787, total_articles = 144
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 33.40385037750446, total_articles = 144
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.5694660372796787, total_articles = 145
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 33.62051704417113, total_articles = 145
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.5694660372796787, total_articles = 146
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 33.87051704417113, total_articles = 146
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.5694660372796787, total_articles = 147
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 34.02051704417113, total_articles = 147
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.5694660372796787, total_articles = 148
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 34.33301704417113, total_articles = 148
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.5694660372796787, total_articles = 149
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 34.60037815528224, total_articles = 149
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.5694660372796787, total_articles = 150
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 34.97537815528224, total_articles = 150
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.5694660372796787, total_articles = 151
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 35.28371148861557, total_articles = 151
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.5694660372796787, total_articles = 152
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 35.50246148861557, total_articles = 152
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.5694660372796787, total_articles = 153
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 35.81976918092327, total_articles = 153
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.5694660372796787, total_articles = 154
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 36.04704190819599, total_articles = 154
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.5694660372796787, total_articles = 155
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 36.16162524152933, total_articles = 155
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.5694660372796787, total_articles = 156
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 36.66162524152933, total_articles = 156
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.5694660372796787, total_articles = 157
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 36.67864554965258, total_articles = 157
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.5694660372796787, total_articles = 158
+METHOD:SWN3 - top:1----> state = ISLAMABAD, score = 37.06406221631924, total_articles = 158
+METHOD:SWN3 - top:0----> state = KARACHI, score = 0.5138888888888888, total_articles = 159
+METHOD:SWN3 - top:1----> state = HONG KONG, score = 3.5694660372796787, total_articles = 159
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 37.06406221631924, total_articles = 159
+METHOD:SWN3 - top:0----> state = KARACHI, score = 0.8472222222222221, total_articles = 160
+METHOD:SWN3 - top:1----> state = HONG KONG, score = 3.5694660372796787, total_articles = 160
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 37.06406221631924, total_articles = 160
+METHOD:SWN3 - top:0----> state = KARACHI, score = 1.222222222222222, total_articles = 161
+METHOD:SWN3 - top:1----> state = HONG KONG, score = 3.5694660372796787, total_articles = 161
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 37.06406221631924, total_articles = 161
+METHOD:SWN3 - top:0----> state = KARACHI, score = 1.2556816816816816, total_articles = 162
+METHOD:SWN3 - top:1----> state = HONG KONG, score = 3.5694660372796787, total_articles = 162
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 37.06406221631924, total_articles = 162
+METHOD:SWN3 - top:0----> state = KARACHI, score = 1.5838066816816816, total_articles = 163
+METHOD:SWN3 - top:1----> state = HONG KONG, score = 3.5694660372796787, total_articles = 163
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 37.06406221631924, total_articles = 163
+METHOD:SWN3 - top:0----> state = KARACHI, score = 1.8838066816816816, total_articles = 164
+METHOD:SWN3 - top:1----> state = HONG KONG, score = 3.5694660372796787, total_articles = 164
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 37.06406221631924, total_articles = 164
+METHOD:SWN3 - top:0----> state = LONDON, score = 2.018870274999339, total_articles = 165
+METHOD:SWN3 - top:1----> state = HONG KONG, score = 3.5694660372796787, total_articles = 165
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 37.06406221631924, total_articles = 165
+METHOD:SWN3 - top:0----> state = LONDON, score = 2.282759163888228, total_articles = 166
+METHOD:SWN3 - top:1----> state = HONG KONG, score = 3.5694660372796787, total_articles = 166
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 37.06406221631924, total_articles = 166process:10 for instance:GlobalHappyState15_0 redis connection created.
+METHOD:AFINN - top:0----> state = KARACHI, score = 0, total_articles = 1
+TERMINATED: stateful process:10 for instance:GlobalHappyState15_0 ends now
+process:0 for instance:None redis connection created.
+Total articles found 2470
+TERMINATED: stateless process:0 ends now
+process:3 for instance:None redis connection created.
+TERMINATED: stateless process:3 ends now
+process:5 for instance:None redis connection created.
+TERMINATED: stateless process:5 ends now
+process:4 for instance:None redis connection created.
+TERMINATED: stateless process:4 ends now
+process:1 for instance:None redis connection created.
+TERMINATED: stateless process:1 ends now
+process:2 for instance:None redis connection created.
+TERMINATED: stateless process:2 ends now
+process:11 for instance:HappyState14_0 redis connection created.
+TERMINATED: stateful process:11 for instance:HappyState14_0 ends now
+process:8 for instance:HappyState20_1 redis connection created.
+TERMINATED: stateful process:8 for instance:HappyState20_1 ends now
+process:7 for instance:HappyState20_2 redis connection created.
+TERMINATED: stateful process:7 for instance:HappyState20_2 ends now
+
+METHOD:SWN3 - top:0----> state = LONDON, score = 2.302791215170279, total_articles = 167
+METHOD:SWN3 - top:1----> state = HONG KONG, score = 3.5694660372796787, total_articles = 167
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 37.06406221631924, total_articles = 167
+METHOD:SWN3 - top:0----> state = LONDON, score = 2.6083467707258343, total_articles = 168
+METHOD:SWN3 - top:1----> state = HONG KONG, score = 3.5694660372796787, total_articles = 168
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 37.06406221631924, total_articles = 168
+METHOD:SWN3 - top:0----> state = KARACHI, score = 2.6730656747525945, total_articles = 169
+METHOD:SWN3 - top:1----> state = HONG KONG, score = 3.5694660372796787, total_articles = 169
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 37.06406221631924, total_articles = 169
+METHOD:SWN3 - top:0----> state = KARACHI, score = 2.9230656747525945, total_articles = 170
+METHOD:SWN3 - top:1----> state = HONG KONG, score = 3.5694660372796787, total_articles = 170
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 37.06406221631924, total_articles = 170
+METHOD:SWN3 - top:0----> state = KARACHI, score = 3.3605656747525945, total_articles = 171
+METHOD:SWN3 - top:1----> state = HONG KONG, score = 3.5694660372796787, total_articles = 171
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 37.06406221631924, total_articles = 171
+METHOD:SWN3 - top:0----> state = KARACHI, score = 3.568899008085928, total_articles = 172
+METHOD:SWN3 - top:1----> state = HONG KONG, score = 3.5694660372796787, total_articles = 172
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 37.06406221631924, total_articles = 172
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.5694660372796787, total_articles = 173
+METHOD:SWN3 - top:1----> state = KARACHI, score = 4.443899008085928, total_articles = 173
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 37.06406221631924, total_articles = 173
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.5694660372796787, total_articles = 174
+METHOD:SWN3 - top:1----> state = KARACHI, score = 4.725149008085928, total_articles = 174
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 37.06406221631924, total_articles = 174
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.5694660372796787, total_articles = 175
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.0584823414192615, total_articles = 175
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 37.06406221631924, total_articles = 175
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.5694660372796787, total_articles = 176
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.221676785863706, total_articles = 176
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 37.06406221631924, total_articles = 176
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.5694660372796787, total_articles = 177
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.440426785863706, total_articles = 177
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 37.06406221631924, total_articles = 177
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.5694660372796787, total_articles = 178
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.627926785863706, total_articles = 178
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 37.06406221631924, total_articles = 178
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.5694660372796787, total_articles = 179
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.895783928720849, total_articles = 179
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 37.06406221631924, total_articles = 179
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.5694660372796787, total_articles = 180
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.999531878322886, total_articles = 180
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 37.06406221631924, total_articles = 180
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.5694660372796787, total_articles = 181
+METHOD:SWN3 - top:1----> state = KARACHI, score = 6.624531878322886, total_articles = 181
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 37.06406221631924, total_articles = 181
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.5694660372796787, total_articles = 182
+METHOD:SWN3 - top:1----> state = KARACHI, score = 6.8456857244767315, total_articles = 182
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 37.06406221631924, total_articles = 182
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.5694660372796787, total_articles = 183
+METHOD:SWN3 - top:1----> state = KARACHI, score = 7.243412997204004, total_articles = 183
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 37.06406221631924, total_articles = 183
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.5694660372796787, total_articles = 184
+METHOD:SWN3 - top:1----> state = KARACHI, score = 7.598142726933734, total_articles = 184
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 37.06406221631924, total_articles = 184
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.5694660372796787, total_articles = 185
+METHOD:SWN3 - top:1----> state = KARACHI, score = 7.6636189174099245, total_articles = 185
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 37.06406221631924, total_articles = 185
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.5694660372796787, total_articles = 186
+METHOD:SWN3 - top:1----> state = KARACHI, score = 7.900307229098236, total_articles = 186
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 37.06406221631924, total_articles = 186
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.5694660372796787, total_articles = 187
+METHOD:SWN3 - top:1----> state = KARACHI, score = 8.212807229098235, total_articles = 187
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 37.06406221631924, total_articles = 187
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.5694660372796787, total_articles = 188
+METHOD:SWN3 - top:1----> state = KARACHI, score = 8.326894530685538, total_articles = 188
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 37.06406221631924, total_articles = 188
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.5694660372796787, total_articles = 189
+METHOD:SWN3 - top:1----> state = KARACHI, score = 8.626894530685538, total_articles = 189
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 37.06406221631924, total_articles = 189
+METHOD:SWN3 - top:0----> state = HONG KONG, score = 3.5694660372796787, total_articles = 190
+METHOD:SWN3 - top:1----> state = KARACHI, score = 8.955019530685538, total_articles = 190
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 37.06406221631924, total_articles = 190
+TERMINATED: stateful process:6 for instance:GlobalHappyState21_0 ends now
+process:9 for instance:HappyState20_0 redis connection created.
+TERMINATED: stateful process:9 for instance:HappyState20_0 ends now
+ELAPSED TIME(minus 10 second(s) for AUTO_TERMINATE): 48.8395721912384
+Begin to clean redis stream keys...
+---------------------------------
+dyn_multi : running with 16 processors
+RUN ARGS: 
+Namespace(attr=None, data='{"read":[{"input":"Articles_cleaned.csv"}]}', file=None, iter=1, module='analysis_sentiment.py', num=16, provenance=None, redis_ip='localhost', redis_port=6379, target='hybrid_redis')
+==========
+Starting 16 workers communicating
+process:10 for instance:GlobalHappyState21_0 redis connection created.
+METHOD:SWN3 - top:0----> state = DUBAI, score = 0.2847222222222222, total_articles = 1
+METHOD:SWN3 - top:0----> state = DUBAI, score = 0.2847222222222222, total_articles = 2
+METHOD:SWN3 - top:1----> state = LAHORE, score = 0.375, total_articles = 2
+METHOD:SWN3 - top:0----> state = DUBAI, score = 0.2847222222222222, total_articles = 3
+METHOD:SWN3 - top:1----> state = LAHORE, score = 0.5, total_articles = 3
+METHOD:SWN3 - top:0----> state = DUBAI, score = 0.2847222222222222, total_articles = 4
+METHOD:SWN3 - top:1----> state = LAHORE, score = 0.78125, total_articles = 4
+METHOD:SWN3 - top:0----> state = DUBAI, score = 0.2847222222222222, total_articles = 5
+METHOD:SWN3 - top:1----> state = LAHORE, score = 0.78125, total_articles = 5
+METHOD:SWN3 - top:2----> state = MUMBAI, score = 0.9499289772727273, total_articles = 5
+METHOD:SWN3 - top:0----> state = DUBAI, score = 0.2847222222222222, total_articles = 6
+METHOD:SWN3 - top:1----> state = LAHORE, score = 0.78125, total_articles = 6
+METHOD:SWN3 - top:2----> state = MUMBAI, score = 1.196550598894349, total_articles = 6
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.78125, total_articles = 7
+METHOD:SWN3 - top:1----> state = MUMBAI, score = 1.196550598894349, total_articles = 7
+METHOD:SWN3 - top:2----> state = DUBAI, score = 1.3334247856230612, total_articles = 7
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.78125, total_articles = 8
+METHOD:SWN3 - top:1----> state = MUMBAI, score = 1.196550598894349, total_articles = 8
+METHOD:SWN3 - top:2----> state = DUBAI, score = 1.5417581189563945, total_articles = 8
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.78125, total_articles = 9
+METHOD:SWN3 - top:1----> state = MUMBAI, score = 1.196550598894349, total_articles = 9
+METHOD:SWN3 - top:2----> state = DUBAI, score = 1.6178450754781335, total_articles = 9
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.78125, total_articles = 10
+METHOD:SWN3 - top:1----> state = DUBAI, score = 1.6178450754781335, total_articles = 10
+METHOD:SWN3 - top:2----> state = MUMBAI, score = 1.7493627573642945, total_articles = 10
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.78125, total_articles = 11
+METHOD:SWN3 - top:1----> state = MUMBAI, score = 1.7493627573642945, total_articles = 11
+METHOD:SWN3 - top:2----> state = DUBAI, score = 1.9795874997205576, total_articles = 11
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.78125, total_articles = 12
+METHOD:SWN3 - top:1----> state = MUMBAI, score = 1.7493627573642945, total_articles = 12
+METHOD:SWN3 - top:2----> state = DUBAI, score = 1.9795874997205576, total_articles = 12
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.78125, total_articles = 13
+METHOD:SWN3 - top:1----> state = MUMBAI, score = 1.7493627573642945, total_articles = 13
+METHOD:SWN3 - top:2----> state = DUBAI, score = 1.9795874997205576, total_articles = 13
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.78125, total_articles = 14
+METHOD:SWN3 - top:1----> state = MUMBAI, score = 1.7493627573642945, total_articles = 14
+METHOD:SWN3 - top:2----> state = DUBAI, score = 1.9795874997205576, total_articles = 14
+METHOD:SWN3 - top:0----> state = LAHORE, score = 0.78125, total_articles = 15
+METHOD:SWN3 - top:1----> state = MUMBAI, score = 1.7493627573642945, total_articles = 15
+METHOD:SWN3 - top:2----> state = DUBAI, score = 1.9795874997205576, total_articles = 15
+METHOD:SWN3 - top:0----> state = KARACHI, score = 1.222222222222222, total_articles = 16
+METHOD:SWN3 - top:1----> state = MUMBAI, score = 1.7493627573642945, total_articles = 16
+METHOD:SWN3 - top:2----> state = DUBAI, score = 1.9795874997205576, total_articles = 16
+METHOD:SWN3 - top:0----> state = KARACHI, score = 1.2556816816816816, total_articles = 17
+METHOD:SWN3 - top:1----> state = MUMBAI, score = 1.7493627573642945, total_articles = 17
+METHOD:SWN3 - top:2----> state = DUBAI, score = 1.9795874997205576, total_articles = 17
+METHOD:SWN3 - top:0----> state = KARACHI, score = 1.5838066816816816, total_articles = 18
+METHOD:SWN3 - top:1----> state = MUMBAI, score = 1.7493627573642945, total_articles = 18
+METHOD:SWN3 - top:2----> state = DUBAI, score = 1.9795874997205576, total_articles = 18
+METHOD:SWN3 - top:0----> state = KARACHI, score = 1.5838066816816816, total_articles = 19
+METHOD:SWN3 - top:1----> state = MUMBAI, score = 1.7493627573642945, total_articles = 19
+METHOD:SWN3 - top:2----> state = DUBAI, score = 1.9795874997205576, total_articles = 19
+METHOD:SWN3 - top:0----> state = KARACHI, score = 1.5838066816816816, total_articles = 20
+METHOD:SWN3 - top:1----> state = MUMBAI, score = 1.7493627573642945, total_articles = 20
+METHOD:SWN3 - top:2----> state = DUBAI, score = 1.9795874997205576, total_articles = 20
+METHOD:SWN3 - top:0----> state = MUMBAI, score = 1.7493627573642945, total_articles = 21
+METHOD:SWN3 - top:1----> state = KARACHI, score = 1.8838066816816816, total_articles = 21
+METHOD:SWN3 - top:2----> state = DUBAI, score = 1.9795874997205576, total_articles = 21
+METHOD:SWN3 - top:0----> state = MUMBAI, score = 1.7493627573642945, total_articles = 22
+METHOD:SWN3 - top:1----> state = KARACHI, score = 1.8838066816816816, total_articles = 22
+METHOD:SWN3 - top:2----> state = DUBAI, score = 1.9795874997205576, total_articles = 22
+METHOD:SWN3 - top:0----> state = MUMBAI, score = 1.7493627573642945, total_articles = 23
+METHOD:SWN3 - top:1----> state = KARACHI, score = 1.8838066816816816, total_articles = 23
+METHOD:SWN3 - top:2----> state = DUBAI, score = 1.9795874997205576, total_articles = 23
+METHOD:SWN3 - top:0----> state = MUMBAI, score = 1.7493627573642945, total_articles = 24
+METHOD:SWN3 - top:1----> state = KARACHI, score = 1.8838066816816816, total_articles = 24
+METHOD:SWN3 - top:2----> state = DUBAI, score = 1.9795874997205576, total_articles = 24
+METHOD:SWN3 - top:0----> state = MUMBAI, score = 1.7493627573642945, total_articles = 25
+METHOD:SWN3 - top:1----> state = KARACHI, score = 1.8838066816816816, total_articles = 25
+METHOD:SWN3 - top:2----> state = DUBAI, score = 1.9795874997205576, total_articles = 25
+METHOD:SWN3 - top:0----> state = LONDON, score = 1.7784856596147232, total_articles = 26
+METHOD:SWN3 - top:1----> state = KARACHI, score = 1.8838066816816816, total_articles = 26
+METHOD:SWN3 - top:2----> state = DUBAI, score = 1.9795874997205576, total_articles = 26
+METHOD:SWN3 - top:0----> state = KARACHI, score = 1.8838066816816816, total_articles = 27
+METHOD:SWN3 - top:1----> state = DUBAI, score = 1.9795874997205576, total_articles = 27
+METHOD:SWN3 - top:2----> state = LONDON, score = 2.0389023262813897, total_articles = 27
+METHOD:SWN3 - top:0----> state = KARACHI, score = 1.8838066816816816, total_articles = 28
+METHOD:SWN3 - top:1----> state = DUBAI, score = 1.9795874997205576, total_articles = 28
+METHOD:SWN3 - top:2----> state = LONDON, score = 2.2889023262813897, total_articles = 28
+METHOD:SWN3 - top:0----> state = DUBAI, score = 1.9795874997205576, total_articles = 29
+METHOD:SWN3 - top:1----> state = KARACHI, score = 2.0517421453408295, total_articles = 29
+METHOD:SWN3 - top:2----> state = LONDON, score = 2.2889023262813897, total_articles = 29
+METHOD:SWN3 - top:0----> state = DUBAI, score = 1.9795874997205576, total_articles = 30
+METHOD:SWN3 - top:1----> state = KARACHI, score = 2.0517421453408295, total_articles = 30
+METHOD:SWN3 - top:2----> state = LONDON, score = 2.5310898262813897, total_articles = 30
+METHOD:SWN3 - top:0----> state = DUBAI, score = 1.9795874997205576, total_articles = 31
+METHOD:SWN3 - top:1----> state = KARACHI, score = 2.3605656747525945, total_articles = 31
+METHOD:SWN3 - top:2----> state = LONDON, score = 2.5310898262813897, total_articles = 31
+METHOD:SWN3 - top:0----> state = DUBAI, score = 1.9795874997205576, total_articles = 32
+METHOD:SWN3 - top:1----> state = LONDON, score = 2.5310898262813897, total_articles = 32
+METHOD:SWN3 - top:2----> state = KARACHI, score = 2.7980656747525945, total_articles = 32
+METHOD:SWN3 - top:0----> state = DUBAI, score = 1.9795874997205576, total_articles = 33
+METHOD:SWN3 - top:1----> state = LONDON, score = 2.5310898262813897, total_articles = 33
+METHOD:SWN3 - top:2----> state = KARACHI, score = 3.0480656747525945, total_articles = 33
+METHOD:SWN3 - top:0----> state = DUBAI, score = 1.9795874997205576, total_articles = 34
+METHOD:SWN3 - top:1----> state = LONDON, score = 2.5310898262813897, total_articles = 34
+METHOD:SWN3 - top:2----> state = KARACHI, score = 3.9230656747525945, total_articles = 34
+METHOD:SWN3 - top:0----> state = DUBAI, score = 1.9795874997205576, total_articles = 35
+METHOD:SWN3 - top:1----> state = LONDON, score = 2.642517121811946, total_articles = 35
+METHOD:SWN3 - top:2----> state = KARACHI, score = 3.9230656747525945, total_articles = 35
+METHOD:SWN3 - top:0----> state = DUBAI, score = 1.9795874997205576, total_articles = 36
+METHOD:SWN3 - top:1----> state = LONDON, score = 2.642517121811946, total_articles = 36
+METHOD:SWN3 - top:2----> state = KARACHI, score = 4.1313990080859275, total_articles = 36
+METHOD:SWN3 - top:0----> state = DUBAI, score = 1.9795874997205576, total_articles = 37
+METHOD:SWN3 - top:1----> state = LONDON, score = 2.642517121811946, total_articles = 37
+METHOD:SWN3 - top:2----> state = KARACHI, score = 4.4126490080859275, total_articles = 37
+METHOD:SWN3 - top:0----> state = DUBAI, score = 1.9795874997205576, total_articles = 38
+METHOD:SWN3 - top:1----> state = LONDON, score = 2.642517121811946, total_articles = 38
+METHOD:SWN3 - top:2----> state = KARACHI, score = 4.745982341419261, total_articles = 38
+METHOD:SWN3 - top:0----> state = DUBAI, score = 1.9795874997205576, total_articles = 39
+METHOD:SWN3 - top:1----> state = LONDON, score = 2.642517121811946, total_articles = 39
+METHOD:SWN3 - top:2----> state = KARACHI, score = 5.058482341419261, total_articles = 39
+METHOD:SWN3 - top:0----> state = DUBAI, score = 1.9795874997205576, total_articles = 40
+METHOD:SWN3 - top:1----> state = LONDON, score = 2.697204621811946, total_articles = 40
+METHOD:SWN3 - top:2----> state = KARACHI, score = 5.058482341419261, total_articles = 40
+METHOD:SWN3 - top:0----> state = DUBAI, score = 1.9795874997205576, total_articles = 41
+METHOD:SWN3 - top:1----> state = LONDON, score = 2.697204621811946, total_articles = 41
+METHOD:SWN3 - top:2----> state = KARACHI, score = 5.245982341419261, total_articles = 41
+METHOD:SWN3 - top:0----> state = DUBAI, score = 1.9795874997205576, total_articles = 42
+METHOD:SWN3 - top:1----> state = LONDON, score = 2.9175993586540514, total_articles = 42
+METHOD:SWN3 - top:2----> state = KARACHI, score = 5.245982341419261, total_articles = 42
+METHOD:SWN3 - top:0----> state = DUBAI, score = 1.9795874997205576, total_articles = 43
+METHOD:SWN3 - top:1----> state = LONDON, score = 2.9175993586540514, total_articles = 43
+METHOD:SWN3 - top:2----> state = KARACHI, score = 5.252926785863705, total_articles = 43
+METHOD:SWN3 - top:0----> state = DUBAI, score = 1.9795874997205576, total_articles = 44
+METHOD:SWN3 - top:1----> state = LONDON, score = 3.164309884969841, total_articles = 44
+METHOD:SWN3 - top:2----> state = KARACHI, score = 5.252926785863705, total_articles = 44
+METHOD:SWN3 - top:0----> state = DUBAI, score = 1.9795874997205576, total_articles = 45
+METHOD:SWN3 - top:1----> state = LONDON, score = 3.164309884969841, total_articles = 45
+METHOD:SWN3 - top:2----> state = KARACHI, score = 5.520783928720848, total_articles = 45
+METHOD:SWN3 - top:0----> state = DUBAI, score = 1.9795874997205576, total_articles = 46
+METHOD:SWN3 - top:1----> state = LONDON, score = 3.3861848849698406, total_articles = 46
+METHOD:SWN3 - top:2----> state = KARACHI, score = 5.520783928720848, total_articles = 46
+METHOD:SWN3 - top:0----> state = DUBAI, score = 1.9795874997205576, total_articles = 47
+METHOD:SWN3 - top:1----> state = LONDON, score = 3.3861848849698406, total_articles = 47
+METHOD:SWN3 - top:2----> state = KARACHI, score = 5.682905140842061, total_articles = 47
+METHOD:SWN3 - top:0----> state = DUBAI, score = 1.9795874997205576, total_articles = 48
+METHOD:SWN3 - top:1----> state = LONDON, score = 3.3861848849698406, total_articles = 48
+METHOD:SWN3 - top:2----> state = KARACHI, score = 5.894562052770712, total_articles = 48
+METHOD:SWN3 - top:0----> state = LONDON, score = 3.3861848849698406, total_articles = 49
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 49
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 6.013706501831501, total_articles = 49
+METHOD:SWN3 - top:0----> state = LONDON, score = 3.3861848849698406, total_articles = 50
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 50
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 6.305373168498168, total_articles = 50
+METHOD:SWN3 - top:0----> state = LONDON, score = 3.3861848849698406, total_articles = 51
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 51
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 6.351801739926739, total_articles = 51
+METHOD:SWN3 - top:0----> state = LONDON, score = 3.5034307208664517, total_articles = 52
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 52
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 6.351801739926739, total_articles = 52
+METHOD:SWN3 - top:0----> state = LONDON, score = 3.5034307208664517, total_articles = 53
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 53
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 6.570551739926739, total_articles = 53
+METHOD:SWN3 - top:0----> state = LONDON, score = 3.5034307208664517, total_articles = 54
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 54
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 6.945551739926739, total_articles = 54
+METHOD:SWN3 - top:0----> state = LONDON, score = 3.5034307208664517, total_articles = 55
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 55
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 7.320551739926739, total_articles = 55
+METHOD:SWN3 - top:0----> state = LONDON, score = 3.5034307208664517, total_articles = 56
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 56
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 7.633051739926739, total_articles = 56
+METHOD:SWN3 - top:0----> state = LONDON, score = 3.5034307208664517, total_articles = 57
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 57
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 7.903885073260072, total_articles = 57
+METHOD:SWN3 - top:0----> state = LONDON, score = 3.5034307208664517, total_articles = 58
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 58
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 8.130075549450547, total_articles = 58
+METHOD:SWN3 - top:0----> state = LONDON, score = 3.8620514105216244, total_articles = 59
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 59
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 8.130075549450547, total_articles = 59
+METHOD:SWN3 - top:0----> state = LONDON, score = 3.8620514105216244, total_articles = 60
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 60
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 8.440610949437035, total_articles = 60
+METHOD:SWN3 - top:0----> state = LONDON, score = 3.8620514105216244, total_articles = 61
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 61
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 8.961444282770369, total_articles = 61
+METHOD:SWN3 - top:0----> state = LONDON, score = 3.8620514105216244, total_articles = 62
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 62
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 8.967843092294178, total_articles = 62
+METHOD:SWN3 - top:0----> state = LONDON, score = 3.8620514105216244, total_articles = 63
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 63
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 9.301176425627512, total_articles = 63
+METHOD:SWN3 - top:0----> state = LONDON, score = 3.8620514105216244, total_articles = 64
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 64
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 9.673102351553437, total_articles = 64
+METHOD:SWN3 - top:0----> state = LONDON, score = 3.8620514105216244, total_articles = 65
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 65
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 10.043294659245745, total_articles = 65
+METHOD:SWN3 - top:0----> state = LONDON, score = 3.8620514105216244, total_articles = 66
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 66
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 10.333473230674317, total_articles = 66
+METHOD:SWN3 - top:0----> state = LONDON, score = 3.8620514105216244, total_articles = 67
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 67
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 10.583473230674317, total_articles = 67
+METHOD:SWN3 - top:0----> state = LONDON, score = 3.8620514105216244, total_articles = 68
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 68
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 10.614776649477735, total_articles = 68
+METHOD:SWN3 - top:0----> state = TOKYO, score = 3.876844339045821, total_articles = 69
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 69
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 10.614776649477735, total_articles = 69
+METHOD:SWN3 - top:0----> state = TOKYO, score = 3.876844339045821, total_articles = 70
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 70
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 10.804012760588845, total_articles = 70
+METHOD:SWN3 - top:0----> state = TOKYO, score = 4.122812080981305, total_articles = 71
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 71
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 10.804012760588845, total_articles = 71
+METHOD:SWN3 - top:0----> state = TOKYO, score = 4.122812080981305, total_articles = 72
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 72
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 11.077306878235904, total_articles = 72
+METHOD:SWN3 - top:0----> state = TOKYO, score = 4.122812080981305, total_articles = 73
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 73
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 11.577306878235904, total_articles = 73
+METHOD:SWN3 - top:0----> state = TOKYO, score = 4.122812080981305, total_articles = 74
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 74
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 11.975744378235904, total_articles = 74
+METHOD:SWN3 - top:0----> state = TOKYO, score = 4.122812080981305, total_articles = 75
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 75
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 12.350744378235904, total_articles = 75
+METHOD:SWN3 - top:0----> state = TOKYO, score = 4.122812080981305, total_articles = 76
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 76
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 12.76145866395019, total_articles = 76
+METHOD:SWN3 - top:0----> state = TOKYO, score = 4.122812080981305, total_articles = 77
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 77
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 13.02089262621434, total_articles = 77
+METHOD:SWN3 - top:0----> state = TOKYO, score = 4.122812080981305, total_articles = 78
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 78
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 13.360178340500054, total_articles = 78
+METHOD:SWN3 - top:0----> state = TOKYO, score = 4.122812080981305, total_articles = 79
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 79
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 13.69170007963049, total_articles = 79
+METHOD:SWN3 - top:0----> state = TOKYO, score = 4.122812080981305, total_articles = 80
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 80
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 13.903238541168951, total_articles = 80
+METHOD:SWN3 - top:0----> state = TOKYO, score = 4.122812080981305, total_articles = 81
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 81
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 14.056106506536917, total_articles = 81
+METHOD:SWN3 - top:0----> state = TOKYO, score = 4.122812080981305, total_articles = 82
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 82
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 14.431106506536917, total_articles = 82
+METHOD:SWN3 - top:0----> state = TOKYO, score = 4.122812080981305, total_articles = 83
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 83
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 14.694995395425806, total_articles = 83
+METHOD:SWN3 - top:0----> state = TOKYO, score = 4.122812080981305, total_articles = 84
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 84
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 15.194995395425806, total_articles = 84
+METHOD:SWN3 - top:0----> state = TOKYO, score = 4.3370609661541035, total_articles = 85
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 85
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 15.194995395425806, total_articles = 85
+METHOD:SWN3 - top:0----> state = TOKYO, score = 4.582060966154104, total_articles = 86
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 86
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 15.194995395425806, total_articles = 86
+METHOD:SWN3 - top:0----> state = TOKYO, score = 4.582060966154104, total_articles = 87
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 87
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 15.632495395425806, total_articles = 87
+METHOD:SWN3 - top:0----> state = TOKYO, score = 4.582060966154104, total_articles = 88
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 88
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 16.007495395425806, total_articles = 88
+METHOD:SWN3 - top:0----> state = TOKYO, score = 4.582060966154104, total_articles = 89
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 89
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 16.288745395425806, total_articles = 89
+METHOD:SWN3 - top:0----> state = TOKYO, score = 5.082060966154104, total_articles = 90
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 90
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 16.288745395425806, total_articles = 90
+METHOD:SWN3 - top:0----> state = TOKYO, score = 5.134560966154104, total_articles = 91
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 91
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 16.288745395425806, total_articles = 91
+METHOD:SWN3 - top:0----> state = TOKYO, score = 5.420275251868389, total_articles = 92
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 92
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 16.288745395425806, total_articles = 92
+METHOD:SWN3 - top:0----> state = TOKYO, score = 5.420275251868389, total_articles = 93
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 93
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 16.430342460800045, total_articles = 93
+METHOD:SWN3 - top:0----> state = TOKYO, score = 5.420275251868389, total_articles = 94
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 94
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 16.876175794133378, total_articles = 94
+METHOD:SWN3 - top:0----> state = TOKYO, score = 5.420275251868389, total_articles = 95
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 95
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 17.14890306686065, total_articles = 95
+METHOD:SWN3 - top:0----> state = TOKYO, score = 5.420275251868389, total_articles = 96
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 96
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 17.51001417797176, total_articles = 96
+METHOD:SWN3 - top:0----> state = TOKYO, score = 5.420275251868389, total_articles = 97
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 97
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 17.91626417797176, total_articles = 97
+METHOD:SWN3 - top:0----> state = TOKYO, score = 5.6286085852017225, total_articles = 98
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 98
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 17.91626417797176, total_articles = 98
+METHOD:SWN3 - top:0----> state = TOKYO, score = 5.6286085852017225, total_articles = 99
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 99
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 18.29126417797176, total_articles = 99
+METHOD:SWN3 - top:0----> state = TOKYO, score = 5.6286085852017225, total_articles = 100
+METHOD:SWN3 - top:1----> state = KARACHI, score = 5.894562052770712, total_articles = 100
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 18.52043084463843, total_articles = 100
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 101
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 101
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 18.52043084463843, total_articles = 101
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 102
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 102
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 18.85376417797176, total_articles = 102
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 103
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 103
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 19.120430844638427, total_articles = 103
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 104
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 104
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 19.432930844638427, total_articles = 104
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 105
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 105
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 19.7414414829363, total_articles = 105
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 106
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 106
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 20.004834340079157, total_articles = 106
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 107
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 107
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 20.048259664754482, total_articles = 107
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 108
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 108
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 20.32603744253226, total_articles = 108
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 109
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 109
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 20.611751728246546, total_articles = 109
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 110
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 110
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 20.666238907733725, total_articles = 110
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 111
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 111
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 20.941238907733723, total_articles = 111
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 112
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 112
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 21.34123890773372, total_articles = 112
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 113
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 113
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 21.61046967696449, total_articles = 113
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 114
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 114
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 21.910469676964492, total_articles = 114
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 115
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 115
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 21.967287858782676, total_articles = 115
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 116
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 116
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 22.270859287354103, total_articles = 116
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 117
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 117
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 22.3396092873541, total_articles = 117
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 118
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 118
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 22.5896092873541, total_articles = 118
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 119
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 119
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 23.0583592873541, total_articles = 119
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 120
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 120
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 23.315712228530572, total_articles = 120
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 121
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 121
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 23.404997942816287, total_articles = 121
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 122
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 122
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 23.575533657102003, total_articles = 122
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 123
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 123
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 23.88892651424486, total_articles = 123
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 124
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 124
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 24.35767651424486, total_articles = 124
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 125
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 125
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 24.58981937138772, total_articles = 125
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 126
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 126
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 24.83981937138772, total_articles = 126
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 127
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 127
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 25.028212228530577, total_articles = 127
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 128
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 128
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 25.092497942816294, total_articles = 128
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 129
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 129
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 25.561247942816294, total_articles = 129
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 130
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 130
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 25.811247942816294, total_articles = 130
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 131
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 131
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 26.279997942816294, total_articles = 131
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 132
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 132
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 26.529997942816294, total_articles = 132
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 133
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 133
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 26.61928365710201, total_articles = 133
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 134
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 134
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 26.95053365710201, total_articles = 134
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 135
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 135
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 27.03178365710201, total_articles = 135
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 136
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 136
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 27.256783657102012, total_articles = 136
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 137
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 137
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 27.631783657102012, total_articles = 137
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 138
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 138
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 28.069283657102012, total_articles = 138
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 139
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 139
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 28.381783657102012, total_articles = 139
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 140
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 140
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 28.631783657102012, total_articles = 140
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 141
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 141
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 28.913033657102012, total_articles = 141
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 142
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 142
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 28.941644768213123, total_articles = 142
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 143
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 143
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 29.024031131849487, total_articles = 143
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 144
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 144
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 29.440697798516155, total_articles = 144
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 145
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 145
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 29.70700214634224, total_articles = 145
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 146
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 146
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 29.919785140375236, total_articles = 146
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 147
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 147
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 30.2209215040116, total_articles = 147
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 148
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 148
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 30.513122358712454, total_articles = 148
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 149
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 149
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 30.888122358712454, total_articles = 149
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 150
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 150
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 31.077958337548434, total_articles = 150
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 151
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 151
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 31.307125004215102, total_articles = 151
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 152
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 152
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 31.689069448659545, total_articles = 152
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 153
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 153
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 31.978131948659545, total_articles = 153
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 154
+METHOD:SWN3 - top:1----> state = TOKYO, score = 5.9463169185350555, total_articles = 154
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 32.11563194865954, total_articles = 154
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 155
+METHOD:SWN3 - top:1----> state = TOKYO, score = 6.0559304958102675, total_articles = 155
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 32.11563194865954, total_articles = 155process:8 for instance:None redis connection created.
+TERMINATED: stateless process:8 ends now
+process:5 for instance:None redis connection created.
+TERMINATED: stateless process:5 ends now
+process:3 for instance:None redis connection created.
+TERMINATED: stateless process:3 ends now
+process:6 for instance:None redis connection created.
+TERMINATED: stateless process:6 ends now
+process:7 for instance:None redis connection created.
+TERMINATED: stateless process:7 ends now
+process:4 for instance:None redis connection created.
+TERMINATED: stateless process:4 ends now
+process:1 for instance:None redis connection created.
+TERMINATED: stateless process:1 ends now
+process:2 for instance:None redis connection created.
+TERMINATED: stateless process:2 ends now
+process:0 for instance:None redis connection created.
+Total articles found 2470
+TERMINATED: stateless process:0 ends now
+process:9 for instance:None redis connection created.
+TERMINATED: stateless process:9 ends now
+process:14 for instance:GlobalHappyState15_0 redis connection created.
+METHOD:AFINN - top:0----> state = KARACHI, score = 0, total_articles = 1
+TERMINATED: stateful process:14 for instance:GlobalHappyState15_0 ends now
+process:15 for instance:HappyState14_0 redis connection created.
+TERMINATED: stateful process:15 for instance:HappyState14_0 ends now
+process:13 for instance:HappyState20_0 redis connection created.
+TERMINATED: stateful process:13 for instance:HappyState20_0 ends now
+
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 156
+METHOD:SWN3 - top:1----> state = TOKYO, score = 6.0559304958102675, total_articles = 156
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 32.213636887290974, total_articles = 156
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 157
+METHOD:SWN3 - top:1----> state = TOKYO, score = 6.0559304958102675, total_articles = 157
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 32.39419244284653, total_articles = 157
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 158
+METHOD:SWN3 - top:1----> state = TOKYO, score = 6.0559304958102675, total_articles = 158
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 32.4578288064829, total_articles = 158
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 159
+METHOD:SWN3 - top:1----> state = TOKYO, score = 6.0559304958102675, total_articles = 159
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 32.803066901720996, total_articles = 159
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 160
+METHOD:SWN3 - top:1----> state = TOKYO, score = 6.0559304958102675, total_articles = 160
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 33.14922074787484, total_articles = 160
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 161
+METHOD:SWN3 - top:1----> state = TOKYO, score = 6.0559304958102675, total_articles = 161
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 33.40385037750447, total_articles = 161
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 162
+METHOD:SWN3 - top:1----> state = TOKYO, score = 6.0559304958102675, total_articles = 162
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 33.65385037750447, total_articles = 162
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 163
+METHOD:SWN3 - top:1----> state = TOKYO, score = 6.0559304958102675, total_articles = 163
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 33.87051704417114, total_articles = 163
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 164
+METHOD:SWN3 - top:1----> state = TOKYO, score = 6.0559304958102675, total_articles = 164
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 34.020517044171136, total_articles = 164
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 165
+METHOD:SWN3 - top:1----> state = TOKYO, score = 6.0559304958102675, total_articles = 165
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 34.333017044171136, total_articles = 165
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 166
+METHOD:SWN3 - top:1----> state = TOKYO, score = 6.0559304958102675, total_articles = 166
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 34.60037815528225, total_articles = 166
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 167
+METHOD:SWN3 - top:1----> state = TOKYO, score = 6.0559304958102675, total_articles = 167
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 34.97537815528225, total_articles = 167
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 168
+METHOD:SWN3 - top:1----> state = TOKYO, score = 6.0559304958102675, total_articles = 168
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 35.28371148861558, total_articles = 168
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 169
+METHOD:SWN3 - top:1----> state = TOKYO, score = 6.0559304958102675, total_articles = 169
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 35.50246148861558, total_articles = 169
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 170
+METHOD:SWN3 - top:1----> state = TOKYO, score = 6.0559304958102675, total_articles = 170
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 35.569769180923274, total_articles = 170
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 171
+METHOD:SWN3 - top:1----> state = TOKYO, score = 6.0559304958102675, total_articles = 171
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 36.047041908196, total_articles = 171
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 172
+METHOD:SWN3 - top:1----> state = TOKYO, score = 6.0559304958102675, total_articles = 172
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 36.349125241529336, total_articles = 172
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 173
+METHOD:SWN3 - top:1----> state = TOKYO, score = 6.0559304958102675, total_articles = 173
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 36.396919359176394, total_articles = 173
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 174
+METHOD:SWN3 - top:1----> state = TOKYO, score = 6.0559304958102675, total_articles = 174
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 36.709419359176394, total_articles = 174
+METHOD:SWN3 - top:0----> state = KARACHI, score = 5.894562052770712, total_articles = 175
+METHOD:SWN3 - top:1----> state = TOKYO, score = 6.0559304958102675, total_articles = 175
+METHOD:SWN3 - top:2----> state = ISLAMABAD, score = 37.06406221631925, total_articles = 175
+TERMINATED: stateful process:10 for instance:GlobalHappyState21_0 ends now
+process:12 for instance:HappyState20_1 redis connection created.
+TERMINATED: stateful process:12 for instance:HappyState20_1 ends now
+process:11 for instance:HappyState20_2 redis connection created.
+TERMINATED: stateful process:11 for instance:HappyState20_2 ends now
+ELAPSED TIME(minus 10 second(s) for AUTO_TERMINATE): 43.639641761779785
+Begin to clean redis stream keys...
+---------------------------------
+All experiments completed!

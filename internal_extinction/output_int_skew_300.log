@@ -1,0 +1,135 @@
+multi : running with 8 processors
+RUN ARGS: 
+Namespace(attr=None, data='{"read" : [ {"input" : "cp_coordinates_300.txt"} ]}', file=None, iter=1, module='int_ext_graph_skew.py', num=8, provenance=None, simple=False, target='multi')
+==========
+Processes: {'read4': range(0, 1), 'GetVOTable5': range(1, 3), 'FilterColumns6': range(3, 5), 'InternalExtinction7': range(5, 7)}
+read4 (rank 0): Processed 1 iteration.
+GetVOTable5 (rank 2): Processed 150 iterations.
+GetVOTable5 (rank 1): Processed 150 iterations.
+FilterColumns6 (rank 3): Processed 150 iterations.
+WARNING: W06: None:39:4: W06: Invalid UCD 'POS_EQ_RA_MAIN': Unknown word 'POS_EQ_RA_MAIN' [astropy.io.votable.tree]
+WARNING: W06: None:42:4: W06: Invalid UCD 'POS_EQ_DEC_MAIN': Unknown word 'POS_EQ_DEC_MAIN' [astropy.io.votable.tree]
+WARNING: W06: None:48:4: W06: Invalid UCD 'ID_MAIN': Unknown word 'ID_MAIN' [astropy.io.votable.tree]
+WARNING: W50: None:63:4: W50: Invalid unit string 'log(0.1arcmin)' [astropy.io.votable.tree]
+WARNING: W06: None:39:4: W06: Invalid UCD 'POS_EQ_RA_MAIN': Unknown word 'POS_EQ_RA_MAIN' [astropy.io.votable.tree]
+FilterColumns6 (rank 4): Processed 150 iterations.
+WARNING: W06: None:39:4: W06: Invalid UCD 'POS_EQ_RA_MAIN': Unknown word 'POS_EQ_RA_MAIN' [astropy.io.votable.tree]
+WARNING: W06: None:42:4: W06: Invalid UCD 'POS_EQ_DEC_MAIN': Unknown word 'POS_EQ_DEC_MAIN' [astropy.io.votable.tree]
+WARNING: W06: None:48:4: W06: Invalid UCD 'ID_MAIN': Unknown word 'ID_MAIN' [astropy.io.votable.tree]
+WARNING: W50: None:63:4: W50: Invalid unit string 'log(0.1arcmin)' [astropy.io.votable.tree]
+WARNING: W06: None:39:4: W06: Invalid UCD 'POS_EQ_RA_MAIN': Unknown word 'POS_EQ_RA_MAIN' [astropy.io.votable.tree]
+InternalExtinction7 (rank 6): Processed 150 iterations.
+InternalExtinction7 (rank 5): Processed 150 iterations.
+NEW ELAPSED TIME: 97.87414
+NEW ELAPSED TOTAL CPU TIME: 584.12992
+---------------------------------
+multi : running with 16 processors
+RUN ARGS: 
+Namespace(attr=None, data='{"read" : [ {"input" : "cp_coordinates_300.txt"} ]}', file=None, iter=1, module='int_ext_graph_skew.py', num=16, provenance=None, simple=False, target='multi')
+==========
+Processes: {'read4': range(0, 1), 'GetVOTable5': range(1, 6), 'FilterColumns6': range(6, 11), 'InternalExtinction7': range(11, 16)}
+read4 (rank 0): Processed 1 iteration.
+GetVOTable5 (rank 3): Processed 60 iterations.
+GetVOTable5 (rank 1): Processed 60 iterations.
+GetVOTable5 (rank 2): Processed 60 iterations.
+GetVOTable5 (rank 5): Processed 60 iterations.
+GetVOTable5 (rank 4): Processed 60 iterations.
+FilterColumns6 (rank 10): Processed 60 iterations.
+WARNING: W06: None:39:4: W06: Invalid UCD 'POS_EQ_RA_MAIN': Unknown word 'POS_EQ_RA_MAIN' [astropy.io.votable.tree]
+WARNING: W06: None:42:4: W06: Invalid UCD 'POS_EQ_DEC_MAIN': Unknown word 'POS_EQ_DEC_MAIN' [astropy.io.votable.tree]
+WARNING: W06: None:48:4: W06: Invalid UCD 'ID_MAIN': Unknown word 'ID_MAIN' [astropy.io.votable.tree]
+WARNING: W50: None:63:4: W50: Invalid unit string 'log(0.1arcmin)' [astropy.io.votable.tree]
+WARNING: W06: None:39:4: W06: Invalid UCD 'POS_EQ_RA_MAIN': Unknown word 'POS_EQ_RA_MAIN' [astropy.io.votable.tree]
+FilterColumns6 (rank 7): Processed 60 iterations.
+WARNING: W06: None:39:4: W06: Invalid UCD 'POS_EQ_RA_MAIN': Unknown word 'POS_EQ_RA_MAIN' [astropy.io.votable.tree]
+WARNING: W06: None:42:4: W06: Invalid UCD 'POS_EQ_DEC_MAIN': Unknown word 'POS_EQ_DEC_MAIN' [astropy.io.votable.tree]
+WARNING: W06: None:48:4: W06: Invalid UCD 'ID_MAIN': Unknown word 'ID_MAIN' [astropy.io.votable.tree]
+WARNING: W50: None:63:4: W50: Invalid unit string 'log(0.1arcmin)' [astropy.io.votable.tree]
+WARNING: W06: None:39:4: W06: Invalid UCD 'POS_EQ_RA_MAIN': Unknown word 'POS_EQ_RA_MAIN' [astropy.io.votable.tree]
+FilterColumns6 (rank 6): Processed 60 iterations.
+WARNING: W06: None:39:4: W06: Invalid UCD 'POS_EQ_RA_MAIN': Unknown word 'POS_EQ_RA_MAIN' [astropy.io.votable.tree]
+WARNING: W06: None:42:4: W06: Invalid UCD 'POS_EQ_DEC_MAIN': Unknown word 'POS_EQ_DEC_MAIN' [astropy.io.votable.tree]
+WARNING: W06: None:48:4: W06: Invalid UCD 'ID_MAIN': Unknown word 'ID_MAIN' [astropy.io.votable.tree]
+WARNING: W50: None:63:4: W50: Invalid unit string 'log(0.1arcmin)' [astropy.io.votable.tree]
+WARNING: W06: None:39:4: W06: Invalid UCD 'POS_EQ_RA_MAIN': Unknown word 'POS_EQ_RA_MAIN' [astropy.io.votable.tree]
+FilterColumns6 (rank 9): Processed 60 iterations.
+WARNING: W06: None:39:4: W06: Invalid UCD 'POS_EQ_RA_MAIN': Unknown word 'POS_EQ_RA_MAIN' [astropy.io.votable.tree]
+WARNING: W06: None:42:4: W06: Invalid UCD 'POS_EQ_DEC_MAIN': Unknown word 'POS_EQ_DEC_MAIN' [astropy.io.votable.tree]
+WARNING: W06: None:48:4: W06: Invalid UCD 'ID_MAIN': Unknown word 'ID_MAIN' [astropy.io.votable.tree]
+WARNING: W50: None:63:4: W50: Invalid unit string 'log(0.1arcmin)' [astropy.io.votable.tree]
+WARNING: W06: None:39:4: W06: Invalid UCD 'POS_EQ_RA_MAIN': Unknown word 'POS_EQ_RA_MAIN' [astropy.io.votable.tree]
+FilterColumns6 (rank 8): Processed 60 iterations.
+WARNING: W06: None:39:4: W06: Invalid UCD 'POS_EQ_RA_MAIN': Unknown word 'POS_EQ_RA_MAIN' [astropy.io.votable.tree]
+WARNING: W06: None:42:4: W06: Invalid UCD 'POS_EQ_DEC_MAIN': Unknown word 'POS_EQ_DEC_MAIN' [astropy.io.votable.tree]
+WARNING: W06: None:48:4: W06: Invalid UCD 'ID_MAIN': Unknown word 'ID_MAIN' [astropy.io.votable.tree]
+WARNING: W50: None:63:4: W50: Invalid unit string 'log(0.1arcmin)' [astropy.io.votable.tree]
+WARNING: W06: None:39:4: W06: Invalid UCD 'POS_EQ_RA_MAIN': Unknown word 'POS_EQ_RA_MAIN' [astropy.io.votable.tree]
+InternalExtinction7 (rank 11): Processed 60 iterations.
+InternalExtinction7 (rank 14): Processed 60 iterations.
+InternalExtinction7 (rank 15): Processed 60 iterations.
+InternalExtinction7 (rank 13): Processed 60 iterations.
+InternalExtinction7 (rank 12): Processed 60 iterations.
+NEW ELAPSED TIME: 31.91720
+NEW ELAPSED TOTAL CPU TIME: 469.45656
+---------------------------------
+dyn_multi : running with 8 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data='{"read" : [ {"input" : "cp_coordinates_300.txt"} ]}', file=None, iter=1, module='int_ext_graph_skew.py', num=8, provenance=None, target='dyn_multi')
+==========
+Starting 7 workers communicating
+NEW ELAPSED TIME: 51.27770
+NEW ELAPSED TOTAL CPU TIME: 357.89964
+---------------------------------
+dyn_multi : running with 16 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data='{"read" : [ {"input" : "cp_coordinates_300.txt"} ]}', file=None, iter=1, module='int_ext_graph_skew.py', num=16, provenance=None, target='dyn_multi')
+==========
+Starting 15 workers communicating
+NEW ELAPSED TIME: 26.11233
+NEW ELAPSED TOTAL CPU TIME: 388.56481
+---------------------------------
+dyn_auto_multi : running with 8 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data='{"read" : [ {"input" : "cp_coordinates_300.txt"} ]}', file=None, iter=1, module='int_ext_graph_skew.py', num=8, provenance=None, queue_threshold=10, target='dyn_auto_multi')
+==========
+NEW ELAPSED TIME: 58.05533
+NEW ELAPSED TOTAL CPU TIME: 313.18325
+---------------------------------
+dyn_auto_multi : running with 16 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data='{"read" : [ {"input" : "cp_coordinates_300.txt"} ]}', file=None, iter=1, module='int_ext_graph_skew.py', num=16, provenance=None, queue_threshold=10, target='dyn_auto_multi')
+==========
+NEW ELAPSED TIME: 35.37531
+NEW ELAPSED TOTAL CPU TIME: 348.79854
+---------------------------------
+dyn_redis : running with 8 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data='{"read" : [ {"input" : "cp_coordinates_300.txt"} ]}', file=None, iter=1, module='int_ext_graph_skew.py', num=8, provenance=None, target='dyn_redis')
+==========
+Starting 7 workers communicating
+NEW ELAPSED TIME: 50.98617
+NEW ELAPSED TOTAL CPU TIME: 355.77560
+---------------------------------
+dyn_redis : running with 16 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data='{"read" : [ {"input" : "cp_coordinates_300.txt"} ]}', file=None, iter=1, module='int_ext_graph_skew.py', num=16, provenance=None, target='dyn_redis')
+==========
+Starting 15 workers communicating
+NEW ELAPSED TIME: 29.15068
+NEW ELAPSED TOTAL CPU TIME: 432.23182
+---------------------------------
+dyn_auto_redis : running with 8 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data='{"read" : [ {"input" : "cp_coordinates_300.txt"} ]}', file=None, idle_time=1000, iter=1, module='int_ext_graph_skew.py', num=8, provenance=None, target='dyn_auto_redis')
+==========
+NEW ELAPSED TIME: 61.90079
+NEW ELAPSED TOTAL CPU TIME: 324.06682
+---------------------------------
+dyn_auto_redis : running with 16 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data='{"read" : [ {"input" : "cp_coordinates_300.txt"} ]}', file=None, idle_time=1000, iter=1, module='int_ext_graph_skew.py', num=16, provenance=None, target='dyn_auto_redis')
+==========
+NEW ELAPSED TIME: 34.90249
+NEW ELAPSED TOTAL CPU TIME: 420.62127
+---------------------------------
+Experiments for 300 completed!
