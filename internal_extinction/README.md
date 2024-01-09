@@ -108,6 +108,7 @@ mpiexec -n 10 python -m dispel4py.new.processor dispel4py.new.mpi_process int_ex
 ```
  Flag '-n' specify the number of processes. In the case of MPI mapping we need to indicate twice this '-n' flag.
 
+
 ### Multi mappings 
 
 Remember, these mapping (multi, dyn_multi, dyn_auto_multi) do not seem to work properly in MacOS (M1 chip). We recommend in this case to use our [Docker image](https://github.com/StreamingFlow/d4py/tree/main) to create a container.
@@ -148,6 +149,25 @@ dispel4py dyn_auto_multi int_ext_graph.py -d '{"read" : [ {"input" : "coordinate
 ### Redis mappings
 
 Remember, you need to have installed both, redis server and redis client. 
+
+#### (Fixed) Redis mapping
+
+> Go to another terminal for following command line
+
+```shell
+redis-server
+```
+
+> Go back to previous terminal
+
+```shell
+python -m dispel4py.new.processor redis int_ext_graph.py -d '{"read" : [ {"input" : "coordinates.txt"} ]}' -ri localhost -n 10
+```
+OR 
+
+```shell
+dispel4py redis int_ext_graph.py -d '{"read" : [ {"input" : "coordinates.txt"} ]}' -ri localhost -n 10
+```
 
 #### Dynamic Redis mapping
 
