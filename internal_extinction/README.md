@@ -142,7 +142,6 @@ dispel4py dyn_auto_multi int_ext_graph.py -d '{"read" : [ {"input" : "coordinate
 > Go to another terminal for following command line
 
 ```shell
-conda activate py37_d4p
 redis-server
 ```
 
