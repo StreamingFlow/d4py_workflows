@@ -133,7 +133,7 @@ python -m dispel4py.new.processor dyn_auto_multi int_ext_graph.py -d '{"read" : 
 OR
 ```shell
 dispel4py dyn_auto_multi int_ext_graph.py -d '{"read" : [ {"input" : "coordinates.txt"} ]}' -n 10 -thr 10
-
+```
 
 ### Redis mappings
 
@@ -159,6 +159,7 @@ dispel4py dyn_redis int_ext_graph.py -d '{"read" : [ {"input" : "coordinates.txt
 ```shell
 python -m dispel4py.new.processor dyn_auto_redis int_ext_graph.py -d '{"read" : [ {"input" : "coordinates.txt"} ]}' -n 10 -thr 200
 ```
+
 OR
 ```shell
 dispel4py dyn_auto_redis int_ext_graph.py -d '{"read" : [ {"input" : "coordinates.txt"} ]}' -n 20 -thr 200
