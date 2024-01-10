@@ -141,7 +141,7 @@ OR
 dispel4py dyn_multi skew_workflow.py -n 10 -i 100
 ```
  
-#### Dynamic Multi Autoscaling mapping
+#### Dynamic Multi Autoscaling mapping - Skew workflow
 
 ```shell
 python -m dispel4py.new.processor dyn_auto_multi skew_workflow.py -n 10 -i 100 -thr 10
@@ -178,7 +178,6 @@ dispel4py redis skew_workflow.py -ri localhost -n 10  -i 100
 **Note**: You can use just one tab terminal, running redis-server in the background: `redis-server &`
 
 
-#### Dynamic Redis
 
 #### Hybrid Redis
 Remember, you need to have installed both, redis server and redis client. 
