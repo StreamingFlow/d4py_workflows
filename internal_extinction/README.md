@@ -16,9 +16,6 @@ To run the this workflow, first you need to install:
 ```shell
 $ pip install requests
 $ pip install astropy
-$ pip install jwt
-$ pip install ujson
-$ pip install coloredlogs
 ``` 
 
 ## Using Docker Container
