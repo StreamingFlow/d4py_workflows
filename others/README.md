@@ -61,7 +61,7 @@ dispel4py simple covid_workflow.py
 ```
 ##### Skew workflow
 
-``shell
+```shell
 python -m dispel4py.new.processor simple skew_workflow.py -i 10 
 ```
 
