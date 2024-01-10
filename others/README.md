@@ -1,6 +1,6 @@
 # Covid and Skew Workflows
 
-[covid_workflow](./covid_workflow.py)  is focused on fetching, processing, and visualizing COVID-19 data, specifically for India. It begins with a DataProducer component that retrieves COVID-19 statistics from an online API, followed by a DataProcessor that parses this data to extract dates and daily new case figures. Lastly, the DataVisualizer component takes this processed data and creates a graphical representation of the COVID-19 daily new cases over time, plotting this data on a chart. The final output is a visual graph saved as an image file, providing a clear and informative depiction of the pandemic's trend in India. This workflow effectively combines data acquisition, manipulation, and visualization, making it a useful tool for analyzing and understanding the progression of COVID-19 cases. However, this is a **statefull workflow** - so only fixed and hybrid mappings works with this workflow.  Note that this workflow generates a `covid_cases.png` file with the visualization of the results. 
+[covid_workflow](./covid_workflow.py)  is focused on fetching, processing, and visualizing COVID-19 data, specifically for India. It begins with a DataProducer component that retrieves COVID-19 statistics from an online API, followed by a DataProcessor that parses this data to extract dates and daily new case figures. Lastly, the DataVisualizer component takes this processed data and creates a graphical representation of the COVID-19 daily new cases over time, plotting this data on a chart. The final output is a visual graph saved as an image file, providing a clear and informative depiction of the pandemic's trend in India. This workflow effectively combines data acquisition, manipulation, and visualization, making it a useful tool for analyzing and understanding the progression of COVID-19 cases. However, this is a **statefull workflow** - so only fixed mappings works with this workflow.  Note that this workflow generates a `covid_cases.png` file with the visualization of the results. 
 
 
 ## Requirements
@@ -14,7 +14,7 @@ conda activate d4py_env
 
 ## Important
 
-1. The `covid_workflow` is a **statefull** workflow!! So only the **fixed workload mappings** and **hybrid** mapping could be used to run this workflow.
+1. The `covid_workflow` is a **statefull** workflow!! So only the **fixed workload mappings**. Also, since it has a JSON file - it does not work with the hibryd_mapping. 
 
 2. If you run those workflows from a different directory, you only need to specify the path as <DIR1>.<DIR2>.<NAME_WORKFLOW> without the .py extension. However, if you are in `others` directory, then use <NAME_WORKFLOW>.py. Below are examples for clarity:
 
