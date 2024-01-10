@@ -17,7 +17,7 @@ conda activate d4py_env
 
 If you run those workflows from a different directory, you only need to specify the path as <DIR1>.<DIR2>.<NAME_WORKFLOW> without the .py extension. However, if you are in `others` directory, then use <NAME_WORKFLOW>.py. Below are examples for clarity:
 
-Example 1 - within article_sentiment directory:
+Example 1 - within `others` directory:
 
 ```shell
 dispel4py simple covid_workflow.py
