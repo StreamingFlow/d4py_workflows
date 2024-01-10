@@ -1,0 +1,88 @@
+dyn_multi : running with 4 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data=None, file='xcorr_input.jsn', iter=1, module='realtime_prep.py', num=4, provenance=None, target='dyn_multi')
+==========
+Starting 3 workers communicating
+NEW ELAPSED TIME: 18.73812
+NEW ELAPSED TIME Without TERMINATION: 13.73819
+NEW ELAPSED TOTAL CPU TIME: 56.05163
+---------------------------------
+dyn_multi : running with 8 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data=None, file='xcorr_input.jsn', iter=1, module='realtime_prep.py', num=8, provenance=None, target='dyn_multi')
+==========
+Starting 7 workers communicating
+NEW ELAPSED TIME: 12.65347
+NEW ELAPSED TIME Without TERMINATION: 7.65353
+NEW ELAPSED TOTAL CPU TIME: 87.99643
+---------------------------------
+dyn_multi : running with 12 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data=None, file='xcorr_input.jsn', iter=1, module='realtime_prep.py', num=12, provenance=None, target='dyn_multi')
+==========
+Starting 11 workers communicating
+NEW ELAPSED TIME: 9.38492
+NEW ELAPSED TIME Without TERMINATION: 4.38496
+NEW ELAPSED TOTAL CPU TIME: 101.78790
+---------------------------------
+dyn_multi : running with 16 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data=None, file='xcorr_input.jsn', iter=1, module='realtime_prep.py', num=16, provenance=None, target='dyn_multi')
+==========
+Starting 15 workers communicating
+NEW ELAPSED TIME: 9.37262
+NEW ELAPSED TIME Without TERMINATION: 4.37268
+NEW ELAPSED TOTAL CPU TIME: 138.75396
+---------------------------------
+dyn_multi : running with 20 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data=None, file='xcorr_input.jsn', iter=1, module='realtime_prep.py', num=20, provenance=None, target='dyn_multi')
+==========
+Starting 19 workers communicating
+NEW ELAPSED TIME: 9.57347
+NEW ELAPSED TIME Without TERMINATION: 4.57354
+NEW ELAPSED TOTAL CPU TIME: 178.12956
+---------------------------------
+dyn_auto_multi : running with 4 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data=None, file='xcorr_input.jsn', iter=1, module='realtime_prep.py', num=4, provenance=None, queue_threshold=10, target='dyn_auto_multi')
+==========
+2023-08-02 21:56:18 dispel4py.new.logger[3890498] ERROR Exception = an integer is required (got type NoneType)
+2023-08-02 21:56:18 dispel4py.new.logger[3890496] ERROR Exception = an integer is required (got type NoneType)
+NEW ELAPSED TIME: 18.22059
+NEW ELAPSED TIME Without TERMINATION: 13.22063
+NEW ELAPSED TOTAL CPU TIME: 35.42516
+---------------------------------
+dyn_auto_multi : running with 8 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data=None, file='xcorr_input.jsn', iter=1, module='realtime_prep.py', num=8, provenance=None, queue_threshold=10, target='dyn_auto_multi')
+==========
+NEW ELAPSED TIME: 18.82487
+NEW ELAPSED TIME Without TERMINATION: 13.82491
+NEW ELAPSED TOTAL CPU TIME: 36.64621
+---------------------------------
+dyn_auto_multi : running with 12 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data=None, file='xcorr_input.jsn', iter=1, module='realtime_prep.py', num=12, provenance=None, queue_threshold=10, target='dyn_auto_multi')
+==========
+NEW ELAPSED TIME: 20.78268
+NEW ELAPSED TIME Without TERMINATION: 15.78275
+NEW ELAPSED TOTAL CPU TIME: 40.48917
+---------------------------------
+dyn_auto_multi : running with 16 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data=None, file='xcorr_input.jsn', iter=1, module='realtime_prep.py', num=16, provenance=None, queue_threshold=10, target='dyn_auto_multi')
+==========
+NEW ELAPSED TIME: 20.72357
+NEW ELAPSED TIME Without TERMINATION: 15.72363
+NEW ELAPSED TOTAL CPU TIME: 40.23783
+---------------------------------
+dyn_auto_multi : running with 20 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data=None, file='xcorr_input.jsn', iter=1, module='realtime_prep.py', num=20, provenance=None, queue_threshold=10, target='dyn_auto_multi')
+==========
+NEW ELAPSED TIME: 20.18579
+NEW ELAPSED TIME Without TERMINATION: 15.18585
+NEW ELAPSED TOTAL CPU TIME: 38.86256
+---------------------------------
+All experiments completed!

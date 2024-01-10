@@ -1,0 +1,236 @@
+multi : running with 12 processors
+RUN ARGS: 
+Namespace(attr=None, data=None, file='xcorr_input.jsn', iter=1, module='realtime_prep_dict.py', num=12, provenance=None, simple=False, target='multi')
+==========
+Processes: {'streamRead10': range(0, 1), 'Decimate11': range(1, 2), 'Detrend12': range(2, 3), 'Demean13': range(3, 4), 'RemoveResponse14': range(4, 5), 'Filter15': range(5, 6), 'CalculateNorm16': range(6, 7), 'Whiten17': range(7, 8), 'CalculateFft18': range(8, 9), 'StreamToFile19': range(9, 10)}
+streamRead10 (rank 0): Processed 1 iteration.
+Decimate11 (rank 1): Processed 50 iterations.
+Detrend12 (rank 2): Processed 50 iterations.
+Demean13 (rank 3): Processed 50 iterations.
+RemoveResponse14 (rank 4): Processed 50 iterations.
+Filter15 (rank 5): Processed 50 iterations.
+CalculateNorm16 (rank 6): Processed 50 iterations.
+Whiten17 (rank 7): Processed 50 iterations.
+CalculateFft18 (rank 8): Processed 50 iterations.
+StreamToFile19 (rank 9): Processed 50 iterations.
+NEW ELAPSED TIME: 169.94342
+NEW ELAPSED TOTAL CPU TIME: 1025.60007
+---------------------------------
+multi : running with 16 processors
+RUN ARGS: 
+Namespace(attr=None, data=None, file='xcorr_input.jsn', iter=1, module='realtime_prep_dict.py', num=16, provenance=None, simple=False, target='multi')
+==========
+Processes: {'streamRead10': range(0, 1), 'Decimate11': range(1, 2), 'Detrend12': range(2, 3), 'Demean13': range(3, 4), 'RemoveResponse14': range(4, 5), 'Filter15': range(5, 6), 'CalculateNorm16': range(6, 7), 'Whiten17': range(7, 8), 'CalculateFft18': range(8, 9), 'StreamToFile19': range(9, 10)}
+streamRead10 (rank 0): Processed 1 iteration.
+Decimate11 (rank 1): Processed 50 iterations.
+Detrend12 (rank 2): Processed 50 iterations.
+Demean13 (rank 3): Processed 50 iterations.
+RemoveResponse14 (rank 4): Processed 50 iterations.
+Filter15 (rank 5): Processed 50 iterations.
+CalculateNorm16 (rank 6): Processed 50 iterations.
+Whiten17 (rank 7): Processed 50 iterations.
+CalculateFft18 (rank 8): Processed 50 iterations.
+StreamToFile19 (rank 9): Processed 50 iterations.
+NEW ELAPSED TIME: 169.17765
+NEW ELAPSED TOTAL CPU TIME: 1020.37875
+---------------------------------
+dyn_multi : running with 4 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data=None, file='xcorr_input.jsn', iter=1, module='realtime_prep_dict.py', num=4, provenance=None, target='dyn_multi')
+==========
+Starting 3 workers communicating
+NEW ELAPSED TIME: 74.37583
+NEW ELAPSED TOTAL CPU TIME: 222.91469
+---------------------------------
+dyn_multi : running with 8 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data=None, file='xcorr_input.jsn', iter=1, module='realtime_prep_dict.py', num=8, provenance=None, target='dyn_multi')
+==========
+Starting 7 workers communicating
+NEW ELAPSED TIME: 38.58908
+NEW ELAPSED TOTAL CPU TIME: 267.65034
+---------------------------------
+dyn_multi : running with 12 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data=None, file='xcorr_input.jsn', iter=1, module='realtime_prep_dict.py', num=12, provenance=None, target='dyn_multi')
+==========
+Starting 11 workers communicating
+NEW ELAPSED TIME: 29.26578
+NEW ELAPSED TOTAL CPU TIME: 315.11404
+---------------------------------
+dyn_multi : running with 16 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data=None, file='xcorr_input.jsn', iter=1, module='realtime_prep_dict.py', num=16, provenance=None, target='dyn_multi')
+==========
+Starting 15 workers communicating
+NEW ELAPSED TIME: 29.18866
+NEW ELAPSED TOTAL CPU TIME: 424.03125
+---------------------------------
+dyn_auto_multi : running with 4 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data=None, file='xcorr_input.jsn', iter=1, module='realtime_prep_dict.py', num=4, provenance=None, queue_threshold=10, target='dyn_auto_multi')
+==========
+NEW ELAPSED TIME: 89.51477
+NEW ELAPSED TOTAL CPU TIME: 199.63576
+---------------------------------
+dyn_auto_multi : running with 8 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data=None, file='xcorr_input.jsn', iter=1, module='realtime_prep_dict.py', num=8, provenance=None, queue_threshold=10, target='dyn_auto_multi')
+==========
+2023-08-05 18:34:16 dispel4py.new.logger[71342] ERROR Exception = an integer is required (got type NoneType)
+NEW ELAPSED TIME: 62.04193
+NEW ELAPSED TOTAL CPU TIME: 206.83723
+---------------------------------
+dyn_auto_multi : running with 12 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data=None, file='xcorr_input.jsn', iter=1, module='realtime_prep_dict.py', num=12, provenance=None, queue_threshold=10, target='dyn_auto_multi')
+==========
+2023-08-05 18:35:16 dispel4py.new.logger[72397] ERROR Exception = an integer is required (got type NoneType)
+2023-08-05 18:35:16 dispel4py.new.logger[72405] ERROR Exception = an integer is required (got type NoneType)
+2023-08-05 18:35:16 dispel4py.new.logger[72403] ERROR Exception = an integer is required (got type NoneType)
+2023-08-05 18:35:16 dispel4py.new.logger[72400] ERROR Exception = an integer is required (got type NoneType)
+NEW ELAPSED TIME: 41.57250
+NEW ELAPSED TOTAL CPU TIME: 221.46340
+---------------------------------
+dyn_auto_multi : running with 16 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data=None, file='xcorr_input.jsn', iter=1, module='realtime_prep_dict.py', num=16, provenance=None, queue_threshold=10, target='dyn_auto_multi')
+==========
+NEW ELAPSED TIME: 43.73382
+NEW ELAPSED TOTAL CPU TIME: 229.82745
+---------------------------------
+dyn_redis : running with 4 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data=None, file='xcorr_input.jsn', iter=1, module='realtime_prep_dict.py', num=4, provenance=None, target='dyn_redis')
+==========
+Starting 3 workers communicating
+NEW ELAPSED TIME: 66.64583
+NEW ELAPSED TOTAL CPU TIME: 199.71724
+---------------------------------
+dyn_redis : running with 8 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data=None, file='xcorr_input.jsn', iter=1, module='realtime_prep_dict.py', num=8, provenance=None, target='dyn_redis')
+==========
+Starting 7 workers communicating
+NEW ELAPSED TIME: 32.05589
+NEW ELAPSED TOTAL CPU TIME: 222.10088
+---------------------------------
+dyn_redis : running with 12 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data=None, file='xcorr_input.jsn', iter=1, module='realtime_prep_dict.py', num=12, provenance=None, target='dyn_redis')
+==========
+Starting 11 workers communicating
+NEW ELAPSED TIME: 22.59893
+NEW ELAPSED TOTAL CPU TIME: 245.21762
+---------------------------------
+dyn_redis : running with 16 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data=None, file='xcorr_input.jsn', iter=1, module='realtime_prep_dict.py', num=16, provenance=None, target='dyn_redis')
+==========
+Starting 15 workers communicating
+NEW ELAPSED TIME: 21.70137
+NEW ELAPSED TOTAL CPU TIME: 312.56877
+---------------------------------
+dyn_auto_redis : running with 4 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data=None, file='xcorr_input.jsn', idle_time=4000, iter=1, module='realtime_prep_dict.py', num=4, provenance=None, target='dyn_auto_redis')
+==========
+NEW ELAPSED TIME: 80.79855
+NEW ELAPSED TOTAL CPU TIME: 193.87902
+---------------------------------
+dyn_auto_redis : running with 8 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data=None, file='xcorr_input.jsn', idle_time=4000, iter=1, module='realtime_prep_dict.py', num=8, provenance=None, target='dyn_auto_redis')
+==========
+NEW ELAPSED TIME: 49.75868
+NEW ELAPSED TOTAL CPU TIME: 201.71833
+---------------------------------
+dyn_auto_redis : running with 12 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data=None, file='xcorr_input.jsn', idle_time=4000, iter=1, module='realtime_prep_dict.py', num=12, provenance=None, target='dyn_auto_redis')
+==========
+NEW ELAPSED TIME: 40.83019
+NEW ELAPSED TOTAL CPU TIME: 240.40754
+---------------------------------
+dyn_auto_redis : running with 16 processors
+RUN ARGS: 
+Namespace(attr=None, consumer_timeout=None, data=None, file='xcorr_input.jsn', idle_time=4000, iter=1, module='realtime_prep_dict.py', num=16, provenance=None, target='dyn_auto_redis')
+==========
+NEW ELAPSED TIME: 37.24541
+NEW ELAPSED TOTAL CPU TIME: 234.69553
+---------------------------------
+hybrid_redis : running with 12 processors
+RUN ARGS: 
+Namespace(attr=None, data=None, file='xcorr_input.jsn', iter=1, module='realtime_prep_dict.py', num=12, provenance=None, redis_ip='localhost', redis_port=6379, target='hybrid_redis')
+==========
+Starting 12 workers communicating
+process:1 for instance:None redis connection created.
+TERMINATED: stateless process:1 ends now
+process:0 for instance:None redis connection created.
+TERMINATED: stateless process:0 ends now
+process:2 for instance:None redis connection created.
+TERMINATED: stateless process:2 ends now
+process:9 for instance:None redis connection created.
+TERMINATED: stateless process:9 ends now
+process:11 for instance:None redis connection created.
+TERMINATED: stateless process:11 ends now
+process:10 for instance:None redis connection created.
+TERMINATED: stateless process:10 ends now
+process:7 for instance:None redis connection created.
+TERMINATED: stateless process:7 ends now
+process:8 for instance:None redis connection created.
+TERMINATED: stateless process:8 ends now
+process:5 for instance:None redis connection created.
+TERMINATED: stateless process:5 ends now
+process:3 for instance:None redis connection created.
+TERMINATED: stateless process:3 ends now
+process:6 for instance:None redis connection created.
+TERMINATED: stateless process:6 ends now
+process:4 for instance:None redis connection created.
+TERMINATED: stateless process:4 ends now
+NEW ELAPSED TIME: 30.10017
+NEW ELAPSED TOTAL CPU TIME: 348.68910
+Begin to clean redis stream keys...
+---------------------------------
+hybrid_redis : running with 16 processors
+RUN ARGS: 
+Namespace(attr=None, data=None, file='xcorr_input.jsn', iter=1, module='realtime_prep_dict.py', num=16, provenance=None, redis_ip='localhost', redis_port=6379, target='hybrid_redis')
+==========
+Starting 16 workers communicating
+process:6 for instance:None redis connection created.
+TERMINATED: stateless process:6 ends now
+process:8 for instance:None redis connection created.
+TERMINATED: stateless process:8 ends now
+process:13 for instance:None redis connection created.
+TERMINATED: stateless process:13 ends now
+process:12 for instance:None redis connection created.
+TERMINATED: stateless process:12 ends now
+process:1 for instance:None redis connection created.
+TERMINATED: stateless process:1 ends now
+process:9 for instance:None redis connection created.
+TERMINATED: stateless process:9 ends now
+process:2 for instance:None redis connection created.
+TERMINATED: stateless process:2 ends now
+process:3 for instance:None redis connection created.
+TERMINATED: stateless process:3 ends now
+process:4 for instance:None redis connection created.
+TERMINATED: stateless process:4 ends now
+process:5 for instance:None redis connection created.
+TERMINATED: stateless process:5 ends now
+process:11 for instance:None redis connection created.
+TERMINATED: stateless process:11 ends now
+process:7 for instance:None redis connection created.
+TERMINATED: stateless process:7 ends now
+process:15 for instance:None redis connection created.
+TERMINATED: stateless process:15 ends now
+process:0 for instance:None redis connection created.
+TERMINATED: stateless process:0 ends now
+process:10 for instance:None redis connection created.
+TERMINATED: stateless process:10 ends now
+process:14 for instance:None redis connection created.
+TERMINATED: stateless process:14 ends now
+NEW ELAPSED TIME: 31.98999
+NEW ELAPSED TOTAL CPU TIME: 495.54647
+Begin to clean redis stream keys...
+---------------------------------
+All experiments completed!
