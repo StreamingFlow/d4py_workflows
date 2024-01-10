@@ -20,13 +20,13 @@ If you run those workflows from a different directory, you only need to specify 
 Example 1 - within article_sentiment directory:
 
 ```shell
-dispel4py simple analysis_sentiment.py -d '{"read":[{"input":"Articles_cleaned.csv"}]}'
+dispel4py simple covid_workflow.py
 ```
 
 Example 2 - other place (e.g. outside d4py_workflows directory):
 
 ```shell
-dispel4py simple d4py_workflows.article_sentiment_analysis.analysis_sentiment -d '{"read":[{"input":"Articles_cleaned.csv"}]}'
+dispel4py simple d4py_workflows.article_sentiment_analysis.covid_workflow 
 ```
 
 ## Using Docker Container
@@ -47,41 +47,41 @@ Using our Docker  image, we can ensure that all the mappings described [bellow](
 ### Simple mapping
 
 ```shell
-python -m dispel4py.new.processor simple analysis_sentiment.py -d '{"read":[{"input":"Articles_cleaned.csv"}]}'
+python -m dispel4py.new.processor simple covid_workflow.py 
 ```
 
 OR
 
 ```shell
-dispel4py simple analysis_sentiment.py -d '{"read":[{"input":"Articles_cleaned.csv"}]}'
+dispel4py simple covid_workflow.py 
 ```
 
 ### (Fixed) MPI mapping
 
 ```shell
-mpiexec -n 13 dispel4py mpi analysis_sentiment.py -d '{"read":[{"input":"Articles_cleaned.csv"}]}' -n 13
+mpiexec -n 13 dispel4py mpi covid_workflow.py 
 ```
 OR 
 
 ```shell
-mpiexec -n 13 --allow-run-as-root --oversubscribe dispel4py mpi analysis_sentiment.py -d '{"read":[{"input":"Articles_cleaned.csv"}]}' -n 13
+mpiexec -n 13 --allow-run-as-root --oversubscribe dispel4py mpi covid_workflow.py 
 ```
 
 OR
 
 ```shell
-mpiexec -n 13 python -m dispel4py.new.processor dispel4py.new.mpi_process analysis_sentiment.py -d '{"read":[{"input":"Articles_cleaned.csv"}]}' -n 13 
+mpiexec -n 13 python -m dispel4py.new.processor dispel4py.new.mpi_process covid_workflow.py 
 ```
 
 ### (Fixed) Multi mapping
 
 ```
-python -m dispel4py.new.processor multi  analysis_sentiment.py -n 13 -d '{"read":[{"input":"Articles_cleaned.csv"}]}' 
+python -m dispel4py.new.processor multi  covid_workflow.py -n 13 
 ``` 
 OR 
 
 ``` 
-dispel4py multi  analysis_sentiment.py -n 13  -d '{"read":[{"input":"Articles_cleaned.csv"}]}' 
+dispel4py multi  covid_workflow.py -n 13  
 ``` 
 
 
@@ -100,12 +100,12 @@ redis-server
 In another tab you can do the following run: 
 
 ```
-python -m dispel4py.new.processor hybrid_redis analysis_sentiment.py -n 13  -d '{"read":[{"input":"Articles_cleaned.csv"}]}' 
+python -m dispel4py.new.processor hybrid_redis covid_workflow.py -n 13  
 ``` 
 OR
 
 ``` 
-dispel4py hybrid_redis analysis_sentiment.py -n 13  -d '{"read":[{"input":"Articles_cleaned.csv"}]}' 
+dispel4py hybrid_redis covid_workflow.py -n 13  -d '{"read":[{"input":"Articles_cleaned.csv"}]}' 
 ``` 
 **Note**: You can use just one tab terminal, running redis-server in the background: `redis-server &`
 
