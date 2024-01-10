@@ -1,4 +1,4 @@
-from dispel4py.base import create_iterative_chain, ConsumerPE, IterativePE, ProducerPE, GenericPE
+from dispel4py.base import create_iterative_chain, IterativePE, ProducerPE, GenericPE
 from dispel4py.workflow_graph import WorkflowGraph
 import urllib.request
 import json
@@ -15,7 +15,8 @@ class DataProducer(GenericPE):
     def _process(self, inputs):
         response = urllib.request.urlopen(self.url)
         data = json.load(response)
-        self.write('output', data)
+        for record in data['cases_time_series']:
+            self.write('output', record)
 
 class DataProcessor(IterativePE):
     def __init__(self):
@@ -25,19 +26,29 @@ class DataProcessor(IterativePE):
         dates = []
         new_cases = []
 
-        for entry in data['cases_time_series']:
-            date_str = entry['date']
-            date = datetime.strptime(date_str, "%d %B %Y")
-            dates.append(date)
-            new_cases.append(int(entry['dailyconfirmed']))
+        date_str = data['date']
+        date = datetime.strptime(date_str, "%d %B %Y")
+        dates.append(date)
+        new_cases.append(int(data['dailyconfirmed']))
         return [dates, new_cases]
 
-class DataVisualizer(ConsumerPE):
+class DataVisualizer(GenericPE):
     def __init__(self):
-        ConsumerPE.__init__(self) 
+        GenericPE.__init__(self)
+        self._add_input('input')
+        self._add_output('output')
+        self.inputconnections['input']["grouping"] = "global"
+        self.results = {}
+        self.results['dates']=[]
+        self.results['new_cases']=[]
 
     def _process(self, inputs):
-        dates, new_cases = inputs
+        self.results['dates'].append(inputs['input'][0])
+        self.results['new_cases'].append(inputs['input'][1])
+
+    def _postprocess(self):
+        dates = self.results['dates']
+        new_cases = self.results['new_cases']
         plt.figure(figsize=(12, 6))
         plt.plot(dates, new_cases, marker='o', linestyle='-')
         plt.title('COVID-19 Daily New Cases')
