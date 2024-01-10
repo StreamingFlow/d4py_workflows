@@ -106,7 +106,7 @@ python -m dispel4py.new.processor hybrid_redis covid_workflow.py -n 10
 OR
 
 ``` 
-dispel4py hybrid_redis covid_workflow.py -n 10  -d '{"read":[{"input":"Articles_cleaned.csv"}]}' 
+dispel4py hybrid_redis covid_workflow.py -n 10  
 ``` 
 **Note**: You can use just one tab terminal, running redis-server in the background: `redis-server &`
 
