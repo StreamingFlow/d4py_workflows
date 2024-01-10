@@ -138,7 +138,7 @@ python -m dispel4py.new.processor dyn_multi skew_workflow.py -n 10 -i 100
 OR 
 
 ```shell
-dispel4py dyn_multi int_ext_graph.py skew_workflow.py -n 10 -i 100
+dispel4py dyn_multi skew_workflow.py -n 10 -i 100
 ```
  
 #### Dynamic Multi Autoscaling mapping
