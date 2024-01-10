@@ -18,7 +18,7 @@ conda activate d4py_env
 
 ## Important
 
-** This workflow is a **statefull** workflow!! So only the **fixed workload mappings** and **hybrid** mapping could be used to run this workflow.
+This workflow is a **statefull** workflow!! So only the **fixed workload mappings** and **hybrid** mapping could be used to run this workflow.
 
 ## Using Docker Container
 
