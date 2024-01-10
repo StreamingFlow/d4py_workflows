@@ -164,8 +164,6 @@ class GlobalHappyState(GenericPE):
             # print("METHOD:%s - top:%s----> state = %s, score = %s, total_articles = %s" % (
             # method, count, state, score, self.total_articles))
 
-            # print("METHOD:%s - top:%s----> state = %s, score = %s, total_articles = %s" % (
-            # method, count, state, score, self.total_articles))
             count += 1
 
 
