@@ -68,8 +68,7 @@ dispel4py dyn_auto_multi realtime_prep_dict.py -f xcorr_input.jsn -n 10
 You need REDIS server running in a tab:
 
 ```shell
-conda activate py37_d4p
-redis server
+redis-server
 
 
 ```shell
