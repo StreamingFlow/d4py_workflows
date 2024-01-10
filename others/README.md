@@ -198,16 +198,16 @@ python -m dispel4py.new.processor dyn_redis skew_workflow.py -n 10 -i 10
 ```
 OR
 ```shell
-dispel4py dyn_redis skew_workflow.py -n 10 -i 10 
+dispel4py dyn_redis skew_workflow.py -n 10  -i 100 
 ```
 
 #### Dynamic Redis Autoscaling mapping
 ```shell
-python -m dispel4py.new.processor dyn_auto_redis skew_workflow.py -n 10 -i 10 -thr 10
+python -m dispel4py.new.processor dyn_auto_redis skew_workflow.py -n 10  -i 100 -thr 10
 ```
 
 OR
 ```shell
-dispel4py dyn_auto_redis skew_workflow.py -n 10 -i 10 -thr 10
+dispel4py dyn_auto_redis skew_workflow.py -n 10  -i 100 -thr 10
 ```
 
