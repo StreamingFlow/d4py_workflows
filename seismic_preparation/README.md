@@ -69,6 +69,7 @@ You need REDIS server running in a tab:
 
 ```shell
 redis-server
+```
 
 
 ```shell
