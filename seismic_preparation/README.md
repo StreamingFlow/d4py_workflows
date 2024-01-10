@@ -40,10 +40,6 @@ conda install -c conda-forge mpi4py mpich
 ```
 3. In some enviroments, you might need these flags for the mpi mapping: --allow-run-as-root --oversubscribe
 
-## Running with a Script
-
-Check [run_corr.sh](./run_corr.sh) and [run_corr_moni.sh](./run_corr_moni.sh).
-
 ## Run the workflow with different mappings
 
 ### Dynamic Multi
@@ -84,3 +80,7 @@ OR
 ```
 dispel4py hybrid_redis realtime_prep_dict.py -f xcorr_input.jsn -n 10
 ```
+## Running with a Script
+
+Check [run_corr.sh](./run_corr.sh) and [run_corr_moni.sh](./run_corr_moni.sh).
+
