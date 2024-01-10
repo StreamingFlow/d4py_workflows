@@ -22,13 +22,13 @@ conda activate d4py_env
 
 2. If you run the workflow from a different directory, you only need to specify the path as <DIR1>.<DIR2>.<NAME_WORKFLOW> without the .py extension. However, if you are in the article_sentiment_analysis directory, then use <NAME_WORKFLOW>.py. Below are examples for clarity:
 
-Example 1 - within article_sentiment directory:
+Example 1 - within `article_sentiment_analysis` directory:
 
 ```shell
 dispel4py simple analysis_sentiment.py -d '{"read":[{"input":"Articles_cleaned.csv"}]}'
 ```
 
-Example 2 - other place (e.g. outside d4py_workflows directory):
+Example 2 - other place (e.g. outside `d4py_workflows` directory):
 
 ```shell
 dispel4py simple d4py_workflows.article_sentiment_analysis.analysis_sentiment -d '{"read":[{"input":"Articles_cleaned.csv"}]}'
