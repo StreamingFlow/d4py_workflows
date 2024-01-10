@@ -32,8 +32,8 @@ dispel4py simple analysis_sentiment.py -d '{"read":[{"input":"Articles_cleaned.c
 Example 2 - other place (e.g. outside d4py_workflows directory):
 
 ```shell
-dispel4py simple d4py_workflows.article_sentiment. analysis_sentiment -d '{"read":[{"input":"Articles_cleaned.csv"}]}'
-
+dispel4py simple d4py_workflows.article_sentiment_analysis.analysis_sentiment -d '{"read":[{"input":"Articles_cleaned.csv"}]}'
+```
 
 ## Using Docker Container
 

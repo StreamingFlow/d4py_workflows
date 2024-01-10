@@ -18,6 +18,22 @@ $ pip install requests
 $ pip install astropy
 ``` 
 
+## Important
+
+If you run the workflow from other directory you just need to indicate it <DIR1>.<DIR2>.<NAME_WORKFLOW> without `py`.  If you are in the article_sentiment directory, the you need to use <NAME_WOWRKFLOW>.py. See examples:
+
+Example 1 - within article_sentiment directory:
+
+```shell
+dispel4py simple int_ext_graph.py -d '{"read" : [ {"input" : "coordinates.txt"} ]}'
+```
+
+Example 2 - other place (e.g. outside d4py_workflows directory):
+
+```shell
+dispel4py simple id4py_workflows.internal_extinction.int_ext_graph -d '{"read" : [ {"input" : "coordinates.txt"} ]}'
+```
+
 ## Using Docker Container
 
 Alternative you can follow [this instructions](https://github.com/StreamingFlow/d4py/tree/main#docker) to build a docker image and run dispel4py and this workflow within a docker container.
