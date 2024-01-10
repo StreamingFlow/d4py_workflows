@@ -133,7 +133,7 @@ python -m dispel4py.new.processor hybrid_redis analysis_sentiment.py -n 13  -d '
 OR
 
 ``` 
-dispel4py hybrid_redis analysis_sentiment -n 13  -d '{"read":[{"input":"Articles_cleaned.csv"}]}' 
+dispel4py hybrid_redis analysis_sentiment.py -n 13  -d '{"read":[{"input":"Articles_cleaned.csv"}]}' 
 ``` 
 **Note**: You can use just one tab terminal, running redis-server in the background: `redis-server &`
 
