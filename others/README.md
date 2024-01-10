@@ -212,11 +212,11 @@ dispel4py dyn_redis dyn_redis skew_workflow.py -n 10 -i 10
 
 #### Dynamic Redis Autoscaling mapping
 ```shell
-python -m dispel4py.new.processor dyn_auto_redis skew_workflow.py -n 10 -i 10 -thr 200
+python -m dispel4py.new.processor dyn_auto_redis skew_workflow.py -n 10 -i 10 -thr 10
 ```
 
 OR
 ```shell
-dispel4py dyn_auto_redis skew_workflow.py -n 10 -i 10 -thr 200
+dispel4py dyn_auto_redis skew_workflow.py -n 10 -i 10 -thr 10
 ```
 
