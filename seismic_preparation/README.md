@@ -16,8 +16,9 @@ conda activate d4py_env
 ```
 
 ## Preparation of data
+
 ```shell
-cd corr
+cd seismic_preparation
 mkdir INPUT
 python download.py
 ```
