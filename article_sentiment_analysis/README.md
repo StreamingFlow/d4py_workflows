@@ -63,11 +63,20 @@ OR
 
 ```shell
 dispel4py simple analysis_sentiment -d '{"read":[{"input":"Articles_cleaned.csv"}]}'
+```
 
 ### (Fixed) MPI mapping
+
 ```shell
 mpiexec -n 13 dispel4py mpi analysis_sentiment.py -d '{"read":[{"input":"Articles_cleaned.csv"}]}' -n 13
 ```
+OR 
+
+```shell
+mpiexec -n 13 --allow-run-as-root --oversubscribe dispel4py mpi analysis_sentiment.py -d '{"read":[{"input":"Articles_cleaned.csv"}]}' -n 13
+```
+
+OR
 
 ```shell
 mpiexec -n 13 python -m dispel4py.new.processor dispel4py.new.mpi_process analysis_sentiment.py -d '{"read":[{"input":"Articles_cleaned.csv"}]}' -n 13 
@@ -103,6 +112,7 @@ In another tab you can do the following run:
 python -m dispel4py.new.processor hybrid_redis analysis_sentiment -n 13  -d '{"read":[{"input":"Articles_cleaned.csv"}]}' 
 ``` 
 OR
+
 ``` 
 dispel4py hybrid_redis analysis_sentiment -n 13  -d '{"read":[{"input":"Articles_cleaned.csv"}]}' 
 ``` 
