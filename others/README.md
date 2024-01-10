@@ -68,7 +68,7 @@ python -m dispel4py.new.processor simple skew_workflow.py -i 100
 OR
 
 ```shell
-dispel4py simple covid_workflow.py -i 100
+dispel4py simple skew_workflow.py -i 100
 ```
 
 ### (Fixed) MPI mapping
