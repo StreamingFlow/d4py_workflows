@@ -20,8 +20,7 @@ conda activate d4py_env
 
 1. This workflow is a **statefull** workflow!! So only the **fixed workload mappings** and **hybrid** mapping could be used to run this workflow.
 
-
-2. If you run the workflow from other directory you just need to indicate it <DIR1>.<DIR2>.<NAME_WORKFLOW> without `py`.  If you are in the article_sentiment directory, the you need to use <NAME_WOWRKFLOW>.py. See examples:
+2. If you run the workflow from a different directory, you only need to specify the path as <DIR1>.<DIR2>.<NAME_WORKFLOW> without the .py extension. However, if you are in the article_sentiment_analysis directory, then use <NAME_WORKFLOW>.py. Below are examples for clarity:
 
 Example 1 - within article_sentiment directory:
 
