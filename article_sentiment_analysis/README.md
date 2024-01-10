@@ -9,31 +9,34 @@ The first PE, "Read Articles", reads articles from an input file and then extrac
 
 ## Requirements
 
+
 Activate the conda python 3.10+ enviroment. If you had not created one, follow the [README instructions](https://github.com/StreamingFlow/d4py/tree/main).
 
 ```
-conda activate py310
-```
-***Atention!!:** This workflow is a **statefull** workflow!! So only the **fixed workload mappings** and **hybrid** mapping could be used to run this workflow.
-
-## Known Issues
-
-1. Using the Multiprocessing mapping in a MacOS you might have a problem the `simple_logger`. See bellow:
-
-```
-File "/Users/...../anaconda3/envs/py310/lib/python3.10/multiprocessing/spawn.py", line 126, in _main
-    self = reduction.pickle.load(from_parent)
-AttributeError: 'TestProducer' object has no attribute 'simple_logger'
+conda activate d4py_env
 ```
 
-In order to fix that, we recommend to use our [Docker image](https://github.com/StreamingFlow/d4py/tree/main) to create a container.
+To run the this workflow, first you need to install:
+```shell
+$ pip install requests
+$ pip install astropy
+``` 
 
-2. You might have to use the following command to install mpi in your MacOS laptop:
-```
-conda install -c conda-forge mpi4py mpich
-```
+## Important
 
-3. In some enviroments, you might need these flags for the mpi mapping: --allow-run-as-root --oversubscribe
+** This workflow is a **statefull** workflow!! So only the **fixed workload mappings** and **hybrid** mapping could be used to run this workflow.
+
+## Using Docker Container
+
+Alternative you can follow [this instructions](https://github.com/StreamingFlow/d4py/tree/main#docker) to build a docker image and run dispel4py and this workflow within a docker container.
+
+Once you are inside the docker container, you will have to clone this repository, and enter to the d4py_workflows directory. See bellow:
+```
+git clone https://github.com/StreamingFlow/d4py_workflows.git
+cd d4py_workflows
+```
+Using our Docker  image, we can ensure that all the mappings described [bellow](https://github.com/StreamingFlow/d4py_workflows/tree/main/internal_extinction#run-the-workflow-with-different-mappings) work for this workflow.
+
 
 ## Preparation of data
 
@@ -67,7 +70,7 @@ OR
 ```shell
 dispel4py simple analysis_sentiment -d '{"read":[{"input":"Articles_cleaned.csv"}]}'
 
-### Fixed MPI mapping
+### (Fixed) MPI mapping
 ```shell
 mpiexec -n 13 dispel4py mpi analysis_sentiment.py -d '{"read":[{"input":"Articles_cleaned.csv"}]}' -n 13
 ```
@@ -76,7 +79,7 @@ mpiexec -n 13 dispel4py mpi analysis_sentiment.py -d '{"read":[{"input":"Article
 mpiexec -n 13 python -m dispel4py.new.processor dispel4py.new.mpi_process analysis_sentiment.py -d '{"read":[{"input":"Articles_cleaned.csv"}]}' -n 13 
 ```
 
-### Multi mapping
+### (Fixed) Multi mapping
 
 ```
 python -m dispel4py.new.processor multi  analysis_sentiment -n 13 -d '{"read":[{"input":"Articles_cleaned.csv"}]}' 
@@ -90,12 +93,15 @@ dispel4py multi  analysis_sentiment -n 13  -d '{"read":[{"input":"Articles_clean
 
 ### Hybrid Redis
 
-You need REDIS server running in a tab: 
+Remember, you need to have installed both, redis server and redis client. 
+
+> Go to another terminal for following command line
 
 ```shell
-conda activate py37_d4p
-redis server
+redis-server
 ```
+
+> Go back to previous terminal
 
 In another tab you can do the following run: 
 
@@ -106,4 +112,4 @@ OR
 ``` 
 dispel4py hybrid_redis analysis_sentiment -n 13  -d '{"read":[{"input":"Articles_cleaned.csv"}]}' 
 ``` 
-
+**Note**: You can use just one tab terminal, running redis-server in the background: `redis-server &`
