@@ -49,7 +49,8 @@ Using our Docker  image, we can ensure that all the mappings described [bellow](
 ### Simple mapping
 
 ##### Covid workflow
-``shell
+
+```shell
 python -m dispel4py.new.processor simple covid_workflow.py 
 ```
 
