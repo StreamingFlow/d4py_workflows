@@ -16,12 +16,6 @@ Activate the conda python 3.10+ enviroment. If you had not created one, follow t
 conda activate d4py_env
 ```
 
-To run the this workflow, first you need to install:
-```shell
-$ pip install requests
-$ pip install astropy
-``` 
-
 ## Important
 
 ** This workflow is a **statefull** workflow!! So only the **fixed workload mappings** and **hybrid** mapping could be used to run this workflow.
