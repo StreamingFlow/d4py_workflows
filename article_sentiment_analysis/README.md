@@ -18,7 +18,22 @@ conda activate d4py_env
 
 ## Important
 
-This workflow is a **statefull** workflow!! So only the **fixed workload mappings** and **hybrid** mapping could be used to run this workflow.
+1. This workflow is a **statefull** workflow!! So only the **fixed workload mappings** and **hybrid** mapping could be used to run this workflow.
+
+
+2. If you run the workflow from other directory you just need to indicate it <DIR1>.<DIR2>.<NAME_WORKFLOW> without `py`.  If you are in the article_sentiment directory, the you need to use <NAME_WOWRKFLOW>.py. See examples:
+
+Example 1 - within article_sentiment directory:
+
+```shell
+dispel4py simple analysis_sentiment.py -d '{"read":[{"input":"Articles_cleaned.csv"}]}'
+```
+
+Example 2 - other place (e.g. outside d4py_workflows directory):
+
+```shell
+dispel4py simple d4py_workflows.article_sentiment. analysis_sentiment -d '{"read":[{"input":"Articles_cleaned.csv"}]}'
+
 
 ## Using Docker Container
 
@@ -44,10 +59,14 @@ $ python clean.py Articles.csv
 ## Install NLTK packets
 
 ```shell
-  $ pip install nltk numpy 
+  $ pip install nltk  
   $ python
   >>> import nltk
   >>> nltk.download('averaged_perceptron_tagger')
+  >>> nltk.download('punkt')
+  >>> nltk.download('stopwords')
+  >>> nltk.download('wordnet')
+  >>> nltk.download('omw-1.4')
 
 ``` 
 
@@ -56,13 +75,13 @@ $ python clean.py Articles.csv
 ### Simple mapping
 
 ```shell
-python -m dispel4py.new.processor simple analysis_sentiment -d '{"read":[{"input":"Articles_cleaned.csv"}]}'
+python -m dispel4py.new.processor simple analysis_sentiment.py -d '{"read":[{"input":"Articles_cleaned.csv"}]}'
 ```
 
 OR
 
 ```shell
-dispel4py simple analysis_sentiment -d '{"read":[{"input":"Articles_cleaned.csv"}]}'
+dispel4py simple analysis_sentiment.py -d '{"read":[{"input":"Articles_cleaned.csv"}]}'
 ```
 
 ### (Fixed) MPI mapping
@@ -85,12 +104,12 @@ mpiexec -n 13 python -m dispel4py.new.processor dispel4py.new.mpi_process analys
 ### (Fixed) Multi mapping
 
 ```
-python -m dispel4py.new.processor multi  analysis_sentiment -n 13 -d '{"read":[{"input":"Articles_cleaned.csv"}]}' 
+python -m dispel4py.new.processor multi  analysis_sentiment.py -n 13 -d '{"read":[{"input":"Articles_cleaned.csv"}]}' 
 ``` 
 OR 
 
 ``` 
-dispel4py multi  analysis_sentiment -n 13  -d '{"read":[{"input":"Articles_cleaned.csv"}]}' 
+dispel4py multi  analysis_sentiment.py -n 13  -d '{"read":[{"input":"Articles_cleaned.csv"}]}' 
 ``` 
 
 
@@ -109,7 +128,7 @@ redis-server
 In another tab you can do the following run: 
 
 ```
-python -m dispel4py.new.processor hybrid_redis analysis_sentiment -n 13  -d '{"read":[{"input":"Articles_cleaned.csv"}]}' 
+python -m dispel4py.new.processor hybrid_redis analysis_sentiment.py -n 13  -d '{"read":[{"input":"Articles_cleaned.csv"}]}' 
 ``` 
 OR
 
@@ -117,3 +136,6 @@ OR
 dispel4py hybrid_redis analysis_sentiment -n 13  -d '{"read":[{"input":"Articles_cleaned.csv"}]}' 
 ``` 
 **Note**: You can use just one tab terminal, running redis-server in the background: `redis-server &`
+
+
+
