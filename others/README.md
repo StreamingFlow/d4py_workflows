@@ -62,13 +62,13 @@ dispel4py simple covid_workflow.py
 ##### Skew workflow
 
 ```shell
-python -m dispel4py.new.processor simple skew_workflow.py -i 10 
+python -m dispel4py.new.processor simple skew_workflow.py -i 100 
 ```
 
 OR
 
 ```shell
-dispel4py simple covid_workflow.py -i 10
+dispel4py simple covid_workflow.py -i 100
 ```
 
 ### (Fixed) MPI mapping
@@ -92,18 +92,18 @@ mpiexec -n 10 python -m dispel4py.new.processor dispel4py.new.mpi_process covid_
 ##### Skew workflow
 
 ```shell
-mpiexec -n 10 dispel4py mpi skew_workflow.py -n 10 -i 10
+mpiexec -n 10 dispel4py mpi skew_workflow.py -n 10 -i 100
 ```
 OR 
 
 ```shell
-mpiexec -n 10 --allow-run-as-root --oversubscribe dispel4py mpi skew_workflow.py -n 10 -i 10
+mpiexec -n 10 --allow-run-as-root --oversubscribe dispel4py mpi skew_workflow.py -n 10 -i 100
 ```
 
 OR
 
 ```shell
-mpiexec -n 10 python -m dispel4py.new.processor dispel4py.new.mpi_process skew_workflow.py -n 10 -i 10 
+mpiexec -n 10 python -m dispel4py.new.processor dispel4py.new.mpi_process skew_workflow.py -n 10 -i 100 
 ```
 
 ### (Fixed) Multi mapping
@@ -122,17 +122,41 @@ dispel4py multi  covid_workflow.py -n 10
 ##### Skew workflow
 
 ```
-python -m dispel4py.new.processor multi  skew_workflow.py -n 10 -i 10
+python -m dispel4py.new.processor multi  skew_workflow.py -n 10 -i 100
 ``` 
 OR 
 
 ``` 
-dispel4py multi  skew_workflow.py -n 10 -i 10
+dispel4py multi  skew_workflow.py -n 10 -i 100
 ``` 
+#### Dynamic Multi mapping - Skew workflow
 
-### Hybrid Redis
+```shell
+python -m dispel4py.new.processor dyn_multi skew_workflow.py -n 10 -i 100 
+```
 
-##### Skew workflow
+OR 
+
+```shell
+dispel4py dyn_multi int_ext_graph.py skew_workflow.py -n 10 -i 100
+```
+ 
+#### Dynamic Multi Autoscaling mapping
+
+```shell
+python -m dispel4py.new.processor dyn_auto_multi skew_workflow.py -n 10 -i 100 -thr 10
+```
+
+OR
+
+```shell
+dispel4py dyn_auto_multi skew_workflow.py -n 10 -i 100 -thr 10
+```
+
+### Redis Mappings - Skew workflow
+
+#### Redis
+
 Remember, you need to have installed both, redis server and redis client. 
 
 > Go to another terminal for following command line
@@ -143,17 +167,56 @@ redis-server
 
 > Go back to previous terminal
 
-In another tab you can do the following run: 
-
 ```
-python -m dispel4py.new.processor hybrid_redis skew_workflow.py -n 10 -i 10  
+python -m dispel4py.new.processor redis skew_workflow.py -ri localhost -n 10 -i 100  
 ``` 
 OR
 
 ``` 
-dispel4py hybrid_redis skew_workflow.py -n 10  - 10
+dispel4py redis skew_workflow.py -ri localhost -n 10  -i 100
 ``` 
 **Note**: You can use just one tab terminal, running redis-server in the background: `redis-server &`
 
 
+#### Dynamic Redis
+
+#### Hybrid Redis
+Remember, you need to have installed both, redis server and redis client. 
+
+```
+python -m dispel4py.new.processor hybrid_redis skew_workflow.py -n 10 -i 100  
+``` 
+OR
+
+``` 
+dispel4py hybrid_redis skew_workflow.py -n 10  -i 100
+``` 
+
+#### Dynamic Redis mapping
+
+> Go to another terminal for following command line
+
+```shell
+redis-server
+```
+
+> Go back to previous terminal
+
+```shell
+python -m dispel4py.new.processor dyn_redis skew_workflow.py -n 10 -i 10
+```
+OR
+```shell
+dispel4py dyn_redis dyn_redis skew_workflow.py -n 10 -i 10 
+```
+
+#### Dynamic Redis Autoscaling mapping
+```shell
+python -m dispel4py.new.processor dyn_auto_redis skew_workflow.py -n 10 -i 10 -thr 200
+```
+
+OR
+```shell
+dispel4py dyn_auto_redis skew_workflow.py -n 10 -i 10 -thr 200
+```
 
