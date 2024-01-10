@@ -193,20 +193,12 @@ dispel4py hybrid_redis skew_workflow.py -n 10  -i 100
 
 #### Dynamic Redis mapping
 
-> Go to another terminal for following command line
-
-```shell
-redis-server
-```
-
-> Go back to previous terminal
-
 ```shell
 python -m dispel4py.new.processor dyn_redis skew_workflow.py -n 10 -i 10
 ```
 OR
 ```shell
-dispel4py dyn_redis dyn_redis skew_workflow.py -n 10 -i 10 
+dispel4py dyn_redis skew_workflow.py -n 10 -i 10 
 ```
 
 #### Dynamic Redis Autoscaling mapping
