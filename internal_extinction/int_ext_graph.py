@@ -77,7 +77,7 @@ class ReadRaDec(GenericPE):
         self._add_output('output')
     def _process(self, inputs):
         file = inputs['input']
-        # print('Reading file %s' % file)
+        #print('Reading file %s' % file)
         with open(file) as f:
             count = 0
             for line in f:
@@ -90,9 +90,10 @@ class GetVOTable(IterativePE):
         IterativePE.__init__(self)
     def _process(self, data):
         count, ra, dec, sr = data
-        # print('reading VOTable RA=%s, DEC=%s' % (ra,dec))
+        print('reading VOTable RA=%s, DEC=%s' % (ra,dec))
         url = 'http://vizier.u-strasbg.fr/viz-bin/votable/-A?-source=VII/237&RA=%s&DEC=%s&SR=%s' % (ra, dec, sr)
         response = requests.get(url)
+        #print("response %s" % response.text)
         return [count, ra, dec, response.text]
 
 class FilterColumns(IterativePE):
@@ -111,7 +112,7 @@ class FilterColumns(IterativePE):
             except:
                 value = None
             results.append(value)
-            # print('extracted column: %s = %s' % (c, value))
+            #print('extracted column: %s = %s' % (c, value))
         return results
 
 class InternalExtinction(IterativePE):
@@ -121,11 +122,11 @@ class InternalExtinction(IterativePE):
         count, ra, dec = data[0:3]
         mtype = data[3]
         logr25 = data[4]
-        # print("!! DATA mytype:%s, logr25:%s" %(mtype,logr25))
+        #print("!! DATA mytype:%s, logr25:%s" %(mtype,logr25))
         try:
             t, ai = internal_extinction(mtype, logr25)
             result = [count, ra, dec, mtype, logr25, t, ai]
-            # print('internal extinction: %s' % result)
+            print('internal extinction: %s' % result)
             return result
         except:
             # print('KIG%s: failed to calculate internal extinction' % count)
