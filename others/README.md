@@ -13,6 +13,13 @@ Activate the conda python 3.10+ enviroment. If you had not created one, follow t
 conda activate d4py_env
 ```
 
+To run these workflows, you first need to install:
+
+```
+pip install matplotlib
+```
+
+
 ## Important
 
 1. The `covid_workflow` is a **statefull** workflow!! So only the **fixed workload mappings**. Also, since it has a JSON file - it does not work with the hibryd_mapping. 
