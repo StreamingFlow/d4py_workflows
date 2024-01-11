@@ -4,7 +4,8 @@
 
 [skew_workflow](./skew_workflow.py) is designed to generate random numbers, check if they are prime, and print the prime numbers. It consists of three processing elements (PEs): NumberProducer, IsPrime, and PrintPrime. The NumberProducer generates a random integer between 1 and 1000, after a brief, skewed sleep time (towards shorter durations). Each generated number is then passed to the IsPrime PE, which checks if the number is a prime. If a number is prime, it's passed to the PrintPrime PE. The PrintPrime PE simply prints out the prime numbers it receives. The workflow graph connects these PEs, ensuring the flow of data from the number generation to prime checking, and finally to printing the prime numbers. This workflow showcases basic data processing, conditional logic, and inter-PE communication in a dispel4py environmen. Finally, it is important to notice that this workflow needs `-i <NUM>` flag to indicate the number of random number to generate. If the user indicate a very low number, it might be the case that any of those are prime numbers. Therefore we recommend to use a higher number; e.g. `-i 100`.
 
-[even_odd_workflow](./even_odd_workflow.py) demonstrates the processing of random number streams using various Processing Elements (PEs). It begins with a NumberProducer PE generating random integers between 1 and 1000. These numbers are then routed to two Divideby2 PEs to categorize them as odd or even. Finally, a PairProducer PE pairs these numbers into "one odd, one even" combinations, logging any unpaired numbers at the end. This workflow showcases how dispel4py can handle data production, iterative processing, and aggregation in a stream-based context. Similar to the previous workflow, this workflow needs `-i <NUM>` flag to indicate the number of random number to generate. 
+[even_odd_workflow](./even_odd_workflow.py) demonstrates the processing of random number streams using various Processing Elements (PEs). It begins with a NumberProducer PE generating random integers between 1 and 1000. These numbers are then routed to two Divideby2 PEs to categorize them as odd or even. Finally, a PairProducer PE pairs these numbers into "one odd, one even" combinations, logging any unpaired numbers at the end. This workflow showcases how dispel4py can handle data production, iterative processing, and aggregation in a stream-based context. Similar to the previous workflow, this workflow needs `-i <NUM>` flag to indicate the number of random number to generate. This workflow **does not work with dynamic mappings** since the last PE has two inputs from different PEs, which is not currently support in any of our dynamic mappings. 
+
 
 ## Requirements
 
@@ -55,6 +56,7 @@ Using our Docker  image, we can ensure that all the mappings described [bellow](
 
 ## Run workflows with different mappings
 
+
 ### Simple mapping
 
 ##### Covid workflow
@@ -78,6 +80,18 @@ OR
 
 ```shell
 dispel4py simple skew_workflow.py -i 100
+```
+
+##### Even_odd workflow
+
+```shell
+python -m dispel4py.new.processor simple even_odd_workflow.py -i 100
+```
+
+OR
+
+```shell
+dispel4py simple even_odd_workflow.py -i 100
 ```
 
 ### (Fixed) MPI mapping
@@ -115,6 +129,23 @@ OR
 mpiexec -n 10 python -m dispel4py.new.processor dispel4py.new.mpi_process skew_workflow.py -n 10 -i 100 
 ```
 
+##### Even_odd workflow
+
+```shell
+mpiexec -n 10 dispel4py mpi even_odd_workflow.py -n 10 -i 100
+```
+OR 
+
+```shell
+mpiexec -n 10 --allow-run-as-root --oversubscribe dispel4py mpi even_odd_workflow.py -n 10 -i 100
+```
+
+OR
+
+```shell
+mpiexec -n 10 python -m dispel4py.new.processor dispel4py.new.mpi_process even_odd_workflow.py -n 10 -i 100
+```
+
 ### (Fixed) Multi mapping
 
 ##### Covid workflow
@@ -137,7 +168,19 @@ OR
 
 ``` 
 dispel4py multi  skew_workflow.py -n 10 -i 100
-``` 
+```
+
+##### Even_odd workflow
+
+```
+python -m dispel4py.new.processor multi even_odd_workflow.py -n 10 -i 100
+```
+OR
+
+```
+dispel4py multi even_odd_workflow.py -n 10 -i 100
+```
+ 
 #### Dynamic Multi mapping - Skew workflow
 
 ```shell
@@ -162,7 +205,7 @@ OR
 dispel4py dyn_auto_multi skew_workflow.py -n 10 -i 100 -thr 10
 ```
 
-### Redis Mappings - Skew workflow
+### Redis Mappings 
 
 #### Redis
 
@@ -173,6 +216,8 @@ Remember, you need to have installed both, redis server and redis client.
 ```shell
 redis-server
 ```
+
+##### Skew workflow
 
 > Go back to previous terminal
 
@@ -186,10 +231,23 @@ dispel4py redis skew_workflow.py -ri localhost -n 10  -i 100
 ``` 
 **Note**: You can use just one tab terminal, running redis-server in the background: `redis-server &`
 
+##### Even_odd workflow
+
+```
+python -m dispel4py.new.processor redis even_odd_workflow.py -ri localhost -n 10 -i 100
+``` 
+OR
+
+```   
+dispel4py redis even_odd_workflow.py -ri localhost -n 10  -i 100
+```
 
 
 #### Hybrid Redis
+
 Remember, you need to have installed both, redis server and redis client. 
+
+##### Skew workflow
 
 ```
 python -m dispel4py.new.processor hybrid_redis skew_workflow.py -n 10 -i 100  
@@ -199,6 +257,17 @@ OR
 ``` 
 dispel4py hybrid_redis skew_workflow.py -n 10  -i 100
 ``` 
+
+##### Even_odd workflow
+
+```
+python -m dispel4py.new.processor hybrid_redis even_odd_workflow.py -n 10 -i 100
+``` 
+OR
+
+``` 
+dispel4py hybrid_redis even_odd_workflow.py -n 10  -i 100
+```
 
 #### Dynamic Redis mapping
 
