@@ -31,7 +31,7 @@ dispel4py simple int_ext_graph.py -d '{"read" : [ {"input" : "coordinates.txt"} 
 Example 2 - other place (e.g. outside d4py_workflows directory):
 
 ```shell
-dispel4py simple id4py_workflows.internal_extinction.int_ext_graph -d '{"read" : [ {"input" : "coordinates.txt"} ]}'
+dispel4py simple d4py_workflows.internal_extinction.int_ext_graph -d '{"read" : [ {"input" : "coordinates.txt"} ]}'
 ```
 
 ## Using Docker Container
