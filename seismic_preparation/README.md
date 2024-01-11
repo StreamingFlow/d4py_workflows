@@ -14,6 +14,8 @@ Activate the conda python 3.10+ enviroment. If you had not created one, follow t
 conda activate d4py_env
 ```
 
+
+
 ## Preparation of data
 
 ```shell
