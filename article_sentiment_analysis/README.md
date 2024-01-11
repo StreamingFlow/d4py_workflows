@@ -51,7 +51,7 @@ Using our Docker  image, we can ensure that all the mappings described [bellow](
 In order to run this workflow, you must first prepare the article data needed for the test. We collect some article data from http://aaa.com and saved as "Articles.csv" in this repository. Before running the test, you must first run "clean.py" in this directory to clean the data. 
 
 ```shell
-$ pip install pandas numpy
+$ pip install pandas
 $ python clean.py Articles.csv
 ``` 
 
