@@ -32,7 +32,8 @@ df["Article"] = df["Article"].str.replace("\r", "")
 df["Article"] = df["Article"].str.replace("\n", "")
 
 # new column location
-locationCol = df["Article"].str.split(":",1,True)
+locationCol = df["Article"].str.split(":", n=1, expand=True)
+
 df["Location"] = locationCol[0].str.upper()
 df.drop(columns=["Article"],inplace=True)
 df["Article"] = locationCol[1]
@@ -45,6 +46,5 @@ df = df.dropna(subset=['Article'])
 
 print(f"lines after drop na:{df.count()}")
 
-df.to_csv("Articles_cleaned.csv", index_label=False, header= None, index = False, sep='\t',line_terminator="\n" )
-
+df.to_csv("Articles_cleaned.csv", index_label=None, header=None, index=False, sep='\t', lineterminator="\n")
 print(df.head(5))
