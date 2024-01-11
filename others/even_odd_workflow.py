@@ -79,6 +79,7 @@ class PairProducer(GenericPE):
             self.list_even.append(inputs["even"])
        
         while self.list_odd and self.list_even:
+            print("Pair: %s - %s" %(self.list_odd[0], self.list_even[0]))
             self.write("output", (self.list_odd.pop(0), self.list_even.pop(0)))
     
     def _postprocess(self):
