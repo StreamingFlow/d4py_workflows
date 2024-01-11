@@ -1,0 +1,969 @@
+PE,rank,method,data,start,end
+streamProducerReal0,0,read,"{'input': []}",1566489799.9934862,1566489799.993597
+streamProducerReal0,0,preprocess,"{}",1566489799.993372,1566489799.9934669
+streamProducerSynth2,2,read,"{'input': []}",1566489799.9983401,1566489799.998452
+streamProducerSynth2,2,preprocess,"{}",1566489799.998199,1566489799.998302
+streamProducerReal0,0,write,"{'output': 'output', 'size': 189, 'id': ('streamProducerReal0', 0, 'output', 1)}",1566489800.025204,1566489800.025492
+streamProducerSynth2,2,write,"{'output': 'output', 'size': 190, 'id': ('streamProducerSynth2', 2, 'output', 1)}",1566489800.026764,1566489800.027105
+NormPE1,1,read,"{'input': [('input', ('streamProducerReal0', 0, 'output', 1))]}",1566489799.9957771,1566489800.030803
+NormPE1,1,preprocess,"{}",1566489799.9956858,1566489799.995767
+streamProducerSynth2,2,write,"{'output': 'output', 'size': 190, 'id': ('streamProducerSynth2', 2, 'output', 2)}",1566489800.0327308,1566489800.032792
+streamProducerReal0,0,write,"{'output': 'output', 'size': 189, 'id': ('streamProducerReal0', 0, 'output', 2)}",1566489800.032869,1566489800.032922
+streamProducerReal0,0,write,"{'output': 'output', 'size': 189, 'id': ('streamProducerReal0', 0, 'output', 3)}",1566489800.037729,1566489800.037763
+streamProducerSynth2,2,write,"{'output': 'output', 'size': 190, 'id': ('streamProducerSynth2', 2, 'output', 3)}",1566489800.038165,1566489800.038217
+streamProducerReal0,0,write,"{'output': 'output', 'size': 189, 'id': ('streamProducerReal0', 0, 'output', 4)}",1566489800.04242,1566489800.042455
+streamProducerSynth2,2,write,"{'output': 'output', 'size': 190, 'id': ('streamProducerSynth2', 2, 'output', 4)}",1566489800.043091,1566489800.043139
+streamProducerReal0,0,write,"{'output': 'output', 'size': 189, 'id': ('streamProducerReal0', 0, 'output', 5)}",1566489800.046939,1566489800.046973
+streamProducerSynth2,2,write,"{'output': 'output', 'size': 190, 'id': ('streamProducerSynth2', 2, 'output', 5)}",1566489800.0478022,1566489800.0478442
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29394, 'id': ('NormPE1', 1, 'output_mean', 1)}",1566489800.048901,1566489800.0493271
+NormPE1,1,write,"{'output': 'output_max', 'size': 29393, 'id': ('NormPE1', 1, 'output_max', 1)}",1566489800.049361,1566489800.050198
+NormPE1,1,read,"{'input': [('input', ('streamProducerSynth2', 2, 'output', 1))]}",1566489800.050231,1566489800.050693
+NormPE1,1,process,"{}",1566489800.0317261,1566489800.0502248
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29443, 'id': ('NormPE1', 1, 'output_mean', 2)}",1566489800.0657642,1566489800.065829
+streamProducerReal0,0,write,"{'output': 'output', 'size': 189, 'id': ('streamProducerReal0', 0, 'output', 6)}",1566489800.050978,1566489800.051022
+streamProducerReal0,0,write,"{'output': 'output', 'size': 189, 'id': ('streamProducerReal0', 0, 'output', 7)}",1566489800.055572,1566489800.055615
+streamProducerReal0,0,write,"{'output': 'output', 'size': 189, 'id': ('streamProducerReal0', 0, 'output', 8)}",1566489800.060239,1566489800.060284
+streamProducerReal0,0,write,"{'output': 'output', 'size': 189, 'id': ('streamProducerReal0', 0, 'output', 9)}",1566489800.065027,1566489800.065069
+streamProducerReal0,0,write,"{'output': 'output', 'size': 189, 'id': ('streamProducerReal0', 0, 'output', 10)}",1566489800.07553,1566489800.075579
+NormPE1,1,write,"{'output': 'output_max', 'size': 29442, 'id': ('NormPE1', 1, 'output_max', 2)}",1566489800.065851,1566489800.067568
+NormPE1,1,read,"{'input': [('input', ('streamProducerSynth2', 2, 'output', 2))]}",1566489800.067608,1566489800.068164
+NormPE1,1,process,"{}",1566489800.050723,1566489800.067602
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29443, 'id': ('NormPE1', 1, 'output_mean', 3)}",1566489800.087949,1566489800.088029
+NormPE1,1,write,"{'output': 'output_max', 'size': 29442, 'id': ('NormPE1', 1, 'output_max', 3)}",1566489800.088054,1566489800.088094
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 1))]}",1566489800.001302,1566489800.055176
+PeakGroundMotion3,3,preprocess,"{}",1566489800.00119,1566489800.001287
+streamProducerReal0,0,write,"{'output': 'output', 'size': 189, 'id': ('streamProducerReal0', 0, 'output', 11)}",1566489800.082579,1566489800.082627
+streamProducerReal0,0,write,"{'output': 'output', 'size': 189, 'id': ('streamProducerReal0', 0, 'output', 12)}",1566489800.0932548,1566489800.093298
+streamProducerReal0,0,write,"{'output': 'output', 'size': 189, 'id': ('streamProducerReal0', 0, 'output', 13)}",1566489800.09936,1566489800.099411
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion3', 3, 'output', 1)}",1566489800.089602,1566489800.092021
+PeakGroundMotion3,3,process,"{}",1566489800.056237,1566489800.089586
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 2))]}",1566489800.092067,1566489800.0926368
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1274, 'id': ('PeakGroundMotion3', 3, 'output', 2)}",1566489800.118523,1566489800.1203341
+PeakGroundMotion3,3,process,"{}",1566489800.0926578,1566489800.118502
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 3))]}",1566489800.1203809,1566489800.120843
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 1))]}",1566489800.005218,1566489800.07671
+PeakGroundMotion4,4,preprocess,"{}",1566489800.0050979,1566489800.0051808
+streamProducerReal0,0,write,"{'output': 'output', 'size': 189, 'id': ('streamProducerReal0', 0, 'output', 14)}",1566489800.118803,1566489800.118902
+streamProducerReal0,0,write,"{'output': 'output', 'size': 189, 'id': ('streamProducerReal0', 0, 'output', 15)}",1566489800.126121,1566489800.126167
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 1))]}",1566489800.009685,1566489800.1278038
+Match5,5,preprocess,"{}",1566489800.009543,1566489800.0096252
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 2))]}",1566489800.1427011,1566489800.1431549
+Match5,5,process,"{}",1566489800.142627,1566489800.142696
+streamProducerSynth2,2,write,"{'output': 'output', 'size': 190, 'id': ('streamProducerSynth2', 2, 'output', 6)}",1566489800.05267,1566489800.052715
+streamProducerSynth2,2,write,"{'output': 'output', 'size': 190, 'id': ('streamProducerSynth2', 2, 'output', 7)}",1566489800.0570529,1566489800.057096
+streamProducerSynth2,2,write,"{'output': 'output', 'size': 190, 'id': ('streamProducerSynth2', 2, 'output', 8)}",1566489800.063731,1566489800.063777
+streamProducerSynth2,2,write,"{'output': 'output', 'size': 190, 'id': ('streamProducerSynth2', 2, 'output', 9)}",1566489800.0689769,1566489800.0690272
+streamProducerSynth2,2,write,"{'output': 'output', 'size': 190, 'id': ('streamProducerSynth2', 2, 'output', 10)}",1566489800.086581,1566489800.0866401
+streamProducerSynth2,2,write,"{'output': 'output', 'size': 190, 'id': ('streamProducerSynth2', 2, 'output', 11)}",1566489800.091826,1566489800.091872
+streamProducerSynth2,2,write,"{'output': 'output', 'size': 190, 'id': ('streamProducerSynth2', 2, 'output', 12)}",1566489800.097555,1566489800.097645
+streamProducerSynth2,2,write,"{'output': 'output', 'size': 190, 'id': ('streamProducerSynth2', 2, 'output', 13)}",1566489800.10371,1566489800.103761
+streamProducerSynth2,2,write,"{'output': 'output', 'size': 190, 'id': ('streamProducerSynth2', 2, 'output', 14)}",1566489800.1122172,1566489800.11227
+streamProducerSynth2,2,write,"{'output': 'output', 'size': 190, 'id': ('streamProducerSynth2', 2, 'output', 15)}",1566489800.1172988,1566489800.117346
+streamProducerSynth2,2,write,"{'output': 'output', 'size': 190, 'id': ('streamProducerSynth2', 2, 'output', 16)}",1566489800.123032,1566489800.1230779
+streamProducerSynth2,2,write,"{'output': 'output', 'size': 190, 'id': ('streamProducerSynth2', 2, 'output', 17)}",1566489800.1275861,1566489800.127632
+streamProducerSynth2,2,write,"{'output': 'output', 'size': 190, 'id': ('streamProducerSynth2', 2, 'output', 18)}",1566489800.133205,1566489800.1332521
+streamProducerSynth2,2,write,"{'output': 'output', 'size': 190, 'id': ('streamProducerSynth2', 2, 'output', 19)}",1566489800.1406279,1566489800.140685
+streamProducerSynth2,2,write,"{'output': 'output', 'size': 190, 'id': ('streamProducerSynth2', 2, 'output', 20)}",1566489800.147802,1566489800.147848
+streamProducerReal0,0,write,"{'output': 'output', 'size': 189, 'id': ('streamProducerReal0', 0, 'output', 16)}",1566489800.1420412,1566489800.142088
+streamProducerReal0,0,write,"{'output': 'output', 'size': 189, 'id': ('streamProducerReal0', 0, 'output', 17)}",1566489800.146972,1566489800.14702
+streamProducerReal0,0,write,"{'output': 'output', 'size': 189, 'id': ('streamProducerReal0', 0, 'output', 18)}",1566489800.157036,1566489800.157084
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1272, 'id': ('PeakGroundMotion4', 4, 'output', 1)}",1566489800.1224651,1566489800.130087
+PeakGroundMotion4,4,process,"{}",1566489800.084254,1566489800.1224499
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 2))]}",1566489800.130154,1566489800.13065
+streamProducerSynth2,2,write,"{'output': 'output', 'size': 190, 'id': ('streamProducerSynth2', 2, 'output', 21)}",1566489800.158731,1566489800.1587782
+NormPE1,1,read,"{'input': [('input', ('streamProducerReal0', 0, 'output', 2))]}",1566489800.0881221,1566489800.1203148
+NormPE1,1,process,"{}",1566489800.068197,1566489800.088117
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion4', 4, 'output', 2)}",1566489800.1606889,1566489800.160801
+PeakGroundMotion4,4,process,"{}",1566489800.1306722,1566489800.1606789
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 3))]}",1566489800.160832,1566489800.161725
+streamProducerReal0,0,write,"{'output': 'output', 'size': 189, 'id': ('streamProducerReal0', 0, 'output', 19)}",1566489800.161848,1566489800.16189
+streamProducerSynth2,2,write,"{'output': 'output', 'size': 190, 'id': ('streamProducerSynth2', 2, 'output', 22)}",1566489800.163425,1566489800.163472
+streamProducerReal0,0,write,"{'output': 'output', 'size': 189, 'id': ('streamProducerReal0', 0, 'output', 20)}",1566489800.167128,1566489800.16718
+streamProducerSynth2,2,write,"{'output': 'output', 'size': 190, 'id': ('streamProducerSynth2', 2, 'output', 23)}",1566489800.1689541,1566489800.169003
+streamProducerSynth2,2,write,"{'output': 'output', 'size': 190, 'id': ('streamProducerSynth2', 2, 'output', 24)}",1566489800.174973,1566489800.175026
+streamProducerSynth2,2,write,"{'output': 'output', 'size': 190, 'id': ('streamProducerSynth2', 2, 'output', 25)}",1566489800.180796,1566489800.180851
+streamProducerReal0,0,write,"{'output': 'output', 'size': 189, 'id': ('streamProducerReal0', 0, 'output', 21)}",1566489800.17396,1566489800.174013
+streamProducerSynth2,2,write,"{'output': 'output', 'size': 190, 'id': ('streamProducerSynth2', 2, 'output', 26)}",1566489800.188156,1566489800.188211
+streamProducerSynth2,2,read,"{'input': []}",1566489800.1882508,1566489800.1882591
+streamProducerSynth2,2,process,"{}",1566489799.999529,1566489800.1882439
+streamProducerSynth2,2,terminate,"{}",1566489800.188289,1566489800.188312
+streamProducerSynth2,2,postprocess,"{}",1566489800.188282,1566489800.188286
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 1))]}",1566489800.143213,1566489800.189462
+Match5,5,process,"{}",1566489800.1432052,1566489800.14321
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 2))]}",1566489800.1895401,1566489800.1903172
+Match5,5,process,"{}",1566489800.189523,1566489800.189536
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion3', 3, 'output', 3)}",1566489800.197856,1566489800.197977
+PeakGroundMotion3,3,process,"{}",1566489800.120867,1566489800.197833
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 3))]}",1566489800.1903648,1566489800.198882
+Match5,5,process,"{}",1566489800.190355,1566489800.1903622
+streamProducerReal0,0,write,"{'output': 'output', 'size': 189, 'id': ('streamProducerReal0', 0, 'output', 22)}",1566489800.201407,1566489800.2014651
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1272, 'id': ('PeakGroundMotion4', 4, 'output', 3)}",1566489800.203128,1566489800.2032619
+PeakGroundMotion4,4,process,"{}",1566489800.161767,1566489800.203103
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 3))]}",1566489800.198996,1566489800.2047849
+Match5,5,process,"{}",1566489800.198978,1566489800.1989892
+streamProducerReal0,0,write,"{'output': 'output', 'size': 189, 'id': ('streamProducerReal0', 0, 'output', 23)}",1566489800.210929,1566489800.2109709
+streamProducerReal0,0,write,"{'output': 'output', 'size': 189, 'id': ('streamProducerReal0', 0, 'output', 24)}",1566489800.215522,1566489800.2155552
+streamProducerReal0,0,write,"{'output': 'output', 'size': 189, 'id': ('streamProducerReal0', 0, 'output', 25)}",1566489800.219639,1566489800.2196732
+streamProducerReal0,0,write,"{'output': 'output', 'size': 189, 'id': ('streamProducerReal0', 0, 'output', 26)}",1566489800.226799,1566489800.2268631
+streamProducerReal0,0,read,"{'input': []}",1566489800.226911,1566489800.22692
+streamProducerReal0,0,process,"{}",1566489799.995161,1566489800.226903
+streamProducerReal0,0,terminate,"{}",1566489800.226963,1566489800.22699
+streamProducerReal0,0,postprocess,"{}",1566489800.226943,1566489800.226948
+NormPE1,1,write,"{'output': 'output_mean', 'size': 144594, 'id': ('NormPE1', 1, 'output_mean', 4)}",1566489800.2283661,1566489800.2284338
+NormPE1,1,write,"{'output': 'output_max', 'size': 144593, 'id': ('NormPE1', 1, 'output_max', 4)}",1566489800.228482,1566489800.228516
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 4))]}",1566489800.1980119,1566489800.231661
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 4))]}",1566489800.2032971,1566489800.236594
+NormPE1,1,read,"{'input': [('input', ('streamProducerSynth2', 2, 'output', 3))]}",1566489800.228531,1566489800.232047
+NormPE1,1,process,"{}",1566489800.120387,1566489800.228527
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29443, 'id': ('NormPE1', 1, 'output_mean', 5)}",1566489800.273996,1566489800.27407
+NormPE1,1,write,"{'output': 'output_max', 'size': 29442, 'id': ('NormPE1', 1, 'output_max', 5)}",1566489800.274111,1566489800.2741618
+NormPE1,1,read,"{'input': [('input', ('streamProducerReal0', 0, 'output', 3))]}",1566489800.274178,1566489800.275371
+NormPE1,1,process,"{}",1566489800.243317,1566489800.274174
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion3', 3, 'output', 4)}",1566489800.357974,1566489800.358109
+PeakGroundMotion3,3,process,"{}",1566489800.231713,1566489800.35795
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 5))]}",1566489800.3581598,1566489800.3592708
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 4))]}",1566489800.204882,1566489800.359665
+Match5,5,process,"{}",1566489800.2048619,1566489800.204876
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29394, 'id': ('NormPE1', 1, 'output_mean', 6)}",1566489800.3804212,1566489800.3804932
+NormPE1,1,write,"{'output': 'output_max', 'size': 29393, 'id': ('NormPE1', 1, 'output_max', 6)}",1566489800.3805199,1566489800.380564
+NormPE1,1,read,"{'input': [('input', ('streamProducerSynth2', 2, 'output', 4))]}",1566489800.3805811,1566489800.3814359
+NormPE1,1,process,"{}",1566489800.275429,1566489800.380577
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29443, 'id': ('NormPE1', 1, 'output_mean', 7)}",1566489800.393524,1566489800.3935869
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1272, 'id': ('PeakGroundMotion4', 4, 'output', 4)}",1566489800.393291,1566489800.393396
+NormPE1,1,write,"{'output': 'output_max', 'size': 29442, 'id': ('NormPE1', 1, 'output_max', 7)}",1566489800.393609,1566489800.393641
+PeakGroundMotion4,4,process,"{}",1566489800.2366982,1566489800.393271
+NormPE1,1,read,"{'input': [('input', ('streamProducerReal0', 0, 'output', 4))]}",1566489800.393657,1566489800.39437
+NormPE1,1,process,"{}",1566489800.3814762,1566489800.393653
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 4))]}",1566489800.3597262,1566489800.394887
+Match5,5,process,"{}",1566489800.359713,1566489800.359722
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 5))]}",1566489800.393427,1566489800.400202
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29394, 'id': ('NormPE1', 1, 'output_mean', 8)}",1566489800.411435,1566489800.411506
+NormPE1,1,write,"{'output': 'output_max', 'size': 29393, 'id': ('NormPE1', 1, 'output_max', 8)}",1566489800.411535,1566489800.4115689
+NormPE1,1,read,"{'input': [('input', ('streamProducerSynth2', 2, 'output', 5))]}",1566489800.411585,1566489800.4119868
+NormPE1,1,process,"{}",1566489800.394408,1566489800.411581
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion4', 4, 'output', 5)}",1566489800.429878,1566489800.430023
+PeakGroundMotion4,4,process,"{}",1566489800.400269,1566489800.429856
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 5))]}",1566489800.394964,1566489800.4306931
+Match5,5,process,"{}",1566489800.3949518,1566489800.39496
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 6))]}",1566489800.430063,1566489800.43139
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1274, 'id': ('PeakGroundMotion3', 3, 'output', 5)}",1566489800.4373991,1566489800.4375172
+PeakGroundMotion3,3,process,"{}",1566489800.359352,1566489800.437377
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 5))]}",1566489800.430748,1566489800.438248
+Match5,5,process,"{}",1566489800.4307368,1566489800.4307451
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 6))]}",1566489800.4375439,1566489800.438978
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29443, 'id': ('NormPE1', 1, 'output_mean', 9)}",1566489800.445207,1566489800.445278
+NormPE1,1,write,"{'output': 'output_max', 'size': 29442, 'id': ('NormPE1', 1, 'output_max', 9)}",1566489800.445329,1566489800.445368
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1272, 'id': ('PeakGroundMotion3', 3, 'output', 6)}",1566489800.455269,1566489800.455383
+PeakGroundMotion3,3,process,"{}",1566489800.439013,1566489800.455246
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 6))]}",1566489800.4383051,1566489800.456129
+Match5,5,process,"{}",1566489800.438293,1566489800.4383008
+NormPE1,1,read,"{'input': [('input', ('streamProducerReal0', 0, 'output', 5))]}",1566489800.445385,1566489800.459754
+NormPE1,1,process,"{}",1566489800.412012,1566489800.4453802
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 7))]}",1566489800.4554172,1566489800.4593432
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29394, 'id': ('NormPE1', 1, 'output_mean', 10)}",1566489800.477264,1566489800.4773288
+NormPE1,1,write,"{'output': 'output_max', 'size': 29393, 'id': ('NormPE1', 1, 'output_max', 10)}",1566489800.477358,1566489800.4773939
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1271, 'id': ('PeakGroundMotion4', 4, 'output', 6)}",1566489800.4772549,1566489800.477356
+PeakGroundMotion4,4,process,"{}",1566489800.431426,1566489800.4772348
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 6))]}",1566489800.456195,1566489800.478131
+Match5,5,process,"{}",1566489800.456182,1566489800.456191
+NormPE1,1,read,"{'input': [('input', ('streamProducerSynth2', 2, 'output', 6))]}",1566489800.4774091,1566489800.4782321
+NormPE1,1,process,"{}",1566489800.459837,1566489800.4774048
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 7))]}",1566489800.477387,1566489800.478532
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29443, 'id': ('NormPE1', 1, 'output_mean', 11)}",1566489800.4924438,1566489800.492511
+NormPE1,1,write,"{'output': 'output_max', 'size': 29442, 'id': ('NormPE1', 1, 'output_max', 11)}",1566489800.492537,1566489800.492569
+NormPE1,1,read,"{'input': [('input', ('streamProducerReal0', 0, 'output', 6))]}",1566489800.492584,1566489800.493425
+NormPE1,1,process,"{}",1566489800.47827,1566489800.4925802
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion4', 4, 'output', 7)}",1566489800.496324,1566489800.49651
+PeakGroundMotion4,4,process,"{}",1566489800.4786282,1566489800.496304
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 7))]}",1566489800.4781911,1566489800.4972422
+Match5,5,process,"{}",1566489800.478179,1566489800.478188
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 8))]}",1566489800.4965582,1566489800.49854
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29394, 'id': ('NormPE1', 1, 'output_mean', 12)}",1566489800.5123708,1566489800.5124538
+NormPE1,1,write,"{'output': 'output_max', 'size': 29393, 'id': ('NormPE1', 1, 'output_max', 12)}",1566489800.512492,1566489800.5125399
+NormPE1,1,read,"{'input': [('input', ('streamProducerSynth2', 2, 'output', 7))]}",1566489800.5125601,1566489800.5130482
+NormPE1,1,process,"{}",1566489800.49349,1566489800.5125551
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1272, 'id': ('PeakGroundMotion4', 4, 'output', 8)}",1566489800.5156999,1566489800.51584
+PeakGroundMotion4,4,process,"{}",1566489800.4985821,1566489800.5156748
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 8))]}",1566489800.4973,1566489800.517023
+Match5,5,process,"{}",1566489800.497288,1566489800.4972968
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 9))]}",1566489800.515875,1566489800.51705
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29443, 'id': ('NormPE1', 1, 'output_mean', 13)}",1566489800.527172,1566489800.527232
+NormPE1,1,write,"{'output': 'output_max', 'size': 29442, 'id': ('NormPE1', 1, 'output_max', 13)}",1566489800.5272589,1566489800.5272908
+NormPE1,1,read,"{'input': [('input', ('streamProducerReal0', 0, 'output', 7))]}",1566489800.527306,1566489800.527814
+NormPE1,1,process,"{}",1566489800.513077,1566489800.5273018
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1274, 'id': ('PeakGroundMotion3', 3, 'output', 7)}",1566489800.53032,1566489800.530418
+PeakGroundMotion3,3,process,"{}",1566489800.45939,1566489800.5303009
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 7))]}",1566489800.5171359,1566489800.53108
+Match5,5,process,"{}",1566489800.51711,1566489800.517129
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 8))]}",1566489800.530445,1566489800.5315998
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion3', 3, 'output', 8)}",1566489800.547471,1566489800.547644
+PeakGroundMotion3,3,process,"{}",1566489800.53163,1566489800.5474482
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 8))]}",1566489800.531132,1566489800.5497038
+Match5,5,process,"{}",1566489800.531122,1566489800.5311291
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29394, 'id': ('NormPE1', 1, 'output_mean', 14)}",1566489800.545206,1566489800.545279
+NormPE1,1,write,"{'output': 'output_max', 'size': 29393, 'id': ('NormPE1', 1, 'output_max', 14)}",1566489800.545331,1566489800.5453749
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 9))]}",1566489800.547693,1566489800.55169
+NormPE1,1,read,"{'input': [('input', ('streamProducerSynth2', 2, 'output', 8))]}",1566489800.545391,1566489800.554059
+NormPE1,1,process,"{}",1566489800.527851,1566489800.545387
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 9))]}",1566489800.549831,1566489800.5627918
+Match5,5,process,"{}",1566489800.549794,1566489800.549809
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion4', 4, 'output', 9)}",1566489800.5618,1566489800.561961
+PeakGroundMotion4,4,process,"{}",1566489800.517163,1566489800.561769
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 10))]}",1566489800.56205,1566489800.5661929
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1274, 'id': ('PeakGroundMotion3', 3, 'output', 9)}",1566489800.574563,1566489800.574692
+PeakGroundMotion3,3,process,"{}",1566489800.5518239,1566489800.574538
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 9))]}",1566489800.5628622,1566489800.576567
+Match5,5,process,"{}",1566489800.562849,1566489800.5628579
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 10))]}",1566489800.5747268,1566489800.5772731
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1272, 'id': ('PeakGroundMotion4', 4, 'output', 10)}",1566489800.59342,1566489800.593584
+PeakGroundMotion4,4,process,"{}",1566489800.5662458,1566489800.5933912
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 10))]}",1566489800.576805,1566489800.594492
+Match5,5,process,"{}",1566489800.576792,1566489800.576801
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 11))]}",1566489800.593639,1566489800.595171
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion3', 3, 'output', 10)}",1566489800.6098518,1566489800.610004
+PeakGroundMotion3,3,process,"{}",1566489800.577326,1566489800.609827
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 11))]}",1566489800.610039,1566489800.610465
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 10))]}",1566489800.594558,1566489800.611648
+Match5,5,process,"{}",1566489800.594545,1566489800.5945542
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion4', 4, 'output', 11)}",1566489800.623869,1566489800.623997
+PeakGroundMotion4,4,process,"{}",1566489800.595219,1566489800.623847
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 11))]}",1566489800.611713,1566489800.624855
+Match5,5,process,"{}",1566489800.6117,1566489800.611708
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 12))]}",1566489800.624028,1566489800.625294
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1274, 'id': ('PeakGroundMotion3', 3, 'output', 11)}",1566489800.630448,1566489800.630579
+PeakGroundMotion3,3,process,"{}",1566489800.61049,1566489800.630425
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 11))]}",1566489800.624916,1566489800.6312928
+Match5,5,process,"{}",1566489800.624904,1566489800.6249118
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 12))]}",1566489800.630628,1566489800.631763
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion3', 3, 'output', 12)}",1566489800.6534941,1566489800.6536179
+PeakGroundMotion3,3,process,"{}",1566489800.631797,1566489800.65347
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 12))]}",1566489800.631349,1566489800.654537
+Match5,5,process,"{}",1566489800.631336,1566489800.6313448
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1272, 'id': ('PeakGroundMotion4', 4, 'output', 12)}",1566489800.654795,1566489800.6549098
+PeakGroundMotion4,4,process,"{}",1566489800.6253288,1566489800.654774
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 12))]}",1566489800.654596,1566489800.655531
+Match5,5,process,"{}",1566489800.6545842,1566489800.654593
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 13))]}",1566489800.654944,1566489800.655725
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 13))]}",1566489800.6536489,1566489800.65721
+NormPE1,1,write,"{'output': 'output_mean', 'size': 144643, 'id': ('NormPE1', 1, 'output_mean', 15)}",1566489800.659699,1566489800.659774
+NormPE1,1,write,"{'output': 'output_max', 'size': 144642, 'id': ('NormPE1', 1, 'output_max', 15)}",1566489800.659803,1566489800.659849
+NormPE1,1,read,"{'input': [('input', ('streamProducerReal0', 0, 'output', 8))]}",1566489800.659868,1566489800.661663
+NormPE1,1,process,"{}",1566489800.554128,1566489800.659863
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion4', 4, 'output', 13)}",1566489800.6745028,1566489800.674628
+PeakGroundMotion4,4,process,"{}",1566489800.655759,1566489800.674481
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 14))]}",1566489800.6746619,1566489800.6755881
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 13))]}",1566489800.6555798,1566489800.67541
+Match5,5,process,"{}",1566489800.65557,1566489800.6555772
+Match5,5,write,"{'output': 'output', 'size': 2756, 'id': ('Match5', 5, 'output', 1)}",1566489800.675524,1566489800.677142
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1274, 'id': ('PeakGroundMotion3', 3, 'output', 13)}",1566489800.680777,1566489800.68091
+PeakGroundMotion3,3,process,"{}",1566489800.657281,1566489800.680747
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 13))]}",1566489800.6771781,1566489800.681891
+Match5,5,process,"{}",1566489800.675453,1566489800.677173
+Match5,5,write,"{'output': 'output', 'size': 2758, 'id': ('Match5', 5, 'output', 2)}",1566489800.681958,1566489800.682092
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 14))]}",1566489800.680962,1566489800.6827798
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 1))]}",1566489800.013076,1566489800.684272
+WriteGeoJSON6,6,preprocess,"{}",1566489800.012963,1566489800.013047
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29394, 'id': ('NormPE1', 1, 'output_mean', 16)}",1566489800.687229,1566489800.687298
+NormPE1,1,write,"{'output': 'output_max', 'size': 29393, 'id': ('NormPE1', 1, 'output_max', 16)}",1566489800.6873448,1566489800.687389
+NormPE1,1,read,"{'input': [('input', ('streamProducerSynth2', 2, 'output', 9))]}",1566489800.687407,1566489800.68811
+NormPE1,1,process,"{}",1566489800.66174,1566489800.687402
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1272, 'id': ('PeakGroundMotion4', 4, 'output', 14)}",1566489800.712436,1566489800.712605
+PeakGroundMotion4,4,process,"{}",1566489800.6756322,1566489800.712411
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 14))]}",1566489800.682107,1566489800.71359
+Match5,5,process,"{}",1566489800.681947,1566489800.682104
+Match5,5,write,"{'output': 'output', 'size': 2756, 'id': ('Match5', 5, 'output', 3)}",1566489800.713668,1566489800.7138
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29443, 'id': ('NormPE1', 1, 'output_mean', 17)}",1566489800.7161531,1566489800.71623
+NormPE1,1,write,"{'output': 'output_max', 'size': 29442, 'id': ('NormPE1', 1, 'output_max', 17)}",1566489800.716259,1566489800.716309
+NormPE1,1,read,"{'input': [('input', ('streamProducerReal0', 0, 'output', 9))]}",1566489800.716326,1566489800.717313
+NormPE1,1,process,"{}",1566489800.6881652,1566489800.716322
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion3', 3, 'output', 14)}",1566489800.722816,1566489800.722949
+PeakGroundMotion3,3,process,"{}",1566489800.682813,1566489800.722795
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 14))]}",1566489800.71382,1566489800.723649
+Match5,5,process,"{}",1566489800.713655,1566489800.7138162
+Match5,5,write,"{'output': 'output', 'size': 2758, 'id': ('Match5', 5, 'output', 4)}",1566489800.723722,1566489800.723841
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 15))]}",1566489800.722991,1566489800.725058
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 15))]}",1566489800.712662,1566489800.732885
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29394, 'id': ('NormPE1', 1, 'output_mean', 18)}",1566489800.736922,1566489800.7369971
+NormPE1,1,write,"{'output': 'output_max', 'size': 29393, 'id': ('NormPE1', 1, 'output_max', 18)}",1566489800.737025,1566489800.737067
+NormPE1,1,read,"{'input': [('input', ('streamProducerSynth2', 2, 'output', 10))]}",1566489800.737084,1566489800.738026
+NormPE1,1,process,"{}",1566489800.717385,1566489800.7370791
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 2))]}",1566489800.741856,1566489800.742612
+WriteGeoJSON6,6,process,"{}",1566489800.685477,1566489800.7418392
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 3))]}",1566489800.771065,1566489800.774807
+WriteGeoJSON6,6,process,"{}",1566489800.7426612,1566489800.7710552
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 4))]}",1566489800.794934,1566489800.795826
+WriteGeoJSON6,6,process,"{}",1566489800.774886,1566489800.79492
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion4', 4, 'output', 15)}",1566489800.8917,1566489800.89185
+PeakGroundMotion4,4,process,"{}",1566489800.732936,1566489800.891676
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 15))]}",1566489800.723861,1566489800.893373
+Match5,5,process,"{}",1566489800.72371,1566489800.723857
+NormPE1,1,write,"{'output': 'output_mean', 'size': 144643, 'id': ('NormPE1', 1, 'output_mean', 19)}",1566489800.893711,1566489800.893773
+NormPE1,1,write,"{'output': 'output_max', 'size': 144642, 'id': ('NormPE1', 1, 'output_max', 19)}",1566489800.8937979,1566489800.8938339
+NormPE1,1,read,"{'input': [('input', ('streamProducerReal0', 0, 'output', 10))]}",1566489800.8938508,1566489800.894424
+NormPE1,1,process,"{}",1566489800.7380621,1566489800.893847
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 16))]}",1566489800.8918972,1566489800.8944142
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1274, 'id': ('PeakGroundMotion3', 3, 'output', 15)}",1566489800.906803,1566489800.906928
+PeakGroundMotion3,3,process,"{}",1566489800.725107,1566489800.906776
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 16))]}",1566489800.906969,1566489800.908489
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 15))]}",1566489800.893443,1566489800.908648
+Match5,5,process,"{}",1566489800.8934321,1566489800.89344
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29394, 'id': ('NormPE1', 1, 'output_mean', 20)}",1566489800.911256,1566489800.91132
+NormPE1,1,write,"{'output': 'output_max', 'size': 29393, 'id': ('NormPE1', 1, 'output_max', 20)}",1566489800.911365,1566489800.911407
+NormPE1,1,read,"{'input': [('input', ('streamProducerReal0', 0, 'output', 11))]}",1566489800.911424,1566489800.9120839
+NormPE1,1,process,"{}",1566489800.894453,1566489800.9114199
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1272, 'id': ('PeakGroundMotion4', 4, 'output', 16)}",1566489800.920953,1566489800.921055
+PeakGroundMotion4,4,process,"{}",1566489800.8944561,1566489800.920932
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 16))]}",1566489800.908702,1566489800.9217532
+Match5,5,process,"{}",1566489800.908691,1566489800.9086988
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 17))]}",1566489800.921082,1566489800.921839
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29394, 'id': ('NormPE1', 1, 'output_mean', 21)}",1566489800.931803,1566489800.931929
+NormPE1,1,write,"{'output': 'output_max', 'size': 29393, 'id': ('NormPE1', 1, 'output_max', 21)}",1566489800.932506,1566489800.932566
+NormPE1,1,read,"{'input': [('input', ('streamProducerSynth2', 2, 'output', 11))]}",1566489800.9325912,1566489800.934607
+NormPE1,1,process,"{}",1566489800.9121332,1566489800.932584
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion4', 4, 'output', 17)}",1566489800.9524522,1566489800.952569
+PeakGroundMotion4,4,process,"{}",1566489800.921867,1566489800.95243
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 17))]}",1566489800.921809,1566489800.953322
+Match5,5,process,"{}",1566489800.921797,1566489800.921806
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 18))]}",1566489800.9526012,1566489800.953402
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion3', 3, 'output', 16)}",1566489800.9618182,1566489800.9619179
+PeakGroundMotion3,3,process,"{}",1566489800.90854,1566489800.961799
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 16))]}",1566489800.953381,1566489800.962688
+Match5,5,process,"{}",1566489800.9533691,1566489800.953377
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 17))]}",1566489800.961944,1566489800.963291
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1272, 'id': ('PeakGroundMotion4', 4, 'output', 18)}",1566489800.973979,1566489800.974085
+PeakGroundMotion4,4,process,"{}",1566489800.953428,1566489800.973959
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 18))]}",1566489800.962744,1566489800.974775
+Match5,5,process,"{}",1566489800.962732,1566489800.96274
+Match5,5,write,"{'output': 'output', 'size': 2756, 'id': ('Match5', 5, 'output', 5)}",1566489800.974825,1566489800.974936
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 5))]}",1566489800.809678,1566489800.975883
+WriteGeoJSON6,6,process,"{}",1566489800.795924,1566489800.80967
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1274, 'id': ('PeakGroundMotion3', 3, 'output', 17)}",1566489800.979508,1566489800.9796212
+PeakGroundMotion3,3,process,"{}",1566489800.9633229,1566489800.97949
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 17))]}",1566489800.974951,1566489800.980457
+Match5,5,process,"{}",1566489800.974813,1566489800.9749482
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 18))]}",1566489800.979659,1566489800.991267
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 19))]}",1566489800.974114,1566489801.003197
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion3', 3, 'output', 18)}",1566489801.019618,1566489801.0197172
+PeakGroundMotion3,3,process,"{}",1566489800.9913511,1566489801.0196
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 18))]}",1566489800.98053,1566489801.02045
+Match5,5,process,"{}",1566489800.9805188,1566489800.9805272
+Match5,5,write,"{'output': 'output', 'size': 2758, 'id': ('Match5', 5, 'output', 6)}",1566489801.0205061,1566489801.0206342
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 6))]}",1566489801.003152,1566489801.021825
+WriteGeoJSON6,6,process,"{}",1566489800.9759429,1566489801.003137
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 19))]}",1566489801.019745,1566489801.0259352
+NormPE1,1,write,"{'output': 'output_mean', 'size': 144643, 'id': ('NormPE1', 1, 'output_mean', 22)}",1566489801.079753,1566489801.079821
+NormPE1,1,write,"{'output': 'output_max', 'size': 144642, 'id': ('NormPE1', 1, 'output_max', 22)}",1566489801.07985,1566489801.079883
+NormPE1,1,read,"{'input': [('input', ('streamProducerReal0', 0, 'output', 12))]}",1566489801.0798972,1566489801.081057
+NormPE1,1,process,"{}",1566489800.934678,1566489801.0798929
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29394, 'id': ('NormPE1', 1, 'output_mean', 23)}",1566489801.1042938,1566489801.104369
+NormPE1,1,write,"{'output': 'output_max', 'size': 29393, 'id': ('NormPE1', 1, 'output_max', 23)}",1566489801.104418,1566489801.104461
+NormPE1,1,read,"{'input': [('input', ('streamProducerSynth2', 2, 'output', 12))]}",1566489801.104478,1566489801.105081
+NormPE1,1,process,"{}",1566489801.081141,1566489801.104473
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion4', 4, 'output', 19)}",1566489801.12304,1566489801.1231449
+PeakGroundMotion4,4,process,"{}",1566489801.003273,1566489801.123017
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 19))]}",1566489801.020653,1566489801.1242938
+Match5,5,process,"{}",1566489801.020494,1566489801.020649
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 20))]}",1566489801.123174,1566489801.12414
+Match5,5,write,"{'output': 'output', 'size': 2756, 'id': ('Match5', 5, 'output', 7)}",1566489801.124361,1566489801.1244721
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 7))]}",1566489801.052217,1566489801.1268249
+WriteGeoJSON6,6,process,"{}",1566489801.021896,1566489801.052207
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29443, 'id': ('NormPE1', 1, 'output_mean', 24)}",1566489801.130836,1566489801.130908
+NormPE1,1,write,"{'output': 'output_max', 'size': 29442, 'id': ('NormPE1', 1, 'output_max', 24)}",1566489801.130958,1566489801.131
+NormPE1,1,read,"{'input': [('input', ('streamProducerReal0', 0, 'output', 13))]}",1566489801.131017,1566489801.136108
+NormPE1,1,process,"{}",1566489801.1051111,1566489801.1310122
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1272, 'id': ('PeakGroundMotion4', 4, 'output', 20)}",1566489801.145494,1566489801.145617
+PeakGroundMotion4,4,process,"{}",1566489801.124178,1566489801.145474
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 20))]}",1566489801.124486,1566489801.146348
+Match5,5,process,"{}",1566489801.12435,1566489801.124483
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 21))]}",1566489801.1456482,1566489801.152265
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29394, 'id': ('NormPE1', 1, 'output_mean', 25)}",1566489801.15428,1566489801.154342
+NormPE1,1,write,"{'output': 'output_max', 'size': 29393, 'id': ('NormPE1', 1, 'output_max', 25)}",1566489801.154369,1566489801.154409
+NormPE1,1,read,"{'input': [('input', ('streamProducerSynth2', 2, 'output', 13))]}",1566489801.154426,1566489801.15505
+NormPE1,1,process,"{}",1566489801.136168,1566489801.154422
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1274, 'id': ('PeakGroundMotion3', 3, 'output', 19)}",1566489801.1653912,1566489801.1655092
+PeakGroundMotion3,3,process,"{}",1566489801.025984,1566489801.1653671
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 20))]}",1566489801.165544,1566489801.166301
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 19))]}",1566489801.146415,1566489801.166902
+Match5,5,process,"{}",1566489801.146404,1566489801.1464121
+Match5,5,write,"{'output': 'output', 'size': 2758, 'id': ('Match5', 5, 'output', 8)}",1566489801.166955,1566489801.167073
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 8))]}",1566489801.142176,1566489801.1693928
+WriteGeoJSON6,6,process,"{}",1566489801.126884,1566489801.142167
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29443, 'id': ('NormPE1', 1, 'output_mean', 26)}",1566489801.1696131,1566489801.1696692
+NormPE1,1,write,"{'output': 'output_max', 'size': 29442, 'id': ('NormPE1', 1, 'output_max', 26)}",1566489801.169715,1566489801.169942
+NormPE1,1,read,"{'input': [('input', ('streamProducerReal0', 0, 'output', 14))]}",1566489801.1699579,1566489801.171384
+NormPE1,1,process,"{}",1566489801.155081,1566489801.169954
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1272, 'id': ('PeakGroundMotion4', 4, 'output', 21)}",1566489801.183386,1566489801.183508
+PeakGroundMotion4,4,process,"{}",1566489801.1523042,1566489801.183367
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 21))]}",1566489801.16709,1566489801.184122
+Match5,5,process,"{}",1566489801.166944,1566489801.1670861
+Match5,5,write,"{'output': 'output', 'size': 2756, 'id': ('Match5', 5, 'output', 9)}",1566489801.1841862,1566489801.1842968
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 9))]}",1566489801.1815581,1566489801.1874712
+WriteGeoJSON6,6,process,"{}",1566489801.169461,1566489801.181546
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 22))]}",1566489801.18355,1566489801.1952782
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion3', 3, 'output', 20)}",1566489801.207573,1566489801.2077088
+PeakGroundMotion3,3,process,"{}",1566489801.166327,1566489801.20755
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 20))]}",1566489801.184312,1566489801.208423
+Match5,5,process,"{}",1566489801.184175,1566489801.184309
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 21))]}",1566489801.2077508,1566489801.2090392
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion3', 3, 'output', 21)}",1566489801.222036,1566489801.222126
+PeakGroundMotion3,3,process,"{}",1566489801.209065,1566489801.2220201
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 21))]}",1566489801.208491,1566489801.22284
+Match5,5,process,"{}",1566489801.20848,1566489801.208488
+Match5,5,write,"{'output': 'output', 'size': 2758, 'id': ('Match5', 5, 'output', 10)}",1566489801.222888,1566489801.222999
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 22))]}",1566489801.222204,1566489801.223767
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 10))]}",1566489801.2111502,1566489801.224053
+WriteGeoJSON6,6,process,"{}",1566489801.187538,1566489801.211141
+NormPE1,1,write,"{'output': 'output_mean', 'size': 144594, 'id': ('NormPE1', 1, 'output_mean', 27)}",1566489801.27723,1566489801.277298
+NormPE1,1,write,"{'output': 'output_max', 'size': 144593, 'id': ('NormPE1', 1, 'output_max', 27)}",1566489801.277326,1566489801.277359
+NormPE1,1,read,"{'input': [('input', ('streamProducerSynth2', 2, 'output', 14))]}",1566489801.277374,1566489801.278069
+NormPE1,1,process,"{}",1566489801.171425,1566489801.2773702
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29443, 'id': ('NormPE1', 1, 'output_mean', 28)}",1566489801.29544,1566489801.295497
+NormPE1,1,write,"{'output': 'output_max', 'size': 29442, 'id': ('NormPE1', 1, 'output_max', 28)}",1566489801.295539,1566489801.295573
+NormPE1,1,read,"{'input': [('input', ('streamProducerSynth2', 2, 'output', 15))]}",1566489801.295587,1566489801.29615
+NormPE1,1,process,"{}",1566489801.278101,1566489801.295583
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion4', 4, 'output', 22)}",1566489801.3056839,1566489801.30583
+PeakGroundMotion4,4,process,"{}",1566489801.195341,1566489801.3056629
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 23))]}",1566489801.3058639,1566489801.3072178
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 22))]}",1566489801.2230148,1566489801.307468
+Match5,5,process,"{}",1566489801.222877,1566489801.223011
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29443, 'id': ('NormPE1', 1, 'output_mean', 29)}",1566489801.3092139,1566489801.309267
+NormPE1,1,write,"{'output': 'output_max', 'size': 29442, 'id': ('NormPE1', 1, 'output_max', 29)}",1566489801.3092911,1566489801.309323
+NormPE1,1,read,"{'input': [('input', ('streamProducerReal0', 0, 'output', 15))]}",1566489801.3093371,1566489801.309946
+NormPE1,1,process,"{}",1566489801.29618,1566489801.309333
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1272, 'id': ('PeakGroundMotion4', 4, 'output', 23)}",1566489801.3211699,1566489801.321297
+PeakGroundMotion4,4,process,"{}",1566489801.307266,1566489801.321152
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 23))]}",1566489801.307541,1566489801.324726
+Match5,5,process,"{}",1566489801.307529,1566489801.307538
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 24))]}",1566489801.323881,1566489801.3249018
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29394, 'id': ('NormPE1', 1, 'output_mean', 30)}",1566489801.333065,1566489801.333146
+NormPE1,1,write,"{'output': 'output_max', 'size': 29393, 'id': ('NormPE1', 1, 'output_max', 30)}",1566489801.333175,1566489801.333211
+NormPE1,1,read,"{'input': [('input', ('streamProducerSynth2', 2, 'output', 16))]}",1566489801.333226,1566489801.3345652
+NormPE1,1,process,"{}",1566489801.3099961,1566489801.3332229
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1274, 'id': ('PeakGroundMotion3', 3, 'output', 22)}",1566489801.338253,1566489801.3383732
+PeakGroundMotion3,3,process,"{}",1566489801.2238138,1566489801.3382301
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 23))]}",1566489801.338403,1566489801.3396008
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 22))]}",1566489801.324781,1566489801.339752
+Match5,5,process,"{}",1566489801.3247712,1566489801.324778
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion4', 4, 'output', 24)}",1566489801.339645,1566489801.339749
+PeakGroundMotion4,4,process,"{}",1566489801.324936,1566489801.339626
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 24))]}",1566489801.339801,1566489801.340387
+Match5,5,process,"{}",1566489801.339791,1566489801.339799
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 25))]}",1566489801.339796,1566489801.3406441
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29443, 'id': ('NormPE1', 1, 'output_mean', 31)}",1566489801.35098,1566489801.351048
+NormPE1,1,write,"{'output': 'output_max', 'size': 29442, 'id': ('NormPE1', 1, 'output_max', 31)}",1566489801.35108,1566489801.351124
+NormPE1,1,read,"{'input': [('input', ('streamProducerReal0', 0, 'output', 16))]}",1566489801.351143,1566489801.351721
+NormPE1,1,process,"{}",1566489801.3346071,1566489801.351138
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion3', 3, 'output', 23)}",1566489801.3553438,1566489801.3554308
+PeakGroundMotion3,3,process,"{}",1566489801.339648,1566489801.355329
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 23))]}",1566489801.340433,1566489801.356085
+Match5,5,process,"{}",1566489801.3404238,1566489801.34043
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 24))]}",1566489801.3554711,1566489801.3567019
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29394, 'id': ('NormPE1', 1, 'output_mean', 32)}",1566489801.363405,1566489801.363476
+NormPE1,1,write,"{'output': 'output_max', 'size': 29393, 'id': ('NormPE1', 1, 'output_max', 32)}",1566489801.3635268,1566489801.363567
+NormPE1,1,read,"{'input': [('input', ('streamProducerSynth2', 2, 'output', 17))]}",1566489801.363583,1566489801.364415
+NormPE1,1,process,"{}",1566489801.3517492,1566489801.3635788
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1271, 'id': ('PeakGroundMotion4', 4, 'output', 25)}",1566489801.376616,1566489801.376723
+PeakGroundMotion4,4,process,"{}",1566489801.340694,1566489801.376596
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 25))]}",1566489801.356131,1566489801.37742
+Match5,5,process,"{}",1566489801.356122,1566489801.356128
+Match5,5,write,"{'output': 'output', 'size': 2755, 'id': ('Match5', 5, 'output', 11)}",1566489801.3774788,1566489801.377624
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 11))]}",1566489801.2513611,1566489801.378697
+WriteGeoJSON6,6,process,"{}",1566489801.2241092,1566489801.251351
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1274, 'id': ('PeakGroundMotion3', 3, 'output', 24)}",1566489801.385501,1566489801.3856158
+PeakGroundMotion3,3,process,"{}",1566489801.356742,1566489801.385482
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 24))]}",1566489801.377644,1566489801.386258
+Match5,5,process,"{}",1566489801.377467,1566489801.37764
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29443, 'id': ('NormPE1', 1, 'output_mean', 33)}",1566489801.3884501,1566489801.388513
+NormPE1,1,write,"{'output': 'output_max', 'size': 29442, 'id': ('NormPE1', 1, 'output_max', 33)}",1566489801.388563,1566489801.388608
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 26))]}",1566489801.3767629,1566489801.388853
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 25))]}",1566489801.385655,1566489801.390319
+NormPE1,1,read,"{'input': [('input', ('streamProducerReal0', 0, 'output', 17))]}",1566489801.388627,1566489801.395534
+NormPE1,1,process,"{}",1566489801.3644521,1566489801.388622
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion4', 4, 'output', 26)}",1566489801.404886,1566489801.405016
+PeakGroundMotion4,4,process,"{}",1566489801.388959,1566489801.404865
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 26))]}",1566489801.386318,1566489801.405646
+Match5,5,process,"{}",1566489801.3863082,1566489801.386315
+Match5,5,write,"{'output': 'output', 'size': 2756, 'id': ('Match5', 5, 'output', 12)}",1566489801.405699,1566489801.405809
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 12))]}",1566489801.391583,1566489801.407101
+WriteGeoJSON6,6,process,"{}",1566489801.378763,1566489801.391575
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 27))]}",1566489801.405047,1566489801.409548
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1272, 'id': ('PeakGroundMotion3', 3, 'output', 25)}",1566489801.417799,1566489801.417917
+PeakGroundMotion3,3,process,"{}",1566489801.390368,1566489801.417779
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 25))]}",1566489801.405824,1566489801.418593
+Match5,5,process,"{}",1566489801.405687,1566489801.40582
+Match5,5,write,"{'output': 'output', 'size': 2757, 'id': ('Match5', 5, 'output', 13)}",1566489801.418666,1566489801.418818
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 26))]}",1566489801.417944,1566489801.418853
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 13))]}",1566489801.422406,1566489801.423051
+WriteGeoJSON6,6,process,"{}",1566489801.4071722,1566489801.422396
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29394, 'id': ('NormPE1', 1, 'output_mean', 34)}",1566489801.425947,1566489801.4260201
+NormPE1,1,write,"{'output': 'output_max', 'size': 29393, 'id': ('NormPE1', 1, 'output_max', 34)}",1566489801.4260669,1566489801.426142
+NormPE1,1,read,"{'input': [('input', ('streamProducerSynth2', 2, 'output', 18))]}",1566489801.42616,1566489801.4274418
+NormPE1,1,process,"{}",1566489801.3956008,1566489801.426155
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29443, 'id': ('NormPE1', 1, 'output_mean', 35)}",1566489801.445257,1566489801.445326
+NormPE1,1,write,"{'output': 'output_max', 'size': 29442, 'id': ('NormPE1', 1, 'output_max', 35)}",1566489801.445354,1566489801.445395
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1274, 'id': ('PeakGroundMotion3', 3, 'output', 26)}",1566489801.445482,1566489801.44557
+PeakGroundMotion3,3,process,"{}",1566489801.4189088,1566489801.445465
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 26))]}",1566489801.418838,1566489801.4462972
+Match5,5,process,"{}",1566489801.418654,1566489801.418834
+Match5,5,write,"{'output': 'output', 'size': 2758, 'id': ('Match5', 5, 'output', 14)}",1566489801.4463732,1566489801.446487
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 14))]}",1566489801.4362838,1566489801.447523
+WriteGeoJSON6,6,process,"{}",1566489801.423122,1566489801.436275
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 27))]}",1566489801.445596,1566489801.4471428
+NormPE1,1,read,"{'input': [('input', ('streamProducerReal0', 0, 'output', 18))]}",1566489801.445411,1566489801.461648
+NormPE1,1,process,"{}",1566489801.427476,1566489801.445407
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29394, 'id': ('NormPE1', 1, 'output_mean', 36)}",1566489801.475107,1566489801.4751732
+NormPE1,1,write,"{'output': 'output_max', 'size': 29393, 'id': ('NormPE1', 1, 'output_max', 36)}",1566489801.475213,1566489801.4752471
+NormPE1,1,read,"{'input': [('input', ('streamProducerSynth2', 2, 'output', 19))]}",1566489801.475262,1566489801.4762728
+NormPE1,1,process,"{}",1566489801.461696,1566489801.475258
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1272, 'id': ('PeakGroundMotion4', 4, 'output', 27)}",1566489801.528234,1566489801.528359
+PeakGroundMotion4,4,process,"{}",1566489801.40961,1566489801.528214
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 27))]}",1566489801.4465039,1566489801.5298061
+Match5,5,process,"{}",1566489801.446361,1566489801.4465
+Match5,5,write,"{'output': 'output', 'size': 2756, 'id': ('Match5', 5, 'output', 15)}",1566489801.5299149,1566489801.530051
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 15))]}",1566489801.462056,1566489801.532314
+WriteGeoJSON6,6,process,"{}",1566489801.447587,1566489801.462046
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 28))]}",1566489801.528391,1566489801.536109
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion4', 4, 'output', 28)}",1566489801.5515351,1566489801.551629
+PeakGroundMotion4,4,process,"{}",1566489801.5361469,1566489801.551517
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 28))]}",1566489801.530068,1566489801.552352
+Match5,5,process,"{}",1566489801.5299032,1566489801.5300639
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 29))]}",1566489801.551666,1566489801.552903
+NormPE1,1,write,"{'output': 'output_mean', 'size': 144643, 'id': ('NormPE1', 1, 'output_mean', 37)}",1566489801.557746,1566489801.557804
+NormPE1,1,write,"{'output': 'output_max', 'size': 144642, 'id': ('NormPE1', 1, 'output_max', 37)}",1566489801.5578282,1566489801.5578601
+NormPE1,1,read,"{'input': [('input', ('streamProducerReal0', 0, 'output', 19))]}",1566489801.557875,1566489801.5586078
+NormPE1,1,process,"{}",1566489801.476318,1566489801.557871
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion3', 3, 'output', 27)}",1566489801.565251,1566489801.5653539
+PeakGroundMotion3,3,process,"{}",1566489801.4471989,1566489801.565229
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 27))]}",1566489801.5524201,1566489801.566744
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 28))]}",1566489801.565381,1566489801.5667121
+Match5,5,process,"{}",1566489801.552408,1566489801.552417
+Match5,5,write,"{'output': 'output', 'size': 2758, 'id': ('Match5', 5, 'output', 16)}",1566489801.566797,1566489801.5669389
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 16))]}",1566489801.54406,1566489801.569
+WriteGeoJSON6,6,process,"{}",1566489801.532386,1566489801.544053
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29394, 'id': ('NormPE1', 1, 'output_mean', 38)}",1566489801.572541,1566489801.572615
+NormPE1,1,write,"{'output': 'output_max', 'size': 29393, 'id': ('NormPE1', 1, 'output_max', 38)}",1566489801.572674,1566489801.572758
+NormPE1,1,read,"{'input': [('input', ('streamProducerSynth2', 2, 'output', 20))]}",1566489801.572799,1566489801.5744798
+NormPE1,1,process,"{}",1566489801.558638,1566489801.5727942
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29443, 'id': ('NormPE1', 1, 'output_mean', 39)}",1566489801.5916889,1566489801.591756
+NormPE1,1,write,"{'output': 'output_max', 'size': 29442, 'id': ('NormPE1', 1, 'output_max', 39)}",1566489801.591785,1566489801.591819
+NormPE1,1,read,"{'input': [('input', ('streamProducerReal0', 0, 'output', 20))]}",1566489801.591834,1566489801.592463
+NormPE1,1,process,"{}",1566489801.5745459,1566489801.59183
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1274, 'id': ('PeakGroundMotion3', 3, 'output', 28)}",1566489801.592513,1566489801.592609
+PeakGroundMotion3,3,process,"{}",1566489801.566784,1566489801.592491
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 28))]}",1566489801.5669582,1566489801.593329
+Match5,5,process,"{}",1566489801.566785,1566489801.566954
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 29))]}",1566489801.592638,1566489801.593396
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion4', 4, 'output', 29)}",1566489801.601354,1566489801.601475
+PeakGroundMotion4,4,process,"{}",1566489801.552932,1566489801.6013298
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 29))]}",1566489801.5934021,1566489801.602154
+Match5,5,process,"{}",1566489801.593389,1566489801.593398
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 30))]}",1566489801.601536,1566489801.60559
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29394, 'id': ('NormPE1', 1, 'output_mean', 40)}",1566489801.606333,1566489801.606393
+NormPE1,1,write,"{'output': 'output_max', 'size': 29393, 'id': ('NormPE1', 1, 'output_max', 40)}",1566489801.6065128,1566489801.606564
+NormPE1,1,read,"{'input': [('input', ('streamProducerSynth2', 2, 'output', 21))]}",1566489801.606585,1566489801.6072
+NormPE1,1,process,"{}",1566489801.592493,1566489801.60658
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1274, 'id': ('PeakGroundMotion3', 3, 'output', 29)}",1566489801.617006,1566489801.617121
+PeakGroundMotion3,3,process,"{}",1566489801.5934331,1566489801.616986
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 29))]}",1566489801.6022038,1566489801.6177201
+Match5,5,process,"{}",1566489801.6021929,1566489801.6022
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29443, 'id': ('NormPE1', 1, 'output_mean', 41)}",1566489801.625109,1566489801.625178
+NormPE1,1,write,"{'output': 'output_max', 'size': 29442, 'id': ('NormPE1', 1, 'output_max', 41)}",1566489801.625206,1566489801.625242
+NormPE1,1,read,"{'input': [('input', ('streamProducerReal0', 0, 'output', 21))]}",1566489801.6252558,1566489801.626326
+NormPE1,1,process,"{}",1566489801.60723,1566489801.625252
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 30))]}",1566489801.617151,1566489801.63435
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1272, 'id': ('PeakGroundMotion4', 4, 'output', 30)}",1566489801.637643,1566489801.637743
+PeakGroundMotion4,4,process,"{}",1566489801.605629,1566489801.637624
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 30))]}",1566489801.617789,1566489801.638634
+Match5,5,process,"{}",1566489801.6177769,1566489801.6177862
+Match5,5,write,"{'output': 'output', 'size': 2756, 'id': ('Match5', 5, 'output', 17)}",1566489801.6386921,1566489801.638836
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 17))]}",1566489801.5835142,1566489801.639895
+WriteGeoJSON6,6,process,"{}",1566489801.569066,1566489801.583498
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 31))]}",1566489801.6377878,1566489801.6518881
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion3', 3, 'output', 30)}",1566489801.6684,1566489801.668523
+PeakGroundMotion3,3,process,"{}",1566489801.6343958,1566489801.668378
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 30))]}",1566489801.6388521,1566489801.669516
+Match5,5,process,"{}",1566489801.63868,1566489801.638849
+Match5,5,write,"{'output': 'output', 'size': 2758, 'id': ('Match5', 5, 'output', 18)}",1566489801.669594,1566489801.669739
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 31))]}",1566489801.668554,1566489801.6702049
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 18))]}",1566489801.6651368,1566489801.670825
+WriteGeoJSON6,6,process,"{}",1566489801.6399539,1566489801.665122
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion4', 4, 'output', 31)}",1566489801.6723578,1566489801.6724749
+PeakGroundMotion4,4,process,"{}",1566489801.651955,1566489801.6723368
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 31))]}",1566489801.669759,1566489801.673098
+Match5,5,process,"{}",1566489801.6695812,1566489801.669755
+Match5,5,write,"{'output': 'output', 'size': 2756, 'id': ('Match5', 5, 'output', 19)}",1566489801.673166,1566489801.6733031
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 32))]}",1566489801.6725109,1566489801.6766698
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1274, 'id': ('PeakGroundMotion3', 3, 'output', 31)}",1566489801.6938171,1566489801.693934
+PeakGroundMotion3,3,process,"{}",1566489801.670408,1566489801.693799
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 31))]}",1566489801.673322,1566489801.694612
+Match5,5,process,"{}",1566489801.673155,1566489801.6733189
+Match5,5,write,"{'output': 'output', 'size': 2758, 'id': ('Match5', 5, 'output', 20)}",1566489801.6946769,1566489801.694788
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 32))]}",1566489801.693973,1566489801.696018
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 19))]}",1566489801.696196,1566489801.6969512
+WriteGeoJSON6,6,process,"{}",1566489801.670892,1566489801.6961868
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1272, 'id': ('PeakGroundMotion4', 4, 'output', 32)}",1566489801.699786,1566489801.699944
+PeakGroundMotion4,4,process,"{}",1566489801.676726,1566489801.699529
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 32))]}",1566489801.694803,1566489801.700616
+Match5,5,process,"{}",1566489801.694666,1566489801.6948
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 33))]}",1566489801.699976,1566489801.701281
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 20))]}",1566489801.714148,1566489801.714773
+WriteGeoJSON6,6,process,"{}",1566489801.6970172,1566489801.714138
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion4', 4, 'output', 33)}",1566489801.726094,1566489801.726223
+PeakGroundMotion4,4,process,"{}",1566489801.701314,1566489801.726073
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 33))]}",1566489801.700694,1566489801.726912
+Match5,5,process,"{}",1566489801.70067,1566489801.7006888
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion3', 3, 'output', 32)}",1566489801.7264361,1566489801.726958
+Match5,5,write,"{'output': 'output', 'size': 2756, 'id': ('Match5', 5, 'output', 21)}",1566489801.726976,1566489801.727108
+PeakGroundMotion3,3,process,"{}",1566489801.696075,1566489801.726414
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 32))]}",1566489801.727128,1566489801.727655
+Match5,5,process,"{}",1566489801.7269619,1566489801.727124
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 33))]}",1566489801.727009,1566489801.728008
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 34))]}",1566489801.726277,1566489801.728621
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 21))]}",1566489801.736622,1566489801.738178
+WriteGeoJSON6,6,process,"{}",1566489801.714864,1566489801.736613
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1274, 'id': ('PeakGroundMotion3', 3, 'output', 33)}",1566489801.7447228,1566489801.7448409
+PeakGroundMotion3,3,process,"{}",1566489801.728093,1566489801.744703
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 33))]}",1566489801.727696,1566489801.7454898
+Match5,5,process,"{}",1566489801.727686,1566489801.7276921
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 34))]}",1566489801.744874,1566489801.7457201
+Match5,5,write,"{'output': 'output', 'size': 2758, 'id': ('Match5', 5, 'output', 22)}",1566489801.745548,1566489801.7456908
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1272, 'id': ('PeakGroundMotion4', 4, 'output', 34)}",1566489801.7549691,1566489801.755102
+PeakGroundMotion4,4,process,"{}",1566489801.728659,1566489801.7549481
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 34))]}",1566489801.7457101,1566489801.755736
+Match5,5,process,"{}",1566489801.745535,1566489801.745706
+Match5,5,write,"{'output': 'output', 'size': 2756, 'id': ('Match5', 5, 'output', 23)}",1566489801.7558,1566489801.7559419
+NormPE1,1,write,"{'output': 'output_mean', 'size': 144594, 'id': ('NormPE1', 1, 'output_mean', 42)}",1566489801.757965,1566489801.758038
+NormPE1,1,write,"{'output': 'output_max', 'size': 144593, 'id': ('NormPE1', 1, 'output_max', 42)}",1566489801.758086,1566489801.758131
+NormPE1,1,read,"{'input': [('input', ('streamProducerSynth2', 2, 'output', 22))]}",1566489801.758147,1566489801.758826
+NormPE1,1,process,"{}",1566489801.626378,1566489801.758143
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 22))]}",1566489801.759773,1566489801.760566
+WriteGeoJSON6,6,process,"{}",1566489801.738244,1566489801.759764
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion3', 3, 'output', 34)}",1566489801.761672,1566489801.761785
+PeakGroundMotion3,3,process,"{}",1566489801.745746,1566489801.761652
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 34))]}",1566489801.75596,1566489801.7624261
+Match5,5,process,"{}",1566489801.755789,1566489801.755956
+Match5,5,write,"{'output': 'output', 'size': 2758, 'id': ('Match5', 5, 'output', 24)}",1566489801.762493,1566489801.762638
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 35))]}",1566489801.761816,1566489801.762644
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 35))]}",1566489801.755148,1566489801.775768
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29443, 'id': ('NormPE1', 1, 'output_mean', 43)}",1566489801.78243,1566489801.782509
+NormPE1,1,write,"{'output': 'output_max', 'size': 29442, 'id': ('NormPE1', 1, 'output_max', 43)}",1566489801.782563,1566489801.782615
+NormPE1,1,read,"{'input': [('input', ('streamProducerReal0', 0, 'output', 22))]}",1566489801.782636,1566489801.783808
+NormPE1,1,process,"{}",1566489801.758862,1566489801.782631
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1274, 'id': ('PeakGroundMotion3', 3, 'output', 35)}",1566489801.788831,1566489801.788973
+PeakGroundMotion3,3,process,"{}",1566489801.762673,1566489801.788809
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 35))]}",1566489801.762657,1566489801.789655
+Match5,5,process,"{}",1566489801.762482,1566489801.7626529
+Match5,5,write,"{'output': 'output', 'size': 2758, 'id': ('Match5', 5, 'output', 25)}",1566489801.789728,1566489801.789859
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 36))]}",1566489801.7890198,1566489801.790613
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion4', 4, 'output', 35)}",1566489801.798686,1566489801.798812
+PeakGroundMotion4,4,process,"{}",1566489801.775842,1566489801.798665
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 35))]}",1566489801.789877,1566489801.799445
+Match5,5,process,"{}",1566489801.789715,1566489801.7898738
+Match5,5,write,"{'output': 'output', 'size': 2756, 'id': ('Match5', 5, 'output', 26)}",1566489801.7995,1566489801.799653
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 36))]}",1566489801.798847,1566489801.8002088
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion3', 3, 'output', 36)}",1566489801.811147,1566489801.8112729
+PeakGroundMotion3,3,process,"{}",1566489801.790664,1566489801.811126
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 36))]}",1566489801.79967,1566489801.811946
+Match5,5,process,"{}",1566489801.799489,1566489801.799667
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1272, 'id': ('PeakGroundMotion4', 4, 'output', 36)}",1566489801.816386,1566489801.8165061
+PeakGroundMotion4,4,process,"{}",1566489801.800259,1566489801.816363
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 36))]}",1566489801.8120031,1566489801.817218
+Match5,5,process,"{}",1566489801.8119922,1566489801.812
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 37))]}",1566489801.8165388,1566489801.818186
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 37))]}",1566489801.811326,1566489801.822241
+NormPE1,1,write,"{'output': 'output_mean', 'size': 144594, 'id': ('NormPE1', 1, 'output_mean', 44)}",1566489801.873865,1566489801.873944
+NormPE1,1,write,"{'output': 'output_max', 'size': 144593, 'id': ('NormPE1', 1, 'output_max', 44)}",1566489801.8739781,1566489801.874013
+NormPE1,1,read,"{'input': [('input', ('streamProducerSynth2', 2, 'output', 23))]}",1566489801.8740292,1566489801.874733
+NormPE1,1,process,"{}",1566489801.783848,1566489801.874024
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 23))]}",1566489801.9028962,1566489801.903688
+WriteGeoJSON6,6,process,"{}",1566489801.760625,1566489801.9028878
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29443, 'id': ('NormPE1', 1, 'output_mean', 45)}",1566489801.905866,1566489801.905927
+NormPE1,1,write,"{'output': 'output_max', 'size': 29442, 'id': ('NormPE1', 1, 'output_max', 45)}",1566489801.905965,1566489801.905997
+NormPE1,1,read,"{'input': [('input', ('streamProducerReal0', 0, 'output', 23))]}",1566489801.9060118,1566489801.906664
+NormPE1,1,process,"{}",1566489801.874781,1566489801.9060092
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29394, 'id': ('NormPE1', 1, 'output_mean', 46)}",1566489801.9280121,1566489801.9280791
+NormPE1,1,write,"{'output': 'output_max', 'size': 29393, 'id': ('NormPE1', 1, 'output_max', 46)}",1566489801.928125,1566489801.92816
+NormPE1,1,read,"{'input': [('input', ('streamProducerSynth2', 2, 'output', 24))]}",1566489801.9281752,1566489801.9288309
+NormPE1,1,process,"{}",1566489801.906709,1566489801.92817
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion4', 4, 'output', 37)}",1566489801.939521,1566489801.939627
+PeakGroundMotion4,4,process,"{}",1566489801.8182242,1566489801.9395
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 37))]}",1566489801.8172748,1566489801.940587
+Match5,5,process,"{}",1566489801.8172622,1566489801.817271
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 38))]}",1566489801.9396548,1566489801.940408
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 24))]}",1566489801.960702,1566489801.961344
+WriteGeoJSON6,6,process,"{}",1566489801.903763,1566489801.960691
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29443, 'id': ('NormPE1', 1, 'output_mean', 47)}",1566489801.963997,1566489801.9640698
+NormPE1,1,write,"{'output': 'output_max', 'size': 29442, 'id': ('NormPE1', 1, 'output_max', 47)}",1566489801.9641018,1566489801.964148
+NormPE1,1,read,"{'input': [('input', ('streamProducerReal0', 0, 'output', 24))]}",1566489801.9641678,1566489801.965038
+NormPE1,1,process,"{}",1566489801.928873,1566489801.964163
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1272, 'id': ('PeakGroundMotion4', 4, 'output', 38)}",1566489801.971678,1566489801.9717991
+PeakGroundMotion4,4,process,"{}",1566489801.940437,1566489801.971659
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 38))]}",1566489801.940641,1566489801.972568
+Match5,5,process,"{}",1566489801.94063,1566489801.940638
+Match5,5,write,"{'output': 'output', 'size': 2756, 'id': ('Match5', 5, 'output', 27)}",1566489801.972627,1566489801.972765
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1274, 'id': ('PeakGroundMotion3', 3, 'output', 37)}",1566489801.976953,1566489801.9770482
+PeakGroundMotion3,3,process,"{}",1566489801.8222878,1566489801.976934
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 38))]}",1566489801.977073,1566489801.978258
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 37))]}",1566489801.9727821,1566489801.978446
+Match5,5,process,"{}",1566489801.972615,1566489801.972778
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29394, 'id': ('NormPE1', 1, 'output_mean', 48)}",1566489801.979946,1566489801.980067
+NormPE1,1,write,"{'output': 'output_max', 'size': 29393, 'id': ('NormPE1', 1, 'output_max', 48)}",1566489801.980104,1566489801.980911
+NormPE1,1,read,"{'input': [('input', ('streamProducerSynth2', 2, 'output', 25))]}",1566489801.980936,1566489801.981546
+NormPE1,1,process,"{}",1566489801.9650822,1566489801.98093
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 39))]}",1566489801.971841,1566489801.976933
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29443, 'id': ('NormPE1', 1, 'output_mean', 49)}",1566489801.9986901,1566489801.9987571
+NormPE1,1,write,"{'output': 'output_max', 'size': 29442, 'id': ('NormPE1', 1, 'output_max', 49)}",1566489801.9987872,1566489801.998827
+NormPE1,1,read,"{'input': [('input', ('streamProducerReal0', 0, 'output', 25))]}",1566489801.998858,1566489802.000427
+NormPE1,1,process,"{}",1566489801.9815838,1566489801.9988532
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 25))]}",1566489801.998145,1566489801.9988039
+WriteGeoJSON6,6,process,"{}",1566489801.9614131,1566489801.998135
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion3', 3, 'output', 38)}",1566489802.019827,1566489802.0199502
+PeakGroundMotion3,3,process,"{}",1566489801.9783082,1566489802.0198069
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 38))]}",1566489801.9784892,1566489802.020709
+Match5,5,process,"{}",1566489801.9784791,1566489801.978486
+Match5,5,write,"{'output': 'output', 'size': 2758, 'id': ('Match5', 5, 'output', 28)}",1566489802.02077,1566489802.020905
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 39))]}",1566489802.019979,1566489802.022507
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29394, 'id': ('NormPE1', 1, 'output_mean', 50)}",1566489802.02403,1566489802.024085
+NormPE1,1,write,"{'output': 'output_max', 'size': 29393, 'id': ('NormPE1', 1, 'output_max', 50)}",1566489802.024122,1566489802.0241559
+NormPE1,1,read,"{'input': [('input', ('streamProducerSynth2', 2, 'output', 26))]}",1566489802.02417,1566489802.0247838
+NormPE1,1,process,"{}",1566489802.000463,1566489802.0241668
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 26))]}",1566489802.031449,1566489802.032186
+WriteGeoJSON6,6,process,"{}",1566489801.998864,1566489802.031435
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion4', 4, 'output', 39)}",1566489802.037141,1566489802.037292
+PeakGroundMotion4,4,process,"{}",1566489801.97698,1566489802.037117
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 39))]}",1566489802.020923,1566489802.038033
+Match5,5,process,"{}",1566489802.020757,1566489802.020919
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 40))]}",1566489802.037332,1566489802.0387352
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29443, 'id': ('NormPE1', 1, 'output_mean', 51)}",1566489802.04157,1566489802.0416288
+NormPE1,1,write,"{'output': 'output_max', 'size': 29442, 'id': ('NormPE1', 1, 'output_max', 51)}",1566489802.0416682,1566489802.0417018
+NormPE1,1,read,"{'input': [('input', ('streamProducerReal0', 0, 'output', 26))]}",1566489802.041717,1566489802.0422962
+NormPE1,1,process,"{}",1566489802.0248241,1566489802.041713
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1274, 'id': ('PeakGroundMotion3', 3, 'output', 39)}",1566489802.045734,1566489802.045847
+PeakGroundMotion3,3,process,"{}",1566489802.022537,1566489802.045716
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 39))]}",1566489802.038094,1566489802.046509
+Match5,5,process,"{}",1566489802.038084,1566489802.0380921
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 40))]}",1566489802.045888,1566489802.0471401
+NormPE1,1,write,"{'output': 'output_mean', 'size': 29394, 'id': ('NormPE1', 1, 'output_mean', 52)}",1566489802.0561411,1566489802.0562088
+NormPE1,1,write,"{'output': 'output_max', 'size': 29393, 'id': ('NormPE1', 1, 'output_max', 52)}",1566489802.05624,1566489802.056279
+NormPE1,1,read,"{'input': []}",1566489802.056295,1566489802.056389
+NormPE1,1,process,"{}",1566489802.042337,1566489802.056291
+NormPE1,1,terminate,"{}",1566489802.056433,1566489802.056464
+NormPE1,1,postprocess,"{}",1566489802.056416,1566489802.056428
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion3', 3, 'output', 40)}",1566489802.06334,1566489802.063504
+PeakGroundMotion3,3,process,"{}",1566489802.0471702,1566489802.063319
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 40))]}",1566489802.046565,1566489802.0642612
+Match5,5,process,"{}",1566489802.0465522,1566489802.04656
+Match5,5,write,"{'output': 'output', 'size': 2758, 'id': ('Match5', 5, 'output', 29)}",1566489802.064332,1566489802.0644841
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 41))]}",1566489802.063543,1566489802.064585
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1272, 'id': ('PeakGroundMotion4', 4, 'output', 40)}",1566489802.069272,1566489802.069389
+PeakGroundMotion4,4,process,"{}",1566489802.038768,1566489802.0692532
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 40))]}",1566489802.0645041,1566489802.070007
+Match5,5,process,"{}",1566489802.0643158,1566489802.0644999
+Match5,5,write,"{'output': 'output', 'size': 2756, 'id': ('Match5', 5, 'output', 30)}",1566489802.0700579,1566489802.070188
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 41))]}",1566489802.069418,1566489802.07395
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1274, 'id': ('PeakGroundMotion3', 3, 'output', 41)}",1566489802.086196,1566489802.08631
+PeakGroundMotion3,3,process,"{}",1566489802.064615,1566489802.086178
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 41))]}",1566489802.0702069,1566489802.08697
+Match5,5,process,"{}",1566489802.070047,1566489802.0702028
+Match5,5,write,"{'output': 'output', 'size': 2758, 'id': ('Match5', 5, 'output', 31)}",1566489802.087061,1566489802.0872068
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion4', 4, 'output', 41)}",1566489802.087032,1566489802.08723
+PeakGroundMotion4,4,process,"{}",1566489802.073985,1566489802.087015
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 41))]}",1566489802.0872269,1566489802.087897
+Match5,5,process,"{}",1566489802.08705,1566489802.087223
+Match5,5,write,"{'output': 'output', 'size': 2756, 'id': ('Match5', 5, 'output', 32)}",1566489802.087938,1566489802.0880399
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 42))]}",1566489802.087268,1566489802.0886788
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 42))]}",1566489802.086344,1566489802.08931
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 27))]}",1566489802.092541,1566489802.093368
+WriteGeoJSON6,6,process,"{}",1566489802.032253,1566489802.092531
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 28))]}",1566489802.113616,1566489802.114563
+WriteGeoJSON6,6,process,"{}",1566489802.093431,1566489802.113605
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 29))]}",1566489802.132216,1566489802.1327171
+WriteGeoJSON6,6,process,"{}",1566489802.1146922,1566489802.132208
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 30))]}",1566489802.1451259,1566489802.1458619
+WriteGeoJSON6,6,process,"{}",1566489802.13277,1566489802.145118
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 31))]}",1566489802.1625118,1566489802.16329
+WriteGeoJSON6,6,process,"{}",1566489802.145935,1566489802.162505
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1272, 'id': ('PeakGroundMotion4', 4, 'output', 42)}",1566489802.166191,1566489802.1662972
+PeakGroundMotion4,4,process,"{}",1566489802.088717,1566489802.1661718
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 43))]}",1566489802.166327,1566489802.1671722
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 42))]}",1566489802.088054,1566489802.1676512
+Match5,5,process,"{}",1566489802.087929,1566489802.0880508
+Match5,5,write,"{'output': 'output', 'size': 2756, 'id': ('Match5', 5, 'output', 33)}",1566489802.167714,1566489802.167825
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion3', 3, 'output', 42)}",1566489802.180995,1566489802.181095
+PeakGroundMotion3,3,process,"{}",1566489802.0893471,1566489802.1809762
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 43))]}",1566489802.181121,1566489802.1820202
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 42))]}",1566489802.16784,1566489802.182397
+Match5,5,process,"{}",1566489802.1677032,1566489802.167837
+Match5,5,write,"{'output': 'output', 'size': 2758, 'id': ('Match5', 5, 'output', 34)}",1566489802.1824598,1566489802.182594
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1272, 'id': ('PeakGroundMotion4', 4, 'output', 43)}",1566489802.184412,1566489802.184504
+PeakGroundMotion4,4,process,"{}",1566489802.167202,1566489802.184396
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 43))]}",1566489802.182612,1566489802.185108
+Match5,5,process,"{}",1566489802.1824489,1566489802.1826088
+Match5,5,write,"{'output': 'output', 'size': 2755, 'id': ('Match5', 5, 'output', 35)}",1566489802.185153,1566489802.1852531
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 32))]}",1566489802.1835861,1566489802.1857579
+WriteGeoJSON6,6,process,"{}",1566489802.1633868,1566489802.183578
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 44))]}",1566489802.184532,1566489802.1931
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 33))]}",1566489802.201115,1566489802.202086
+WriteGeoJSON6,6,process,"{}",1566489802.185824,1566489802.201108
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 34))]}",1566489802.212217,1566489802.214908
+WriteGeoJSON6,6,process,"{}",1566489802.202146,1566489802.212208
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion3', 3, 'output', 43)}",1566489802.218841,1566489802.218961
+PeakGroundMotion3,3,process,"{}",1566489802.1820512,1566489802.2188191
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 43))]}",1566489802.185266,1566489802.219701
+Match5,5,process,"{}",1566489802.185143,1566489802.1852632
+Match5,5,write,"{'output': 'output', 'size': 2757, 'id': ('Match5', 5, 'output', 36)}",1566489802.219775,1566489802.219937
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 44))]}",1566489802.2189922,1566489802.220913
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 35))]}",1566489802.237576,1566489802.2382941
+WriteGeoJSON6,6,process,"{}",1566489802.214978,1566489802.237567
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 36))]}",1566489802.263971,1566489802.2645912
+WriteGeoJSON6,6,process,"{}",1566489802.238382,1566489802.263962
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1272, 'id': ('PeakGroundMotion4', 4, 'output', 44)}",1566489802.2855198,1566489802.285646
+PeakGroundMotion4,4,process,"{}",1566489802.193172,1566489802.2854981
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 45))]}",1566489802.285683,1566489802.2867782
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 44))]}",1566489802.219958,1566489802.2870898
+Match5,5,process,"{}",1566489802.2197618,1566489802.219954
+Match5,5,write,"{'output': 'output', 'size': 2756, 'id': ('Match5', 5, 'output', 37)}",1566489802.287164,1566489802.287308
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion3', 3, 'output', 44)}",1566489802.290708,1566489802.290826
+PeakGroundMotion3,3,process,"{}",1566489802.220945,1566489802.290685
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 45))]}",1566489802.290855,1566489802.2919948
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 44))]}",1566489802.287327,1566489802.292028
+Match5,5,process,"{}",1566489802.287152,1566489802.287323
+Match5,5,write,"{'output': 'output', 'size': 2758, 'id': ('Match5', 5, 'output', 38)}",1566489802.292088,1566489802.292219
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 37))]}",1566489802.286599,1566489802.292001
+WriteGeoJSON6,6,process,"{}",1566489802.264678,1566489802.286589
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion4', 4, 'output', 45)}",1566489802.305212,1566489802.3053062
+PeakGroundMotion4,4,process,"{}",1566489802.286816,1566489802.305195
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 45))]}",1566489802.29224,1566489802.3059928
+Match5,5,process,"{}",1566489802.292078,1566489802.292236
+Match5,5,write,"{'output': 'output', 'size': 2756, 'id': ('Match5', 5, 'output', 39)}",1566489802.30605,1566489802.306157
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 46))]}",1566489802.305332,1566489802.306119
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 38))]}",1566489802.303482,1566489802.309943
+WriteGeoJSON6,6,process,"{}",1566489802.2920861,1566489802.303474
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1274, 'id': ('PeakGroundMotion3', 3, 'output', 45)}",1566489802.311597,1566489802.311698
+PeakGroundMotion3,3,process,"{}",1566489802.292044,1566489802.3115819
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 45))]}",1566489802.3061728,1566489802.312342
+Match5,5,process,"{}",1566489802.30604,1566489802.3061702
+Match5,5,write,"{'output': 'output', 'size': 2758, 'id': ('Match5', 5, 'output', 40)}",1566489802.312396,1566489802.3125
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 46))]}",1566489802.31173,1566489802.316731
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 39))]}",1566489802.3283288,1566489802.32899
+WriteGeoJSON6,6,process,"{}",1566489802.310091,1566489802.328319
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1272, 'id': ('PeakGroundMotion4', 4, 'output', 46)}",1566489802.332575,1566489802.333025
+PeakGroundMotion4,4,process,"{}",1566489802.306197,1566489802.3325272
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 46))]}",1566489802.312515,1566489802.333948
+Match5,5,process,"{}",1566489802.312387,1566489802.312511
+Match5,5,write,"{'output': 'output', 'size': 2756, 'id': ('Match5', 5, 'output', 41)}",1566489802.3340218,1566489802.334155
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion3', 3, 'output', 46)}",1566489802.337197,1566489802.337292
+PeakGroundMotion3,3,process,"{}",1566489802.31677,1566489802.3371782
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 46))]}",1566489802.334174,1566489802.337861
+Match5,5,process,"{}",1566489802.3340092,1566489802.33417
+Match5,5,write,"{'output': 'output', 'size': 2758, 'id': ('Match5', 5, 'output', 42)}",1566489802.3379142,1566489802.338015
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 47))]}",1566489802.333197,1566489802.334015
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 47))]}",1566489802.337319,1566489802.339544
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 40))]}",1566489802.3530529,1566489802.353813
+WriteGeoJSON6,6,process,"{}",1566489802.3290508,1566489802.353045
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion4', 4, 'output', 47)}",1566489802.354736,1566489802.354845
+PeakGroundMotion4,4,process,"{}",1566489802.3340428,1566489802.354719
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 47))]}",1566489802.3380291,1566489802.3555148
+Match5,5,process,"{}",1566489802.337905,1566489802.338026
+Match5,5,write,"{'output': 'output', 'size': 2756, 'id': ('Match5', 5, 'output', 43)}",1566489802.355575,1566489802.355677
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 48))]}",1566489802.3548732,1566489802.355681
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1274, 'id': ('PeakGroundMotion3', 3, 'output', 47)}",1566489802.3606222,1566489802.360738
+PeakGroundMotion3,3,process,"{}",1566489802.3395798,1566489802.3606029
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 47))]}",1566489802.355691,1566489802.3614452
+Match5,5,process,"{}",1566489802.355565,1566489802.3556879
+Match5,5,write,"{'output': 'output', 'size': 2758, 'id': ('Match5', 5, 'output', 44)}",1566489802.361496,1566489802.3616378
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 48))]}",1566489802.3607721,1566489802.361482
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1272, 'id': ('PeakGroundMotion4', 4, 'output', 48)}",1566489802.370809,1566489802.370904
+PeakGroundMotion4,4,process,"{}",1566489802.355725,1566489802.370792
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 48))]}",1566489802.361656,1566489802.371607
+Match5,5,process,"{}",1566489802.3614862,1566489802.361652
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 49))]}",1566489802.3709319,1566489802.3719769
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion3', 3, 'output', 48)}",1566489802.387351,1566489802.387475
+PeakGroundMotion3,3,process,"{}",1566489802.3615081,1566489802.38733
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 48))]}",1566489802.3716538,1566489802.388214
+Match5,5,process,"{}",1566489802.371644,1566489802.3716512
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 49))]}",1566489802.387506,1566489802.388574
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 41))]}",1566489802.3914702,1566489802.391985
+WriteGeoJSON6,6,process,"{}",1566489802.353875,1566489802.3914602
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion4', 4, 'output', 49)}",1566489802.3961542,1566489802.396254
+PeakGroundMotion4,4,process,"{}",1566489802.3720052,1566489802.3961349
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 49))]}",1566489802.388275,1566489802.396868
+Match5,5,process,"{}",1566489802.3882618,1566489802.388271
+Match5,5,write,"{'output': 'output', 'size': 2756, 'id': ('Match5', 5, 'output', 45)}",1566489802.39692,1566489802.3970392
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 50))]}",1566489802.396286,1566489802.398845
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1274, 'id': ('PeakGroundMotion3', 3, 'output', 49)}",1566489802.4062579,1566489802.4064069
+PeakGroundMotion3,3,process,"{}",1566489802.388618,1566489802.406228
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 49))]}",1566489802.397054,1566489802.40708
+Match5,5,process,"{}",1566489802.396908,1566489802.3970509
+Match5,5,write,"{'output': 'output', 'size': 2758, 'id': ('Match5', 5, 'output', 46)}",1566489802.4071329,1566489802.4072661
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 50))]}",1566489802.4064379,1566489802.407259
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1272, 'id': ('PeakGroundMotion4', 4, 'output', 50)}",1566489802.4166121,1566489802.41671
+PeakGroundMotion4,4,process,"{}",1566489802.398889,1566489802.416595
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 50))]}",1566489802.4072828,1566489802.417347
+Match5,5,process,"{}",1566489802.407122,1566489802.4072802
+Match5,5,write,"{'output': 'output', 'size': 2756, 'id': ('Match5', 5, 'output', 47)}",1566489802.417399,1566489802.417527
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 42))]}",1566489802.421067,1566489802.4216561
+WriteGeoJSON6,6,process,"{}",1566489802.392046,1566489802.421058
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 51))]}",1566489802.416755,1566489802.423341
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion3', 3, 'output', 50)}",1566489802.43123,1566489802.431346
+PeakGroundMotion3,3,process,"{}",1566489802.407289,1566489802.431208
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 50))]}",1566489802.417547,1566489802.4321878
+Match5,5,process,"{}",1566489802.417388,1566489802.417543
+Match5,5,write,"{'output': 'output', 'size': 2758, 'id': ('Match5', 5, 'output', 48)}",1566489802.432252,1566489802.432364
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 51))]}",1566489802.4313788,1566489802.4340951
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion4', 4, 'output', 51)}",1566489802.448373,1566489802.4484968
+PeakGroundMotion4,4,process,"{}",1566489802.423378,1566489802.448351
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 51))]}",1566489802.4323788,1566489802.44928
+Match5,5,process,"{}",1566489802.432239,1566489802.4323761
+PeakGroundMotion4,4,read,"{'input': [('input', ('NormPE1', 1, 'output_max', 52))]}",1566489802.448533,1566489802.449416
+Match5,5,write,"{'output': 'output', 'size': 2756, 'id': ('Match5', 5, 'output', 49)}",1566489802.449337,1566489802.4494689
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1274, 'id': ('PeakGroundMotion3', 3, 'output', 51)}",1566489802.454228,1566489802.45434
+PeakGroundMotion3,3,process,"{}",1566489802.434131,1566489802.454209
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 51))]}",1566489802.449486,1566489802.455036
+Match5,5,process,"{}",1566489802.449325,1566489802.449483
+Match5,5,write,"{'output': 'output', 'size': 2758, 'id': ('Match5', 5, 'output', 50)}",1566489802.45508,1566489802.4551811
+PeakGroundMotion3,3,read,"{'input': [('input', ('NormPE1', 1, 'output_mean', 52))]}",1566489802.4543931,1566489802.45934
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 43))]}",1566489802.459639,1566489802.460573
+WriteGeoJSON6,6,process,"{}",1566489802.421717,1566489802.459628
+PeakGroundMotion4,4,write,"{'output': 'output', 'size': 1272, 'id': ('PeakGroundMotion4', 4, 'output', 52)}",1566489802.4733272,1566489802.4734452
+PeakGroundMotion4,4,process,"{}",1566489802.449445,1566489802.4733062
+PeakGroundMotion4,4,read,"{'input': []}",1566489802.47348,1566489802.473545
+PeakGroundMotion4,4,terminate,"{}",1566489802.473603,1566489802.473633
+PeakGroundMotion4,4,postprocess,"{}",1566489802.473566,1566489802.473595
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion4', 4, 'output', 52))]}",1566489802.455194,1566489802.4759512
+Match5,5,process,"{}",1566489802.45507,1566489802.455192
+Match5,5,write,"{'output': 'output', 'size': 2756, 'id': ('Match5', 5, 'output', 51)}",1566489802.476012,1566489802.476147
+PeakGroundMotion3,3,write,"{'output': 'output', 'size': 1273, 'id': ('PeakGroundMotion3', 3, 'output', 52)}",1566489802.477212,1566489802.4773052
+PeakGroundMotion3,3,process,"{}",1566489802.4593742,1566489802.477194
+PeakGroundMotion3,3,read,"{'input': []}",1566489802.4773362,1566489802.477746
+PeakGroundMotion3,3,terminate,"{}",1566489802.477831,1566489802.4778519
+PeakGroundMotion3,3,postprocess,"{}",1566489802.477804,1566489802.477827
+Match5,5,read,"{'input': [('input', ('PeakGroundMotion3', 3, 'output', 52))]}",1566489802.4761658,1566489802.477869
+Match5,5,process,"{}",1566489802.475998,1566489802.476162
+Match5,5,write,"{'output': 'output', 'size': 2758, 'id': ('Match5', 5, 'output', 52)}",1566489802.477922,1566489802.478046
+Match5,5,read,"{'input': []}",1566489802.478065,1566489802.478113
+Match5,5,process,"{}",1566489802.477911,1566489802.478061
+Match5,5,terminate,"{}",1566489802.478142,1566489802.478164
+Match5,5,postprocess,"{}",1566489802.478136,1566489802.478139
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 44))]}",1566489802.482173,1566489802.483008
+WriteGeoJSON6,6,process,"{}",1566489802.460636,1566489802.48216
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 45))]}",1566489802.498216,1566489802.498661
+WriteGeoJSON6,6,process,"{}",1566489802.483208,1566489802.498209
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 46))]}",1566489802.516542,1566489802.5172129
+WriteGeoJSON6,6,process,"{}",1566489802.498712,1566489802.516535
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 47))]}",1566489802.5378199,1566489802.538365
+WriteGeoJSON6,6,process,"{}",1566489802.517279,1566489802.537812
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 48))]}",1566489802.547252,1566489802.547858
+WriteGeoJSON6,6,process,"{}",1566489802.5384169,1566489802.547246
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 49))]}",1566489802.557597,1566489802.55811
+WriteGeoJSON6,6,process,"{}",1566489802.54791,1566489802.55759
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 50))]}",1566489802.574062,1566489802.5746539
+WriteGeoJSON6,6,process,"{}",1566489802.558204,1566489802.574054
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 51))]}",1566489802.59102,1566489802.5914721
+WriteGeoJSON6,6,process,"{}",1566489802.5747252,1566489802.5910132
+WriteGeoJSON6,6,read,"{'input': [('input', ('Match5', 5, 'output', 52))]}",1566489802.600485,1566489802.6008692
+WriteGeoJSON6,6,process,"{}",1566489802.591542,1566489802.600479
+WriteGeoJSON6,6,read,"{'input': []}",1566489802.6101089,1566489802.610156
+WriteGeoJSON6,6,process,"{}",1566489802.600915,1566489802.6101031
+WriteGeoJSON6,6,terminate,"{}",1566489802.6102521,1566489802.610255
+WriteGeoJSON6,6,postprocess,"{}",1566489802.610239,1566489802.6102479

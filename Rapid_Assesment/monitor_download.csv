@@ -1,0 +1,800 @@
+PE,rank,method,data,start,end
+downloadPE8,0,read,"{'input': []}",1566489759.983713,1566489759.983797
+downloadPE8,0,preprocess,"{}",1566489759.9835892,1566489759.983686
+downloadPE8,0,write,"{'output': 'output', 'size': 208, 'id': ('downloadPE8', 0, 'output', 1)}",1566489778.759101,1566489778.759583
+downloadPE8,0,process,"{}",1566489759.986243,1566489778.75908
+downloadPE8,0,read,"{'input': []}",1566489778.7596211,1566489778.75963
+downloadPE8,0,terminate,"{}",1566489778.759666,1566489778.759862
+downloadPE8,0,postprocess,"{}",1566489778.7596512,1566489778.7596622
+WatchDirectory9,1,read,"{'input': [('input', ('downloadPE8', 0, 'output', 1))]}",1566489759.98664,1566489778.759818
+WatchDirectory10,2,read,"{'input': [('input', ('downloadPE8', 0, 'output', 1))]}",1566489759.988518,1566489778.7600331
+WatchDirectory10,2,preprocess,"{}",1566489759.9883862,1566489759.988495
+WatchDirectory9,1,preprocess,"{}",1566489759.9864929,1566489759.986602
+WatchDirectory10,2,write,"{'output': 'output', 'size': 86, 'id': ('WatchDirectory10', 2, 'output', 1)}",1566489778.762936,1566489778.7633631
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 1)}",1566489778.763092,1566489778.7636092
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 2)}",1566489778.7636638,1566489778.7636921
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 3)}",1566489778.763732,1566489778.763752
+WatchDirectory9,1,write,"{'output': 'output', 'size': 88, 'id': ('WatchDirectory9', 1, 'output', 4)}",1566489778.763794,1566489778.763814
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 5)}",1566489778.7638452,1566489778.763864
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 6)}",1566489778.763913,1566489778.7639391
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 7)}",1566489778.763969,1566489778.763995
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 8)}",1566489778.7640262,1566489778.764045
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 9)}",1566489778.764079,1566489778.764103
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 10)}",1566489778.7641332,1566489778.7641568
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 11)}",1566489778.7641861,1566489778.764205
+WatchDirectory9,1,write,"{'output': 'output', 'size': 88, 'id': ('WatchDirectory9', 1, 'output', 12)}",1566489778.764235,1566489778.764256
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 13)}",1566489778.764288,1566489778.764313
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 14)}",1566489778.7643461,1566489778.764373
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 15)}",1566489778.764404,1566489778.764431
+WatchDirectory10,2,write,"{'output': 'output', 'size': 86, 'id': ('WatchDirectory10', 2, 'output', 2)}",1566489778.763638,1566489778.7636669
+WatchDirectory10,2,write,"{'output': 'output', 'size': 86, 'id': ('WatchDirectory10', 2, 'output', 3)}",1566489778.7637079,1566489778.7637298
+WatchDirectory10,2,write,"{'output': 'output', 'size': 86, 'id': ('WatchDirectory10', 2, 'output', 4)}",1566489778.7637608,1566489778.76378
+WatchDirectory10,2,write,"{'output': 'output', 'size': 86, 'id': ('WatchDirectory10', 2, 'output', 5)}",1566489778.76382,1566489778.7638452
+WatchDirectory10,2,write,"{'output': 'output', 'size': 86, 'id': ('WatchDirectory10', 2, 'output', 6)}",1566489778.763884,1566489778.763905
+WatchDirectory10,2,write,"{'output': 'output', 'size': 86, 'id': ('WatchDirectory10', 2, 'output', 7)}",1566489778.763935,1566489778.763954
+WatchDirectory10,2,write,"{'output': 'output', 'size': 86, 'id': ('WatchDirectory10', 2, 'output', 8)}",1566489778.763983,1566489778.7640069
+WatchDirectory10,2,write,"{'output': 'output', 'size': 86, 'id': ('WatchDirectory10', 2, 'output', 9)}",1566489778.764064,1566489778.764089
+WatchDirectory10,2,write,"{'output': 'output', 'size': 86, 'id': ('WatchDirectory10', 2, 'output', 10)}",1566489778.7641191,1566489778.764139
+WatchDirectory10,2,write,"{'output': 'output', 'size': 86, 'id': ('WatchDirectory10', 2, 'output', 11)}",1566489778.764169,1566489778.7641878
+WatchDirectory10,2,write,"{'output': 'output', 'size': 86, 'id': ('WatchDirectory10', 2, 'output', 12)}",1566489778.764479,1566489778.764513
+WatchDirectory10,2,write,"{'output': 'output', 'size': 86, 'id': ('WatchDirectory10', 2, 'output', 13)}",1566489778.764556,1566489778.764578
+WatchDirectory10,2,write,"{'output': 'output', 'size': 86, 'id': ('WatchDirectory10', 2, 'output', 14)}",1566489778.7646132,1566489778.764639
+WatchDirectory10,2,write,"{'output': 'output', 'size': 86, 'id': ('WatchDirectory10', 2, 'output', 15)}",1566489778.764672,1566489778.7646909
+WatchDirectory10,2,write,"{'output': 'output', 'size': 86, 'id': ('WatchDirectory10', 2, 'output', 16)}",1566489778.764721,1566489778.764739
+WatchDirectory10,2,write,"{'output': 'output', 'size': 86, 'id': ('WatchDirectory10', 2, 'output', 17)}",1566489778.7647731,1566489778.764792
+WatchDirectory10,2,write,"{'output': 'output', 'size': 86, 'id': ('WatchDirectory10', 2, 'output', 18)}",1566489778.7648199,1566489778.764838
+WatchDirectory10,2,write,"{'output': 'output', 'size': 86, 'id': ('WatchDirectory10', 2, 'output', 19)}",1566489778.764866,1566489778.764884
+WatchDirectory10,2,write,"{'output': 'output', 'size': 86, 'id': ('WatchDirectory10', 2, 'output', 20)}",1566489778.7649112,1566489778.764935
+WatchDirectory10,2,write,"{'output': 'output', 'size': 85, 'id': ('WatchDirectory10', 2, 'output', 21)}",1566489778.7649632,1566489778.764986
+WatchDirectory10,2,write,"{'output': 'output', 'size': 86, 'id': ('WatchDirectory10', 2, 'output', 22)}",1566489778.765014,1566489778.765032
+WatchDirectory10,2,write,"{'output': 'output', 'size': 86, 'id': ('WatchDirectory10', 2, 'output', 23)}",1566489778.765075,1566489778.765093
+WatchDirectory10,2,write,"{'output': 'output', 'size': 86, 'id': ('WatchDirectory10', 2, 'output', 24)}",1566489778.765121,1566489778.7651389
+WatchDirectory10,2,write,"{'output': 'output', 'size': 86, 'id': ('WatchDirectory10', 2, 'output', 25)}",1566489778.765166,1566489778.76519
+WatchDirectory10,2,write,"{'output': 'output', 'size': 86, 'id': ('WatchDirectory10', 2, 'output', 26)}",1566489778.765218,1566489778.765423
+WatchDirectory10,2,write,"{'output': 'output', 'size': 86, 'id': ('WatchDirectory10', 2, 'output', 27)}",1566489778.76546,1566489778.765486
+WatchDirectory10,2,write,"{'output': 'output', 'size': 85, 'id': ('WatchDirectory10', 2, 'output', 28)}",1566489778.7655199,1566489778.7655401
+WatchDirectory10,2,write,"{'output': 'output', 'size': 86, 'id': ('WatchDirectory10', 2, 'output', 29)}",1566489778.765572,1566489778.765592
+WatchDirectory10,2,write,"{'output': 'output', 'size': 86, 'id': ('WatchDirectory10', 2, 'output', 30)}",1566489778.765622,1566489778.765641
+WatchDirectory10,2,write,"{'output': 'output', 'size': 85, 'id': ('WatchDirectory10', 2, 'output', 31)}",1566489778.765671,1566489778.76569
+WatchDirectory10,2,read,"{'input': []}",1566489778.765713,1566489778.765783
+WatchDirectory10,2,process,"{}",1566489778.761672,1566489778.765708
+WatchDirectory10,2,terminate,"{}",1566489778.765821,1566489778.765855
+WatchDirectory10,2,postprocess,"{}",1566489778.7658062,1566489778.7658172
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 16)}",1566489778.7644641,1566489778.76541
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 17)}",1566489778.765494,1566489778.7655191
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 18)}",1566489778.765572,1566489778.765592
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 19)}",1566489778.765632,1566489778.765651
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 20)}",1566489778.76568,1566489778.7657
+WatchDirectory9,1,write,"{'output': 'output', 'size': 88, 'id': ('WatchDirectory9', 1, 'output', 21)}",1566489778.765729,1566489778.765749
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 22)}",1566489778.76578,1566489778.7658
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 23)}",1566489778.7658298,1566489778.765847
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 24)}",1566489778.765876,1566489778.7658958
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 25)}",1566489778.7659268,1566489778.7659478
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 26)}",1566489778.7659788,1566489778.765999
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 27)}",1566489778.7660348,1566489778.7660549
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 28)}",1566489778.7660868,1566489778.766113
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 29)}",1566489778.766146,1566489778.766168
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 30)}",1566489778.766201,1566489778.766222
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 31)}",1566489778.766259,1566489778.766459
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 32)}",1566489778.766494,1566489778.766516
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 33)}",1566489778.766549,1566489778.766571
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 34)}",1566489778.766609,1566489778.76663
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 35)}",1566489778.766678,1566489778.7667
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 36)}",1566489778.7667332,1566489778.766755
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 37)}",1566489778.766798,1566489778.7668202
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 38)}",1566489778.766853,1566489778.7668748
+WatchDirectory9,1,write,"{'output': 'output', 'size': 88, 'id': ('WatchDirectory9', 1, 'output', 39)}",1566489778.766909,1566489778.766931
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 40)}",1566489778.766963,1566489778.766985
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 41)}",1566489778.767018,1566489778.767039
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 42)}",1566489778.767071,1566489778.767092
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 43)}",1566489778.767125,1566489778.7671459
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 44)}",1566489778.767179,1566489778.7672
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 45)}",1566489778.767232,1566489778.767253
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 46)}",1566489778.767286,1566489778.767313
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 47)}",1566489778.767345,1566489778.767367
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 48)}",1566489778.7673988,1566489778.7674198
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 49)}",1566489778.767452,1566489778.767474
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 50)}",1566489778.7675068,1566489778.767534
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 51)}",1566489778.767566,1566489778.7675881
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 52)}",1566489778.76762,1566489778.767642
+WatchDirectory9,1,write,"{'output': 'output', 'size': 88, 'id': ('WatchDirectory9', 1, 'output', 53)}",1566489778.767675,1566489778.7676969
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 54)}",1566489778.7677288,1566489778.7677681
+WatchDirectory9,1,write,"{'output': 'output', 'size': 88, 'id': ('WatchDirectory9', 1, 'output', 55)}",1566489778.767802,1566489778.767822
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 56)}",1566489778.767852,1566489778.767872
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 57)}",1566489778.7679,1566489778.767924
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 58)}",1566489778.767957,1566489778.7679749
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 59)}",1566489778.7680042,1566489778.768023
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 60)}",1566489778.7680519,1566489778.76807
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 61)}",1566489778.768098,1566489778.768123
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 62)}",1566489778.768151,1566489778.7681768
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 63)}",1566489778.768207,1566489778.768225
+WatchDirectory9,1,write,"{'output': 'output', 'size': 88, 'id': ('WatchDirectory9', 1, 'output', 64)}",1566489778.7682528,1566489778.7682712
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 65)}",1566489778.7683,1566489778.768339
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 66)}",1566489778.768367,1566489778.76839
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 67)}",1566489778.768418,1566489778.768436
+WatchDirectory9,1,write,"{'output': 'output', 'size': 88, 'id': ('WatchDirectory9', 1, 'output', 68)}",1566489778.7684639,1566489778.7684858
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 69)}",1566489778.768515,1566489778.768533
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 70)}",1566489778.7685592,1566489778.768585
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 71)}",1566489778.7686121,1566489778.76863
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 72)}",1566489778.768657,1566489778.768679
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 73)}",1566489778.768706,1566489778.768724
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 74)}",1566489778.7687511,1566489778.768769
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 75)}",1566489778.7688,1566489778.768818
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 76)}",1566489778.768848,1566489778.768867
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 77)}",1566489778.768894,1566489778.7689118
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 78)}",1566489778.768943,1566489778.768966
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 79)}",1566489778.768992,1566489778.7690089
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 80)}",1566489778.769046,1566489778.769064
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 81)}",1566489778.769092,1566489778.76911
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 82)}",1566489778.769147,1566489778.769244
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 83)}",1566489778.769284,1566489778.7693021
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 84)}",1566489778.7693388,1566489778.7693582
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 85)}",1566489778.769394,1566489778.7694132
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 86)}",1566489778.7694411,1566489778.769459
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 87)}",1566489778.7694862,1566489778.769504
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 88)}",1566489778.769532,1566489778.769551
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 89)}",1566489778.769582,1566489778.769601
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 90)}",1566489778.76963,1566489778.76965
+WatchDirectory9,1,write,"{'output': 'output', 'size': 89, 'id': ('WatchDirectory9', 1, 'output', 91)}",1566489778.7696798,1566489778.769699
+WatchDirectory9,1,write,"{'output': 'output', 'size': 88, 'id': ('WatchDirectory9', 1, 'output', 92)}",1566489778.769732,1566489778.76975
+WatchDirectory9,1,read,"{'input': []}",1566489778.769776,1566489778.76983
+WatchDirectory9,1,process,"{}",1566489778.76236,1566489778.769771
+WatchDirectory9,1,terminate,"{}",1566489778.769898,1566489778.769917
+WatchDirectory9,1,postprocess,"{}",1566489778.769873,1566489778.7698932
+PE_stationxml_reader11,3,read,"{'input': [('input', ('WatchDirectory10', 2, 'output', 1))]}",1566489759.992117,1566489778.7637959
+PE_stationxml_reader11,3,preprocess,"{}",1566489759.9919748,1566489759.9920819
+PE_stationxml_reader11,3,write,"{'output': 'output', 'size': 86, 'id': ('PE_stationxml_reader11', 3, 'output', 1)}",1566489778.77708,1566489778.777229
+PE_stationxml_reader11,3,process,"{}",1566489778.7682502,1566489778.777038
+PE_stationxml_reader11,3,read,"{'input': [('input', ('WatchDirectory10', 2, 'output', 2))]}",1566489778.777267,1566489778.7773209
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 1))]}",1566489759.9944441,1566489778.764964
+PE_waveform_reader6,4,preprocess,"{}",1566489759.9942951,1566489759.994402
+PE_stationxml_reader11,3,write,"{'output': 'output', 'size': 86, 'id': ('PE_stationxml_reader11', 3, 'output', 2)}",1566489778.781472,1566489778.781493
+PE_stationxml_reader11,3,process,"{}",1566489778.7773361,1566489778.781462
+PE_stationxml_reader11,3,read,"{'input': [('input', ('WatchDirectory10', 2, 'output', 3))]}",1566489778.781527,1566489778.78157
+PE_stationxml_reader11,3,write,"{'output': 'output', 'size': 86, 'id': ('PE_stationxml_reader11', 3, 'output', 3)}",1566489778.784842,1566489778.784864
+PE_stationxml_reader11,3,process,"{}",1566489778.781586,1566489778.784832
+PE_stationxml_reader11,3,read,"{'input': [('input', ('WatchDirectory10', 2, 'output', 4))]}",1566489778.78491,1566489778.7849548
+PE_stationxml_reader11,3,write,"{'output': 'output', 'size': 86, 'id': ('PE_stationxml_reader11', 3, 'output', 4)}",1566489778.787904,1566489778.787925
+PE_stationxml_reader11,3,process,"{}",1566489778.784972,1566489778.787895
+PE_stationxml_reader11,3,read,"{'input': [('input', ('WatchDirectory10', 2, 'output', 5))]}",1566489778.7879622,1566489778.78801
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 1)}",1566489778.788393,1566489778.7886689
+PE_stationxml_reader11,3,write,"{'output': 'output', 'size': 86, 'id': ('PE_stationxml_reader11', 3, 'output', 5)}",1566489778.789186,1566489778.789204
+PE_waveform_reader6,4,process,"{}",1566489778.769925,1566489778.788373
+PE_stationxml_reader11,3,process,"{}",1566489778.788026,1566489778.7891798
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 2))]}",1566489778.7886999,1566489778.788743
+PE_stationxml_reader11,3,read,"{'input': [('input', ('WatchDirectory10', 2, 'output', 6))]}",1566489778.7892401,1566489778.789289
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 2)}",1566489778.792489,1566489778.792541
+PE_waveform_reader6,4,process,"{}",1566489778.788754,1566489778.792476
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 3))]}",1566489778.792576,1566489778.7926242
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 3)}",1566489778.794952,1566489778.794997
+PE_waveform_reader6,4,process,"{}",1566489778.79264,1566489778.794944
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 4))]}",1566489778.795024,1566489778.7950752
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 1))]}",1566489759.996757,1566489778.7954738
+PE_plot_stream7,5,preprocess,"{}",1566489759.996655,1566489759.996736
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 4)}",1566489778.797867,1566489778.7979038
+PE_waveform_reader6,4,process,"{}",1566489778.795091,1566489778.797857
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 5))]}",1566489778.797935,1566489778.7979798
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 5)}",1566489778.799746,1566489778.7997818
+PE_waveform_reader6,4,process,"{}",1566489778.797997,1566489778.799739
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 6))]}",1566489778.7998059,1566489778.79985
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 6)}",1566489778.801613,1566489778.801651
+PE_waveform_reader6,4,process,"{}",1566489778.7998688,1566489778.801606
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 7))]}",1566489778.801675,1566489778.801721
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 7)}",1566489778.8042262,1566489778.8042638
+PE_waveform_reader6,4,process,"{}",1566489778.8017359,1566489778.8042188
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 8))]}",1566489778.80429,1566489778.804333
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 8)}",1566489778.806536,1566489778.806576
+PE_waveform_reader6,4,process,"{}",1566489778.804351,1566489778.806528
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 9))]}",1566489778.806599,1566489778.806647
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 9)}",1566489778.812429,1566489778.81247
+PE_waveform_reader6,4,process,"{}",1566489778.8066628,1566489778.8124218
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 10))]}",1566489778.8125,1566489778.812541
+PE_stationxml_reader11,3,write,"{'output': 'output', 'size': 86, 'id': ('PE_stationxml_reader11', 3, 'output', 6)}",1566489778.791144,1566489778.791167
+PE_stationxml_reader11,3,process,"{}",1566489778.789304,1566489778.7911339
+PE_stationxml_reader11,3,read,"{'input': [('input', ('WatchDirectory10', 2, 'output', 7))]}",1566489778.7912252,1566489778.791272
+PE_stationxml_reader11,3,write,"{'output': 'output', 'size': 86, 'id': ('PE_stationxml_reader11', 3, 'output', 7)}",1566489778.792752,1566489778.79278
+PE_stationxml_reader11,3,process,"{}",1566489778.7912939,1566489778.792738
+PE_stationxml_reader11,3,read,"{'input': [('input', ('WatchDirectory10', 2, 'output', 8))]}",1566489778.792834,1566489778.792906
+PE_stationxml_reader11,3,write,"{'output': 'output', 'size': 86, 'id': ('PE_stationxml_reader11', 3, 'output', 8)}",1566489778.796615,1566489778.7966452
+PE_stationxml_reader11,3,process,"{}",1566489778.792932,1566489778.796602
+PE_stationxml_reader11,3,read,"{'input': [('input', ('WatchDirectory10', 2, 'output', 9))]}",1566489778.7966988,1566489778.796768
+PE_stationxml_reader11,3,write,"{'output': 'output', 'size': 86, 'id': ('PE_stationxml_reader11', 3, 'output', 9)}",1566489778.7983701,1566489778.798391
+PE_stationxml_reader11,3,process,"{}",1566489778.796791,1566489778.798362
+PE_stationxml_reader11,3,read,"{'input': [('input', ('WatchDirectory10', 2, 'output', 10))]}",1566489778.798423,1566489778.799603
+PE_stationxml_reader11,3,write,"{'output': 'output', 'size': 86, 'id': ('PE_stationxml_reader11', 3, 'output', 10)}",1566489778.801291,1566489778.801312
+PE_stationxml_reader11,3,process,"{}",1566489778.799625,1566489778.801282
+PE_stationxml_reader11,3,read,"{'input': [('input', ('WatchDirectory10', 2, 'output', 11))]}",1566489778.801347,1566489778.801395
+PE_stationxml_reader11,3,write,"{'output': 'output', 'size': 86, 'id': ('PE_stationxml_reader11', 3, 'output', 11)}",1566489778.802441,1566489778.802461
+PE_stationxml_reader11,3,process,"{}",1566489778.80141,1566489778.802433
+PE_stationxml_reader11,3,read,"{'input': [('input', ('WatchDirectory10', 2, 'output', 12))]}",1566489778.8024929,1566489778.802538
+PE_stationxml_reader11,3,write,"{'output': 'output', 'size': 86, 'id': ('PE_stationxml_reader11', 3, 'output', 12)}",1566489778.8041751,1566489778.804197
+PE_stationxml_reader11,3,process,"{}",1566489778.8025532,1566489778.8041658
+PE_stationxml_reader11,3,read,"{'input': [('input', ('WatchDirectory10', 2, 'output', 13))]}",1566489778.804232,1566489778.804278
+PE_stationxml_reader11,3,write,"{'output': 'output', 'size': 86, 'id': ('PE_stationxml_reader11', 3, 'output', 13)}",1566489778.805313,1566489778.80533
+PE_stationxml_reader11,3,process,"{}",1566489778.804304,1566489778.8053062
+PE_stationxml_reader11,3,read,"{'input': [('input', ('WatchDirectory10', 2, 'output', 14))]}",1566489778.8053591,1566489778.805402
+PE_stationxml_reader11,3,write,"{'output': 'output', 'size': 86, 'id': ('PE_stationxml_reader11', 3, 'output', 14)}",1566489778.8106391,1566489778.810668
+PE_stationxml_reader11,3,process,"{}",1566489778.805418,1566489778.810624
+PE_stationxml_reader11,3,read,"{'input': [('input', ('WatchDirectory10', 2, 'output', 15))]}",1566489778.810713,1566489778.81077
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 10)}",1566489778.8145669,1566489778.814603
+PE_waveform_reader6,4,process,"{}",1566489778.812556,1566489778.81456
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 11))]}",1566489778.814634,1566489778.814677
+PE_stationxml_reader11,3,write,"{'output': 'output', 'size': 86, 'id': ('PE_stationxml_reader11', 3, 'output', 15)}",1566489778.814712,1566489778.814729
+PE_stationxml_reader11,3,process,"{}",1566489778.8107882,1566489778.814705
+PE_stationxml_reader11,3,read,"{'input': [('input', ('WatchDirectory10', 2, 'output', 16))]}",1566489778.814788,1566489778.8148491
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 11)}",1566489778.819315,1566489778.819354
+PE_waveform_reader6,4,process,"{}",1566489778.8146932,1566489778.819307
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 12))]}",1566489778.819385,1566489778.819434
+PE_stationxml_reader11,3,write,"{'output': 'output', 'size': 86, 'id': ('PE_stationxml_reader11', 3, 'output', 16)}",1566489778.818155,1566489778.818176
+PE_stationxml_reader11,3,process,"{}",1566489778.8148658,1566489778.818144
+PE_stationxml_reader11,3,read,"{'input': [('input', ('WatchDirectory10', 2, 'output', 17))]}",1566489778.818212,1566489778.818252
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 12)}",1566489778.8215091,1566489778.821545
+PE_waveform_reader6,4,process,"{}",1566489778.8194501,1566489778.821501
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 13))]}",1566489778.821575,1566489778.8216221
+PE_stationxml_reader11,3,write,"{'output': 'output', 'size': 86, 'id': ('PE_stationxml_reader11', 3, 'output', 17)}",1566489778.821179,1566489778.8211992
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 13)}",1566489778.823644,1566489778.823684
+PE_stationxml_reader11,3,process,"{}",1566489778.818273,1566489778.8211699
+PE_waveform_reader6,4,process,"{}",1566489778.8216372,1566489778.823637
+PE_stationxml_reader11,3,read,"{'input': [('input', ('WatchDirectory10', 2, 'output', 18))]}",1566489778.821235,1566489778.821277
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 14))]}",1566489778.8237178,1566489778.823765
+PE_stationxml_reader11,3,write,"{'output': 'output', 'size': 86, 'id': ('PE_stationxml_reader11', 3, 'output', 18)}",1566489778.822925,1566489778.822945
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 14)}",1566489778.825761,1566489778.825799
+PE_stationxml_reader11,3,process,"{}",1566489778.821293,1566489778.822916
+PE_waveform_reader6,4,process,"{}",1566489778.82378,1566489778.8257542
+PE_stationxml_reader11,3,read,"{'input': [('input', ('WatchDirectory10', 2, 'output', 19))]}",1566489778.822979,1566489778.823026
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 15))]}",1566489778.825824,1566489778.825869
+PE_stationxml_reader11,3,write,"{'output': 'output', 'size': 86, 'id': ('PE_stationxml_reader11', 3, 'output', 19)}",1566489778.8247669,1566489778.8247879
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 15)}",1566489778.8283908,1566489778.828512
+PE_stationxml_reader11,3,process,"{}",1566489778.8230422,1566489778.824758
+PE_waveform_reader6,4,process,"{}",1566489778.825886,1566489778.828369
+PE_stationxml_reader11,3,read,"{'input': [('input', ('WatchDirectory10', 2, 'output', 20))]}",1566489778.824822,1566489778.824872
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 16))]}",1566489778.828568,1566489778.828616
+PE_stationxml_reader11,3,write,"{'output': 'output', 'size': 86, 'id': ('PE_stationxml_reader11', 3, 'output', 20)}",1566489778.826169,1566489778.826209
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 16)}",1566489778.8307462,1566489778.830785
+PE_stationxml_reader11,3,process,"{}",1566489778.8248892,1566489778.826161
+PE_waveform_reader6,4,process,"{}",1566489778.828633,1566489778.830739
+PE_stationxml_reader11,3,read,"{'input': [('input', ('WatchDirectory10', 2, 'output', 21))]}",1566489778.826242,1566489778.826283
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 17))]}",1566489778.8308108,1566489778.830859
+PE_stationxml_reader11,3,write,"{'output': 'output', 'size': 85, 'id': ('PE_stationxml_reader11', 3, 'output', 21)}",1566489778.8318489,1566489778.8318698
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 17)}",1566489778.832939,1566489778.832979
+PE_stationxml_reader11,3,process,"{}",1566489778.826298,1566489778.831839
+PE_stationxml_reader11,3,read,"{'input': [('input', ('WatchDirectory10', 2, 'output', 22))]}",1566489778.8319051,1566489778.8319528
+PE_waveform_reader6,4,process,"{}",1566489778.830875,1566489778.832932
+PE_stationxml_reader11,3,write,"{'output': 'output', 'size': 86, 'id': ('PE_stationxml_reader11', 3, 'output', 22)}",1566489778.834889,1566489778.8349109
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 18))]}",1566489778.833007,1566489778.833051
+PE_stationxml_reader11,3,process,"{}",1566489778.83197,1566489778.834881
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 18)}",1566489778.834929,1566489778.834965
+PE_stationxml_reader11,3,read,"{'input': [('input', ('WatchDirectory10', 2, 'output', 23))]}",1566489778.834944,1566489778.83499
+PE_waveform_reader6,4,process,"{}",1566489778.833094,1566489778.834922
+PE_stationxml_reader11,3,write,"{'output': 'output', 'size': 86, 'id': ('PE_stationxml_reader11', 3, 'output', 23)}",1566489778.836637,1566489778.8366568
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 19))]}",1566489778.8349912,1566489778.835037
+PE_stationxml_reader11,3,process,"{}",1566489778.835005,1566489778.836628
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 19)}",1566489778.837205,1566489778.8372412
+PE_stationxml_reader11,3,read,"{'input': [('input', ('WatchDirectory10', 2, 'output', 24))]}",1566489778.836695,1566489778.8367429
+PE_waveform_reader6,4,process,"{}",1566489778.8350542,1566489778.837198
+PE_stationxml_reader11,3,write,"{'output': 'output', 'size': 86, 'id': ('PE_stationxml_reader11', 3, 'output', 24)}",1566489778.838513,1566489778.8385332
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 20))]}",1566489778.837266,1566489778.837304
+PE_stationxml_reader11,3,process,"{}",1566489778.836757,1566489778.8385038
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 20)}",1566489778.839236,1566489778.839273
+PE_stationxml_reader11,3,read,"{'input': [('input', ('WatchDirectory10', 2, 'output', 25))]}",1566489778.838565,1566489778.838609
+PE_waveform_reader6,4,process,"{}",1566489778.837318,1566489778.8392289
+PE_stationxml_reader11,3,write,"{'output': 'output', 'size': 86, 'id': ('PE_stationxml_reader11', 3, 'output', 25)}",1566489778.8402328,1566489778.840254
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 21))]}",1566489778.839297,1566489778.839338
+PE_stationxml_reader11,3,process,"{}",1566489778.838625,1566489778.840224
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 21)}",1566489778.841276,1566489778.8413372
+PE_stationxml_reader11,3,read,"{'input': [('input', ('WatchDirectory10', 2, 'output', 26))]}",1566489778.840291,1566489778.84034
+PE_waveform_reader6,4,process,"{}",1566489778.839354,1566489778.841268
+PE_stationxml_reader11,3,write,"{'output': 'output', 'size': 86, 'id': ('PE_stationxml_reader11', 3, 'output', 26)}",1566489778.844383,1566489778.844404
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 22))]}",1566489778.841387,1566489778.841435
+PE_stationxml_reader11,3,process,"{}",1566489778.840357,1566489778.844374
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 22)}",1566489778.843466,1566489778.843508
+PE_waveform_reader6,4,process,"{}",1566489778.841451,1566489778.8434591
+PE_stationxml_reader11,3,read,"{'input': [('input', ('WatchDirectory10', 2, 'output', 27))]}",1566489778.844438,1566489778.844485
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 23))]}",1566489778.843536,1566489778.843585
+PE_stationxml_reader11,3,write,"{'output': 'output', 'size': 86, 'id': ('PE_stationxml_reader11', 3, 'output', 27)}",1566489778.846288,1566489778.84631
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 23)}",1566489778.846787,1566489778.8468218
+PE_stationxml_reader11,3,process,"{}",1566489778.844501,1566489778.8462799
+PE_waveform_reader6,4,process,"{}",1566489778.843601,1566489778.8467798
+PE_stationxml_reader11,3,read,"{'input': [('input', ('WatchDirectory10', 2, 'output', 28))]}",1566489778.846344,1566489778.846391
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 24))]}",1566489778.8468428,1566489778.8468852
+PE_stationxml_reader11,3,write,"{'output': 'output', 'size': 85, 'id': ('PE_stationxml_reader11', 3, 'output', 28)}",1566489778.848067,1566489778.848088
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 24)}",1566489778.849031,1566489778.849068
+PE_stationxml_reader11,3,process,"{}",1566489778.846407,1566489778.8480582
+PE_waveform_reader6,4,process,"{}",1566489778.8469,1566489778.849024
+PE_stationxml_reader11,3,read,"{'input': [('input', ('WatchDirectory10', 2, 'output', 29))]}",1566489778.8481228,1566489778.8481731
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 25))]}",1566489778.849092,1566489778.849133
+PE_stationxml_reader11,3,write,"{'output': 'output', 'size': 86, 'id': ('PE_stationxml_reader11', 3, 'output', 29)}",1566489778.8501801,1566489778.850199
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 25)}",1566489778.851094,1566489778.851132
+PE_stationxml_reader11,3,process,"{}",1566489778.8481889,1566489778.8501709
+PE_waveform_reader6,4,process,"{}",1566489778.84915,1566489778.8510861
+PE_stationxml_reader11,3,read,"{'input': [('input', ('WatchDirectory10', 2, 'output', 30))]}",1566489778.850231,1566489778.850278
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 26))]}",1566489778.851155,1566489778.851197
+PE_stationxml_reader11,3,write,"{'output': 'output', 'size': 86, 'id': ('PE_stationxml_reader11', 3, 'output', 30)}",1566489778.8531919,1566489778.853214
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 26)}",1566489778.854191,1566489778.85423
+PE_stationxml_reader11,3,process,"{}",1566489778.850293,1566489778.853183
+PE_waveform_reader6,4,process,"{}",1566489778.851213,1566489778.854184
+PE_stationxml_reader11,3,read,"{'input': [('input', ('WatchDirectory10', 2, 'output', 31))]}",1566489778.853246,1566489778.853298
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 27))]}",1566489778.8542562,1566489778.8543
+PE_stationxml_reader11,3,write,"{'output': 'output', 'size': 85, 'id': ('PE_stationxml_reader11', 3, 'output', 31)}",1566489778.8550951,1566489778.855114
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 27)}",1566489778.856735,1566489778.856771
+PE_stationxml_reader11,3,process,"{}",1566489778.853313,1566489778.855087
+PE_waveform_reader6,4,process,"{}",1566489778.854316,1566489778.856728
+PE_stationxml_reader11,3,read,"{'input': []}",1566489778.855144,1566489778.855194
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 28))]}",1566489778.8567948,1566489778.85684
+PE_stationxml_reader11,3,terminate,"{}",1566489778.855244,1566489778.85525
+PE_stationxml_reader11,3,postprocess,"{}",1566489778.855208,1566489778.855232
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 28)}",1566489778.860234,1566489778.8602712
+PE_waveform_reader6,4,process,"{}",1566489778.856856,1566489778.860227
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 29))]}",1566489778.860299,1566489778.860338
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 29)}",1566489778.862509,1566489778.86255
+PE_waveform_reader6,4,process,"{}",1566489778.860352,1566489778.8625011
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 30))]}",1566489778.862584,1566489778.862636
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 30)}",1566489778.8647602,1566489778.8648021
+PE_waveform_reader6,4,process,"{}",1566489778.8626518,1566489778.864753
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 31))]}",1566489778.864838,1566489778.864893
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 31)}",1566489778.866839,1566489778.86688
+PE_waveform_reader6,4,process,"{}",1566489778.8649118,1566489778.8668318
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 32))]}",1566489778.8669178,1566489778.86697
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 32)}",1566489778.870213,1566489778.8702521
+PE_waveform_reader6,4,process,"{}",1566489778.866986,1566489778.8702059
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 33))]}",1566489778.870288,1566489778.870337
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 33)}",1566489778.8721778,1566489778.872206
+PE_waveform_reader6,4,process,"{}",1566489778.8703492,1566489778.872173
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 34))]}",1566489778.872233,1566489778.8722801
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 34)}",1566489778.8748958,1566489778.874936
+PE_waveform_reader6,4,process,"{}",1566489778.8722959,1566489778.874889
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 35))]}",1566489778.8749702,1566489778.8750138
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 35)}",1566489778.877957,1566489778.877989
+PE_waveform_reader6,4,process,"{}",1566489778.8750248,1566489778.877951
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 36))]}",1566489778.878017,1566489778.87807
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 36)}",1566489778.881291,1566489778.881332
+PE_waveform_reader6,4,process,"{}",1566489778.8780859,1566489778.881282
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 37))]}",1566489778.881369,1566489778.8814259
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 37)}",1566489778.883292,1566489778.883329
+PE_waveform_reader6,4,process,"{}",1566489778.881444,1566489778.883285
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 38))]}",1566489778.883362,1566489778.8834078
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 38)}",1566489778.8851871,1566489778.885216
+PE_waveform_reader6,4,process,"{}",1566489778.88342,1566489778.885181
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 39))]}",1566489778.885244,1566489778.885292
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 39)}",1566489778.887007,1566489778.887035
+PE_waveform_reader6,4,process,"{}",1566489778.8853068,1566489778.887001
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 40))]}",1566489778.887062,1566489778.887109
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 40)}",1566489778.888911,1566489778.88894
+PE_waveform_reader6,4,process,"{}",1566489778.887124,1566489778.888905
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 41))]}",1566489778.888968,1566489778.8890162
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 41)}",1566489778.892676,1566489778.892725
+PE_waveform_reader6,4,process,"{}",1566489778.889031,1566489778.892666
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 42))]}",1566489778.892767,1566489778.892822
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 42)}",1566489778.895385,1566489778.8954291
+PE_waveform_reader6,4,process,"{}",1566489778.892839,1566489778.895377
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 43))]}",1566489778.895469,1566489778.895519
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 43)}",1566489778.8974879,1566489778.8975308
+PE_waveform_reader6,4,process,"{}",1566489778.8955362,1566489778.89748
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 44))]}",1566489778.897556,1566489778.897603
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 44)}",1566489778.899584,1566489778.899626
+PE_waveform_reader6,4,process,"{}",1566489778.89762,1566489778.8995771
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 45))]}",1566489778.89965,1566489778.899698
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 45)}",1566489778.9104939,1566489778.9105432
+PE_waveform_reader6,4,process,"{}",1566489778.899713,1566489778.910486
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 46))]}",1566489778.910572,1566489778.9106271
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 46)}",1566489778.914329,1566489778.914366
+PE_waveform_reader6,4,process,"{}",1566489778.910645,1566489778.9143229
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 47))]}",1566489778.914398,1566489778.914439
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 47)}",1566489778.9170759,1566489778.9171178
+PE_waveform_reader6,4,process,"{}",1566489778.914454,1566489778.917069
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 48))]}",1566489778.917143,1566489778.917184
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 48)}",1566489778.921068,1566489778.921113
+PE_waveform_reader6,4,process,"{}",1566489778.917202,1566489778.9210591
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 49))]}",1566489778.92115,1566489778.9212039
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 49)}",1566489778.923539,1566489778.923581
+PE_waveform_reader6,4,process,"{}",1566489778.921225,1566489778.923531
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 50))]}",1566489778.923615,1566489778.9236639
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 50)}",1566489778.92594,1566489778.925979
+PE_waveform_reader6,4,process,"{}",1566489778.923681,1566489778.925932
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 51))]}",1566489778.9260101,1566489778.926053
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 51)}",1566489778.928616,1566489778.928659
+PE_waveform_reader6,4,process,"{}",1566489778.9262679,1566489778.928608
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 52))]}",1566489778.928691,1566489778.9287438
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 52)}",1566489778.931464,1566489778.931503
+PE_waveform_reader6,4,process,"{}",1566489778.928761,1566489778.931457
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 53))]}",1566489778.931539,1566489778.931703
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 53)}",1566489778.933883,1566489778.933923
+PE_waveform_reader6,4,process,"{}",1566489778.931732,1566489778.9338748
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 54))]}",1566489778.9339578,1566489778.934012
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 54)}",1566489778.935974,1566489778.936011
+PE_waveform_reader6,4,process,"{}",1566489778.934029,1566489778.935968
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 55))]}",1566489778.9360461,1566489778.936096
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 55)}",1566489778.9379709,1566489778.938004
+PE_waveform_reader6,4,process,"{}",1566489778.9361122,1566489778.9379652
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 56))]}",1566489778.938035,1566489778.9380748
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 56)}",1566489778.9399989,1566489778.940037
+PE_waveform_reader6,4,process,"{}",1566489778.938087,1566489778.939991
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 57))]}",1566489778.940073,1566489778.940125
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 57)}",1566489778.942076,1566489778.942113
+PE_waveform_reader6,4,process,"{}",1566489778.9401422,1566489778.9420679
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 58))]}",1566489778.9421482,1566489778.942199
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 58)}",1566489778.9441369,1566489778.94418
+PE_waveform_reader6,4,process,"{}",1566489778.942216,1566489778.944129
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 59))]}",1566489778.944214,1566489778.944273
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 59)}",1566489778.946217,1566489778.946253
+PE_waveform_reader6,4,process,"{}",1566489778.944291,1566489778.9462101
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 60))]}",1566489778.946286,1566489778.9463391
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 60)}",1566489778.948119,1566489778.948152
+PE_waveform_reader6,4,process,"{}",1566489778.9463549,1566489778.948113
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 61))]}",1566489778.948183,1566489778.948239
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 61)}",1566489778.951267,1566489778.9513102
+PE_waveform_reader6,4,process,"{}",1566489778.948256,1566489778.951259
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 62))]}",1566489778.9513469,1566489778.951402
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 62)}",1566489778.953403,1566489778.953444
+PE_waveform_reader6,4,process,"{}",1566489778.9514198,1566489778.953395
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 63))]}",1566489778.9534779,1566489778.953532
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 63)}",1566489778.955364,1566489778.955393
+PE_waveform_reader6,4,process,"{}",1566489778.953548,1566489778.955359
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 64))]}",1566489778.95542,1566489778.955468
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 64)}",1566489778.957936,1566489778.957973
+PE_waveform_reader6,4,process,"{}",1566489778.955484,1566489778.957929
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 65))]}",1566489778.958005,1566489778.958055
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 65)}",1566489778.959914,1566489778.9599428
+PE_waveform_reader6,4,process,"{}",1566489778.958067,1566489778.9599092
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 66))]}",1566489778.959969,1566489778.960119
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 66)}",1566489778.961477,1566489778.961504
+PE_waveform_reader6,4,process,"{}",1566489778.960143,1566489778.961472
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 67))]}",1566489778.961531,1566489778.9616818
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 67)}",1566489778.963111,1566489778.96314
+PE_waveform_reader6,4,process,"{}",1566489778.9617028,1566489778.963105
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 68))]}",1566489778.963165,1566489778.963211
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 68)}",1566489778.964858,1566489778.964889
+PE_waveform_reader6,4,process,"{}",1566489778.963226,1566489778.964853
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 69))]}",1566489778.964916,1566489778.965068
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 69)}",1566489778.9667609,1566489778.966798
+PE_waveform_reader6,4,process,"{}",1566489778.9650939,1566489778.966754
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 70))]}",1566489778.966829,1566489778.966877
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 70)}",1566489778.968639,1566489778.968673
+PE_waveform_reader6,4,process,"{}",1566489778.9668941,1566489778.968632
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 71))]}",1566489778.9687018,1566489778.968759
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 71)}",1566489778.9704819,1566489778.970515
+PE_waveform_reader6,4,process,"{}",1566489778.96878,1566489778.9704762
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 72))]}",1566489778.9705448,1566489778.9705842
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 72)}",1566489778.97226,1566489778.972288
+PE_waveform_reader6,4,process,"{}",1566489778.9705951,1566489778.972254
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 73))]}",1566489778.9723132,1566489778.972358
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 73)}",1566489778.974153,1566489778.9741812
+PE_waveform_reader6,4,process,"{}",1566489778.972372,1566489778.974148
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 74))]}",1566489778.974206,1566489778.974252
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 74)}",1566489778.975929,1566489778.975956
+PE_waveform_reader6,4,process,"{}",1566489778.974265,1566489778.975924
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 75))]}",1566489778.9759831,1566489778.976023
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 75)}",1566489778.977798,1566489778.977826
+PE_waveform_reader6,4,process,"{}",1566489778.9760342,1566489778.977792
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 76))]}",1566489778.977849,1566489778.9778812
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 76)}",1566489778.979383,1566489778.97941
+PE_waveform_reader6,4,process,"{}",1566489778.977897,1566489778.979378
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 77))]}",1566489778.979435,1566489778.97948
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 77)}",1566489778.981193,1566489778.981227
+PE_waveform_reader6,4,process,"{}",1566489778.9794939,1566489778.981187
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 78))]}",1566489778.981256,1566489778.981303
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 78)}",1566489778.9844759,1566489778.9845068
+PE_waveform_reader6,4,process,"{}",1566489778.981319,1566489778.9844701
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 79))]}",1566489778.984534,1566489778.98458
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 79)}",1566489778.986392,1566489778.986424
+PE_waveform_reader6,4,process,"{}",1566489778.98459,1566489778.9863849
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 80))]}",1566489778.986451,1566489778.986498
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 80)}",1566489778.9881868,1566489778.988215
+PE_waveform_reader6,4,process,"{}",1566489778.986512,1566489778.988182
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 81))]}",1566489778.988241,1566489778.988287
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 81)}",1566489778.990009,1566489778.990047
+PE_waveform_reader6,4,process,"{}",1566489778.988302,1566489778.990002
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 82))]}",1566489778.990079,1566489778.990129
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 82)}",1566489778.993027,1566489778.993067
+PE_waveform_reader6,4,process,"{}",1566489778.990145,1566489778.9930189
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 83))]}",1566489778.993103,1566489778.993228
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 83)}",1566489778.995032,1566489778.995065
+PE_waveform_reader6,4,process,"{}",1566489778.9932458,1566489778.9950259
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 84))]}",1566489778.995094,1566489778.9951391
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 84)}",1566489778.9969401,1566489778.9969769
+PE_waveform_reader6,4,process,"{}",1566489778.995154,1566489778.996934
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 85))]}",1566489778.9970088,1566489778.9970582
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 85)}",1566489778.9988632,1566489778.998893
+PE_waveform_reader6,4,process,"{}",1566489778.997074,1566489778.998857
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 86))]}",1566489778.998924,1566489778.998977
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 86)}",1566489779.000864,1566489779.000913
+PE_waveform_reader6,4,process,"{}",1566489778.998993,1566489779.000857
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 87))]}",1566489779.000938,1566489779.000982
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 87)}",1566489779.002826,1566489779.00286
+PE_waveform_reader6,4,process,"{}",1566489779.000996,1566489779.002819
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 88))]}",1566489779.0028899,1566489779.002933
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 88)}",1566489779.004478,1566489779.004506
+PE_waveform_reader6,4,process,"{}",1566489779.002945,1566489779.004473
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 89))]}",1566489779.0045319,1566489779.0045729
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 89)}",1566489779.0062761,1566489779.006312
+PE_waveform_reader6,4,process,"{}",1566489779.0045838,1566489779.00627
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 90))]}",1566489779.0063412,1566489779.006388
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 90)}",1566489779.009074,1566489779.009111
+PE_waveform_reader6,4,process,"{}",1566489779.0064,1566489779.009067
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 91))]}",1566489779.009141,1566489779.0091891
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 91)}",1566489779.0110688,1566489779.011106
+PE_waveform_reader6,4,process,"{}",1566489779.009202,1566489779.011062
+PE_waveform_reader6,4,read,"{'input': [('input', ('WatchDirectory9', 1, 'output', 92))]}",1566489779.011138,1566489779.011183
+PE_waveform_reader6,4,write,"{'output': 'output', 'size': 56, 'id': ('PE_waveform_reader6', 4, 'output', 92)}",1566489779.013079,1566489779.0131059
+PE_waveform_reader6,4,process,"{}",1566489779.011198,1566489779.013074
+PE_waveform_reader6,4,read,"{'input': []}",1566489779.013132,1566489779.013176
+PE_waveform_reader6,4,terminate,"{}",1566489779.013205,1566489779.013213
+PE_waveform_reader6,4,postprocess,"{}",1566489779.0131872,1566489779.013203
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 1)}",1566489779.331296,1566489779.331445
+PE_plot_stream7,5,process,"{}",1566489778.796533,1566489779.3312798
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 2))]}",1566489779.331519,1566489779.332136
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 2)}",1566489779.4304461,1566489779.4304671
+PE_plot_stream7,5,process,"{}",1566489779.3321788,1566489779.4304378
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 3))]}",1566489779.4305081,1566489779.4309702
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 3)}",1566489779.571358,1566489779.571393
+PE_plot_stream7,5,process,"{}",1566489779.4310231,1566489779.571336
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 4))]}",1566489779.571451,1566489779.572282
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 4)}",1566489779.761578,1566489779.7615979
+PE_plot_stream7,5,process,"{}",1566489779.572327,1566489779.761565
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 5))]}",1566489779.7616398,1566489779.762109
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 5)}",1566489779.88411,1566489779.8841338
+PE_plot_stream7,5,process,"{}",1566489779.762132,1566489779.884093
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 6))]}",1566489779.884198,1566489779.884597
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 6)}",1566489779.980192,1566489779.980213
+PE_plot_stream7,5,process,"{}",1566489779.8846269,1566489779.9801779
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 7))]}",1566489779.980258,1566489779.9806259
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 7)}",1566489780.090828,1566489780.090858
+PE_plot_stream7,5,process,"{}",1566489779.9806552,1566489780.090809
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 8))]}",1566489780.090919,1566489780.091365
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 8)}",1566489780.1909099,1566489780.190933
+PE_plot_stream7,5,process,"{}",1566489780.091392,1566489780.190895
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 9))]}",1566489780.1909819,1566489780.1929338
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 9)}",1566489780.306481,1566489780.3065119
+PE_plot_stream7,5,process,"{}",1566489780.192981,1566489780.306458
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 10))]}",1566489780.306571,1566489780.3070211
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 10)}",1566489780.403986,1566489780.4040089
+PE_plot_stream7,5,process,"{}",1566489780.307051,1566489780.403965
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 11))]}",1566489780.4040582,1566489780.404824
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 11)}",1566489780.508061,1566489780.5080829
+PE_plot_stream7,5,process,"{}",1566489780.404854,1566489780.5080462
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 12))]}",1566489780.508126,1566489780.508426
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 12)}",1566489780.613151,1566489780.613174
+PE_plot_stream7,5,process,"{}",1566489780.5084438,1566489780.61313
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 13))]}",1566489780.613217,1566489780.613605
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 13)}",1566489780.7154298,1566489780.7154539
+PE_plot_stream7,5,process,"{}",1566489780.613627,1566489780.715413
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 14))]}",1566489780.7155032,1566489780.715997
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 14)}",1566489780.8190458,1566489780.819069
+PE_plot_stream7,5,process,"{}",1566489780.7160242,1566489780.81903
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 15))]}",1566489780.819114,1566489780.819339
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 15)}",1566489780.9124281,1566489780.9124491
+PE_plot_stream7,5,process,"{}",1566489780.8193548,1566489780.9124138
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 16))]}",1566489780.912492,1566489780.912833
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 16)}",1566489781.038387,1566489781.0384252
+PE_plot_stream7,5,process,"{}",1566489780.912849,1566489781.03836
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 17))]}",1566489781.038502,1566489781.0389838
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 17)}",1566489781.1379788,1566489781.1380029
+PE_plot_stream7,5,process,"{}",1566489781.039009,1566489781.137963
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 18))]}",1566489781.138047,1566489781.1384351
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 18)}",1566489781.2956002,1566489781.2956312
+PE_plot_stream7,5,process,"{}",1566489781.138464,1566489781.295578
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 19))]}",1566489781.295688,1566489781.2961159
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 19)}",1566489781.3994172,1566489781.39945
+PE_plot_stream7,5,process,"{}",1566489781.296145,1566489781.399394
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 20))]}",1566489781.399509,1566489781.3999512
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 20)}",1566489781.499892,1566489781.499922
+PE_plot_stream7,5,process,"{}",1566489781.3999841,1566489781.4998689
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 21))]}",1566489781.499999,1566489781.500434
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 21)}",1566489781.59555,1566489781.595574
+PE_plot_stream7,5,process,"{}",1566489781.5004532,1566489781.595534
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 22))]}",1566489781.595619,1566489781.595993
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 22)}",1566489781.7030652,1566489781.703087
+PE_plot_stream7,5,process,"{}",1566489781.5960178,1566489781.703051
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 23))]}",1566489781.70313,1566489781.703991
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 23)}",1566489781.8070889,1566489781.807111
+PE_plot_stream7,5,process,"{}",1566489781.7040179,1566489781.807076
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 24))]}",1566489781.807152,1566489781.807507
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 24)}",1566489781.905809,1566489781.905834
+PE_plot_stream7,5,process,"{}",1566489781.807529,1566489781.905789
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 25))]}",1566489781.9058821,1566489781.90625
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 25)}",1566489782.014186,1566489782.01421
+PE_plot_stream7,5,process,"{}",1566489781.906274,1566489782.0141702
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 26))]}",1566489782.01426,1566489782.0152252
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 26)}",1566489782.12734,1566489782.127362
+PE_plot_stream7,5,process,"{}",1566489782.0152571,1566489782.1273248
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 27))]}",1566489782.12741,1566489782.127794
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 27)}",1566489782.229685,1566489782.229706
+PE_plot_stream7,5,process,"{}",1566489782.127817,1566489782.229666
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 28))]}",1566489782.229752,1566489782.230092
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 28)}",1566489782.32829,1566489782.328311
+PE_plot_stream7,5,process,"{}",1566489782.230119,1566489782.328274
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 29))]}",1566489782.328353,1566489782.328737
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 29)}",1566489782.429369,1566489782.429389
+PE_plot_stream7,5,process,"{}",1566489782.328762,1566489782.429354
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 30))]}",1566489782.429434,1566489782.429847
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 30)}",1566489782.5306702,1566489782.5306911
+PE_plot_stream7,5,process,"{}",1566489782.429873,1566489782.530655
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 31))]}",1566489782.530774,1566489782.5312588
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 31)}",1566489782.644338,1566489782.6443672
+PE_plot_stream7,5,process,"{}",1566489782.531289,1566489782.644317
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 32))]}",1566489782.644419,1566489782.645235
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 32)}",1566489782.751519,1566489782.751543
+PE_plot_stream7,5,process,"{}",1566489782.645271,1566489782.751503
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 33))]}",1566489782.751589,1566489782.752138
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 33)}",1566489782.908853,1566489782.908874
+PE_plot_stream7,5,process,"{}",1566489782.7521589,1566489782.9088361
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 34))]}",1566489782.908915,1566489782.9092941
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 34)}",1566489783.008091,1566489783.0081139
+PE_plot_stream7,5,process,"{}",1566489782.909316,1566489783.008074
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 35))]}",1566489783.008157,1566489783.008708
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 35)}",1566489783.153672,1566489783.1537018
+PE_plot_stream7,5,process,"{}",1566489783.008737,1566489783.153651
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 36))]}",1566489783.153761,1566489783.154531
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 36)}",1566489783.3126662,1566489783.312692
+PE_plot_stream7,5,process,"{}",1566489783.1545799,1566489783.312644
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 37))]}",1566489783.312747,1566489783.313301
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 37)}",1566489783.460761,1566489783.4607842
+PE_plot_stream7,5,process,"{}",1566489783.313328,1566489783.460743
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 38))]}",1566489783.46083,1566489783.461211
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 38)}",1566489783.582326,1566489783.5823581
+PE_plot_stream7,5,process,"{}",1566489783.461237,1566489783.582305
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 39))]}",1566489783.582421,1566489783.583454
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 39)}",1566489783.696213,1566489783.696235
+PE_plot_stream7,5,process,"{}",1566489783.5835142,1566489783.6962
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 40))]}",1566489783.6963022,1566489783.6968162
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 40)}",1566489783.810972,1566489783.811004
+PE_plot_stream7,5,process,"{}",1566489783.696835,1566489783.810951
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 41))]}",1566489783.81108,1566489783.8127098
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 41)}",1566489783.9294322,1566489783.929455
+PE_plot_stream7,5,process,"{}",1566489783.812751,1566489783.929417
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 42))]}",1566489783.9295192,1566489783.929972
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 42)}",1566489784.035218,1566489784.03524
+PE_plot_stream7,5,process,"{}",1566489783.930026,1566489784.035199
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 43))]}",1566489784.0352829,1566489784.035703
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 43)}",1566489784.1478531,1566489784.147881
+PE_plot_stream7,5,process,"{}",1566489784.035723,1566489784.147837
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 44))]}",1566489784.147935,1566489784.148413
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 44)}",1566489784.2416892,1566489784.241719
+PE_plot_stream7,5,process,"{}",1566489784.148448,1566489784.241667
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 45))]}",1566489784.241778,1566489784.2421849
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 45)}",1566489784.3397,1566489784.339725
+PE_plot_stream7,5,process,"{}",1566489784.242213,1566489784.339683
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 46))]}",1566489784.3397691,1566489784.340183
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 46)}",1566489784.434776,1566489784.434798
+PE_plot_stream7,5,process,"{}",1566489784.340209,1566489784.434761
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 47))]}",1566489784.4348428,1566489784.435166
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 47)}",1566489784.597891,1566489784.5979142
+PE_plot_stream7,5,process,"{}",1566489784.4351842,1566489784.5978749
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 48))]}",1566489784.59796,1566489784.598422
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 48)}",1566489784.6913311,1566489784.6913521
+PE_plot_stream7,5,process,"{}",1566489784.598444,1566489784.691316
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 49))]}",1566489784.6913972,1566489784.691814
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 49)}",1566489784.7922702,1566489784.792292
+PE_plot_stream7,5,process,"{}",1566489784.6918552,1566489784.792254
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 50))]}",1566489784.792336,1566489784.792725
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 50)}",1566489784.9053981,1566489784.905432
+PE_plot_stream7,5,process,"{}",1566489784.792757,1566489784.9053671
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 51))]}",1566489784.905511,1566489784.9061918
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 51)}",1566489785.010061,1566489785.010081
+PE_plot_stream7,5,process,"{}",1566489784.90623,1566489785.010048
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 52))]}",1566489785.010126,1566489785.010547
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 52)}",1566489785.1074612,1566489785.1074839
+PE_plot_stream7,5,process,"{}",1566489785.010587,1566489785.107445
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 53))]}",1566489785.107552,1566489785.108039
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 53)}",1566489785.20336,1566489785.2033842
+PE_plot_stream7,5,process,"{}",1566489785.108059,1566489785.203346
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 54))]}",1566489785.203431,1566489785.203827
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 54)}",1566489785.294198,1566489785.294223
+PE_plot_stream7,5,process,"{}",1566489785.2038531,1566489785.294181
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 55))]}",1566489785.294267,1566489785.2945971
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 55)}",1566489785.408891,1566489785.408915
+PE_plot_stream7,5,process,"{}",1566489785.2946198,1566489785.408874
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 56))]}",1566489785.408961,1566489785.409363
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 56)}",1566489785.5038369,1566489785.50388
+PE_plot_stream7,5,process,"{}",1566489785.409389,1566489785.503808
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 57))]}",1566489785.503964,1566489785.50441
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 57)}",1566489785.6019058,1566489785.60193
+PE_plot_stream7,5,process,"{}",1566489785.504437,1566489785.6018891
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 58))]}",1566489785.601973,1566489785.60235
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 58)}",1566489785.696488,1566489785.696511
+PE_plot_stream7,5,process,"{}",1566489785.6023738,1566489785.6964722
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 59))]}",1566489785.696555,1566489785.6969001
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 59)}",1566489785.795925,1566489785.795947
+PE_plot_stream7,5,process,"{}",1566489785.696925,1566489785.7959108
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 60))]}",1566489785.795994,1566489785.796323
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 60)}",1566489785.887419,1566489785.88744
+PE_plot_stream7,5,process,"{}",1566489785.796345,1566489785.8874052
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 61))]}",1566489785.887483,1566489785.888327
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 61)}",1566489786.0470989,1566489786.0471208
+PE_plot_stream7,5,process,"{}",1566489785.888352,1566489786.047083
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 62))]}",1566489786.047165,1566489786.0475368
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 62)}",1566489786.137412,1566489786.1374369
+PE_plot_stream7,5,process,"{}",1566489786.04756,1566489786.137391
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 63))]}",1566489786.137494,1566489786.137909
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 63)}",1566489786.2267652,1566489786.2267892
+PE_plot_stream7,5,process,"{}",1566489786.13794,1566489786.226749
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 64))]}",1566489786.226837,1566489786.227193
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 64)}",1566489786.332188,1566489786.332221
+PE_plot_stream7,5,process,"{}",1566489786.227215,1566489786.332166
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 65))]}",1566489786.332278,1566489786.332726
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 65)}",1566489786.427184,1566489786.4272058
+PE_plot_stream7,5,process,"{}",1566489786.332758,1566489786.42717
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 66))]}",1566489786.427253,1566489786.427624
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 66)}",1566489786.5178502,1566489786.5178711
+PE_plot_stream7,5,process,"{}",1566489786.42765,1566489786.517836
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 67))]}",1566489786.5179148,1566489786.518337
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 67)}",1566489786.617266,1566489786.6172879
+PE_plot_stream7,5,process,"{}",1566489786.518362,1566489786.617249
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 68))]}",1566489786.617333,1566489786.617536
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 68)}",1566489786.711958,1566489786.711988
+PE_plot_stream7,5,process,"{}",1566489786.617551,1566489786.711936
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 69))]}",1566489786.712045,1566489786.712446
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 69)}",1566489786.808801,1566489786.808824
+PE_plot_stream7,5,process,"{}",1566489786.7124732,1566489786.808785
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 70))]}",1566489786.8088698,1566489786.8092349
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 70)}",1566489786.903907,1566489786.903929
+PE_plot_stream7,5,process,"{}",1566489786.8092558,1566489786.9038908
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 71))]}",1566489786.9039822,1566489786.9043741
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 71)}",1566489787.001249,1566489787.00128
+PE_plot_stream7,5,process,"{}",1566489786.904402,1566489787.001228
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 72))]}",1566489787.001347,1566489787.0016289
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 72)}",1566489787.093911,1566489787.093934
+PE_plot_stream7,5,process,"{}",1566489787.001651,1566489787.0938969
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 73))]}",1566489787.093976,1566489787.0943081
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 73)}",1566489787.186111,1566489787.186133
+PE_plot_stream7,5,process,"{}",1566489787.094404,1566489787.186097
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 74))]}",1566489787.186177,1566489787.186597
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 74)}",1566489787.283802,1566489787.2838242
+PE_plot_stream7,5,process,"{}",1566489787.186618,1566489787.2837849
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 75))]}",1566489787.283865,1566489787.284257
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 75)}",1566489787.382451,1566489787.382477
+PE_plot_stream7,5,process,"{}",1566489787.2842848,1566489787.382435
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 76))]}",1566489787.382525,1566489787.382882
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 76)}",1566489787.548374,1566489787.548398
+PE_plot_stream7,5,process,"{}",1566489787.3829088,1566489787.548356
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 77))]}",1566489787.548445,1566489787.5488489
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 77)}",1566489787.642123,1566489787.642147
+PE_plot_stream7,5,process,"{}",1566489787.5488791,1566489787.642106
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 78))]}",1566489787.6421912,1566489787.643185
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 78)}",1566489787.749633,1566489787.749658
+PE_plot_stream7,5,process,"{}",1566489787.6432168,1566489787.7496161
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 79))]}",1566489787.749706,1566489787.750108
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 79)}",1566489787.8504891,1566489787.850513
+PE_plot_stream7,5,process,"{}",1566489787.750132,1566489787.850471
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 80))]}",1566489787.85056,1566489787.8509629
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 80)}",1566489787.950547,1566489787.9505699
+PE_plot_stream7,5,process,"{}",1566489787.850993,1566489787.950528
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 81))]}",1566489787.950615,1566489787.950968
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 81)}",1566489788.045652,1566489788.0456781
+PE_plot_stream7,5,process,"{}",1566489787.9509912,1566489788.045635
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 82))]}",1566489788.0457249,1566489788.046627
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 82)}",1566489788.1572638,1566489788.157289
+PE_plot_stream7,5,process,"{}",1566489788.0466619,1566489788.157247
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 83))]}",1566489788.157345,1566489788.157804
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 83)}",1566489788.280852,1566489788.280884
+PE_plot_stream7,5,process,"{}",1566489788.157832,1566489788.280829
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 84))]}",1566489788.2809548,1566489788.2813718
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 84)}",1566489788.415173,1566489788.4151978
+PE_plot_stream7,5,process,"{}",1566489788.281397,1566489788.415157
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 85))]}",1566489788.4152498,1566489788.4156318
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 85)}",1566489788.52452,1566489788.52454
+PE_plot_stream7,5,process,"{}",1566489788.415655,1566489788.524506
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 86))]}",1566489788.524582,1566489788.524943
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 86)}",1566489788.618399,1566489788.618418
+PE_plot_stream7,5,process,"{}",1566489788.524971,1566489788.6183848
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 87))]}",1566489788.61846,1566489788.6188211
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 87)}",1566489788.713789,1566489788.713809
+PE_plot_stream7,5,process,"{}",1566489788.6188428,1566489788.7137752
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 88))]}",1566489788.713852,1566489788.7142248
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 88)}",1566489788.81126,1566489788.811292
+PE_plot_stream7,5,process,"{}",1566489788.714253,1566489788.81124
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 89))]}",1566489788.8113449,1566489788.81172
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 89)}",1566489788.9070458,1566489788.90707
+PE_plot_stream7,5,process,"{}",1566489788.8117461,1566489788.90703
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 90))]}",1566489788.907116,1566489788.908305
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 90)}",1566489789.022136,1566489789.0221682
+PE_plot_stream7,5,process,"{}",1566489788.9083478,1566489789.022112
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 91))]}",1566489789.022223,1566489789.022667
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 91)}",1566489789.194698,1566489789.1947231
+PE_plot_stream7,5,process,"{}",1566489789.0226939,1566489789.194674
+PE_plot_stream7,5,read,"{'input': [('input', ('PE_waveform_reader6', 4, 'output', 92))]}",1566489789.194775,1566489789.1951501
+PE_plot_stream7,5,write,"{'output': 'output', 'size': 56, 'id': ('PE_plot_stream7', 5, 'output', 92)}",1566489789.292937,1566489789.292962
+PE_plot_stream7,5,process,"{}",1566489789.19518,1566489789.2929192
+PE_plot_stream7,5,read,"{'input': []}",1566489789.2930062,1566489789.293061
+PE_plot_stream7,5,terminate,"{}",1566489789.293089,1566489789.293091
+PE_plot_stream7,5,postprocess,"{}",1566489789.293074,1566489789.293086
