@@ -7,7 +7,7 @@ The reason for using this workflow is that is stateless, which enables us to exp
 
 See [Figure](./phase_1.png) representing this workflow.
 
-The full application is [tc_cross_correlation ](https://github.com/StreamingFlow/d4py_workflows/tree/main/tc_cross_correlation) directory.
+The full application is in [tc_cross_correlation ](https://github.com/StreamingFlow/d4py_workflows/tree/main/tc_cross_correlation) directory.
 
 
 ## Requirements
