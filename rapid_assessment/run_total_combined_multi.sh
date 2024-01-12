@@ -21,22 +21,22 @@ export OUTPUT="./GM/"
 
 
 ######## 2. Create input for download -- This workflow read the input files of the specfem3d simulation and creates the corresponding input json file for the following download workflow
-PYTHONPATH=/Users/rosafilgueira/EPCC/DARE/dispel4py:. python -m dispel4py.new.processor simple create_download_json.py -d '{"WJSON" :
+dispel4py simple create_download_json.py -d '{"WJSON" :
 [{"specfem3d_data_url":"https://gitlab.com/project-dare/WP6_EPOS/raw/RA_total_script/processing_elements/Download_Specfem3d_Misfit_RA/data.zip",
 "output":"download_test.json"}]}'
 
 
 ######## 3. Get observed data -- This workflow download the obseved waveforms and stations xml
-PYTHONPATH=/Users/rosafilgueira/EPCC/DARE/dispel4py:. python -m dispel4py.new.processor multi download_FDSN.py -f download_test.json -n 6
+dispel4py multi download_FDSN.py -f download_test.json -n 6
 
 # ####### 4. Get pre-processed synth and data --- Misfit Preprocess
 
-PYTHONPATH=/Users/rosafilgueira/EPCC/DARE/dispel4py:. python -m dispel4py.new.processor multi create_misfit_prep.py -n 17
+dispel4py multi create_misfit_prep.py -n 17
 
 # ####### 5. Get ground motion parameters and compare them
 
 searchpath="./misfit_data/output/"
-PYTHONPATH=/Users/rosafilgueira/EPCC/DARE/dispel4py:. python -m dispel4py.new.processor multi dispel4py_RA.pgm_story.py -d '{"streamProducerReal": [ {"input":"'$searchpath'" } ], "streamProducerSynth": [ {"input": "'$searchpath'"} ]}' -n 7
+dispel4py multi dispel4py_RA.pgm_story.py -d '{"streamProducerReal": [ {"input":"'$searchpath'" } ], "streamProducerSynth": [ {"input": "'$searchpath'"} ]}' -n 7
 
 # ####### 6. Plot the PGM map
-PYTHONPATH=/Users/rosafilgueira/EPCC/DARE/dispel4py:. python -m dispel4py.new.processor simple dispel4py_RAmapping.py 
+dispel4py simple dispel4py_RAmapping.py 
