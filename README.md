@@ -51,36 +51,6 @@ mpiexec -n 10 dispel4py mpi dispel4py.examples.graph_testing.pipeline_test -i 20
 If you run a workflow from other directories you just need to indicate it <DIR1>.<DIR2>.<NAME_WORKFLOW> without `py`.  If you are in the directory of the workflow, the you need to use <NAME_WOWRKFLOW>.py. You will find detailed explanations in each workflow's README. 
 
 
-### Astrophysics: Internal Extinction of Galaxies*
-
-
-[This workflow](./internal_extinction) has been developed to calculate the extinction within the galaxies, representing the dust extinction within the galaxies used in measuring the optical luminosity. The first PE, "ReadRaDec", read the coordinator data for 1051 galaxies in an input file. Then, these data are used in the second PE "GetVOTable" as arguments to make an HTTP request to the Virtual Observatory website  and get the VOTable as the response. Finally, these VOTable go into PE "FilterColumns" to filter specified columns used in the internal extinction computation. And this computation happened in the last PE, "InternalExtinction".
-
-More info about how to run this workflow is available [here](./internal_extinction/README.md). 
-
-Note: This is a **stateless** workflow. 
-
-### Seismo
-
-Note: This is a **statefull** workflow. 
-
-### Articles Sentiment Analysis 
-
-[This workflow](./article_sentiment_analysis) uses two different approaches to analyse the sentiment of news articles (i.e. score the news article), and these sentiment scores are then grouped according to the location where they were published. Finally, the workflow will output the three happiest locations with their scores.
-
-
-More info about how to run this workflow is available [here](./article_sentiment_analysis/README.md)
-
-Note: This is a **statefull** workflow. 
-
-
-### Others
-
-- [Skew workflow](others/skew_workflow.py)
-- [Covid workflow](others/covid_workflow.py)
-
-
-
 ## Mappings
 
 The mappings of dispel4py refer to the connections between the processing elements (PEs) in a dataflow graph. Dispel4py is a Python library used for specifying and executing data-intensive workflows. In a dataflow graph, each PE represents a processing step, and the mappings define how data flows between the PEs during execution. These mappings ensure that data is correctly routed and processed through the dataflow, enabling efficient and parallel execution of tasks. We currently support the following ones:
