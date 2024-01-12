@@ -1,0 +1,1 @@
+{"data": [{"input": {"data_dir": "./misfit_data/data", "synt_dir": "./misfit_data/synth", "events": "./misfit_data/events_info.xml", "event_id": "smi:webservices.ingv.it/fdsnws/event/1/query?eventId=1744261", "stations_dir": "./misfit_data/stations", "output_dir": "./misfit_data/output", "network": ["MN"], "station": ["AQU"]}}]}
