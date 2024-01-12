@@ -189,7 +189,7 @@ def create_processing_chain(proc):
         params = p['parameters']
         fn = getattr(mf, fn_name)
         processes.append((fn, params))
-    return create_iterative_chain(processes, FunctionPE_class=MisfitPreprocessingFunctionPE)
+    return create_iterative_chain(processes, function_pe_class=MisfitPreprocessingFunctionPE)
 
 with open(os.environ['MISFIT_PREP_CONFIG']) as f:
     proc = json.load(f)
