@@ -8,6 +8,9 @@ With dispel4py we have developed the Seismic Ambient Noise Cross-Correlation wor
 
 2. Phase 2 -- Cross-Correlation Pairs all of the stations and calculates the cross-correlation for each pair (complexity O(n2)).
 
+See [Figure](./tc_cross_correlation.jpeg) representing this use case.
+
+
 Since Phase 2 includes a statefull workflow, we are going to run this application with **fixed mappings**. 
 
 **Note:** By the default, this workflow runs with a short list of stations (`Copy-Uniq-OpStationList-NetworkStation.txt`). If you want to run the workflow with a bigger list, change it the `realtime_xcorr_input.jsn` to use `Uniq-OpStationList-NetworkStation.txt` instead.
