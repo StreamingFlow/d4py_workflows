@@ -1,3 +1,8 @@
+import sys, os
+#### Important -- change with your path to this workflow
+sys.path.append('/home/user/d4py_workflows/seismic_preparation')
+####
+
 import glob
 import json
 import numpy as np

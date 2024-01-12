@@ -1,3 +1,8 @@
+import sys, os
+#### Important -- change with your path to this workflow
+sys.path.append('/home/user/d4py_workflows/seismic_preparation')
+####
+
 from dispel4py.core import GenericPE
 from dispel4py.base import BasePE, IterativePE, ConsumerPE, create_iterative_chain
 from dispel4py.workflow_graph import WorkflowGraph
