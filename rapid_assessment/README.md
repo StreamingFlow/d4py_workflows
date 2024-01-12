@@ -18,30 +18,12 @@ Furthermore, for this workflow you need to install:
 
 ```
 pip install obspy
+pip install pyproj
 ```
 
-## Important
+## Known Issues
 
-1. You need to edit the workflow (`realtime_prep.py` and `realtime_xcorr.py`) file to change the following path to yours. See bellow:
-
-```
-import sys, os
-#### Important -- change with your path to this workflow
-sys.path.append('/home/user/d4py_workflows/seismic_preparation')
-####
-```
-
-2. You will need to open `realtime_xcorr_input.jsn` and change the path of the file Copy-Uniq-OpStationList-NetworkStation.txt
-
-		xxx/tc_cross_correlation/Copy-Uniq-OpStationList-NetworkStation.txt  
-
-
-3. You could also change the `realtime_xcorr_input.jsn` for using **Uniq-OpStationList-NetworkStation.txt** (it contains all the stations) instead of Copy-Uniq-OpStationList-NetworkStation.txt (it contains only a few of stations for testing the workflow). This data has been obtained from the [IRIS](http://ds.iris.edu/ds/nodes/dmc/earthscope/usarray/_US-TA-operational/) website. 
-
-		{
-    		"streamProducer" : [ { "input" : “/xxxxxxxxx/tc_cross_correlation/Uniq-OpStationList-NetworkStation.txt" } ]
-		}
-
+The last workflow `dispel4py_RAmapping.py` can give some problems due to `Basemap` module. This workflow is currently commented in our `run_total_combined_<mapping>.sh` scripts.
 
 ## Using Docker Container
 
@@ -55,14 +37,11 @@ cd d4py_workflows
 Using our Docker  image, we can ensure that all the mappings described [bellow](https://github.com/StreamingFlow/d4py_workflows/tree/main/article_sentiment_analysis#run-the-workflow-with-different-mappings) work for this workflow.
 
 
-## Running the Seismic Correlation application
+## Running the Rapid Assessment application
 
-To run the Seismic Correlation application, which includes the preprocessing (`realtime_prep.py`) and cross-correlation (`realtime_xcorr.py`) workflows, follow these steps: First, execute the `realtime_prep.py` workflow, which stores its results in the OUTPUT/DATA directory. Then, run either `realtime_xcorr.py` for cross-correlation; their results will be saved in the OUTPUT/XCORR directory. 
-
-We provide two scripts (`run_tc_multi.sh` and `dispel4py_template.pbs`) to execute both workflows using multi mapping. Note that the `dispel4py_template.pbs` has been designed for running the workflows in a cluster with a queue system. 
-
-We also provide an additional script (`run_tc_mpi.sh`) to execute both workflows using mpi mapping. 
-
+To run this application we provide several scripts, with different mappings:
+ - `run_total_combined_simple.sh` : it uses simple mapping for all workflows
+ - `run_total_combined_multi.sh` : it uses multi mapping for all workflows, except the first and the last one 
 
 ```	
 ### run_tc_multi.sh 

@@ -39,4 +39,4 @@ searchpath="./misfit_data/output/"
 dispel4py multi dispel4py_RA.pgm_story.py -d '{"streamProducerReal": [ {"input":"'$searchpath'" } ], "streamProducerSynth": [ {"input": "'$searchpath'"} ]}' -n 7
 
 # ####### 6. Plot the PGM map
-dispel4py simple dispel4py_RAmapping.py 
+#dispel4py simple dispel4py_RAmapping.py 
