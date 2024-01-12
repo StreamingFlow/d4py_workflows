@@ -1,11 +1,14 @@
+import sys, os
+sys.path.append('/home/user/d4py_workflows/tc_cross_correlation')
+
 from dispel4py.core import GenericPE
 from dispel4py.base import BasePE, IterativePE, ConsumerPE, create_iterative_chain
 from dispel4py.workflow_graph import WorkflowGraph
 
 from obspy.clients.fdsn import Client
 from obspy.signal.util import next_pow_2
-from tc_cross_correlation.whiten import spectralwhitening_smooth
-from tc_cross_correlation.normalization import onebit_norm, mean_norm, gain_norm, env_norm
+from whiten import spectralwhitening_smooth
+from normalization import onebit_norm, mean_norm, gain_norm, env_norm
 from scipy.fftpack import fft
 import numpy as np
 from obspy.core import read
@@ -160,7 +163,7 @@ def calc_fft(str1, type, shift):
 class PreTaskPE(IterativePE):
     def __init__(self, compute_fn=None, params={}):
         IterativePE.__init__(self)
-	self._add_output('output', tuple_type=['result', 'station', 'counter'])
+        self._add_output('output', tuple_type=['result', 'station', 'counter'])
         self.compute_fn = compute_fn
         self.params = params
     def _process(self, data):
@@ -172,11 +175,11 @@ class PreTaskPE(IterativePE):
            return [result, station, counter]
         except:
            self.log(traceback.format_exc())
-	   self.log ("Getting an error in preprocess: %s-%s" % (str1[0].stats['station'], str1[0].stats['network']))
+           self.log ("Getting an error in preprocess: %s-%s" % (str1[0].stats['station'], str1[0].stats['network']))
            return None
 	  
 
-ROOT_DIR = './tc_cross_correlation/OUTPUT/'
+ROOT_DIR = './OUTPUT/'
 
 starttime='2018-10-02T06:00:00.000'
 endtime='2018-10-02T07:00:00.000'
