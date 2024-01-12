@@ -90,7 +90,7 @@ OR
 
 ```shell
 mpiexec -n 10 python -m dispel4py.new.processor dispel4py.new.mpi_process seismic_preparation.realtime_prep_dict -f seismic_preparation/xcorr_input.jsn -n 10
-
+```
 
 ### (Fixed) Multi
 
