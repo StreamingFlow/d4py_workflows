@@ -16,6 +16,12 @@ Activate the conda python 3.10+ enviroment. If you had not created one, follow t
 conda activate d4py_env
 ```
 
+Furthermore, for this workflow you need to install:
+
+```
+pip install obspy
+```
+
 ## Preparation of data
 
 ```shell
