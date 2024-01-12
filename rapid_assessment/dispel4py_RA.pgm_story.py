@@ -284,5 +284,5 @@ graph.connect(norm, 'output_max', pgm_max,'input')
 graph.connect(pgm_max, 'output', match, 'input')
 graph.connect(pgm_mean, 'output', match, 'input')
 graph.connect(match,'output',write_stream,'input')
-write_image(graph, "PGM.png")
+#write_image(graph, "PGM.png")
 

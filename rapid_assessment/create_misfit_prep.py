@@ -216,5 +216,5 @@ else:
     graph.connect(real_preprocess, 'output', store_real, 'input')
     graph.connect(synt_preprocess, 'output', store_synt, 'input')
 
-write_image(graph, "misfit.png")
+#write_image(graph, "misfit.png")
 

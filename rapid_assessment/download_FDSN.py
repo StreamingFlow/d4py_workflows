@@ -167,12 +167,12 @@ xmlr = SimpleFunctionPE(stationxml_reader)
 processes = [waveform_reader,
              (plot_stream, {"source": "waveform_reader", "output_dir": "./output-images", "tag": "observed-image"})]
 
-chain = create_iterative_chain(processes, FunctionPE_class=SimpleFunctionPE)
+chain = create_iterative_chain(processes, function_pe_class=SimpleFunctionPE)
 
 graph = WorkflowGraph()
 graph.connect(downloadPE, 'output', watcher, "input")
 graph.connect(downloadPE, 'output', watcher_xml, "input")
 graph.connect(watcher, 'output', chain, "input")
 graph.connect(watcher_xml, 'output', xmlr, "input")
-write_image(graph, "dowloadPE.png")
+#write_image(graph, "dowloadPE.png")
 
