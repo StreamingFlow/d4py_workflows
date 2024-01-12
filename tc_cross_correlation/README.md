@@ -51,11 +51,13 @@ sys.path.append('/home/user/d4py_workflows/seismic_preparation')
 
 To run the Seismic Correlation application, which includes the preprocessing (`realtime_prep.py`) and cross-correlation (`realtime_xcorr.py`) workflows, follow these steps: First, execute the `realtime_prep.py` workflow, which stores its results in the OUTPUT/DATA directory. Then, run either `realtime_xcorr.py` for cross-correlation; their results will be saved in the OUTPUT/XCORR directory. 
 
-We provide two scripts (run_tc.sh and dispel4py_template.pbs) to execute both workflows using multi-mapping. 
+We provide two scripts (`run_tc_multi.sh` and `dispel4py_template.pbs`) to execute both workflows using multi mapping. Note that the `dispel4py_template.pbs` has been designed for running the workflows in a cluster with a queue system. 
+
+We also provide an additional script (`run_tc_mpi.sh`) to execute both workflows using mpi mapping. 
 
 
 ```	
-### run_tc.sh 
+### run_tc_multi.sh 
 
 rm -rf ./OUTPUT/DATA
 rm -rf ./OUTPUT/XCORR
