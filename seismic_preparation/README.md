@@ -40,51 +40,82 @@ Example 2
 dispel4py simple seismic_preparation.realtime_prep_dict -f xcorr_input.jsn
 ```
 
-## Known Issues
+## Using Docker Container
 
-1. Using the Multiprocessing mapping in a MacOS you might have a problem the `simple_logger`. See bellow:
+Alternative you can follow [this instructions](https://github.com/StreamingFlow/d4py/tree/main#docker) to build a docker image and run dispel4py and this workflow within a docker container.
 
+Once you are inside the docker container, you will have to clone this repository, and enter to the d4py_workflows directory. See bellow:
 ```
-File "/Users/...../anaconda3/envs/py310/lib/python3.10/multiprocessing/spawn.py", line 126, in _main
-    self = reduction.pickle.load(from_parent)
-AttributeError: 'TestProducer' object has no attribute 'simple_logger'
+git clone https://github.com/StreamingFlow/d4py_workflows.git
+cd d4py_workflows
 ```
-
-In order to fix that, we recommend to use our [Docker image](https://github.com/StreamingFlow/d4py/tree/main) to create a container.
-
-2. You might have to use the following command to install mpi in your MacOS laptop:
-```
-conda install -c conda-forge mpi4py mpich
-```
-3. In some enviroments, you might need these flags for the mpi mapping: --allow-run-as-root --oversubscribe
+Using our Docker  image, we can ensure that all the mappings described [bellow](https://github.com/StreamingFlow/d4py_workflows/tree/main/article_sentiment_analysis#run-the-workflow-with-different-mappings) work for this workflow.
 
 ## Run the workflow with different mappings
 
-For this workflow we advice to run it one directory above:
+For this workflow we advice to run it **one (or two) directory(ies) above**:
 
 ```
 cd ..
 ```
+### Simple mapping
 
-### Dynamic Multi
 ```shell
-python -m dispel4py.new.processor dyn_multi seismic_preparation/realtime_prep_dict.py -f xcorr_input.jsn -n 10
+python -m dispel4py.new.processor simple seismic_preparation.realtime_prep_dict -f seismic_preparation/xcorr_input.jsn 
 ```
 OR
 
 ```shell
-dispel4py dyn_multi seismic_preparation/realtime_prep_dict.py -f xcorr_input.jsn -n 10 
+dispel4py simple seismic_preparation.realtime_prep_dict -f seismic_preparation/xcorr_input.jsn 
+```
+
+### (Fixed) MPI mapping
+
+```shell
+mpiexec -n 10 dispel4py mpi seismic_preparation.realtime_prep_dict -f seismic_preparation/xcorr_input.jsn -n 10
+```
+OR
+
+```shell
+mpiexec -n 10 --allow-run-as-root --oversubscribe dispel4py mpi seismic_preparation.realtime_prep_dict -f seismic_preparation/xcorr_input.jsn -n 10
+```
+
+OR
+
+```shell
+mpiexec -n 10 python -m dispel4py.new.processor dispel4py.new.mpi_process seismic_preparation.realtime_prep_dict -f seismic_preparation/xcorr_input.jsn -n 10
+
+
+### (Fixed) Multi
+
+```shell
+python -m dispel4py.new.processor multi seismic_preparation.realtime_prep_dict -f seismic_preparation/xcorr_input.jsn -n 10
+```
+OR
+
+```shell
+dispel4py multi seismic_preparation.realtime_prep_dict -f seismic_preparation/xcorr_input.jsn -n 10
+```
+
+### Dynamic Multi
+```shell
+python -m dispel4py.new.processor dyn_multi seismic_preparation.realtime_prep_dict -f seismic_preparation/xcorr_input.jsn -n 10
+```
+OR
+
+```shell
+dispel4py dyn_multi seismic_preparation.realtime_prep_dict -f seismic_preparation/xcorr_input.jsn -n 10 
 ```
 
 
 ### Dynamic autoscaling multi
 ```shell
-python -m dispel4py.new.processor dyn_auto_multi seismic_preparation/realtime_prep_dict.py -f xcorr_input.jsn -n 10
+python -m dispel4py.new.processor dyn_auto_multi seismic_preparation.realtime_prep_dict -f seismic_preparation/xcorr_input.jsn -n 10
 ```
 OR
 
 ```shell
-dispel4py dyn_auto_multi seismic_preparation/realtime_prep_dict.py -f xcorr_input.jsn -n 10 
+dispel4py dyn_auto_multi seismic_preparation.realtime_prep_dict -f seismic_preparation/xcorr_input.jsn -n 10 
 ```
 
 ### Hybrid Redis
@@ -97,12 +128,12 @@ redis-server
 
 
 ```shell
-python -m dispel4py.new.processor hybrid_redis seismic_preparation/realtime_prep_dict.py -f xcorr_input.jsn -n 10
+python -m dispel4py.new.processor hybrid_redis seismic_preparation.realtime_prep_dict -f seismic_preparation/xcorr_input.jsn -n 10
 ```
 
 OR
 ```
-dispel4py hybrid_redis realtime_prep_dict.py -f xcorr_input.jsn -n 10
+dispel4py hybrid_redis seismic_preparation/realtime_prep_dict -f seismic_preparation/xcorr_input.jsn -n 10
 ```
 ## Running with a Script
 
