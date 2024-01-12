@@ -8,7 +8,7 @@ With dispel4py we have developed the Seismic Ambient Noise Cross-Correlation wor
 
 2. Phase 2 -- Cross-Correlation Pairs all of the stations and calculates the cross-correlation for each pair (complexity O(n2)).
 
-Since Phase 2 includes a statefull workflow, we are going to run this workflow with fixed mappings. 
+Since Phase 2 includes a statefull workflow, we are going to run this application with **fixed mappings**. 
 
 **Note:** By the default, this workflow runs with a short list of stations (`Copy-Uniq-OpStationList-NetworkStation.txt`). If you want to run the workflow with a bigger list, change it the `realtime_xcorr_input.jsn` to use `Uniq-OpStationList-NetworkStation.txt` instead.
 
@@ -47,6 +47,20 @@ sys.path.append('/home/user/d4py_workflows/seismic_preparation')
 		{
     		"streamProducer" : [ { "input" : “/xxxxxxxxx/tc_cross_correlation/Uniq-OpStationList-NetworkStation.txt" } ]
 		}
+
+
+## Using Docker Container
+
+Alternative you can follow [this instructions](https://github.com/StreamingFlow/d4py/tree/main#docker) to build a docker image and run dispel4py and this workflow within a docker container.
+
+Once you are inside the docker container, you will have to clone this repository, and enter to the d4py_workflows directory. See bellow:
+```
+git clone https://github.com/StreamingFlow/d4py_workflows.git
+cd d4py_workflows
+```
+Using our Docker  image, we can ensure that all the mappings described [bellow](https://github.com/StreamingFlow/d4py_workflows/tree/main/article_sentiment_analysis#run-the-workflow-with-different-mappings) work for this workflow.
+
+
 ## Running the Seismic Correlation application
 
 To run the Seismic Correlation application, which includes the preprocessing (`realtime_prep.py`) and cross-correlation (`realtime_xcorr.py`) workflows, follow these steps: First, execute the `realtime_prep.py` workflow, which stores its results in the OUTPUT/DATA directory. Then, run either `realtime_xcorr.py` for cross-correlation; their results will be saved in the OUTPUT/XCORR directory. 
