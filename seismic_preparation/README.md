@@ -82,7 +82,7 @@ OR
 mpiexec -n 10 python -m dispel4py.new.processor dispel4py.new.mpi_process realtime_prep_dict.py -f xcorr_input.jsn -n 10
 ```
 
-### (Fixed) Multi
+### (Fixed) Multi mapping
 
 ```shell
 python -m dispel4py.new.processor multi realtime_prep_dict.py -f xcorr_input.jsn -n 10
@@ -93,7 +93,7 @@ OR
 dispel4py multi realtime_prep_dict.py -f xcorr_input.jsn -n 10
 ```
 
-### Dynamic Multi
+### Dynamic Multi mapping
 ```shell
 python -m dispel4py.new.processor dyn_multi realtime_prep_dict.py -f xcorr_input.jsn -n 10
 ```
@@ -104,7 +104,7 @@ dispel4py dyn_multi realtime_prep_dict.py -f xcorr_input.jsn -n 10
 ```
 
 
-### Dynamic autoscaling multi
+### Dynamic autoscaling multi mapping
 ```shell
 python -m dispel4py.new.processor dyn_auto_multi realtime_prep_dict.py -f xcorr_input.jsn -n 10
 ```
@@ -114,14 +114,51 @@ OR
 dispel4py dyn_auto_multi realtime_prep_dict.py -f xcorr_input.jsn -n 10 
 ```
 
-### Hybrid Redis
+### Redis mappings
 
-You need REDIS server running in a tab:
+Remember, you need to have installed both, redis server and redis client.
+
+#### (Fixed) Redis mapping
+
+> Go to another terminal for following command line
 
 ```shell
 redis-server
 ```
 
+> Go back to previous terminal
+
+```shell
+python -m dispel4py.new.processor redis realtime_prep_dict.py -f xcorr_input.jsn  -ri localhost -n 10
+```
+OR
+
+```shell
+dispel4py redis realtime_prep_dict.py -f xcorr_input.jsn -ri localhost -n 10
+```
+
+#### Dynamic Redis mapping
+
+```shell
+python -m dispel4py.new.processor dyn_redis realtime_prep_dict.py -f xcorr_input.jsn -n 10
+```
+OR
+```shell
+dispel4py dyn_redis realtime_prep_dict.py -f xcorr_input.jsn -n 10
+```
+
+#### Dynamic Redis Autoscaling mapping
+
+```shell
+python -m dispel4py.new.processor dyn_auto_redis realtime_prep_dict.py -f xcorr_input.jsn -n 10 -thr 200
+```
+
+OR
+```shell
+dispel4py dyn_auto_redis realtime_prep_dict.py -f xcorr_input.jsn -n 10 -thr 200
+```
+
+#### Hybrid Redis
 
 ```shell
 python -m dispel4py.new.processor hybrid_redis realtime_prep_dict.py -f xcorr_input.jsn -n 10
@@ -131,7 +168,9 @@ OR
 ```
 dispel4py hybrid_redis realtime_prep_dict.py -f xcorr_input.jsn -n 10
 ```
+
 ## Running with a Script
 
+(You migh have to addapt those)
 Check [run_corr.sh](./run_corr.sh) and [run_corr_moni.sh](./run_corr_moni.sh).
 

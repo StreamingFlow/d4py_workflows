@@ -196,5 +196,6 @@ dispel4py hybrid_redis int_ext_graph.py -d '{"read" : [ {"input" : "coordinates.
 ```
 
 ## Running with a Script
+(You might have to adapt those)
 
 Check [run_int.sh](./run_int.sh); [run_init_moni.sh](./run_init_moni.sh); and [run_int_skew.sh](./run_int_skew.sh)
