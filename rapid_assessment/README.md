@@ -40,8 +40,9 @@ Using our Docker  image, we can ensure that all the mappings described [bellow](
 ## Running the Rapid Assessment application
 
 To run this application we provide several scripts, with different mappings:
- - `run_total_combined_simple.sh` : it uses simple mapping for all workflows
- - `run_total_combined_multi.sh` : it uses multi mapping for all workflows, except the first and the last one 
+ - `run_total_combined_simple.sh` : it uses *simple mapping** for all workflows
+ - `run_total_combined_multi.sh` : it uses *multi mapping** for all workflows, except the first and the last one 
+ - `run_total_combined_times.sh`: it also uses *multi mapping** for most workflows and has the `--monitoring` flag enabled, allowing to capture the execution times of each workflow. 
 
 ```	
 ### run_tc_multi.sh 
