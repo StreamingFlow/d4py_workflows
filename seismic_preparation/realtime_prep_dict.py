@@ -352,12 +352,11 @@ class CalculateFft(IterativePE):
             size = max(2 * self.shift + 1, (N1) + shift)
             nfft = next_pow_2(size)
             
-            # print ("station %s and network %s - size in calc_fft %s " % \
-            #    (data[0][0].stats['station'], data[0][0].stats['network'], size)) 
+             print ("station %s and network %s - size in calc_fft %s " % \
+                (data[0][0].stats['station'], data[0][0].stats['network'], size)) 
             
             IN1 = fft(str_data, nfft)
 
-            # print("herererere")
             # print(IN1)
             # return [IN1, data[1], data[2]]
 
