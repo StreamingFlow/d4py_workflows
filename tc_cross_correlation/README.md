@@ -1,17 +1,47 @@
 # Seismic Noise Cross-Correlation codes
 
-You need to install obspy library
+Earthquakes and volcanic eruptions are sometimes preceded or accompanied by changes in the geophysical properties of the Earth, such as wave velocities or event rates. The development of reliable risk assessment methods for these hazards requires real-time analysis of seismic data and truly prospective forecasting and testing to reduce bias. However, potential techniques, including seismic interferometry and earthquake "repeater" analysis, require a large number of waveform cross-correlations, which is computationally intensive, and is particularly challenging in real-time.
 
-	pip install obspy
+With dispel4py we have developed the Seismic Ambient Noise Cross-Correlation workflow (also called the xcorr workflow) as part of the VERCE project project, which preprocesses and cross-correlates traces from several stations in real-time. The xcorr workflow consists of two main phases:
 
-More information for installing obspy can be found [here](https://github.com/obspy/obspy/wiki/Installation-via-PyPi-from-source).
+1. Phase 1 -- Preprocess: Each continuous time series from a given seismic station (called a trace), is subject to a series of treatments. The processing of each trace is independent from other traces, making this phase "embarrassingly" parallel (complexity O(n), where n is the number of stations. **Note:** We have this workflow on its own [here](https://github.com/StreamingFlow/d4py_workflows/tree/main/seismic_preparation). 
+
+2. Phase 2 -- Cross-Correlation Pairs all of the stations and calculates the cross-correlation for each pair (complexity O(n2)).
+
+Since Phase 2 includes a statefull workflow, we are going to run this workflow with fixed mappings. 
+
+## Requirements
+
+Activate the conda python 3.10+ enviroment. If you had not created one, follow the [README instructions](https://github.com/StreamingFlow/d4py/tree/main).
+
+```
+conda activate d4py_env
+```
+
+Furthermore, for this workflow you need to install:
+
+```
+pip install obspy
+```
+
+## Important
+
+You need to edit the workflow (`realtime_prep.py` and `realtime_prep_dict.py`) file to change the following path to yours. See bellow:
+
+```
+import sys, os
+#### Important -- change with your path to this workflow
+sys.path.append('/home/user/d4py_workflows/seismic_preparation')
+####
+```
 
 For running the preprocess (realtime_prep.py) and cross-correlation (realtime_xcorr.py or realtime_xcorr_storm.py) workflows, the next information is provided:
 
 - The first workflow (realtime_prep.py) stores the results in a directory called OUTPUT/DATA. 
 - The second one (realtime_xcorr.py or realtime_xcorr_storm.py) stores the results in OUTPUT/XCORR directory. 
 - This is our script for executing both workflows with multi mapping: 
-	
+
+```	
 
     	export DISPEL4PY_XCORR_STARTTIME=2015-04-06T06:00:00.000
     	export DISPEL4PY_XCORR_ENDTIME=2015-04-06T07:00:00.000
@@ -23,8 +53,7 @@ For running the preprocess (realtime_prep.py) and cross-correlation (realtime_xc
     	dispel4py multi tc_cross_correlation/realtime_prep.py -f tc_cross_correlation/realtime_xcorr_input.jsn -n 4
     	dispel4py multi tc_cross_correlation/realtime_xcorr.py -n 4
 
-	
-- Note: Other mappings can be used like, [simple](https://github.com/dispel4py/pegasus_dispel4py/blob/master/simple_experiment/command-job1.sh), [mpi](https://github.com/dispel4py/docker.openmpi/blob/master/command-postprocess.sh) or [storm](https://github.com/dispel4py/pegasus_dispel4py/blob/master/storm_experiment/command-job.sh).
+```	
 
 - The last step is to open the file " tc_cross_correlation/realtime_xcorr_input.jsn” and change the path of the file Copy-Uniq-OpStationList-NetworkStation.txt
 
