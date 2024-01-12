@@ -4,7 +4,11 @@ RA aims to model the strong ground motion after large earthquakes, in order to m
 
 It has five main phases: (1) to select an earthquake gathering the real observed seismic wavefield, (2) to simulate synthetic seismic waveforms corresponding to the same earthquake using SPECFEM3D, a MPI-based parallel software; (3) to pre-process both synthetic and real data; (4) to calculate the ground motion parameters for synthetic and real data; (5) to compare them with each other by creating shake maps.
 
+
+See [Figure](./RA.png) representing this use case.
+
 Since this use case has several statefull workflows, we are going to run it with **fixed mappings**. 
+
 
 ## Requirements
 
