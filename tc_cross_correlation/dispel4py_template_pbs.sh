@@ -19,11 +19,11 @@ export OMP_NUM_THREADS=1
 
 export PYTHONPATH=$PYTHONPATH:/lustre/home/z04/rosaf2/dispel4py_workflows/tc_cross_correlation
 
-rm -rf ./tc_cross_correlation/OUTPUT/DATA
-rm -rf ./tc_cross_correlation/OUTPUT/XCORR
-mkdir  ./tc_cross_correlation/OUTPUT/DATA
-mkdir ./tc_cross_correlation/OUTPUT/XCORR
+rm -rf  OUTPUT/DATA
+rm -rf  OUTPUT/XCORR
+mkdir   OUTPUT/DATA
+mkdir  OUTPUT/XCORR
 
-dispel4py multi tc_cross_correlation/realtime_prep.py -f tc_cross_correlation/realtime_xcorr_input.jsn -n 10
-dispel4py multi tc_cross_correlation/realtime_xcorr.py -n 10
+dispel4py multi realtime_prep.py -f realtime_xcorr_input.jsn -n 10
+dispel4py multi realtime_xcorr.py -n 10
 
