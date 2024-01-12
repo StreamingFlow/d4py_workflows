@@ -57,61 +57,61 @@ Using our Docker  image, we can ensure that all the mappings described [bellow](
 ### Simple mapping
 
 ```shell
-python -m dispel4py.new.processor simple realtime_prep_dict -f xcorr_input.jsn 
+python -m dispel4py.new.processor simple realtime_prep_dict.py -f xcorr_input.jsn 
 ```
 OR
 
 ```shell
-dispel4py simple realtime_prep_dict -f xcorr_input.jsn 
+dispel4py simple realtime_prep_dict.py -f xcorr_input.jsn 
 ```
 
 ### (Fixed) MPI mapping
 
 ```shell
-mpiexec -n 10 dispel4py mpi realtime_prep_dict -f xcorr_input.jsn -n 10
+mpiexec -n 10 dispel4py mpi realtime_prep_dict.py -f xcorr_input.jsn -n 10
 ```
 OR
 
 ```shell
-mpiexec -n 10 --allow-run-as-root --oversubscribe dispel4py mpi realtime_prep_dict -f xcorr_input.jsn -n 10
+mpiexec -n 10 --allow-run-as-root --oversubscribe dispel4py mpi realtime_prep_dict.py -f xcorr_input.jsn -n 10
 ```
 
 OR
 
 ```shell
-mpiexec -n 10 python -m dispel4py.new.processor dispel4py.new.mpi_process realtime_prep_dict -f xcorr_input.jsn -n 10
+mpiexec -n 10 python -m dispel4py.new.processor dispel4py.new.mpi_process realtime_prep_dict.py -f xcorr_input.jsn -n 10
 ```
 
 ### (Fixed) Multi
 
 ```shell
-python -m dispel4py.new.processor multi realtime_prep_dict -f xcorr_input.jsn -n 10
+python -m dispel4py.new.processor multi realtime_prep_dict.py -f xcorr_input.jsn -n 10
 ```
 OR
 
 ```shell
-dispel4py multi realtime_prep_dict -f xcorr_input.jsn -n 10
+dispel4py multi realtime_prep_dict.py -f xcorr_input.jsn -n 10
 ```
 
 ### Dynamic Multi
 ```shell
-python -m dispel4py.new.processor dyn_multi realtime_prep_dict -f xcorr_input.jsn -n 10
+python -m dispel4py.new.processor dyn_multi realtime_prep_dict.py -f xcorr_input.jsn -n 10
 ```
 OR
 
 ```shell
-dispel4py dyn_multi realtime_prep_dict -f xcorr_input.jsn -n 10 
+dispel4py dyn_multi realtime_prep_dict.py -f xcorr_input.jsn -n 10 
 ```
 
 
 ### Dynamic autoscaling multi
 ```shell
-python -m dispel4py.new.processor dyn_auto_multi realtime_prep_dict -f xcorr_input.jsn -n 10
+python -m dispel4py.new.processor dyn_auto_multi realtime_prep_dict.py -f xcorr_input.jsn -n 10
 ```
 OR
 
 ```shell
-dispel4py dyn_auto_multi realtime_prep_dict -f xcorr_input.jsn -n 10 
+dispel4py dyn_auto_multi realtime_prep_dict.py -f xcorr_input.jsn -n 10 
 ```
 
 ### Hybrid Redis
@@ -124,12 +124,12 @@ redis-server
 
 
 ```shell
-python -m dispel4py.new.processor hybrid_redis realtime_prep_dict -f xcorr_input.jsn -n 10
+python -m dispel4py.new.processor hybrid_redis realtime_prep_dict.py -f xcorr_input.jsn -n 10
 ```
 
 OR
 ```
-dispel4py hybrid_redis realtime_prep_dict -f xcorr_input.jsn -n 10
+dispel4py hybrid_redis realtime_prep_dict.py -f xcorr_input.jsn -n 10
 ```
 ## Running with a Script
 
