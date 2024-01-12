@@ -27,7 +27,7 @@ pip install matplotlib
 
 1. The `covid_workflow` is a **statefull** workflow!! So only the **fixed workload mappings**. Also, since it has a JSON file - it does not work with the hibryd_mapping. 
 
-2. If you run those workflows from a different directory, you only need to specify the path as <DIR1>.<DIR2>.<NAME_WORKFLOW> without the .py extension. However, if you are in `others` directory, then use <NAME_WORKFLOW>.py. Below are examples for clarity:
+2. If you run those workflows from a different directory, you only need to specify the path as <DIR1>.<DIR2>.<NAME_WORKFLOW> without the .py extension. However, if you are in `others` directory, then use <NAME_WORKFLOW>.py. Bellow there are two examples for clarity:
 
 Example 1 - within `others` directory:
 

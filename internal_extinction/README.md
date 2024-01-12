@@ -20,7 +20,7 @@ $ pip install astropy
 
 ## Important
 
-If you run the workflow from a different directory, you only need to specify the path as <DIR1>.<DIR2>.<NAME_WORKFLOW> without the .py extension. However, if you are in the internal_extinction directory, then use <NAME_WORKFLOW>.py. Below are examples for clarity:
+If you run the workflow from a different directory, you only need to specify the path as <DIR1>.<DIR2>.<NAME_WORKFLOW> without the .py extension. However, if you are in the internal_extinction directory, then use <NAME_WORKFLOW>.py. Bellow there are two examples for clarity:
 
 Example 1 - within article_sentiment directory:
 
