@@ -5,6 +5,8 @@ This workflow just represent the phase 1 of the Seismic Cross-Correlation applic
 The reason for using this workflow is that is stateless, which enables us to experiment with different dispel4py mappings. However, the phase 2 of the Seismic Cross Correlation is a statefull workflow, so only some dispel4py mappings (simple, fixed and hybrid mappings) are suitable for this workflow. 
 
 
+See [Figure](./phase_1.png) representing this workflow.
+
 The full application is [tc_cross_correlation ](https://github.com/StreamingFlow/d4py_workflows/tree/main/tc_cross_correlation) directory.
 
 
