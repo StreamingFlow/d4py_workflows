@@ -19,7 +19,6 @@ export OUTPUT="./GM/"
 
 ######## 1. Run waveform simulation --- Specfem3D  -- it creates the sythetic waveforms (seeds)
 
-
 ######## 2. Create input for download -- This workflow read the input files of the specfem3d simulation and creates the corresponding input json file for the following download workflow
 
 dispel4py simple create_download_json.py -d '{"WJSON" :
@@ -40,4 +39,5 @@ searchpath="./misfit_data/output/"
 dispel4py multi dispel4py_RA.pgm_story.py -d '{"streamProducerReal": [ {"input":"'$searchpath'" } ], "streamProducerSynth": [ {"input": "'$searchpath'"} ]}' --monitoring 'write_file monitor_pgm.csv' -n 7
 
 # ####### 6. Plot the PGM map
-#dispel4py simple dispel4py_RAmapping.py 
+#dispel4py simple dispel4py_RAmapping.py
+
