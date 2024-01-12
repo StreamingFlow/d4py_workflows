@@ -10,7 +10,7 @@ With dispel4py we have developed the Seismic Ambient Noise Cross-Correlation wor
 
 Since Phase 2 includes a statefull workflow, we are going to run this workflow with fixed mappings. 
 
-**Note:** By the default, this workflow runs with short list of stations (`Copy-Uniq-OpStationList-NetworkStation.txt`). If you want to run the workflow with a bigger list, change it the `realtime_xcorr_input.jsn` to use `Uniq-OpStationList-NetworkStation.txt` instead.
+**Note:** By the default, this workflow runs with a short list of stations (`Copy-Uniq-OpStationList-NetworkStation.txt`). If you want to run the workflow with a bigger list, change it the `realtime_xcorr_input.jsn` to use `Uniq-OpStationList-NetworkStation.txt` instead.
 
 ## Requirements
 
@@ -28,7 +28,7 @@ pip install obspy
 
 ## Important
 
-1. You need to edit the workflow (`realtime_prep.py` and `realtime_prep_dict.py`) file to change the following path to yours. See bellow:
+1. You need to edit the workflow (`realtime_prep.py` and `realtime_xcorr.py`) file to change the following path to yours. See bellow:
 
 ```
 import sys, os
