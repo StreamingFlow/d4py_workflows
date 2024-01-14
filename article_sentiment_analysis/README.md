@@ -16,6 +16,23 @@ Activate the conda python 3.10+ enviroment. If you had not created one, follow t
 conda activate d4py_env
 ```
 
+Also, you will need to install the following packages: 
+
+
+```shell
+  pip install pandas
+  $ pip install pandas
+  $ pip install nltk  
+  $ python
+  >>> import nltk
+  >>> nltk.download('averaged_perceptron_tagger')
+  >>> nltk.download('punkt')
+  >>> nltk.download('stopwords')
+  >>> nltk.download('wordnet')
+  >>> nltk.download('omw-1.4')
+
+``` 
+
 ## Important
 
 1. This workflow is a **statefull** workflow!! So only the **fixed workload mappings** and **hybrid** mapping could be used to run this workflow.
@@ -51,23 +68,9 @@ Using our Docker  image, we can ensure that all the mappings described [bellow](
 In order to run this workflow, you must first prepare the article data needed for the test. We collect some article data from http://aaa.com and saved as "Articles.csv" in this repository. Before running the test, you must first run "clean.py" in this directory to clean the data. 
 
 ```shell
-$ pip install pandas
 $ python clean.py Articles.csv
 ``` 
 
-## Install NLTK packets
-
-```shell
-  $ pip install nltk  
-  $ python
-  >>> import nltk
-  >>> nltk.download('averaged_perceptron_tagger')
-  >>> nltk.download('punkt')
-  >>> nltk.download('stopwords')
-  >>> nltk.download('wordnet')
-  >>> nltk.download('omw-1.4')
-
-``` 
 
 ## Run the workflow with different mappings
 
