@@ -48,7 +48,7 @@ mpiexec -n 10 dispel4py mpi dispel4py.examples.graph_testing.pipeline_test -i 20
 ## Worflow Collection
 
 
-If you run a workflow from other directories you just need to indicate it `<DIR1>.<DIR2>.<NAME_WORKFLOW>` without `py`.  If you are in the directory of the workflow, the you need to use `<NAME_WOWRKFLOW>.py` . You will find detailed explanations in each workflow's README. 
+If you run a workflow from other directories you just need to indicate it `<DIR1>.<DIR2>.<NAME_WORKFLOW>` without `py`.  If you are in the directory of the workflow, then you will need to use `<NAME_WOWRKFLOW>.py` . You will find detailed explanations in each workflow's README. 
 
 
 ## Mappings
