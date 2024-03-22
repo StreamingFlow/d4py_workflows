@@ -6,6 +6,9 @@
 
 [even_odd_workflow](./even_odd_workflow.py) demonstrates the processing of random number streams using various Processing Elements (PEs). It begins with a NumberProducer PE generating random integers between 1 and 1000. These numbers are then routed to two Divideby2 PEs to categorize them as odd or even. Finally, a PairProducer PE pairs these numbers into "one odd, one even" combinations, logging any unpaired numbers at the end. This workflow showcases how dispel4py can handle data production, iterative processing, and aggregation in a stream-based context. Similar to the previous workflow, this workflow needs `-i <NUM>` flag to indicate the number of random number to generate. This workflow **does not work with dynamic mappings** since the last PE has two inputs from different PEs, which is not currently support in any of our dynamic mappings. 
 
+[sensor_workflow](./SensorWorkflow.py) This workflow provides a streamlined process for handling sensor data, from ingestion to analysis and summarization. Initially, the ReadSensorDataPE reads sensor data from a JSON file, capturing essential details such as timestamps and temperature readings. Following this, the NormalizeDataPE normalizes these temperature readings to a standard scale, ensuring consistency and facilitating further analysis. The AnomalyDetectionPE then examines the normalized data to identify any readings that significantly deviate from expected patterns, flagging these as anomalies. Finally, the AggregateDataPE aggregates the data, summarizing it into more manageable reports or insights. By sequentially processing the data through these stages, the workflow efficiently transforms raw sensor readings into structured, analyzed, and summarized information, ready for further decision-making or reporting purposes.
+
+
 
 ## Requirements
 
@@ -93,6 +96,18 @@ OR
 ```shell
 dispel4py simple even_odd_workflow.py -i 100
 ```
+
+##### Sensor workflow
+```shell
+python -m dispel4py.new.processor simple SensorWorkflow.py -d '{"read" : [ {"input" : "sensor_data_1000.json"} ]}'
+```
+
+OR
+
+```shell
+dispel4py simple SensorWorkflow.py -d '{"read" : [ {"input" : "sensor_data_1000.json"} ]}'
+```
+
 
 ### (Fixed) MPI mapping
 
