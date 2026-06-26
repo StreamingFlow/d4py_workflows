@@ -30,10 +30,10 @@ class Product(GenericPE):
         self._add_output('output', tuple_type=['number'])
     def process(self, inputs):
         store = []
-        for dir in os.listdir(ROOT_DIR + 'DATA/'+ starttime):
-            for f in os.listdir(ROOT_DIR+'/DATA/'+ starttime +'/'+ dir):
-                file=ROOT_DIR+'DATA/'+ starttime + '/'+ dir+'/'+f
-                str1=np.load(file)
+        for dir in os.scandir(ROOT_DIR + 'DATA/' + starttime):
+            for f in os.scandir(ROOT_DIR + '/DATA/' + starttime + '/' + dir.name):
+                file = ROOT_DIR + 'DATA/' + starttime + '/' + dir.name + '/' + f.name
+                str1 = np.load(file)
                 index = len(store)
                 for i in range(index):
                     self.write('output',[i, index, store[i], str1])

@@ -4,7 +4,7 @@ Created on Mon Apr 07 09:23:16 2014
 
 @author: abell5
 """
-from scipy.signal import triang
+from scipy.signal.windows import triang
 from numpy import sign, arange, zeros, absolute, true_divide, sum,  floor, convolve, amax, logical_and
 import copy
 from obspy.signal import util
